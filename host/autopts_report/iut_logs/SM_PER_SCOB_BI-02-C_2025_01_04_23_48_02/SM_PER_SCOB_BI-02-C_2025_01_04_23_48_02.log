@@ -1,0 +1,618 @@
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : Starting TestCase _run_test_case SM SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : pre_run SM SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : About to run test case SM SM/PER/SCOB/BI-02-C with commands:
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 0) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.core_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000001CE003A0450>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=() kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 1) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZephyrCtl.hw_reset of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x000001CE7D2B9F50>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=() kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 2) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZephyrCtl.start of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x000001CE7D2B9F50>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=(<autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x000001CE00B31310>,) kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 3) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZephyrCtl.hw_reset of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x000001CE7D2B9F50>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=() kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 4) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZephyrCtl.wait_iut_ready_event of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x000001CE7D2B9F50>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=(False,) kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 5) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gap at 0x000001CE7BEB4540> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=57 args=() kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 6) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gap_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000001CE003A0450>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=57 args=(b'Tester_25DE2A',) kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 7) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_read_ctrl_info at 0x000001CE7BEC4400> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=57 args=() kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 8) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases.<locals>.<lambda> at 0x000001CE00B084A0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=57 args=() kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 9) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases.<locals>.<lambda> at 0x000001CE00B08540> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=57 args=() kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 10) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases.<locals>.<lambda> at 0x000001CE00B085E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=57 args=() kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 11) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function set_pts_addr at 0x000001CE7BEB40E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=57 args=('C0:07:E8:25:DE:2A', 0) kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 12) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_set_io_cap at 0x000001CE7BEB7920> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=(0,) kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 13) class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method Stack.cleanup of <autopts.ptsprojects.stack.stack.Stack object at 0x000001CE003A0450>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=() kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : 14) class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method ZephyrCtl.stop of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x000001CE7D2B9F50>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=() kwds={}
+2025-01-04 23:48:02,570 LT1-thread root DEBUG client.py                 71    logger_log                : pre_run, run pre test case script
+2025-01-04 23:48:02,590 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.core_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000001CE003A0450>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2025-01-04 23:48:02,590 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(), kwds={}
+2025-01-04 23:48:02,590 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZephyrCtl.hw_reset of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x000001CE7D2B9F50>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2025-01-04 23:48:02,590 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(), kwds={}
+2025-01-04 23:48:02,590 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZephyrCtl.start of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x000001CE7D2B9F50>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=(<autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x000001CE00B31310>,) kwds={}
+2025-01-04 23:48:02,590 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(<autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x000001CE00B31310>,), kwds={}
+2025-01-04 23:48:02,590 LT1-thread root DEBUG client.py                 71    logger_log                : <class 'autopts.ptsprojects.zephyr.iutctl.ZephyrCtl'>.start
+2025-01-04 23:48:02,590 LT1-thread root DEBUG client.py                 71    logger_log                : <class 'autopts.ptsprojects.zephyr.iutctl.ZephyrCtl'>.flush_serial
+2025-01-04 23:48:03,840 LT1-thread root DEBUG client.py                 71    logger_log                : Starting socat process: socat.exe -x -v tcp:10.192.253.135:55222,retry=100,interval=1 /dev/ttyS34,raw,b115200
+2025-01-04 23:48:03,850 LT1-thread root DEBUG client.py                 71    logger_log                : accept
+2025-01-04 23:48:03,986 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : BTPWorkerThread-11928 (_rx_task) started
+2025-01-04 23:48:03,986 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZephyrCtl.hw_reset of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x000001CE7D2B9F50>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2025-01-04 23:48:03,986 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(), kwds={}
+2025-01-04 23:48:03,986 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZephyrCtl.wait_iut_ready_event of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x000001CE7D2B9F50>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=(False,) kwds={}
+2025-01-04 23:48:03,986 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(False,), kwds={}
+2025-01-04 23:48:03,986 LT1-thread root DEBUG client.py                 71    logger_log                : IUT ready event received OK
+2025-01-04 23:48:03,986 LT1-thread root DEBUG client.py                 71    logger_log                : <class 'autopts.rtt.RTTLogger'>.start
+2025-01-04 23:48:03,986 LT1-thread root DEBUG client.py                 71    logger_log                : <class 'autopts.rtt.RTT'>.start
+2025-01-04 23:48:04,977 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:04,977 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x00, op=0x80, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x80\xff\x00\x00')
+2025-01-04 23:48:04,977 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {''}, bytearray(b'')
+2025-01-04 23:48:04,978 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=0, op=128, ctrl_index=255, data_len=0) (b'',)
+2025-01-04 23:48:04,978 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : core_iut_ready_ev
+2025-01-04 23:48:14,825 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gap at 0x000001CE7BEB4540> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=() kwds={}
+2025-01-04 23:48:14,825 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(), kwds={}
+2025-01-04 23:48:14,825 LT1-thread root DEBUG client.py                 71    logger_log                : core_reg_svc_gap
+2025-01-04 23:48:14,825 LT1-thread root DEBUG client.py                 71    logger_log                : send, 0 3 255 '1'
+2025-01-04 23:48:14,825 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '0003ff010001'
+2025-01-04 23:48:14,825 LT1-thread root DEBUG client.py                 71    logger_log                : core_reg_svc_rsp_succ
+2025-01-04 23:48:14,826 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:14,939 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:14,961 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x00, op=0x03, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x03\xff\x00\x00')
+2025-01-04 23:48:14,989 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {''}, bytearray(b'')
+2025-01-04 23:48:15,016 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=0, op=3, ctrl_index=255, data_len=0) (b'',)
+2025-01-04 23:48:15,016 LT1-thread root DEBUG client.py                 71    logger_log                : expected ((0, 3, 255, 0), (b'',))
+2025-01-04 23:48:15,016 LT1-thread root DEBUG client.py                 71    logger_log                : response is valid
+2025-01-04 23:48:15,016 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gap_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000001CE003A0450>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=(b'Tester_25DE2A',) kwds={}
+2025-01-04 23:48:15,017 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(b'Tester_25DE2A',), kwds={}
+2025-01-04 23:48:15,017 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_read_ctrl_info at 0x000001CE7BEC4400> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=() kwds={}
+2025-01-04 23:48:15,017 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(), kwds={}
+2025-01-04 23:48:15,017 LT1-thread root DEBUG client.py                 71    logger_log                : gap_read_ctrl_info
+2025-01-04 23:48:15,017 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 3 0 ''
+2025-01-04 23:48:15,017 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '0103000000'
+2025-01-04 23:48:15,018 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:15,857 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:15,868 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x03, ctrl_index=0x00, data_len=0x115) bytearray(b'\x01\x03\x00\x15\x01')
+2025-01-04 23:48:15,918 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 277 bytes data
+2025-01-04 23:48:15,929 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'28 00 03 37 60 00 13 06 02 00 13 02 00 00 00 00 00 62 74 70 5f 74 65 73 74 65 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00'}, bytearray(b'(\x00\x037`\x00\x13\x06\x02\x00\x13\x02\x00\x00\x00\x00\x00btp_tester\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+2025-01-04 23:48:15,940 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=3, ctrl_index=0, data_len=277) (b'(\x00\x037`\x00\x13\x06\x02\x00\x13\x02\x00\x00\x00\x00\x00btp_tester\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',)
+2025-01-04 23:48:15,940 LT1-thread root DEBUG client.py                 71    logger_log                : IUT address '006037030028' 'public'
+2025-01-04 23:48:15,940 LT1-thread root DEBUG client.py                 71    logger_log                : __gap_current_settings_update 531
+2025-01-04 23:48:15,940 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases.<locals>.<lambda> at 0x000001CE00B084A0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=() kwds={}
+2025-01-04 23:48:15,941 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(), kwds={}
+2025-01-04 23:48:15,945 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases.<locals>.<lambda> at 0x000001CE00B08540> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=() kwds={}
+2025-01-04 23:48:15,945 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(), kwds={}
+2025-01-04 23:48:15,949 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases.<locals>.<lambda> at 0x000001CE00B085E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=() kwds={}
+2025-01-04 23:48:15,949 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(), kwds={}
+2025-01-04 23:48:15,952 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function set_pts_addr at 0x000001CE7BEB40E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=('C0:07:E8:25:DE:2A', 0) kwds={}
+2025-01-04 23:48:15,953 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=('C0:07:E8:25:DE:2A', 0), kwds={}
+2025-01-04 23:48:15,953 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_set_io_cap at 0x000001CE7BEB7920> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=(0,) kwds={}
+2025-01-04 23:48:15,953 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(0,), kwds={}
+2025-01-04 23:48:15,953 LT1-thread root DEBUG client.py                 71    logger_log                : gap_set_io_cap 0
+2025-01-04 23:48:15,953 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 16 0 '\x00'
+2025-01-04 23:48:15,953 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '011000010000'
+2025-01-04 23:48:15,954 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:15,954 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:16,016 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:16,027 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x10, ctrl_index=0x00, data_len=0x00) bytearray(b'\x01\x10\x00\x00\x00')
+2025-01-04 23:48:16,043 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {''}, bytearray(b'')
+2025-01-04 23:48:16,049 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=16, ctrl_index=0, data_len=0) (b'',)
+2025-01-04 23:48:16,052 LT1-thread root DEBUG client.py                 71    logger_log                : ClientCallback.get_result run_test_case
+2025-01-04 23:48:17,303 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: SM
+    wid: 149
+    test_case_name: SM/PER/SCOB/BI-02-C
+    description: Please enter the following OOB confirmation and OOB random to the IUT: 
+[03F6C99A1BCEA7F5CE2F9837149EAF69]
+[ED8FC7345F7B82CB8390FC6EAA2D2C05]
+    style: MMI_Style_Yes_No1 0x11044
+2025-01-04 23:48:17,303 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : Calling test cases on_implicit_send
+2025-01-04 23:48:17,303 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2025-01-04 23:48:18,053 LT1-thread root DEBUG client.py                 71    logger_log                : SM SM/PER/SCOB/BI-02-C on_implicit_send
+2025-01-04 23:48:18,053 LT1-thread root DEBUG client.py                 71    logger_log                : sm_wid_hdl, 149, Please enter the following OOB confirmation and OOB random to the IUT: 
+[03F6C99A1BCEA7F5CE2F9837149EAF69]
+[ED8FC7345F7B82CB8390FC6EAA2D2C05], SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:18,053 LT1-thread root DEBUG client.py                 71    logger_log                : gap_oob_sc_set_remote_data 'ED8FC7345F7B82CB8390FC6EAA2D2C05' '03F6C99A1BCEA7F5CE2F9837149EAF69'
+2025-01-04 23:48:18,053 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 26 0 "bytearray(b'\\x05,-\\xaan\\xfc\\x90\\x83\\xcb\\x82{_4\\xc7\\x8f\\xedi\\xaf\\x9e\\x147\\x98/\\xce\\xf5\\xa7\\xce\\x1b\\x9a\\xc9\\xf6\\x03')"
+2025-01-04 23:48:18,054 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '011a002000052c2daa6efc9083cb827b5f34c78fed69af9e1437982fcef5a7ce1b9ac9f603'
+2025-01-04 23:48:18,054 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:18,054 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:18,104 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:18,104 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x1a, ctrl_index=0x00, data_len=0x00) bytearray(b'\x01\x1a\x00\x00\x00')
+2025-01-04 23:48:18,104 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {''}, bytearray(b'')
+2025-01-04 23:48:18,109 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=26, ctrl_index=0, data_len=0) (b'',)
+2025-01-04 23:48:18,109 LT1-thread root DEBUG client.py                 71    logger_log                : Sending response 'Yes' to wid 149 test case SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:18,112 LT1-thread root DEBUG client.py                 71    logger_log                : ClientCallback.get_result run_test_case
+2025-01-04 23:48:18,118 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: SM
+    wid: 115
+    test_case_name: SM/PER/SCOB/BI-02-C
+    description: Action: Place the IUT in connectable mode
+    style: MMI_Style_Ok_Cancel2 0x11141
+2025-01-04 23:48:18,118 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : Calling test cases on_implicit_send
+2025-01-04 23:48:18,118 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2025-01-04 23:48:19,113 LT1-thread root DEBUG client.py                 71    logger_log                : SM SM/PER/SCOB/BI-02-C on_implicit_send
+2025-01-04 23:48:19,113 LT1-thread root DEBUG client.py                 71    logger_log                : sm_wid_hdl, 115, Action: Place the IUT in connectable mode, SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:19,113 LT1-thread root DEBUG client.py                 71    logger_log                : gap_set_conn
+2025-01-04 23:48:19,113 LT1-thread root DEBUG client.py                 71    logger_log                : gap_set_gendiscov
+2025-01-04 23:48:19,113 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 8 0 '1'
+2025-01-04 23:48:19,113 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '010800010001'
+2025-01-04 23:48:19,114 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:19,114 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:19,167 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:19,178 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x08, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x08\x00\x04\x00')
+2025-01-04 23:48:19,189 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:19,189 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2025-01-04 23:48:19,194 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=8, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:19,194 LT1-thread root DEBUG client.py                 71    logger_log                : __gap_current_settings_update (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:19,194 LT1-thread root DEBUG client.py                 71    logger_log                : gap_adv_ind_on {9: b'Tester_25DE2A'} {}
+2025-01-04 23:48:19,194 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 10 0 "bytearray(b'\\x0f\\x00\\t\\rTester_25DE2A\\xff\\xff\\xff\\xff\\x00')"
+2025-01-04 23:48:19,195 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '010a0016000f00090d5465737465725f323544453241ffffffff00'
+2025-01-04 23:48:19,195 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:19,195 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:19,251 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:19,267 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x0a, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\n\x00\x04\x00')
+2025-01-04 23:48:19,302 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:19,318 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 06 00 00'}, bytearray(b'\x1b\x06\x00\x00')
+2025-01-04 23:48:19,329 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=10, ctrl_index=0, data_len=4) (b'\x1b\x06\x00\x00',)
+2025-01-04 23:48:19,329 LT1-thread root DEBUG client.py                 71    logger_log                : __gap_current_settings_update (b'\x1b\x06\x00\x00',)
+2025-01-04 23:48:19,329 LT1-thread root DEBUG client.py                 71    logger_log                : Sending response 'OK' to wid 115 test case SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:19,332 LT1-thread root DEBUG client.py                 71    logger_log                : ClientCallback.get_result run_test_case
+2025-01-04 23:48:20,227 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:20,227 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x82, ctrl_index=0x00, data_len=0x0d) bytearray(b'\x01\x82\x00\r\x00')
+2025-01-04 23:48:20,227 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 13 bytes data
+2025-01-04 23:48:20,228 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0 38 00 00 00 d0 07'}, bytearray(b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07')
+2025-01-04 23:48:20,228 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=130, ctrl_index=0, data_len=13) (b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07',)
+2025-01-04 23:48:20,228 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_connected_ev_ b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07'
+2025-01-04 23:48:20,228 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:20,229 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x80, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x80\x00\x04\x00')
+2025-01-04 23:48:20,229 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:20,229 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2025-01-04 23:48:20,229 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=128, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:20,229 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_new_settings_ev_ b'\x1b\x02\x00\x00'
+2025-01-04 23:48:20,229 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : __gap_current_settings_update 539
+2025-01-04 23:48:20,936 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:20,936 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x8c, ctrl_index=0x00, data_len=0x08) bytearray(b'\x01\x8c\x00\x08\x00')
+2025-01-04 23:48:20,937 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 8 bytes data
+2025-01-04 23:48:20,937 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0 04'}, bytearray(b'\x00*\xde%\xe8\x07\xc0\x04')
+2025-01-04 23:48:20,937 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=140, ctrl_index=0, data_len=8) (b'\x00*\xde%\xe8\x07\xc0\x04',)
+2025-01-04 23:48:20,937 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_pairing_failed_ev_
+2025-01-04 23:48:20,937 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : received b'\x00*\xde%\xe8\x07\xc0\x04'
+2025-01-04 23:48:20,937 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : received (0, 'c007e825de2a', 4)
+2025-01-04 23:48:20,999 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:20,999 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x83, ctrl_index=0x00, data_len=0x07) bytearray(b'\x01\x83\x00\x07\x00')
+2025-01-04 23:48:21,000 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 7 bytes data
+2025-01-04 23:48:21,000 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0'}, bytearray(b'\x00*\xde%\xe8\x07\xc0')
+2025-01-04 23:48:21,000 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=131, ctrl_index=0, data_len=7) (b'\x00*\xde%\xe8\x07\xc0',)
+2025-01-04 23:48:21,000 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_disconnected_ev_ b'\x00*\xde%\xe8\x07\xc0'
+2025-01-04 23:48:21,208 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: SM
+    wid: 149
+    test_case_name: SM/PER/SCOB/BI-02-C
+    description: Please enter the following OOB confirmation and OOB random to the IUT: 
+[E8559C6603A23B2BCB3B28F1CEA3F4CC]
+[A8289FBF85B6C90E758B99F30A42507B]
+    style: MMI_Style_Yes_No1 0x11044
+2025-01-04 23:48:21,208 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : Calling test cases on_implicit_send
+2025-01-04 23:48:21,208 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2025-01-04 23:48:21,333 LT1-thread root DEBUG client.py                 71    logger_log                : SM SM/PER/SCOB/BI-02-C on_implicit_send
+2025-01-04 23:48:21,333 LT1-thread root DEBUG client.py                 71    logger_log                : sm_wid_hdl, 149, Please enter the following OOB confirmation and OOB random to the IUT: 
+[E8559C6603A23B2BCB3B28F1CEA3F4CC]
+[A8289FBF85B6C90E758B99F30A42507B], SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:21,333 LT1-thread root DEBUG client.py                 71    logger_log                : gap_oob_sc_set_remote_data 'A8289FBF85B6C90E758B99F30A42507B' 'E8559C6603A23B2BCB3B28F1CEA3F4CC'
+2025-01-04 23:48:21,333 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 26 0 "bytearray(b'{PB\\n\\xf3\\x99\\x8bu\\x0e\\xc9\\xb6\\x85\\xbf\\x9f(\\xa8\\xcc\\xf4\\xa3\\xce\\xf1(;\\xcb+;\\xa2\\x03f\\x9cU\\xe8')"
+2025-01-04 23:48:21,333 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '011a0020007b50420af3998b750ec9b685bf9f28a8ccf4a3cef1283bcb2b3ba203669c55e8'
+2025-01-04 23:48:21,334 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:21,334 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:21,398 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:21,415 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x1a, ctrl_index=0x00, data_len=0x00) bytearray(b'\x01\x1a\x00\x00\x00')
+2025-01-04 23:48:21,415 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {''}, bytearray(b'')
+2025-01-04 23:48:21,426 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=26, ctrl_index=0, data_len=0) (b'',)
+2025-01-04 23:48:21,426 LT1-thread root DEBUG client.py                 71    logger_log                : Sending response 'Yes' to wid 149 test case SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:21,429 LT1-thread root DEBUG client.py                 71    logger_log                : ClientCallback.get_result run_test_case
+2025-01-04 23:48:21,433 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: SM
+    wid: 115
+    test_case_name: SM/PER/SCOB/BI-02-C
+    description: Action: Place the IUT in connectable mode
+    style: MMI_Style_Ok_Cancel2 0x11141
+2025-01-04 23:48:21,433 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : Calling test cases on_implicit_send
+2025-01-04 23:48:21,433 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2025-01-04 23:48:22,429 LT1-thread root DEBUG client.py                 71    logger_log                : SM SM/PER/SCOB/BI-02-C on_implicit_send
+2025-01-04 23:48:22,429 LT1-thread root DEBUG client.py                 71    logger_log                : sm_wid_hdl, 115, Action: Place the IUT in connectable mode, SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:22,429 LT1-thread root DEBUG client.py                 71    logger_log                : gap_set_conn
+2025-01-04 23:48:22,429 LT1-thread root DEBUG client.py                 71    logger_log                : gap_set_gendiscov
+2025-01-04 23:48:22,429 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 8 0 '1'
+2025-01-04 23:48:22,429 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '010800010001'
+2025-01-04 23:48:22,430 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:22,430 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:22,484 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:22,495 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x08, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x08\x00\x04\x00')
+2025-01-04 23:48:22,530 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:22,530 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2025-01-04 23:48:22,546 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=8, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:22,546 LT1-thread root DEBUG client.py                 71    logger_log                : __gap_current_settings_update (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:22,546 LT1-thread root DEBUG client.py                 71    logger_log                : gap_adv_ind_on {9: b'Tester_25DE2A'} {}
+2025-01-04 23:48:22,547 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 10 0 "bytearray(b'\\x0f\\x00\\t\\rTester_25DE2A\\xff\\xff\\xff\\xff\\x00')"
+2025-01-04 23:48:22,547 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '010a0016000f00090d5465737465725f323544453241ffffffff00'
+2025-01-04 23:48:22,547 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:22,547 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:22,613 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:22,631 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x0a, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\n\x00\x04\x00')
+2025-01-04 23:48:22,670 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:22,682 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 06 00 00'}, bytearray(b'\x1b\x06\x00\x00')
+2025-01-04 23:48:22,711 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=10, ctrl_index=0, data_len=4) (b'\x1b\x06\x00\x00',)
+2025-01-04 23:48:22,711 LT1-thread root DEBUG client.py                 71    logger_log                : __gap_current_settings_update (b'\x1b\x06\x00\x00',)
+2025-01-04 23:48:22,711 LT1-thread root DEBUG client.py                 71    logger_log                : Sending response 'OK' to wid 115 test case SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:22,714 LT1-thread root DEBUG client.py                 71    logger_log                : ClientCallback.get_result run_test_case
+2025-01-04 23:48:22,747 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:22,748 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x82, ctrl_index=0x00, data_len=0x0d) bytearray(b'\x01\x82\x00\r\x00')
+2025-01-04 23:48:22,748 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 13 bytes data
+2025-01-04 23:48:22,748 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0 38 00 00 00 d0 07'}, bytearray(b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07')
+2025-01-04 23:48:22,748 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=130, ctrl_index=0, data_len=13) (b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07',)
+2025-01-04 23:48:22,749 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_connected_ev_ b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07'
+2025-01-04 23:48:22,749 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:22,749 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x80, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x80\x00\x04\x00')
+2025-01-04 23:48:22,749 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:22,750 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2025-01-04 23:48:22,750 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=128, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:22,750 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_new_settings_ev_ b'\x1b\x02\x00\x00'
+2025-01-04 23:48:22,750 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : __gap_current_settings_update 539
+2025-01-04 23:48:23,453 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:23,453 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x8c, ctrl_index=0x00, data_len=0x08) bytearray(b'\x01\x8c\x00\x08\x00')
+2025-01-04 23:48:23,453 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 8 bytes data
+2025-01-04 23:48:23,453 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0 09'}, bytearray(b'\x00*\xde%\xe8\x07\xc0\t')
+2025-01-04 23:48:23,453 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=140, ctrl_index=0, data_len=8) (b'\x00*\xde%\xe8\x07\xc0\t',)
+2025-01-04 23:48:23,454 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_pairing_failed_ev_
+2025-01-04 23:48:23,454 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : received b'\x00*\xde%\xe8\x07\xc0\t'
+2025-01-04 23:48:23,454 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : received (0, 'c007e825de2a', 9)
+2025-01-04 23:48:23,532 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:23,532 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x83, ctrl_index=0x00, data_len=0x07) bytearray(b'\x01\x83\x00\x07\x00')
+2025-01-04 23:48:23,533 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 7 bytes data
+2025-01-04 23:48:23,533 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0'}, bytearray(b'\x00*\xde%\xe8\x07\xc0')
+2025-01-04 23:48:23,533 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=131, ctrl_index=0, data_len=7) (b'\x00*\xde%\xe8\x07\xc0',)
+2025-01-04 23:48:23,533 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_disconnected_ev_ b'\x00*\xde%\xe8\x07\xc0'
+2025-01-04 23:48:23,729 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: SM
+    wid: 149
+    test_case_name: SM/PER/SCOB/BI-02-C
+    description: Please enter the following OOB confirmation and OOB random to the IUT: 
+[DAC8D39D9E7598C8AD7DC272910EE0AD]
+[A9FE928A3B52BDD7245E7B38793B9320]
+    style: MMI_Style_Yes_No1 0x11044
+2025-01-04 23:48:23,729 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : Calling test cases on_implicit_send
+2025-01-04 23:48:23,729 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2025-01-04 23:48:24,714 LT1-thread root DEBUG client.py                 71    logger_log                : SM SM/PER/SCOB/BI-02-C on_implicit_send
+2025-01-04 23:48:24,714 LT1-thread root DEBUG client.py                 71    logger_log                : sm_wid_hdl, 149, Please enter the following OOB confirmation and OOB random to the IUT: 
+[DAC8D39D9E7598C8AD7DC272910EE0AD]
+[A9FE928A3B52BDD7245E7B38793B9320], SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:24,714 LT1-thread root DEBUG client.py                 71    logger_log                : gap_oob_sc_set_remote_data 'A9FE928A3B52BDD7245E7B38793B9320' 'DAC8D39D9E7598C8AD7DC272910EE0AD'
+2025-01-04 23:48:24,714 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 26 0 "bytearray(b' \\x93;y8{^$\\xd7\\xbdR;\\x8a\\x92\\xfe\\xa9\\xad\\xe0\\x0e\\x91r\\xc2}\\xad\\xc8\\x98u\\x9e\\x9d\\xd3\\xc8\\xda')"
+2025-01-04 23:48:24,715 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '011a00200020933b79387b5e24d7bd523b8a92fea9ade00e9172c27dadc898759e9dd3c8da'
+2025-01-04 23:48:24,715 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:24,715 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:24,782 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:24,788 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x1a, ctrl_index=0x00, data_len=0x00) bytearray(b'\x01\x1a\x00\x00\x00')
+2025-01-04 23:48:24,788 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {''}, bytearray(b'')
+2025-01-04 23:48:24,788 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=26, ctrl_index=0, data_len=0) (b'',)
+2025-01-04 23:48:24,788 LT1-thread root DEBUG client.py                 71    logger_log                : Sending response 'Yes' to wid 149 test case SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:24,792 LT1-thread root DEBUG client.py                 71    logger_log                : ClientCallback.get_result run_test_case
+2025-01-04 23:48:24,799 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: SM
+    wid: 115
+    test_case_name: SM/PER/SCOB/BI-02-C
+    description: Action: Place the IUT in connectable mode
+    style: MMI_Style_Ok_Cancel2 0x11141
+2025-01-04 23:48:24,799 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : Calling test cases on_implicit_send
+2025-01-04 23:48:24,799 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2025-01-04 23:48:25,794 LT1-thread root DEBUG client.py                 71    logger_log                : SM SM/PER/SCOB/BI-02-C on_implicit_send
+2025-01-04 23:48:25,794 LT1-thread root DEBUG client.py                 71    logger_log                : sm_wid_hdl, 115, Action: Place the IUT in connectable mode, SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:25,794 LT1-thread root DEBUG client.py                 71    logger_log                : gap_set_conn
+2025-01-04 23:48:25,794 LT1-thread root DEBUG client.py                 71    logger_log                : gap_set_gendiscov
+2025-01-04 23:48:25,794 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 8 0 '1'
+2025-01-04 23:48:25,794 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '010800010001'
+2025-01-04 23:48:25,795 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:25,795 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:25,842 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:25,842 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x08, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x08\x00\x04\x00')
+2025-01-04 23:48:25,859 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:25,859 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2025-01-04 23:48:25,859 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=8, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:25,859 LT1-thread root DEBUG client.py                 71    logger_log                : __gap_current_settings_update (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:25,859 LT1-thread root DEBUG client.py                 71    logger_log                : gap_adv_ind_on {9: b'Tester_25DE2A'} {}
+2025-01-04 23:48:25,860 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 10 0 "bytearray(b'\\x0f\\x00\\t\\rTester_25DE2A\\xff\\xff\\xff\\xff\\x00')"
+2025-01-04 23:48:25,860 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '010a0016000f00090d5465737465725f323544453241ffffffff00'
+2025-01-04 23:48:25,860 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:25,860 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:25,919 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:25,919 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x0a, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\n\x00\x04\x00')
+2025-01-04 23:48:25,948 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:25,964 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 06 00 00'}, bytearray(b'\x1b\x06\x00\x00')
+2025-01-04 23:48:25,964 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=10, ctrl_index=0, data_len=4) (b'\x1b\x06\x00\x00',)
+2025-01-04 23:48:25,964 LT1-thread root DEBUG client.py                 71    logger_log                : __gap_current_settings_update (b'\x1b\x06\x00\x00',)
+2025-01-04 23:48:25,964 LT1-thread root DEBUG client.py                 71    logger_log                : Sending response 'OK' to wid 115 test case SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:25,968 LT1-thread root DEBUG client.py                 71    logger_log                : ClientCallback.get_result run_test_case
+2025-01-04 23:48:26,496 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:26,497 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x82, ctrl_index=0x00, data_len=0x0d) bytearray(b'\x01\x82\x00\r\x00')
+2025-01-04 23:48:26,497 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 13 bytes data
+2025-01-04 23:48:26,497 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0 38 00 00 00 d0 07'}, bytearray(b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07')
+2025-01-04 23:48:26,497 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=130, ctrl_index=0, data_len=13) (b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07',)
+2025-01-04 23:48:26,497 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_connected_ev_ b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07'
+2025-01-04 23:48:26,497 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:26,497 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x80, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x80\x00\x04\x00')
+2025-01-04 23:48:26,498 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:26,498 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2025-01-04 23:48:26,498 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=128, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:26,498 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_new_settings_ev_ b'\x1b\x02\x00\x00'
+2025-01-04 23:48:26,498 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : __gap_current_settings_update 539
+2025-01-04 23:48:27,186 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:27,186 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x8c, ctrl_index=0x00, data_len=0x08) bytearray(b'\x01\x8c\x00\x08\x00')
+2025-01-04 23:48:27,186 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 8 bytes data
+2025-01-04 23:48:27,187 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0 05'}, bytearray(b'\x00*\xde%\xe8\x07\xc0\x05')
+2025-01-04 23:48:27,187 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=140, ctrl_index=0, data_len=8) (b'\x00*\xde%\xe8\x07\xc0\x05',)
+2025-01-04 23:48:27,187 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_pairing_failed_ev_
+2025-01-04 23:48:27,187 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : received b'\x00*\xde%\xe8\x07\xc0\x05'
+2025-01-04 23:48:27,187 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : received (0, 'c007e825de2a', 5)
+2025-01-04 23:48:27,264 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:27,264 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x83, ctrl_index=0x00, data_len=0x07) bytearray(b'\x01\x83\x00\x07\x00')
+2025-01-04 23:48:27,264 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 7 bytes data
+2025-01-04 23:48:27,265 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0'}, bytearray(b'\x00*\xde%\xe8\x07\xc0')
+2025-01-04 23:48:27,265 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=131, ctrl_index=0, data_len=7) (b'\x00*\xde%\xe8\x07\xc0',)
+2025-01-04 23:48:27,265 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_disconnected_ev_ b'\x00*\xde%\xe8\x07\xc0'
+2025-01-04 23:48:27,464 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: SM
+    wid: 149
+    test_case_name: SM/PER/SCOB/BI-02-C
+    description: Please enter the following OOB confirmation and OOB random to the IUT: 
+[DB7812FBA027B8CEBB8BA11AFB947F1E]
+[6D9A05650DA755472E3427AFA3130CB4]
+    style: MMI_Style_Yes_No1 0x11044
+2025-01-04 23:48:27,464 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : Calling test cases on_implicit_send
+2025-01-04 23:48:27,464 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2025-01-04 23:48:27,968 LT1-thread root DEBUG client.py                 71    logger_log                : SM SM/PER/SCOB/BI-02-C on_implicit_send
+2025-01-04 23:48:27,968 LT1-thread root DEBUG client.py                 71    logger_log                : sm_wid_hdl, 149, Please enter the following OOB confirmation and OOB random to the IUT: 
+[DB7812FBA027B8CEBB8BA11AFB947F1E]
+[6D9A05650DA755472E3427AFA3130CB4], SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:27,968 LT1-thread root DEBUG client.py                 71    logger_log                : gap_oob_sc_set_remote_data '6D9A05650DA755472E3427AFA3130CB4' 'DB7812FBA027B8CEBB8BA11AFB947F1E'
+2025-01-04 23:48:27,968 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 26 0 'bytearray(b"\\xb4\\x0c\\x13\\xa3\\xaf\\\'4.GU\\xa7\\re\\x05\\x9am\\x1e\\x7f\\x94\\xfb\\x1a\\xa1\\x8b\\xbb\\xce\\xb8\\\'\\xa0\\xfb\\x12x\\xdb")'
+2025-01-04 23:48:27,968 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '011a002000b40c13a3af27342e4755a70d65059a6d1e7f94fb1aa18bbbceb827a0fb1278db'
+2025-01-04 23:48:27,969 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:27,969 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:28,030 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:28,040 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x1a, ctrl_index=0x00, data_len=0x00) bytearray(b'\x01\x1a\x00\x00\x00')
+2025-01-04 23:48:28,046 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {''}, bytearray(b'')
+2025-01-04 23:48:28,058 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=26, ctrl_index=0, data_len=0) (b'',)
+2025-01-04 23:48:28,058 LT1-thread root DEBUG client.py                 71    logger_log                : Sending response 'Yes' to wid 149 test case SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:28,062 LT1-thread root DEBUG client.py                 71    logger_log                : ClientCallback.get_result run_test_case
+2025-01-04 23:48:28,069 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: SM
+    wid: 115
+    test_case_name: SM/PER/SCOB/BI-02-C
+    description: Action: Place the IUT in connectable mode
+    style: MMI_Style_Ok_Cancel2 0x11141
+2025-01-04 23:48:28,069 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : Calling test cases on_implicit_send
+2025-01-04 23:48:28,069 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2025-01-04 23:48:29,063 LT1-thread root DEBUG client.py                 71    logger_log                : SM SM/PER/SCOB/BI-02-C on_implicit_send
+2025-01-04 23:48:29,063 LT1-thread root DEBUG client.py                 71    logger_log                : sm_wid_hdl, 115, Action: Place the IUT in connectable mode, SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:29,063 LT1-thread root DEBUG client.py                 71    logger_log                : gap_set_conn
+2025-01-04 23:48:29,063 LT1-thread root DEBUG client.py                 71    logger_log                : gap_set_gendiscov
+2025-01-04 23:48:29,063 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 8 0 '1'
+2025-01-04 23:48:29,063 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '010800010001'
+2025-01-04 23:48:29,064 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:29,064 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:29,122 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:29,123 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x08, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x08\x00\x04\x00')
+2025-01-04 23:48:29,154 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:29,160 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2025-01-04 23:48:29,166 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=8, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:29,166 LT1-thread root DEBUG client.py                 71    logger_log                : __gap_current_settings_update (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:29,166 LT1-thread root DEBUG client.py                 71    logger_log                : gap_adv_ind_on {9: b'Tester_25DE2A'} {}
+2025-01-04 23:48:29,166 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 10 0 "bytearray(b'\\x0f\\x00\\t\\rTester_25DE2A\\xff\\xff\\xff\\xff\\x00')"
+2025-01-04 23:48:29,167 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '010a0016000f00090d5465737465725f323544453241ffffffff00'
+2025-01-04 23:48:29,167 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:29,167 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:29,217 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:29,217 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x0a, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\n\x00\x04\x00')
+2025-01-04 23:48:29,228 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:29,257 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 06 00 00'}, bytearray(b'\x1b\x06\x00\x00')
+2025-01-04 23:48:29,274 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=10, ctrl_index=0, data_len=4) (b'\x1b\x06\x00\x00',)
+2025-01-04 23:48:29,274 LT1-thread root DEBUG client.py                 71    logger_log                : __gap_current_settings_update (b'\x1b\x06\x00\x00',)
+2025-01-04 23:48:29,274 LT1-thread root DEBUG client.py                 71    logger_log                : Sending response 'OK' to wid 115 test case SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:29,277 LT1-thread root DEBUG client.py                 71    logger_log                : ClientCallback.get_result run_test_case
+2025-01-04 23:48:29,656 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:29,657 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x82, ctrl_index=0x00, data_len=0x0d) bytearray(b'\x01\x82\x00\r\x00')
+2025-01-04 23:48:29,657 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 13 bytes data
+2025-01-04 23:48:29,657 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0 38 00 00 00 d0 07'}, bytearray(b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07')
+2025-01-04 23:48:29,657 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=130, ctrl_index=0, data_len=13) (b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07',)
+2025-01-04 23:48:29,657 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_connected_ev_ b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07'
+2025-01-04 23:48:29,658 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:29,658 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x80, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x80\x00\x04\x00')
+2025-01-04 23:48:29,658 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:29,658 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2025-01-04 23:48:29,658 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=128, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:29,659 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_new_settings_ev_ b'\x1b\x02\x00\x00'
+2025-01-04 23:48:29,659 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : __gap_current_settings_update 539
+2025-01-04 23:48:30,340 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:30,341 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x8c, ctrl_index=0x00, data_len=0x08) bytearray(b'\x01\x8c\x00\x08\x00')
+2025-01-04 23:48:30,341 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 8 bytes data
+2025-01-04 23:48:30,341 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0 06'}, bytearray(b'\x00*\xde%\xe8\x07\xc0\x06')
+2025-01-04 23:48:30,341 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=140, ctrl_index=0, data_len=8) (b'\x00*\xde%\xe8\x07\xc0\x06',)
+2025-01-04 23:48:30,341 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_pairing_failed_ev_
+2025-01-04 23:48:30,341 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : received b'\x00*\xde%\xe8\x07\xc0\x06'
+2025-01-04 23:48:30,341 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : received (0, 'c007e825de2a', 6)
+2025-01-04 23:48:30,419 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:30,419 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x83, ctrl_index=0x00, data_len=0x07) bytearray(b'\x01\x83\x00\x07\x00')
+2025-01-04 23:48:30,419 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 7 bytes data
+2025-01-04 23:48:30,419 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0'}, bytearray(b'\x00*\xde%\xe8\x07\xc0')
+2025-01-04 23:48:30,420 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=131, ctrl_index=0, data_len=7) (b'\x00*\xde%\xe8\x07\xc0',)
+2025-01-04 23:48:30,420 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_disconnected_ev_ b'\x00*\xde%\xe8\x07\xc0'
+2025-01-04 23:48:30,620 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: SM
+    wid: 149
+    test_case_name: SM/PER/SCOB/BI-02-C
+    description: Please enter the following OOB confirmation and OOB random to the IUT: 
+[EA2CFFB046E1F94CA8FF3C5CCFC44B32]
+[B3C39C63CA50C5C06E74620875020F39]
+    style: MMI_Style_Yes_No1 0x11044
+2025-01-04 23:48:30,621 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : Calling test cases on_implicit_send
+2025-01-04 23:48:30,621 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2025-01-04 23:48:31,278 LT1-thread root DEBUG client.py                 71    logger_log                : SM SM/PER/SCOB/BI-02-C on_implicit_send
+2025-01-04 23:48:31,278 LT1-thread root DEBUG client.py                 71    logger_log                : sm_wid_hdl, 149, Please enter the following OOB confirmation and OOB random to the IUT: 
+[EA2CFFB046E1F94CA8FF3C5CCFC44B32]
+[B3C39C63CA50C5C06E74620875020F39], SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:31,278 LT1-thread root DEBUG client.py                 71    logger_log                : gap_oob_sc_set_remote_data 'B3C39C63CA50C5C06E74620875020F39' 'EA2CFFB046E1F94CA8FF3C5CCFC44B32'
+2025-01-04 23:48:31,278 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 26 0 "bytearray(b'9\\x0f\\x02u\\x08btn\\xc0\\xc5P\\xcac\\x9c\\xc3\\xb32K\\xc4\\xcf\\\\<\\xff\\xa8L\\xf9\\xe1F\\xb0\\xff,\\xea')"
+2025-01-04 23:48:31,279 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '011a002000390f02750862746ec0c550ca639cc3b3324bc4cf5c3cffa84cf9e146b0ff2cea'
+2025-01-04 23:48:31,279 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:31,279 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:31,348 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:31,354 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x1a, ctrl_index=0x00, data_len=0x00) bytearray(b'\x01\x1a\x00\x00\x00')
+2025-01-04 23:48:31,354 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {''}, bytearray(b'')
+2025-01-04 23:48:31,364 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=26, ctrl_index=0, data_len=0) (b'',)
+2025-01-04 23:48:31,364 LT1-thread root DEBUG client.py                 71    logger_log                : Sending response 'Yes' to wid 149 test case SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:31,367 LT1-thread root DEBUG client.py                 71    logger_log                : ClientCallback.get_result run_test_case
+2025-01-04 23:48:31,373 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: SM
+    wid: 115
+    test_case_name: SM/PER/SCOB/BI-02-C
+    description: Action: Place the IUT in connectable mode
+    style: MMI_Style_Ok_Cancel2 0x11141
+2025-01-04 23:48:31,373 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : Calling test cases on_implicit_send
+2025-01-04 23:48:31,373 LT1-callback ClientCallback.on_implicit_send INFO client.py                 71    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2025-01-04 23:48:32,368 LT1-thread root DEBUG client.py                 71    logger_log                : SM SM/PER/SCOB/BI-02-C on_implicit_send
+2025-01-04 23:48:32,368 LT1-thread root DEBUG client.py                 71    logger_log                : sm_wid_hdl, 115, Action: Place the IUT in connectable mode, SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:32,368 LT1-thread root DEBUG client.py                 71    logger_log                : gap_set_conn
+2025-01-04 23:48:32,368 LT1-thread root DEBUG client.py                 71    logger_log                : gap_set_gendiscov
+2025-01-04 23:48:32,369 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 8 0 '1'
+2025-01-04 23:48:32,369 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '010800010001'
+2025-01-04 23:48:32,369 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:32,369 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:32,420 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:32,431 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x08, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x08\x00\x04\x00')
+2025-01-04 23:48:32,443 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:32,443 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2025-01-04 23:48:32,443 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=8, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:32,443 LT1-thread root DEBUG client.py                 71    logger_log                : __gap_current_settings_update (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:32,444 LT1-thread root DEBUG client.py                 71    logger_log                : gap_adv_ind_on {9: b'Tester_25DE2A'} {}
+2025-01-04 23:48:32,444 LT1-thread root DEBUG client.py                 71    logger_log                : send, 1 10 0 "bytearray(b'\\x0f\\x00\\t\\rTester_25DE2A\\xff\\xff\\xff\\xff\\x00')"
+2025-01-04 23:48:32,444 LT1-thread root DEBUG client.py                 71    logger_log                : sending frame '010a0016000f00090d5465737465725f323544453241ffffffff00'
+2025-01-04 23:48:32,445 LT1-thread root DEBUG client.py                 71    logger_log                : gap_command_rsp_succ
+2025-01-04 23:48:32,445 LT1-thread root DEBUG client.py                 71    logger_log                : read
+2025-01-04 23:48:32,495 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:32,506 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x0a, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\n\x00\x04\x00')
+2025-01-04 23:48:32,529 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:32,540 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 06 00 00'}, bytearray(b'\x1b\x06\x00\x00')
+2025-01-04 23:48:32,558 LT1-thread root DEBUG client.py                 71    logger_log                : received Header(svc_id=1, op=10, ctrl_index=0, data_len=4) (b'\x1b\x06\x00\x00',)
+2025-01-04 23:48:32,558 LT1-thread root DEBUG client.py                 71    logger_log                : __gap_current_settings_update (b'\x1b\x06\x00\x00',)
+2025-01-04 23:48:32,558 LT1-thread root DEBUG client.py                 71    logger_log                : Sending response 'OK' to wid 115 test case SM/PER/SCOB/BI-02-C
+2025-01-04 23:48:32,562 LT1-thread root DEBUG client.py                 71    logger_log                : ClientCallback.get_result run_test_case
+2025-01-04 23:48:33,186 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:33,187 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x82, ctrl_index=0x00, data_len=0x0d) bytearray(b'\x01\x82\x00\r\x00')
+2025-01-04 23:48:33,187 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 13 bytes data
+2025-01-04 23:48:33,187 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0 38 00 00 00 d0 07'}, bytearray(b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07')
+2025-01-04 23:48:33,187 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=130, ctrl_index=0, data_len=13) (b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07',)
+2025-01-04 23:48:33,187 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_connected_ev_ b'\x00*\xde%\xe8\x07\xc08\x00\x00\x00\xd0\x07'
+2025-01-04 23:48:33,188 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:33,188 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x80, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x80\x00\x04\x00')
+2025-01-04 23:48:33,188 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 4 bytes data
+2025-01-04 23:48:33,188 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2025-01-04 23:48:33,188 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=128, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2025-01-04 23:48:33,189 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_new_settings_ev_ b'\x1b\x02\x00\x00'
+2025-01-04 23:48:33,189 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : __gap_current_settings_update 539
+2025-01-04 23:48:34,005 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:34,005 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x8c, ctrl_index=0x00, data_len=0x08) bytearray(b'\x01\x8c\x00\x08\x00')
+2025-01-04 23:48:34,006 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 8 bytes data
+2025-01-04 23:48:34,006 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0 03'}, bytearray(b'\x00*\xde%\xe8\x07\xc0\x03')
+2025-01-04 23:48:34,006 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=140, ctrl_index=0, data_len=8) (b'\x00*\xde%\xe8\x07\xc0\x03',)
+2025-01-04 23:48:34,006 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_pairing_failed_ev_
+2025-01-04 23:48:34,006 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : received b'\x00*\xde%\xe8\x07\xc0\x03'
+2025-01-04 23:48:34,006 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : received (0, 'c007e825de2a', 3)
+2025-01-04 23:48:34,085 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:34,085 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x83, ctrl_index=0x00, data_len=0x07) bytearray(b'\x01\x83\x00\x07\x00')
+2025-01-04 23:48:34,086 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 7 bytes data
+2025-01-04 23:48:34,086 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {'00 2a de 25 e8 07 c0'}, bytearray(b'\x00*\xde%\xe8\x07\xc0')
+2025-01-04 23:48:34,086 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=1, op=131, ctrl_index=0, data_len=7) (b'\x00*\xde%\xe8\x07\xc0',)
+2025-01-04 23:48:34,086 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : gap_disconnected_ev_ b'\x00*\xde%\xe8\x07\xc0'
+2025-01-04 23:48:37,836 LT1-callback ClientCallback.log INFO client.py                 71    logger_log                : PTS_LOGTYPE_START_TEST Start Test Case 
+
++16 ms
+ SM/PER/SCOB/BI-02-C SM/PER/SCOB/BI-02-C
+
+2025-01-04 23:48:39,069 LT1-callback ClientCallback.log INFO client.py                 71    logger_log                : PTS_LOGTYPE_FINAL_VERDICT Final Verdict 
+
++21578 ms
+ SM/PER/SCOB/BI-02-C PASS
+
+2025-01-04 23:48:39,076 LT1-callback ClientCallback.log INFO client.py                 71    logger_log                : PTS_LOGTYPE_FINAL_VERDICT Encrypted Verdict 
+
++21578 ms
+ SM/PER/SCOB/BI-02-C A1#ZWY4MzQ5MDg3MmQwNTIxOGQzMzQ5YjY2ODA5M2MzNjQ5ZDY4NmY0Yjc2MzIzM2VkNTUyNTFhNGU4Mjg1MjI0NA==#Rx92by9kU88/BmGW4trjjnORk/3LuPghieymFicoVY/KlZjoEV3zDKsNYMr/YCMX
+
+2025-01-04 23:48:39,084 LT1-callback ClientCallback.log INFO client.py                 71    logger_log                : PTS_LOGTYPE_END_TEST Test Case Ended 
+
++21578 ms
+ SM/PER/SCOB/BI-02-C SM/PER/SCOB/BI-02-C
+
+2025-01-04 23:48:39,144 LT1-callback root DEBUG client.py                 71    logger_log                : ClientCallback, set_result, run_test_case, PASS
+2025-01-04 23:48:39,144 LT1-thread root DEBUG client.py                 71    logger_log                : After run_test_case error_code=0 status='PASS'
+2025-01-04 23:48:39,145 LT1-thread root DEBUG client.py                 71    logger_log                : post_run SM SM/PER/SCOB/BI-02-C 0
+2025-01-04 23:48:39,145 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method Stack.cleanup of <autopts.ptsprojects.stack.stack.Stack object at 0x000001CE003A0450>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2025-01-04 23:48:39,145 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(), kwds={}
+2025-01-04 23:48:39,145 LT1-thread root DEBUG client.py                 71    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method ZephyrCtl.stop of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x000001CE7D2B9F50>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2025-01-04 23:48:39,146 LT1-thread root DEBUG client.py                 71    logger_log                : Test function parameters: args=(), kwds={}
+2025-01-04 23:48:39,146 LT1-thread root DEBUG client.py                 71    logger_log                : <class 'autopts.ptsprojects.zephyr.iutctl.ZephyrCtl'>.stop
+2025-01-04 23:48:39,247 LT1-thread root DEBUG client.py                 71    logger_log                : <class 'autopts.rtt.RTTLogger'>.stop
+2025-01-04 23:48:39,247 LT1-thread root DEBUG client.py                 71    logger_log                : <class 'autopts.rtt.RTT'>.stop
+2025-01-04 23:48:39,272 LT1-thread root DEBUG client.py                 71    logger_log                : About to reset DUT: JLink -CommandFile reset.jlink -usb 1064371884 -device MCXW716
+2025-01-04 23:48:39,784 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Read 5 bytes
+2025-01-04 23:48:39,804 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received: hdr: Header(svc_id=0x00, op=0x80, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x80\xff\x00\x00')
+2025-01-04 23:48:39,824 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : Received data: {''}, bytearray(b'')
+2025-01-04 23:48:39,844 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : event_handler Header(svc_id=0, op=128, ctrl_index=255, data_len=0) (b'',)
+2025-01-04 23:48:39,864 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : core_iut_ready_ev
+2025-01-04 23:48:39,874 LT1-thread root DEBUG client.py                 71    logger_log                : IUT ready event received OK
+2025-01-04 23:48:39,874 LT1-thread root DEBUG client.py                 71    logger_log                : Waiting for _rx_worker to finish ...
+2025-01-04 23:48:40,881 LT1-thread root DEBUG client.py                 71    logger_log                : Waiting for _rx_worker to finish ...
+2025-01-04 23:48:40,881 BTPWorkerThread-11928 (_rx_task) root DEBUG client.py                 71    logger_log                : BTPWorkerThread-11928 (_rx_task) finishing...
+2025-01-04 23:48:43,899 LT1-thread root DEBUG client.py                 71    logger_log                : post_run, cleanup running post test case script
+2025-01-04 23:48:43,899 LT1-thread root DEBUG client.py                 71    logger_log                : post_run, run post test case script
+2025-01-04 23:48:44,047 LT1-thread root DEBUG client.py                 71    logger_log                : Done TestCase _run_test_case SM SM/PER/SCOB/BI-02-C
