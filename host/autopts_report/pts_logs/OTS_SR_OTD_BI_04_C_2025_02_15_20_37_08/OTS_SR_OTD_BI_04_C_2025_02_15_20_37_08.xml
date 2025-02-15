@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ARCHIVE>
   <VERSION>2.0</VERSION>
-  <PicsPixit>Test Case Started: OTS v. 8.7.3.6, OTS/SR/OTD/BI-04-C started on Saturday, February 15, 2025, 20:32:38
+  <PicsPixit>Test Case Started: OTS v. 8.7.3.6, OTS/SR/OTD/BI-04-C started on Saturday, February 15, 2025, 20:37:08
 
 ICS VALUES:
 
@@ -91,65 +91,71 @@ TSPX_iut_object_truncate_length 003D
   <LOG>
 
 +0 ms
-Message:                 MindTree Stack Version - 026.000.000
-
-
-
-+734 ms
-Preliminary Verdict:     PASS
-
-
-
-+734 ms
-Initialize Test Case:    Build date: Oct 23 2024, 17:07:35
-
-
-
-+734 ms
-Start Test Case:         OTS/SR/OTD/BI-04-C
-
-
-
-+734 ms
-Message:                   PTS Log started on Saturday, February 15, 2025, 20:33:23
-
-
-
-+734 ms
-Message:                   PTS: v8.7.3 Build 6
-
-
-
-+734 ms
-Message:                   OS: Microsoft Windows NT 10.0.19045.0
-
-
-
-+734 ms
-Message:                   OS Name: Microsoft Windows 10 Pro
-
-
-
-+1750 ms
-Send Event:              HCI!HCI_RESET
-
-
-+1750 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+1750 ms
++1516 ms
+Message:                 MindTree Stack Version - 026.000.000
+
+
+
++1719 ms
 Preliminary Verdict:     PASS
 
 
 
-+1750 ms
++1719 ms
+Initialize Test Case:    Build date: Oct 23 2024, 17:07:35
+
+
+
++1719 ms
+Start Test Case:         OTS/SR/OTD/BI-04-C
+
+
+
++1719 ms
+Message:                   PTS Log started on Saturday, February 15, 2025, 20:37:55
+
+
+
++1719 ms
+Message:                   PTS: v8.7.3 Build 6
+
+
+
++1719 ms
+Message:                   OS: Microsoft Windows NT 10.0.19045.0
+
+
+
++1719 ms
+Message:                   OS Name: Microsoft Windows 10 Pro
+
+
+
++2750 ms
+Send Event:              HCI!HCI_RESET
+
+
++2750 ms
+Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2750 ms
+Preliminary Verdict:     PASS
+
+
+
++2750 ms
 Send Event:              HCI!HCI_READ_LOCAL_VERSION_INFORMATION
 
 
-+1750 ms
++2750 ms
 Receive Event:           HCI?HCI_READ_LOCAL_VERSION_INFORMATION_COMPLETE_EVENT{
                            status=HCI_OK,
                            hciVersion=0x0D,
@@ -160,157 +166,157 @@ Receive Event:           HCI?HCI_READ_LOCAL_VERSION_INFORMATION_COMPLETE_EVENT{
                          }
 
 
-+1750 ms
++2750 ms
 Preliminary Verdict:     PASS
 
 
 
-+1750 ms
++2750 ms
 Send Event:              HCI!HCI_SET_EVENT_MASK{
                            eventMask=0x3FFFFFFFFFFFFFFF
                          }
 
 
-+1750 ms
++2750 ms
 Receive Event:           HCI?HCI_SET_EVENT_MASK_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+1750 ms
++2750 ms
 Preliminary Verdict:     PASS
 
 
 
-+1750 ms
++2750 ms
 Send Event:              HCI!HCI_READ_LOCAL_SUPPORTED_FEATURES
 
 
-+1750 ms
++2750 ms
 Receive Event:           HCI?HCI_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            lmpFeatures=0x0000006000000000
                          }
 
 
-+1750 ms
++2750 ms
 Preliminary Verdict:     PASS
 
 
 
-+1750 ms
++2750 ms
 Send Event:              HCI!HCI_READ_LOCAL_SUPPORTED_COMMANDS
 
 
-+1766 ms
++2750 ms
 Receive Event:           HCI?HCI_READ_LOCAL_SUPPORTED_COMMANDS_COMPLETE_EVENT{
                            status=HCI_OK,
                            supported_commands=0x0000000000000000000000000000000003E3C1FFFFFFF7E01FFFFFFFFFFFF0300000007FFFFFF700000400000000000022280000000400000C00C00000800020
                          }
 
 
-+1766 ms
++2750 ms
 Preliminary Verdict:     PASS
 
 
 
-+1766 ms
++2750 ms
 Send Event:              HCI!HCI_READ_BD_ADDR
 
 
-+1766 ms
++2750 ms
 Receive Event:           HCI?HCI_READ_BD_ADDR_COMPLETE_EVENT{
                            status=HCI_OK,
                            bdAddress=0xC007E825DE2A
                          }
 
 
-+1766 ms
++2750 ms
 Preliminary Verdict:     PASS
 
 
 
-+1766 ms
++2750 ms
 Send Event:              HCI!HCI_LE_LOCAL_SUPPORTED_FEATURES
 
 
-+1766 ms
++2750 ms
 Receive Event:           HCI?HCI_LE_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            leFeatures=0x000019BEFF017FFF
                          }
 
 
-+1766 ms
++2750 ms
 Preliminary Verdict:     PASS
 
 
 
-+1766 ms
++2750 ms
 Preliminary Verdict:     PASS
 
 
 
-+1766 ms
++2750 ms
 Send Event:              HCI!HCI_LE_SET_EVENT_MASK{
                            leEventMask=0x000000FE7F8FFFFF
                          }
 
 
-+1766 ms
++2750 ms
 Receive Event:           HCI?HCI_LE_SET_EVENT_MASK_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+1766 ms
++2750 ms
 Send Event:              HCI!HCI_LE_SET_HOST_FEATURE{
                            bit_number=0x20,
                            bit_value=0x01
                          }
 
 
-+1766 ms
++2750 ms
 Receive Event:           HCI?HCI_LE_SET_HOST_FEATURE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+1766 ms
++2750 ms
 Preliminary Verdict:     PASS
 
 
 
-+1766 ms
++2750 ms
 Send Event:              HCI!HCI_LE_SET_HOST_FEATURE{
                            bit_number=0x26,
                            bit_value=0x01
                          }
 
 
-+1766 ms
++2750 ms
 Receive Event:           HCI?HCI_LE_SET_HOST_FEATURE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+1766 ms
++2750 ms
 Preliminary Verdict:     PASS
 
 
 
-+1766 ms
++2750 ms
 Send Event:              HCI!HCI_LE_READ_BUFFER_V2
 
 
-+1766 ms
++2750 ms
 Send Event:              HCI!HCI_LE_ADD_DEVICE_TO_FILTER_ACCEPT_LIST{
                            addressType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
                            address=0x006037030028
                          }
 
 
-+1766 ms
++2750 ms
 Receive Event:           HCI?HCI_LE_READ_BUFFER_SIZE_V2_COMPLETE_EVENT{
                            status=HCI_OK,
                            HC_LE_Data_Packet_Length=0x0200,
@@ -320,36 +326,36 @@ Receive Event:           HCI?HCI_LE_READ_BUFFER_SIZE_V2_COMPLETE_EVENT{
                          }
 
 
-+1766 ms
++2750 ms
 Receive Event:           HCI?HCI_LE_ADD_DEVICE_TO_FILTER_ACCEPT_LIST_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+1766 ms
++2750 ms
 Send Event:              HCI!HCI_LE_ADD_DEVICE_TO_FILTER_ACCEPT_LIST{
                            addressType=HCI_LE_RANDOM_DEVICE_ADDRESS,
                            address=0x006037030028
                          }
 
 
-+1766 ms
++2750 ms
 Receive Event:           HCI?HCI_LE_ADD_DEVICE_TO_FILTER_ACCEPT_LIST_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+1766 ms
++2750 ms
 Preliminary Verdict:     PASS
 
 
 
-+1766 ms
++2750 ms
 Preliminary Verdict:     PASS
 
 
 
-+1766 ms
++2750 ms
 Send Event:              HCI!HCI_LE_SET_SCAN_PARAMETERS{
                            leScanType=HCI_LE_ACTIVE_SCANNING,
                            leScanInterval=0x001E,
@@ -359,44 +365,44 @@ Send Event:              HCI!HCI_LE_SET_SCAN_PARAMETERS{
                          }
 
 
-+1766 ms
++2750 ms
 Receive Event:           HCI?HCI_LE_SET_SCAN_PARAMETERS_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+1766 ms
++2750 ms
 Preliminary Verdict:     PASS
 
 
 
-+1766 ms
++2766 ms
 Send Event:              HCI!HCI_LE_SET_SCAN_ENABLE{
                            leScanEnable=HCI_LE_SCAN_ENABLE,
                            filterDuplicates=HCI_LE_DUPLICATE_FILTERING_DISABLE
                          }
 
 
-+1766 ms
++2766 ms
 Receive Event:           HCI?HCI_LE_SET_SCAN_ENABLE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+3047 ms
++4063 ms
 Send Event:              HCI!HCI_LE_SET_SCAN_ENABLE{
                            leScanEnable=HCI_LE_SCAN_DISABLE,
                            filterDuplicates=HCI_LE_DUPLICATE_FILTERING_DISABLE
                          }
 
 
-+3047 ms
++4063 ms
 Receive Event:           HCI?HCI_LE_SET_SCAN_ENABLE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+3047 ms
++4063 ms
 Send Event:              HCI!HCI_LE_CREATE_CONNECTION{
                            peerAddr=0x006037030028,
                            peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
@@ -413,13 +419,13 @@ Send Event:              HCI!HCI_LE_CREATE_CONNECTION{
                          }
 
 
-+3047 ms
++4063 ms
 Receive Event:           HCI?HCI_LE_CREATE_CONNECTION_STATUS_EVENT{
                            status=HCI_OK
                          }
 
 
-+3187 ms
++5188 ms
 Receive Event:           ATT?ATT_CONNECT_IND{
                            bdAddr=0x006037030028,
                            peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
@@ -428,7 +434,7 @@ Receive Event:           ATT?ATT_CONNECT_IND{
                          }
 
 
-+3187 ms
++5188 ms
 Receive Event:           HCI?HCI_LE_ENHANCED_CONNECTION_COMPLETE_EVENT{
                            status=HCI_OK,
                            conn_handle=0x0000,
@@ -444,14 +450,14 @@ Receive Event:           HCI?HCI_LE_ENHANCED_CONNECTION_COMPLETE_EVENT{
                          }
 
 
-+3187 ms
++5188 ms
 Receive Event:           HCI?HCI_LE_CHANNEL_SELECTION_ALGORITHM_EVENT{
                            conn_handle=0x0000,
                            used_ch_algorithm=0x01
                          }
 
 
-+3187 ms
++5188 ms
 Send Event:              HCI!GET_CONNECTION_HANDLE{
                            addr=0x006037030028,
                            addr_type=0x00,
@@ -459,7 +465,7 @@ Send Event:              HCI!GET_CONNECTION_HANDLE{
                          }
 
 
-+3187 ms
++5188 ms
 Send Event:              HCI!GET_CONNECTION_HANDLE{
                            addr=0x006037030028,
                            addr_type=0x00,
@@ -467,38 +473,38 @@ Send Event:              HCI!GET_CONNECTION_HANDLE{
                          }
 
 
-+3187 ms
++5188 ms
 Preliminary Verdict:     PASS
 
 
 
-+3187 ms
++5188 ms
 Preliminary Verdict:     PASS
 
 
 
-+3266 ms
++5328 ms
 Receive Event:           HCI?HCI_LE_DATA_LENGTH_CHANGE_EVENT{
                            conn_handle=0x0000
                          }
 
 
-+3703 ms
++5719 ms
 Verdict Description:     Connection setup successfully.
 
 
 
-+3703 ms
++5719 ms
 Pass:                    Tester successfully initiated connection.
 
 
 
-+3703 ms
++5719 ms
 Verdict Description:     Tester successfully initiated connection.
 
 
 
-+3953 ms
++6016 ms
 Receive Event:           HCI?HCI_LE_PHY_UPDATE_COMPLETE_EVENT{
                            status=HCI_OK,
                            conn_handle0x0000,
@@ -507,7 +513,7 @@ Receive Event:           HCI?HCI_LE_PHY_UPDATE_COMPLETE_EVENT{
                          }
 
 
-+5719 ms
++7719 ms
 Send Event:              SEC!SEC_LE_AUTHENTICATE_REQ{
                            peerAddress=0x006037030028,
                            peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
@@ -519,49 +525,49 @@ Send Event:              SEC!SEC_LE_AUTHENTICATE_REQ{
                          }
 
 
-+5859 ms
++7860 ms
 Receive Event:           HCI?HCI_LE_RANDOM_COMPLETE_EVENT{
                            status=HCI_OK,
-                           randomNumber=0xFE5225B499EA0868
+                           randomNumber=0xF2EEEAA5B8978A07
                          }
 
 
-+5859 ms
++7860 ms
 Receive Event:           HCI?HCI_LE_ENCRYPT_COMPLETE_EVENT{
                            status=HCI_OK,
-                           encryptedData=0xEA24CECB690920D9521424824C70C9C8
+                           encryptedData=0x5D07250203EEA27667E156142D1E618A
                          }
 
 
-+5859 ms
++7860 ms
 Receive Event:           HCI?HCI_LE_ENCRYPT_COMPLETE_EVENT{
                            status=HCI_OK,
-                           encryptedData=0x01CBEC14E6A97DFE012A49B98949DC18
+                           encryptedData=0x48FDAFB823442E47FD1F78EC93038023
                          }
 
 
-+6141 ms
++8125 ms
 Receive Event:           HCI?HCI_LE_ENCRYPT_COMPLETE_EVENT{
                            status=HCI_OK,
-                           encryptedData=0xFEA00EF72A32D02D570FEDB398257259
+                           encryptedData=0x2B15A09BFBA45F9810EA5E2E962E919F
                          }
 
 
-+6141 ms
++8125 ms
 Receive Event:           HCI?HCI_LE_ENCRYPT_COMPLETE_EVENT{
                            status=HCI_OK,
-                           encryptedData=0x5C08CC372F291AC9652615FD4B8798FE
+                           encryptedData=0x0A7430C3E7B6769FC6D710F38CD3761D
                          }
 
 
-+6141 ms
++8125 ms
 Receive Event:           HCI?HCI_LE_ENCRYPT_COMPLETE_EVENT{
                            status=HCI_OK,
-                           encryptedData=0x399CB044448878A9B666C6CD62376BDA
+                           encryptedData=0xFBFFB095A6DFAAACC682B383862A684E
                          }
 
 
-+6406 ms
++8407 ms
 Receive Event:           HCI?HCI_ENCRYPTION_CHANGE_EVENT{
                            status=HCI_OK,
                            connectionHandle=0x0000,
@@ -569,45 +575,45 @@ Receive Event:           HCI?HCI_ENCRYPTION_CHANGE_EVENT{
                          }
 
 
-+6484 ms
++8485 ms
 Receive Event:           SEC?SEC_LE_KEY_NOTIFICATION_IND{
                            peerAddr=0x006037030028,
                            peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
                            keyDist=0x05,
                            encryptionKeySize=0x10,
-                           ltk=0x48E082464CE0DB6BB9CA1D2D3C4A451E,
-                           eDiv=0xEB5E,
-                           randValue=0xB176E645453E2D83,
+                           ltk=0x78E5AA28BB01E206B2201A41447BBAE6,
+                           eDiv=0x4620,
+                           randValue=0xC0701C5801F51395,
                            ,
-                           csrk=0xC8A6C765D815D43439BDCAA461139031
+                           csrk=0x801D891829E504340A8F1AF19F7C1C57
                          }
 
 
-+6484 ms
-Verdict Description:     encryptionKeySize = 0x10,ltk = 0x48E082464CE0DB6BB9CA1D2D3C4A451E,eDiv = 0xEB5E,randValue = 0xB176E645453E2D83
++8485 ms
+Verdict Description:     encryptionKeySize = 0x10,ltk = 0x78E5AA28BB01E206B2201A41447BBAE6,eDiv = 0x4620,randValue = 0xC0701C5801F51395
 
 
 
-+6484 ms
++8485 ms
 Receive Event:           SEC?SEC_LE_KEY_NOTIFICATION_IND{
                            peerAddr=0x006037030028,
                            peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
                            keyDist=0x05,
                            encryptionKeySize=0x10,
-                           ltk=0x48E082464CE0DB6BB9CA1D2D3C4A451E,
-                           eDiv=0xEB5E,
-                           randValue=0xB176E645453E2D83,
+                           ltk=0x78E5AA28BB01E206B2201A41447BBAE6,
+                           eDiv=0x4620,
+                           randValue=0xC0701C5801F51395,
                            ,
-                           csrk=0xC8A6C765D815D43439BDCAA461139031
+                           csrk=0x801D891829E504340A8F1AF19F7C1C57
                          }
 
 
-+6484 ms
-Verdict Description:     encryptionKeySize = 0x10,ltk = 0x48E082464CE0DB6BB9CA1D2D3C4A451E,eDiv = 0xEB5E,randValue = 0xB176E645453E2D83
++8485 ms
+Verdict Description:     encryptionKeySize = 0x10,ltk = 0x78E5AA28BB01E206B2201A41447BBAE6,eDiv = 0x4620,randValue = 0xC0701C5801F51395
 
 
 
-+6484 ms
++8485 ms
 Receive Event:           SEC?SEC_LE_KEY_DISTRIBUTION_IND{
                            peerAddr=0x006037030028,
                            peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
@@ -616,36 +622,36 @@ Receive Event:           SEC?SEC_LE_KEY_DISTRIBUTION_IND{
                          }
 
 
-+6484 ms
++8485 ms
 Send Event:              SEC?SEC_LE_KEY_DISTRIBUTION_RSP{
                            peerAddr=0x006037030028,
                            keyDist=0x03,
-                           ltk=EAA595C6,
-                           eDiv=0x3CDC,
-                           randValue=0xF51ED23B,
-                           irk=0x60B97292,
+                           ltk=31C3CB37,
+                           eDiv=0x666F,
+                           randValue=0x22F4ACD5,
+                           irk=0xD36C4E21,
                            idAddress=0xC007E825DE2A,
                            idAddressType=HCI_LE_PUBLIC_DEVICE_ADDRESS
                          }
 
 
-+6484 ms
++8485 ms
 Receive Event:           SEC?SEC_LE_AUTHENTICATE_CFM{
                            peerAddr=0x006037030028
                          }
 
 
-+6484 ms
++8485 ms
 Verdict Description:     Pairing process is done. Access is granted.
 
 
 
-+6484 ms
++8485 ms
 Verdict Description:     LE Security procedures completed successfully.
 
 
 
-+6484 ms
++8485 ms
 Send Event:              ATT!ATT_FIND_BY_TYPE_VALUE_REQ{
                            lcid=0x1205,
                            startingHandle=0x0001,
@@ -656,7 +662,7 @@ Send Event:              ATT!ATT_FIND_BY_TYPE_VALUE_REQ{
                          }
 
 
-+6625 ms
++8688 ms
 Receive Event:           ATT?ATT_FIND_BY_TYPE_VALUE_RSP{
                            lcid=0x1205,
                            HandleRange={
@@ -669,7 +675,7 @@ Receive Event:           ATT?ATT_FIND_BY_TYPE_VALUE_RSP{
                          }
 
 
-+6766 ms
++8828 ms
 Receive Event:           ATT?ATT_FIND_BY_TYPE_VALUE_CFM{
                            lcid=1205,
                            result=0x0000,
@@ -685,27 +691,27 @@ Receive Event:           ATT?ATT_FIND_BY_TYPE_VALUE_CFM{
                          }
 
 
-+6766 ms
++8828 ms
 Preliminary Verdict:     PASS
 
 
 
-+6766 ms
++8828 ms
 Verdict Description:     Discover Primary Service by Service UUID Request completed successfully.
 
 
 
-+6766 ms
++8828 ms
 Pass:                    The IUT successfully returned the UUID for Object Transfer Service
 
 
 
-+6766 ms
++8828 ms
 Verdict Description:     The IUT successfully returned the UUID for Object Transfer Service
 
 
 
-+6766 ms
++8828 ms
 Send Event:              ATT!ATT_READ_BY_TYPE_REQ{
                            lcid=0x1205,
                            startingHandle=0x0021,
@@ -715,7 +721,7 @@ Send Event:              ATT!ATT_READ_BY_TYPE_REQ{
                          }
 
 
-+6906 ms
++9110 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                            lcid=0x1205,
                            length=0x0010,
@@ -730,7 +736,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                          }
 
 
-+6906 ms
++9110 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                            				{
                              handle=0x0022
@@ -754,7 +760,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                          }
 
 
-+7047 ms
++9250 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                            lcid=0x1205,
                            length=0x0010,
@@ -769,7 +775,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                          }
 
 
-+7047 ms
++9250 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                            				{
                              handle=0x0026
@@ -793,7 +799,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                          }
 
 
-+7187 ms
++9391 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                            lcid=0x1205,
                            length=0x0010,
@@ -808,7 +814,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                          }
 
 
-+7187 ms
++9391 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                            				{
                              handle=0x002A
@@ -832,7 +838,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                          }
 
 
-+7328 ms
++9532 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                            lcid=0x1205,
                            length=0x0010,
@@ -847,7 +853,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                          }
 
 
-+7328 ms
++9532 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                            				{
                              handle=0x002E
@@ -871,7 +877,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                          }
 
 
-+7531 ms
++9672 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_CFM{
                            lcid=0x1205,
                            attributeType=0x2803,
@@ -881,7 +887,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_CFM{
                          }
 
 
-+7531 ms
++9672 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_CFM{
                            				{
                              handle=0x0022
@@ -959,17 +965,17 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_CFM{
                          }
 
 
-+7531 ms
++9672 ms
 Preliminary Verdict:     PASS
 
 
 
-+7531 ms
++9672 ms
 Verdict Description:     Discover All Characteristics of Service Request completed successfully.
 
 
 
-+7531 ms
++9672 ms
 Send Event:              ATT!ATT_FIND_INFO_REQ{
                            lcid=0x1205,
                            startingHandle=0x0030,
@@ -977,7 +983,7 @@ Send Event:              ATT!ATT_FIND_INFO_REQ{
                          }
 
 
-+7672 ms
++9813 ms
 Receive Event:           ATT?ATT_FIND_INFO_RSP{
                            				{
                              handle=0x0030,
@@ -987,7 +993,7 @@ Receive Event:           ATT?ATT_FIND_INFO_RSP{
                          }
 
 
-+7672 ms
++9813 ms
 Receive Event:           ATT?ATT_FIND_INFO_CFM{
                            				{
                              handle=0x0030,
@@ -998,17 +1004,17 @@ Receive Event:           ATT?ATT_FIND_INFO_CFM{
                          }
 
 
-+7672 ms
++9813 ms
 Preliminary Verdict:     PASS
 
 
 
-+7672 ms
++9813 ms
 Verdict Description:     Discover All Characteristic Descriptors Request completed successfully.
 
 
 
-+7672 ms
++9813 ms
 Send Event:              ATT!ATT_FIND_INFO_REQ{
                            lcid=0x1205,
                            startingHandle=0x0033,
@@ -1016,7 +1022,7 @@ Send Event:              ATT!ATT_FIND_INFO_REQ{
                          }
 
 
-+7812 ms
++9953 ms
 Receive Event:           ATT?ATT_FIND_INFO_RSP{
                            				{
                              handle=0x0033,
@@ -1026,7 +1032,7 @@ Receive Event:           ATT?ATT_FIND_INFO_RSP{
                          }
 
 
-+7812 ms
++9953 ms
 Receive Event:           ATT?ATT_FIND_INFO_CFM{
                            				{
                              handle=0x0033,
@@ -1037,24 +1043,24 @@ Receive Event:           ATT?ATT_FIND_INFO_CFM{
                          }
 
 
-+7812 ms
++9953 ms
 Preliminary Verdict:     PASS
 
 
 
-+7812 ms
++9953 ms
 Verdict Description:     Discover All Characteristic Descriptors Request completed successfully.
 
 
 
-+7812 ms
++9953 ms
 Send Event:              ATT!ATT_READ_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0023
                          }
 
 
-+7953 ms
++10094 ms
 Receive Event:           ATT?ATT_READ_CFM{
                            lcid=0x1205,
                            length=0x0008,
@@ -1067,32 +1073,32 @@ Receive Event:           ATT?ATT_READ_CFM{
                          }
 
 
-+7953 ms
++10094 ms
 Preliminary Verdict:     PASS
 
 
 
-+7953 ms
++10094 ms
 Verdict Description:     Read Request completed successfully. Handle=0x0023
 
 
 
-+7953 ms
++10094 ms
 Preliminary Verdict:     PASS
 
 
 
-+7953 ms
++10094 ms
 Pass:                    The data received for 'OTS Feature' conforms to the schema.
 
 
 
-+7953 ms
++10094 ms
 Verdict Description:     The data received for 'OTS Feature' conforms to the schema.
 
 
 
-+7953 ms
++10094 ms
 Send Event:              ATT!ATT_FIND_BY_TYPE_VALUE_REQ{
                            lcid=0x1205,
                            startingHandle=0x0001,
@@ -1103,20 +1109,7 @@ Send Event:              ATT!ATT_FIND_BY_TYPE_VALUE_REQ{
                          }
 
 
-+8094 ms
-Receive Event:           ATT?ATT_FIND_BY_TYPE_VALUE_RSP{
-                           lcid=0x1205,
-                           HandleRange={
-                             				{
-                               foundAttributeHandle=0x0021,
-                               endFoundHandle=0x0033
-					
-                             }
-                           }
-                         }
-
-
-+8156 ms
++10157 ms
 Receive Event:           HCI?HCI_LE_REMOTE_CONN_PARAM_REQ_EVENT{
                            connectionHandle=0x0000,
                            connIntervalMin=0x0018,
@@ -1126,7 +1119,7 @@ Receive Event:           HCI?HCI_LE_REMOTE_CONN_PARAM_REQ_EVENT{
                          }
 
 
-+8156 ms
++10157 ms
 Send Event:              HCI!HCI_LE_REMOTE_CONN_PARAM_REQ_REPLY{
                            connectionHandle=0x0000,
                            connIntervalMin=0x0018,
@@ -1138,14 +1131,27 @@ Send Event:              HCI!HCI_LE_REMOTE_CONN_PARAM_REQ_REPLY{
                          }
 
 
-+8172 ms
++10157 ms
 Receive Event:           HCI?HCI_LE_REMOTE_CONN_PARAM_REQ_REPLY_COMPLETE_EVT{
                            status=HCI_OK,
                            conn_handle=0x0000
                          }
 
 
-+8234 ms
++10235 ms
+Receive Event:           ATT?ATT_FIND_BY_TYPE_VALUE_RSP{
+                           lcid=0x1205,
+                           HandleRange={
+                             				{
+                               foundAttributeHandle=0x0021,
+                               endFoundHandle=0x0033
+					
+                             }
+                           }
+                         }
+
+
++10375 ms
 Receive Event:           ATT?ATT_FIND_BY_TYPE_VALUE_CFM{
                            lcid=1205,
                            result=0x0000,
@@ -1161,27 +1167,27 @@ Receive Event:           ATT?ATT_FIND_BY_TYPE_VALUE_CFM{
                          }
 
 
-+8234 ms
++10375 ms
 Preliminary Verdict:     PASS
 
 
 
-+8234 ms
++10375 ms
 Verdict Description:     Discover Primary Service by Service UUID Request completed successfully.
 
 
 
-+8234 ms
++10375 ms
 Pass:                    The IUT successfully returned the UUID for Object Transfer Service
 
 
 
-+8234 ms
++10375 ms
 Verdict Description:     The IUT successfully returned the UUID for Object Transfer Service
 
 
 
-+8234 ms
++10375 ms
 Send Event:              ATT!ATT_READ_BY_TYPE_REQ{
                            lcid=0x1205,
                            startingHandle=0x0021,
@@ -1191,7 +1197,7 @@ Send Event:              ATT!ATT_READ_BY_TYPE_REQ{
                          }
 
 
-+8375 ms
++10516 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                            lcid=0x1205,
                            length=0x0010,
@@ -1206,7 +1212,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                          }
 
 
-+8375 ms
++10516 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                            				{
                              handle=0x0022
@@ -1230,7 +1236,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                          }
 
 
-+8516 ms
++10657 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                            lcid=0x1205,
                            length=0x0010,
@@ -1245,7 +1251,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                          }
 
 
-+8516 ms
++10657 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                            				{
                              handle=0x0026
@@ -1269,7 +1275,17 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                          }
 
 
-+8656 ms
++10719 ms
+Receive Event:           HCI?HCI_LE_CONNECTION_UPDATE_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x0000,
+                           connInterval=0x0018,
+                           connLatency=0x0000,
+                           supervisionTimeout=0x002A
+                         }
+
+
++10750 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                            lcid=0x1205,
                            length=0x0010,
@@ -1284,7 +1300,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                          }
 
 
-+8656 ms
++10750 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                            				{
                              handle=0x002A
@@ -1308,17 +1324,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                          }
 
 
-+8719 ms
-Receive Event:           HCI?HCI_LE_CONNECTION_UPDATE_COMPLETE_EVENT{
-                           status=HCI_OK,
-                           connectionHandle=0x0000,
-                           connInterval=0x0018,
-                           connLatency=0x0000,
-                           supervisionTimeout=0x002A
-                         }
-
-
-+8781 ms
++10813 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                            lcid=0x1205,
                            length=0x0010,
@@ -1333,7 +1339,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_IND{
                          }
 
 
-+8781 ms
++10813 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                            				{
                              handle=0x002E
@@ -1357,7 +1363,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_RSP{
                          }
 
 
-+8844 ms
++10875 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_CFM{
                            lcid=0x1205,
                            attributeType=0x2803,
@@ -1367,7 +1373,7 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_CFM{
                          }
 
 
-+8844 ms
++10875 ms
 Receive Event:           ATT?ATT_READ_BY_TYPE_CFM{
                            				{
                              handle=0x0022
@@ -1445,17 +1451,17 @@ Receive Event:           ATT?ATT_READ_BY_TYPE_CFM{
                          }
 
 
-+8844 ms
++10875 ms
 Preliminary Verdict:     PASS
 
 
 
-+8844 ms
++10875 ms
 Verdict Description:     Discover All Characteristics of Service Request completed successfully.
 
 
 
-+8844 ms
++10875 ms
 Send Event:              ATT!ATT_FIND_INFO_REQ{
                            lcid=0x1205,
                            startingHandle=0x0030,
@@ -1463,7 +1469,7 @@ Send Event:              ATT!ATT_FIND_INFO_REQ{
                          }
 
 
-+8937 ms
++10938 ms
 Receive Event:           ATT?ATT_FIND_INFO_RSP{
                            				{
                              handle=0x0030,
@@ -1473,7 +1479,7 @@ Receive Event:           ATT?ATT_FIND_INFO_RSP{
                          }
 
 
-+8937 ms
++10938 ms
 Receive Event:           ATT?ATT_FIND_INFO_CFM{
                            				{
                              handle=0x0030,
@@ -1484,17 +1490,17 @@ Receive Event:           ATT?ATT_FIND_INFO_CFM{
                          }
 
 
-+8937 ms
++10938 ms
 Preliminary Verdict:     PASS
 
 
 
-+8937 ms
++10938 ms
 Verdict Description:     Discover All Characteristic Descriptors Request completed successfully.
 
 
 
-+8937 ms
++10938 ms
 Send Event:              ATT!ATT_FIND_INFO_REQ{
                            lcid=0x1205,
                            startingHandle=0x0033,
@@ -1502,7 +1508,7 @@ Send Event:              ATT!ATT_FIND_INFO_REQ{
                          }
 
 
-+9000 ms
++10985 ms
 Receive Event:           ATT?ATT_FIND_INFO_RSP{
                            				{
                              handle=0x0033,
@@ -1512,7 +1518,7 @@ Receive Event:           ATT?ATT_FIND_INFO_RSP{
                          }
 
 
-+9000 ms
++10985 ms
 Receive Event:           ATT?ATT_FIND_INFO_CFM{
                            				{
                              handle=0x0033,
@@ -1523,24 +1529,24 @@ Receive Event:           ATT?ATT_FIND_INFO_CFM{
                          }
 
 
-+9000 ms
++10985 ms
 Preliminary Verdict:     PASS
 
 
 
-+9000 ms
++10985 ms
 Verdict Description:     Discover All Characteristic Descriptors Request completed successfully.
 
 
 
-+9000 ms
++10985 ms
 Send Event:              ATT!ATT_READ_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0023
                          }
 
 
-+9109 ms
++11047 ms
 Receive Event:           ATT?ATT_READ_CFM{
                            lcid=0x1205,
                            length=0x0008,
@@ -1553,32 +1559,32 @@ Receive Event:           ATT?ATT_READ_CFM{
                          }
 
 
-+9109 ms
++11047 ms
 Preliminary Verdict:     PASS
 
 
 
-+9109 ms
++11047 ms
 Verdict Description:     Read Request completed successfully. Handle=0x0023
 
 
 
-+9109 ms
++11047 ms
 Preliminary Verdict:     PASS
 
 
 
-+9109 ms
++11047 ms
 Pass:                    The data received for 'OTS Feature' conforms to the schema.
 
 
 
-+9109 ms
++11047 ms
 Verdict Description:     The data received for 'OTS Feature' conforms to the schema.
 
 
 
-+9109 ms
++11047 ms
 Send Event:              ATT!ATT_WRITE_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0030,
@@ -1587,7 +1593,7 @@ Send Event:              ATT!ATT_WRITE_REQ{
                          }
 
 
-+9172 ms
++11110 ms
 Receive Event:           ATT?ATT_WRITE_CFM{
                            lcid=0x1205,
                            result=0x0000,
@@ -1595,12 +1601,12 @@ Receive Event:           ATT?ATT_WRITE_CFM{
                          }
 
 
-+9172 ms
++11110 ms
 Preliminary Verdict:     PASS
 
 
 
-+9172 ms
++11110 ms
 Send Event:              ATT!ATT_WRITE_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0030,
@@ -1609,7 +1615,7 @@ Send Event:              ATT!ATT_WRITE_REQ{
                          }
 
 
-+9234 ms
++11172 ms
 Receive Event:           ATT?ATT_WRITE_CFM{
                            lcid=0x1205,
                            result=0x0000,
@@ -1617,12 +1623,12 @@ Receive Event:           ATT?ATT_WRITE_CFM{
                          }
 
 
-+9234 ms
++11172 ms
 Preliminary Verdict:     PASS
 
 
 
-+9234 ms
++11172 ms
 Send Event:              ATT!ATT_WRITE_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0033,
@@ -1631,7 +1637,7 @@ Send Event:              ATT!ATT_WRITE_REQ{
                          }
 
 
-+9297 ms
++11235 ms
 Receive Event:           ATT?ATT_WRITE_CFM{
                            lcid=0x1205,
                            result=0x0000,
@@ -1639,12 +1645,12 @@ Receive Event:           ATT?ATT_WRITE_CFM{
                          }
 
 
-+9297 ms
++11235 ms
 Preliminary Verdict:     PASS
 
 
 
-+9297 ms
++11235 ms
 Send Event:              ATT!ATT_WRITE_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0033,
@@ -1653,7 +1659,7 @@ Send Event:              ATT!ATT_WRITE_REQ{
                          }
 
 
-+9359 ms
++11297 ms
 Receive Event:           ATT?ATT_WRITE_CFM{
                            lcid=0x1205,
                            result=0x0000,
@@ -1661,12 +1667,12 @@ Receive Event:           ATT?ATT_WRITE_CFM{
                          }
 
 
-+9359 ms
++11297 ms
 Preliminary Verdict:     PASS
 
 
 
-+9359 ms
++11297 ms
 Send Event:              ATT!ATT_WRITE_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0032,
@@ -1675,7 +1681,7 @@ Send Event:              ATT!ATT_WRITE_REQ{
                          }
 
 
-+9406 ms
++11344 ms
 Receive Event:           ATT?ATT_WRITE_CFM{
                            lcid=0x1205,
                            result=0x0000,
@@ -1683,17 +1689,7 @@ Receive Event:           ATT?ATT_WRITE_CFM{
                          }
 
 
-+9406 ms
-Preliminary Verdict:     PASS
-
-
-
-+9406 ms
-Verdict Description:     Waiting for indication on handle = 0x0032 for Characteristic '' (UUID = 0x0000)
-
-
-
-+9406 ms
++11344 ms
 Receive Event:           ATT?ATT_HANDLE_VALUE_IND{
                            lcid=0x1205,
                            attributeHandle=0x0032,
@@ -1702,25 +1698,35 @@ Receive Event:           ATT?ATT_HANDLE_VALUE_IND{
                          }
 
 
-+9406 ms
++11344 ms
+Preliminary Verdict:     PASS
+
+
+
++11344 ms
+Verdict Description:     Waiting for indication on handle = 0x0032 for Characteristic '' (UUID = 0x0000)
+
+
+
++11344 ms
 Send Event:              ATT!ATT_HANDLE_VALUE_RSP{
                            lcid=0x1205
                          }
 
 
-+9406 ms
++11344 ms
 Preliminary Verdict:     PASS
 
 
 
-+9406 ms
++11344 ms
 Send Event:              ATT!ATT_READ_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0025
                          }
 
 
-+9469 ms
++11407 ms
 Receive Event:           ATT?ATT_READ_CFM{
                            lcid=0x1205,
                            length=0x0009,
@@ -1733,39 +1739,39 @@ Receive Event:           ATT?ATT_READ_CFM{
                          }
 
 
-+9469 ms
++11407 ms
 Preliminary Verdict:     PASS
 
 
 
-+9469 ms
++11407 ms
 Verdict Description:     Read Request completed successfully. Handle=0x0025
 
 
 
-+9469 ms
++11407 ms
 Preliminary Verdict:     PASS
 
 
 
-+9469 ms
++11407 ms
 Pass:                    The data received for 'Object Name' conforms to the schema.
 
 
 
-+9469 ms
++11407 ms
 Verdict Description:     The data received for 'Object Name' conforms to the schema.
 
 
 
-+9469 ms
++11407 ms
 Send Event:              ATT!ATT_READ_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0027
                          }
 
 
-+9531 ms
++11469 ms
 Receive Event:           ATT?ATT_READ_CFM{
                            lcid=0x1205,
                            length=0x0002,
@@ -1778,39 +1784,39 @@ Receive Event:           ATT?ATT_READ_CFM{
                          }
 
 
-+9531 ms
++11469 ms
 Preliminary Verdict:     PASS
 
 
 
-+9531 ms
++11469 ms
 Verdict Description:     Read Request completed successfully. Handle=0x0027
 
 
 
-+9531 ms
++11469 ms
 Preliminary Verdict:     PASS
 
 
 
-+9531 ms
++11469 ms
 Pass:                    The data received for 'Object Type' conforms to the schema.
 
 
 
-+9531 ms
++11469 ms
 Verdict Description:     The data received for 'Object Type' conforms to the schema.
 
 
 
-+9531 ms
++11469 ms
 Send Event:              ATT!ATT_READ_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0029
                          }
 
 
-+9594 ms
++11532 ms
 Receive Event:           ATT?ATT_READ_CFM{
                            lcid=0x1205,
                            length=0x0008,
@@ -1823,39 +1829,39 @@ Receive Event:           ATT?ATT_READ_CFM{
                          }
 
 
-+9594 ms
++11532 ms
 Preliminary Verdict:     PASS
 
 
 
-+9594 ms
++11532 ms
 Verdict Description:     Read Request completed successfully. Handle=0x0029
 
 
 
-+9594 ms
++11532 ms
 Preliminary Verdict:     PASS
 
 
 
-+9594 ms
++11532 ms
 Pass:                    The data received for 'Object Size' conforms to the schema.
 
 
 
-+9594 ms
++11532 ms
 Verdict Description:     The data received for 'Object Size' conforms to the schema.
 
 
 
-+9594 ms
++11532 ms
 Send Event:              ATT!ATT_READ_REQ{
                            lcid=0x1205,
                            attributeHandle=0x002D
                          }
 
 
-+9656 ms
++11594 ms
 Receive Event:           ATT?ATT_READ_CFM{
                            lcid=0x1205,
                            length=0x0004,
@@ -1868,39 +1874,39 @@ Receive Event:           ATT?ATT_READ_CFM{
                          }
 
 
-+9656 ms
++11594 ms
 Preliminary Verdict:     PASS
 
 
 
-+9656 ms
++11594 ms
 Verdict Description:     Read Request completed successfully. Handle=0x002D
 
 
 
-+9656 ms
++11594 ms
 Preliminary Verdict:     PASS
 
 
 
-+9656 ms
++11594 ms
 Pass:                    The data received for 'Object Properties' conforms to the schema.
 
 
 
-+9656 ms
++11594 ms
 Verdict Description:     The data received for 'Object Properties' conforms to the schema.
 
 
 
-+9656 ms
++11594 ms
 Send Event:              ATT!ATT_READ_REQ{
                            lcid=0x1205,
                            attributeHandle=0x002B
                          }
 
 
-+9719 ms
++11688 ms
 Receive Event:           ATT?ATT_READ_CFM{
                            lcid=0x1205,
                            length=0x0006,
@@ -1913,32 +1919,32 @@ Receive Event:           ATT?ATT_READ_CFM{
                          }
 
 
-+9719 ms
++11688 ms
 Preliminary Verdict:     PASS
 
 
 
-+9719 ms
++11688 ms
 Verdict Description:     Read Request completed successfully. Handle=0x002B
 
 
 
-+9719 ms
++11688 ms
 Preliminary Verdict:     PASS
 
 
 
-+9719 ms
++11688 ms
 Pass:                    The data received for 'Object ID' conforms to the schema.
 
 
 
-+9719 ms
++11688 ms
 Verdict Description:     The data received for 'Object ID' conforms to the schema.
 
 
 
-+9719 ms
++11688 ms
 Send Event:              ATT!ATT_WRITE_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0032,
@@ -1947,7 +1953,7 @@ Send Event:              ATT!ATT_WRITE_REQ{
                          }
 
 
-+9781 ms
++11735 ms
 Receive Event:           ATT?ATT_WRITE_CFM{
                            lcid=0x1205,
                            result=0x0000,
@@ -1955,7 +1961,7 @@ Receive Event:           ATT?ATT_WRITE_CFM{
                          }
 
 
-+9781 ms
++11735 ms
 Receive Event:           ATT?ATT_HANDLE_VALUE_IND{
                            lcid=0x1205,
                            attributeHandle=0x0032,
@@ -1964,35 +1970,35 @@ Receive Event:           ATT?ATT_HANDLE_VALUE_IND{
                          }
 
 
-+9781 ms
++11735 ms
 Preliminary Verdict:     PASS
 
 
 
-+9781 ms
++11735 ms
 Verdict Description:     Waiting for indication on handle = 0x0032 for Characteristic '' (UUID = 0x0000)
 
 
 
-+9781 ms
++11735 ms
 Send Event:              ATT!ATT_HANDLE_VALUE_RSP{
                            lcid=0x1205
                          }
 
 
-+9781 ms
++11735 ms
 Preliminary Verdict:     PASS
 
 
 
-+9781 ms
++11735 ms
 Send Event:              ATT!ATT_READ_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0025
                          }
 
 
-+9828 ms
++11828 ms
 Receive Event:           ATT?ATT_READ_CFM{
                            lcid=0x1205,
                            length=0x0016,
@@ -2005,22 +2011,22 @@ Receive Event:           ATT?ATT_READ_CFM{
                          }
 
 
-+9828 ms
++11828 ms
 Preliminary Verdict:     PASS
 
 
 
-+9828 ms
++11828 ms
 Verdict Description:     Read Request completed successfully. Handle=0x0025
 
 
 
-+9828 ms
++11828 ms
 Preliminary Verdict:     PASS
 
 
 
-+9828 ms
++11828 ms
 Send Event:              ATT!ATT_READ_BLOB_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0025,
@@ -2028,7 +2034,7 @@ Send Event:              ATT!ATT_READ_BLOB_REQ{
                          }
 
 
-+9891 ms
++11891 ms
 Receive Event:           ATT?ATT_READ_BLOB_CFM{
                            lcid=0x1205,
                            length=0x0006,
@@ -2036,7 +2042,7 @@ Receive Event:           ATT?ATT_READ_BLOB_CFM{
                          }
 
 
-+9891 ms
++11891 ms
 Receive Event:           ATT?ATT_READ_BLOB_CFM{
                            value{
                              ObjectName=gname
@@ -2045,39 +2051,39 @@ Receive Event:           ATT?ATT_READ_BLOB_CFM{
                          }
 
 
-+9891 ms
++11891 ms
 Preliminary Verdict:     PASS
 
 
 
-+9891 ms
++11891 ms
 Verdict Description:     Read Blob Request respond successfully. size = 6
 
 
 
-+9891 ms
++11891 ms
 Preliminary Verdict:     PASS
 
 
 
-+9891 ms
++11891 ms
 Pass:                    The data received for 'Object Name' conforms to the schema.
 
 
 
-+9891 ms
++11891 ms
 Verdict Description:     The data received for 'Object Name' conforms to the schema.
 
 
 
-+9891 ms
++11891 ms
 Send Event:              ATT!ATT_READ_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0027
                          }
 
 
-+9984 ms
++11953 ms
 Receive Event:           ATT?ATT_READ_CFM{
                            lcid=0x1205,
                            length=0x0002,
@@ -2090,39 +2096,39 @@ Receive Event:           ATT?ATT_READ_CFM{
                          }
 
 
-+9984 ms
++11953 ms
 Preliminary Verdict:     PASS
 
 
 
-+9984 ms
++11953 ms
 Verdict Description:     Read Request completed successfully. Handle=0x0027
 
 
 
-+9984 ms
++11953 ms
 Preliminary Verdict:     PASS
 
 
 
-+9984 ms
++11953 ms
 Pass:                    The data received for 'Object Type' conforms to the schema.
 
 
 
-+9984 ms
++11953 ms
 Verdict Description:     The data received for 'Object Type' conforms to the schema.
 
 
 
-+9984 ms
++11953 ms
 Send Event:              ATT!ATT_READ_REQ{
                            lcid=0x1205,
                            attributeHandle=0x0029
                          }
 
 
-+10047 ms
++12016 ms
 Receive Event:           ATT?ATT_READ_CFM{
                            lcid=0x1205,
                            length=0x0008,
@@ -2135,39 +2141,39 @@ Receive Event:           ATT?ATT_READ_CFM{
                          }
 
 
-+10047 ms
++12016 ms
 Preliminary Verdict:     PASS
 
 
 
-+10047 ms
++12016 ms
 Verdict Description:     Read Request completed successfully. Handle=0x0029
 
 
 
-+10047 ms
++12016 ms
 Preliminary Verdict:     PASS
 
 
 
-+10047 ms
++12016 ms
 Pass:                    The data received for 'Object Size' conforms to the schema.
 
 
 
-+10047 ms
++12016 ms
 Verdict Description:     The data received for 'Object Size' conforms to the schema.
 
 
 
-+10047 ms
++12016 ms
 Send Event:              ATT!ATT_READ_REQ{
                            lcid=0x1205,
                            attributeHandle=0x002D
                          }
 
 
-+10109 ms
++12078 ms
 Receive Event:           ATT?ATT_READ_CFM{
                            lcid=0x1205,
                            length=0x0004,
@@ -2180,39 +2186,39 @@ Receive Event:           ATT?ATT_READ_CFM{
                          }
 
 
-+10109 ms
++12078 ms
 Preliminary Verdict:     PASS
 
 
 
-+10109 ms
++12078 ms
 Verdict Description:     Read Request completed successfully. Handle=0x002D
 
 
 
-+10109 ms
++12078 ms
 Preliminary Verdict:     PASS
 
 
 
-+10109 ms
++12078 ms
 Pass:                    The data received for 'Object Properties' conforms to the schema.
 
 
 
-+10109 ms
++12078 ms
 Verdict Description:     The data received for 'Object Properties' conforms to the schema.
 
 
 
-+10109 ms
++12078 ms
 Send Event:              ATT!ATT_READ_REQ{
                            lcid=0x1205,
                            attributeHandle=0x002B
                          }
 
 
-+10156 ms
++12125 ms
 Receive Event:           ATT?ATT_READ_CFM{
                            lcid=0x1205,
                            length=0x0006,
@@ -2225,39 +2231,39 @@ Receive Event:           ATT?ATT_READ_CFM{
                          }
 
 
-+10156 ms
++12125 ms
 Preliminary Verdict:     PASS
 
 
 
-+10156 ms
++12125 ms
 Verdict Description:     Read Request completed successfully. Handle=0x002B
 
 
 
-+10156 ms
++12125 ms
 Preliminary Verdict:     PASS
 
 
 
-+10156 ms
++12125 ms
 Pass:                    The data received for 'Object ID' conforms to the schema.
 
 
 
-+10156 ms
++12125 ms
 Verdict Description:     The data received for 'Object ID' conforms to the schema.
 
 
 
-+10172 ms
++12125 ms
 Send Event:              L2CAP!L2CAP_LE_CBFC_REGISTER{
                            psm=0x0025,
                            creditLwm=3
                          }
 
 
-+10172 ms
++12125 ms
 Send Event:              L2CAP!L2CAP_LE_CBFC_CONNECT_REQ{
                            peerAddr=0x006037030028,
                            peerAddrType=0x00,
@@ -2269,7 +2275,7 @@ Send Event:              L2CAP!L2CAP_LE_CBFC_CONNECT_REQ{
                          }
 
 
-+10219 ms
++12188 ms
 Receive Event:           L2CAP?L2CAP_LE_CBFC_CONNECTION_RESPONSE_IND{
                            deviceHandle=0x12,
                            lcid=0x0054,
@@ -2280,12 +2286,12 @@ Receive Event:           L2CAP?L2CAP_LE_CBFC_CONNECTION_RESPONSE_IND{
                          }
 
 
-+10219 ms
++12188 ms
 Verdict Description:     L2CAP LE Credit Based Connection response with 0.
 
 
 
-+10219 ms
++12188 ms
 Send Event:              ATT!ATT_WRITE_REQ{
                            lcid=0x1205,
                            attributeHandle=0x002F,
@@ -2294,7 +2300,7 @@ Send Event:              ATT!ATT_WRITE_REQ{
                          }
 
 
-+10281 ms
++12250 ms
 Receive Event:           ATT?ATT_WRITE_CFM{
                            lcid=0x1205,
                            result=0x0000,
@@ -2302,7 +2308,7 @@ Receive Event:           ATT?ATT_WRITE_CFM{
                          }
 
 
-+10281 ms
++12250 ms
 Receive Event:           ATT?ATT_HANDLE_VALUE_IND{
                            lcid=0x1205,
                            attributeHandle=0x002F,
@@ -2311,33 +2317,33 @@ Receive Event:           ATT?ATT_HANDLE_VALUE_IND{
                          }
 
 
-+10281 ms
++12250 ms
 Verdict Description:     Waiting for indication on handle = 0x002F for Characteristic 'Object Action Control Point' (UUID = 0x2AC5)
 
 
 
-+10281 ms
++12250 ms
 Send Event:              ATT!ATT_HANDLE_VALUE_RSP{
                            lcid=0x1205
                          }
 
 
-+10281 ms
++12250 ms
 Preliminary Verdict:     PASS
 
 
 
-+10281 ms
++12250 ms
 Pass:                    The value for 'Object Action Control Point' sent by the IUT was correctly formatted.
 
 
 
-+10281 ms
++12250 ms
 Verdict Description:     The value for 'Object Action Control Point' sent by the IUT was correctly formatted.
 
 
 
-+10281 ms
++12250 ms
 Send Event:              L2CAP!L2CAP_LE_CBFC_DATA_WRITE_REQ{
                            deviceHandle=12,
                            lcid=0054,
@@ -2346,14 +2352,14 @@ Send Event:              L2CAP!L2CAP_LE_CBFC_DATA_WRITE_REQ{
                          }
 
 
-+10344 ms
++12297 ms
 Receive Event:           L2CAP?L2CAP_LE_CBFC_WRITE_COMPLETE_IND{
                            lcid=0x0054,
                            result=0x0000
                          }
 
 
-+10344 ms
++12297 ms
 Receive Event:           L2CAP?L2CAP_LE_CBFC_TX_CREDIT_IND{
                            lcid=0x0054,
                            result=0,
@@ -2361,7 +2367,7 @@ Receive Event:           L2CAP?L2CAP_LE_CBFC_TX_CREDIT_IND{
                          }
 
 
-+10406 ms
++12360 ms
 Receive Event:           L2CAP?L2CAP_LE_CBFC_TX_CREDIT_IND{
                            lcid=0x0054,
                            result=0,
@@ -2369,39 +2375,39 @@ Receive Event:           L2CAP?L2CAP_LE_CBFC_TX_CREDIT_IND{
                          }
 
 
-+41125 ms
++43157 ms
 Verdict Description:     User clicked No or Cancel button.
 
 
 
-+41125 ms
++43157 ms
 Preliminary Verdict:     INCONC
 
 
 
-+41125 ms
++43157 ms
 Inconclusive:            User did not confirm mmi : Please confirm IUT indeed closed object transfer channel after 30 seconds timeout. Click OK if the object transfer channel of the IUT is closed.
 
 
 
-+41125 ms
++43157 ms
 Verdict Description:     User did not confirm mmi : Please confirm IUT indeed closed object transfer channel after 30 seconds timeout. Click OK if the object transfer channel of the IUT is closed.
 
 
 
-+41781 ms
++43813 ms
 Receive Event:           ATT?ATT_DISCONNECT_IND{
                            lcid=0x1205
                          }
 
 
-+41781 ms
++43813 ms
 Receive Event:           L2CAP?L2CAP_LE_CBFC_DISCONNECTION_REQUEST_IND{
                            lcid=0x0054
                          }
 
 
-+41781 ms
++43813 ms
 Receive Event:           HCI?HCI_DISCONNECTION_COMPLETE_EVENT{
                            status=HCI_OK,
                            connectionHandle=0x0000,
@@ -2409,38 +2415,38 @@ Receive Event:           HCI?HCI_DISCONNECTION_COMPLETE_EVENT{
                          }
 
 
-+41781 ms
++43813 ms
 Verdict Description:     Received ATT Disconnect received.
 
 
 
-+41781 ms
++43813 ms
 Send Event:              HCI!HCI_RESET
 
 
-+41781 ms
++43813 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+42797 ms
++44828 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+44312 ms
++46344 ms
 Final Verdict:           INCONC
 
 
 
-+44312 ms
-Encrypted Verdict:       A1#ZWY4MzQ5MDg3MmQwNTIxOGQzMzQ5YjY2ODA5M2MzNjQ5ZDY4NmY0Yjc2MzIzM2VkNTUyNTFhNGU4Mjg1MjI0NA==#Jx/g46+QHa+DKAzsBO4xvn1rgZU/7+18apjwg7GhomIer+oMXOb3PMGoBCmI7aoS
++46344 ms
+Encrypted Verdict:       A1#YjFjNThkZmVjNzBhNGRkNzE0MDg5ZTgwMzg4YTkzN2IxZWM0YzZiY2I5NDJhYWI3NWVmNDA1ZmRkM2YwNWNkNA==#u7Ri0MaJUvcntiBxYBGMQc/J6oNLXvJpI6CQ0fJgVkW+IBDsAR7+TpmhKtpLuwtB
 
 
 
-+44312 ms
++46344 ms
 Test Case Ended:         OTS/SR/OTD/BI-04-C
 
 </LOG>
