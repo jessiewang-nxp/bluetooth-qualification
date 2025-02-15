@@ -1,8 +1,8 @@
 # AutoPTS report
 
-    Start time: 2025_02_15_20_41_04
+    Start time: 2025_02_15_20_46_08
 
-    End time: 2025_02_15_20_45_45
+    End time: 2025_02_15_20_50_28
 
     PTS version: 8.7.3.6
     
@@ -10,7 +10,6 @@
 |  Suite  | Total | Pass | Fail | Pass Rate|
 |---------|-------|------|------|----------|
 |OTS      |2      |0     |2     |   0.00 % |
-|SM       |1      |1     |0     | 100.00 % |
 
     Repositories:
 
