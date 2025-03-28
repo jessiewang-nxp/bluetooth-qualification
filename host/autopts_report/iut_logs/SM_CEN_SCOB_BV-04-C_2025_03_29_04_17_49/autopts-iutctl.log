@@ -1,0 +1,73 @@
+04:17:50:864	> BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (1): 00 03 ff 01 00 01
+04:17:51:004	< BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (0): 00 03 ff 00 00
+04:17:51:034	> BTP_GAP_CMD_READ_CONTROLLER_INFO (0x01|0x03|0x00)
+                  raw data (0): 01 03 00 00 00
+04:17:51:304	< BTP_GAP_CMD_READ_CONTROLLER_INFO (0x01|0x03|0x00)
+                  raw data (277): 
+                  01 03 00 15 01 28 00 03 37 60 00 13 06 02 00 13 
+                  02 00 00 00 00 00 62 74 70 5f 74 65 73 74 65 72 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00
+04:17:51:334	> BTP_GAP_CMD_SET_IO_CAP (0x01|0x10|0x00)
+                  raw data (1): 01 10 00 01 00 00
+04:17:51:444	< BTP_GAP_CMD_SET_IO_CAP (0x01|0x10|0x00)
+                  raw data (0): 01 10 00 00 00
+04:17:53:494	> BTP_GAP_CMD_OOB_SC_GET_LOCAL_DATA (0x01|0x19|0x00)
+                  raw data (0): 01 19 00 00 00
+04:17:53:584	< BTP_GAP_CMD_OOB_SC_GET_LOCAL_DATA (0x01|0x19|0x00)
+                  raw data (32): 
+                  01 19 00 20 00 9a 6c 3c 35 94 d6 59 ff 5a 5a e5 
+                  d0 8d d5 b5 64 c7 3e 26 96 c8 e8 26 01 c8 21 c1 
+                  50 9b e0 7e 94
+04:17:54:614	> BTP_GAP_CMD_OOB_SC_GET_LOCAL_DATA (0x01|0x19|0x00)
+                  raw data (0): 01 19 00 00 00
+04:17:54:754	< BTP_GAP_CMD_OOB_SC_GET_LOCAL_DATA (0x01|0x19|0x00)
+                  raw data (32): 
+                  01 19 00 20 00 9a 6c 3c 35 94 d6 59 ff 5a 5a e5 
+                  d0 8d d5 b5 64 c7 3e 26 96 c8 e8 26 01 c8 21 c1 
+                  50 9b e0 7e 94
+04:17:55:794	> BTP_GAP_CMD_OOB_SC_SET_REMOTE_DATA (0x01|0x1a|0x00)
+                  raw data (32): 
+                  01 1a 00 20 00 ae 66 e4 13 d9 a0 ce 69 7e 93 13 
+                  e0 ae 5e 0d aa fc 7b 88 c7 2c 5d b0 cf 90 69 33 
+                  2c 4c a6 41 f3
+04:17:55:904	< BTP_GAP_CMD_OOB_SC_SET_REMOTE_DATA (0x01|0x1a|0x00)
+                  raw data (0): 01 1a 00 00 00
+04:18:01:964	> BTP_GAP_CMD_CONNECT (0x01|0x0e|0x00)
+                  raw data (8): 01 0e 00 08 00 00 e6 f2 59 e8 07 c0 00
+04:18:02:064	< BTP_GAP_CMD_CONNECT (0x01|0x0e|0x00)
+                  raw data (0): 01 0e 00 00 00
+04:18:02:124	< BTP_GAP_EV_DEVICE_CONNECTED (0x01|0x82|0x00)
+                  raw data (13): 
+                  01 82 00 0d 00 00 e6 f2 59 e8 07 c0 30 00 00 00 
+                  90 01
+04:18:03:134	> BTP_GAP_CMD_PAIR (0x01|0x11|0x00)
+                  raw data (7): 01 11 00 07 00 00 e6 f2 59 e8 07 c0
+04:18:03:214	< BTP_GAP_CMD_PAIR (0x01|0x11|0x00)
+                  raw data (0): 01 11 00 00 00
+04:18:03:944	< BTP_GAP_EV_SEC_LEVEL_CHANGED (0x01|0x89|0x00)
+                  raw data (8): 01 89 00 08 00 00 e6 f2 59 e8 07 c0 04
+04:18:04:244	> BTP_GAP_CMD_DISCONNECT (0x01|0x0f|0x00)
+                  raw data (7): 01 0f 00 07 00 00 e6 f2 59 e8 07 c0
+04:18:04:344	< BTP_GAP_CMD_DISCONNECT (0x01|0x0f|0x00)
+                  raw data (0): 01 0f 00 00 00
+04:18:04:424	< BTP_GAP_EV_DEVICE_DISCONNECTED (0x01|0x83|0x00)
+                  raw data (7): 01 83 00 07 00 00 e6 f2 59 e8 07 c0
+04:18:09:095	< BTP_CORE_EV_IUT_READY (0x00|0x80|0xff)
+                  raw data (0): 00 80 ff 00 00
