@@ -1,15 +1,15 @@
 # AutoPTS report
 
-    Start time: 2025_06_03_09_11_52
+    Start time: 2025_06_03_10_41_16
 
-    End time: 2025_06_03_10_00_10
+    End time: 2025_06_03_10_47_25
 
     PTS version: 8.8.1.3
 
     Test Group/Profile Summary: 
 |  Suite  | Total | Pass | Fail | Pass Rate|
 |---------|-------|------|------|----------|
-|SDP      |55     |54    |1     |  98.18 % |
+|SM       |1      |1     |0     | 100.00 % |
 
     Repositories:
 
