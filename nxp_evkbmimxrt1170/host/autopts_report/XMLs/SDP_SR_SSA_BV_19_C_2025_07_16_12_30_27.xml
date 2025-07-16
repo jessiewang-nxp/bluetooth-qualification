@@ -1,0 +1,977 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ARCHIVE>
+  <VERSION>2.0</VERSION>
+  <PicsPixit>Test Case Started: SDP v. 11.10.0.10, SDP/SR/SSA/BV-19-C started on Wednesday, July 16, 2025, 12:30:27
+
+ICS VALUES:
+
+TSPC_ALL FALSE
+TSPC_SDP_1b_1 TRUE
+TSPC_SDP_1b_2 TRUE
+TSPC_SDP_2_1 TRUE
+TSPC_SDP_2_2 TRUE
+TSPC_SDP_2_3 FALSE
+TSPC_SDP_4_1 TRUE
+TSPC_SDP_4_2 TRUE
+TSPC_SDP_4_3 TRUE
+TSPC_SDP_6_1 TRUE
+TSPC_SDP_6_2 TRUE
+TSPC_SDP_6_3 TRUE
+TSPC_SDP_7_1 TRUE
+TSPC_SDP_8_1 TRUE
+TSPC_SDP_8_2 TRUE
+TSPC_SDP_9_1 TRUE
+TSPC_SDP_9_2 TRUE
+TSPC_SDP_9_3 TRUE
+TSPC_SDP_9_4 TRUE
+TSPC_SDP_9_5 TRUE
+TSPC_SDP_9_6 TRUE
+TSPC_SDP_9_7 TRUE
+TSPC_SDP_9_8 TRUE
+TSPC_SDP_9_9 TRUE
+TSPC_SDP_9_10 TRUE
+TSPC_SDP_9_11 TRUE
+TSPC_SDP_9_12 TRUE
+TSPC_SDP_9_13 TRUE
+TSPC_SDP_9_14 TRUE
+TSPC_SDP_9_15 TRUE
+TSPC_SDP_9_16 TRUE
+TSPC_SDP_9_17 TRUE
+TSPC_SDP_9_18 TRUE
+TSPC_SDP_9_19 TRUE
+TSPC_SDP_10_1 TRUE
+TSPC_SDP_11_1 TRUE
+
+IXIT VALUES:
+
+TSPX_sdp_service_search_pattern 0100
+TSPX_sdp_unsupported_service EEEE
+TSPX_sdp_additional_protocol_descriptor_list 
+TSPX_sdp_bluetooth_profile_descriptor_list 
+TSPX_sdp_browse_group_list 
+TSPX_sdp_client_exe_url 
+TSPX_sdp_documentation_url 
+TSPX_sdp_icon_url 
+TSPX_sdp_language_base_attribute_id_list 
+TSPX_sdp_protocol_descriptor_list 
+TSPX_sdp_provider_name 
+TSPX_sdp_service_availability 
+TSPX_sdp_service_data_base_state 0100
+TSPX_sdp_service_description 
+TSPX_sdp_service_id 
+TSPX_sdp_service_info_time_to_live 
+TSPX_sdp_version_number_list 0100
+TSPX_sdp_service_name 
+TSPX_sdp_service_record_state 
+TSPX_sdp_unsupported_attribute_id EEEE
+TSPX_security_enabled FALSE
+TSPX_delete_link_key TRUE
+TSPX_bd_addr_iut D01769EE7819
+TSPX_class_of_device_pts 200404
+TSPX_pin_code 0000
+TSPX_time_guard 200000
+TSPX_use_implicit_send TRUE
+TSPX_secure_simple_pairing_pass_key_confirmation FALSE
+</PicsPixit>
+  <LOG>
+
++140 ms
+Message:                 MindTree Stack Version - 026.000.000
+
+
+
++140 ms
+Initialize Test Case:    Build date: Jul  8 2025, 11:59:46
+
+
+
++140 ms
+Start Test Case:         SDP/SR/SSA/BV-19-C
+
+
+
++140 ms
+Message:                   PTS Log started on Wednesday, July 16, 2025, 12:30:46
+
+
+
++140 ms
+Message:                   PTS: v8.10.0 Build 10
+
+
+
++140 ms
+Message:                   OS: Microsoft Windows NT 10.0.22631.0
+
+
+
++140 ms
+Message:                   OS Name: Microsoft Windows 11 Pro
+
+
+
++4140 ms
+Send Event:              HCI!HCI_RESET
+
+
++4265 ms
+Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4265 ms
+Preliminary Verdict:     PASS
+
+
+
++4265 ms
+Send Event:              HCI!HCI_READ_LOCAL_VERSION_INFORMATION
+
+
++4281 ms
+Receive Event:           HCI?HCI_READ_LOCAL_VERSION_INFORMATION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           hciVersion=0x08,
+                           hciRevision=0x30E8,
+                           lmpVersion=0x08,
+                           manufacturerName=0x000A,
+                           lmpSubversion=0x30E8
+                         }
+
+
++4281 ms
+Preliminary Verdict:     PASS
+
+
+
++4281 ms
+Send Event:              HCI!HCI_LE_SET_EVENT_MASK{
+                           leEventMask=0x000000000000001F
+                         }
+
+
++4281 ms
+Receive Event:           HCI?HCI_LE_SET_EVENT_MASK_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4281 ms
+Send Event:              HCI!HCI_SET_EVENT_MASK{
+                           eventMask=0x3FFFFFFFFFFFFFFF
+                         }
+
+
++4281 ms
+Receive Event:           HCI?HCI_SET_EVENT_MASK_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4281 ms
+Preliminary Verdict:     PASS
+
+
+
++4281 ms
+Send Event:              HCI!HCI_READ_LOCAL_SUPPORTED_FEATURES
+
+
++4281 ms
+Receive Event:           HCI?HCI_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x875B1FD87E8FFFFF
+                         }
+
+
++4281 ms
+Preliminary Verdict:     PASS
+
+
+
++4281 ms
+Send Event:              HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
+                           page_number=0x01
+                         }
+
+
++4281 ms
+Receive Event:           HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x0000000000000000
+                         }
+
+
++4281 ms
+Preliminary Verdict:     PASS
+
+
+
++4281 ms
+Send Event:              HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
+                           page_number=0x02
+                         }
+
+
++4281 ms
+Receive Event:           HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x000000000000030F
+                         }
+
+
++4281 ms
+Preliminary Verdict:     PASS
+
+
+
++4281 ms
+Send Event:              HCI!HCI_READ_LOCAL_SUPPORTED_COMMANDS
+
+
++4297 ms
+Receive Event:           HCI?HCI_READ_LOCAL_SUPPORTED_COMMANDS_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           supported_commands=0x00000000000000000000000000000000000000000000000000000000000030FFFFC0007FFFFFF7610004001CFF83F73FFEE80FF3FFFFFFFFFFFFFFFE03FFFFFF
+                         }
+
+
++4297 ms
+Preliminary Verdict:     PASS
+
+
+
++4297 ms
+Send Event:              HCI!HCI_READ_BD_ADDR
+
+
++4297 ms
+Receive Event:           HCI?HCI_READ_BD_ADDR_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           bdAddress=0x001BDC08E44E
+                         }
+
+
++4297 ms
+Preliminary Verdict:     PASS
+
+
+
++4297 ms
+Send Event:              HCI!HCI_WRITE_LE_HOST_SUPPORTED{
+                           leSupportedHost=HCI_LE_SUPPORTED_HOST_ENABLED,
+                           simultaneousLeHost=HCI_SIMULTANEOUS_LE_HOST_ENABLED
+                         }
+
+
++4297 ms
+Receive Event:           HCI?HCI_WRITE_LE_HOST_SUPPORTED_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4297 ms
+Send Event:              HCI!HCI_LE_LOCAL_SUPPORTED_FEATURES
+
+
++4297 ms
+Receive Event:           HCI?HCI_LE_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           leFeatures=0x000000000000001F
+                         }
+
+
++4297 ms
+Preliminary Verdict:     PASS
+
+
+
++4297 ms
+Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000900010003700000DA00010000000000
+                         }
+
+
++4312 ms
+Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=19,
+                           DATA=C201000900010003700000DA00010000000700
+                         }
+
+
++4312 ms
+Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000900020003700000DB00010000000000
+                         }
+
+
++4312 ms
+Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=19,
+                           DATA=C201000900020003700000DB00010000001000
+                         }
+
+
++4312 ms
+Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000C00030003700000EF00040000000000000000000000
+                         }
+
+
++4312 ms
+Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=25,
+                           DATA=C201000C00030003700000EF0004000000FFFF8F7ED81F5B87
+                         }
+
+
++4312 ms
+Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000C000400037000002301040000000000000000000000
+                         }
+
+
++4312 ms
+Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=25,
+                           DATA=C201000C000400037000002301040000000F03000000000000
+                         }
+
+
++4312 ms
+Preliminary Verdict:     PASS
+
+
+
++4312 ms
+Send Event:              HCI!HCI_LE_SET_EVENT_MASK{
+                           leEventMask=0x000000000000001F
+                         }
+
+
++4312 ms
+Receive Event:           HCI?HCI_LE_SET_EVENT_MASK_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4312 ms
+Send Event:              HCI!HCI_SET_EVENT_MASK{
+                           eventMask=0x3FFFFFFFFFFFFFFF
+                         }
+
+
++4328 ms
+Receive Event:           HCI?HCI_SET_EVENT_MASK_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4328 ms
+Preliminary Verdict:     PASS
+
+
+
++4328 ms
+Send Event:              HCI!HCI_WRITE_SIMPLE_PAIRING_MODE{
+                           simplePairingMode=HCI_SIMPLE_PAIRING_ENABLED
+                         }
+
+
++4328 ms
+Receive Event:           HCI?HCI_WRITE_SIMPLE_PAIRING_MODE_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4328 ms
+Send Event:              HCI!HCI_WRITE_SECURE_CONNECTION_HOST_SUPPORT{
+                           host_support=1
+                         }
+
+
++4328 ms
+Receive Event:           HCI?HCI_WRITE_SECURE_CONNECTION_SUPPORT_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4328 ms
+Send Event:              HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
+                           page_number=0x01
+                         }
+
+
++4328 ms
+Receive Event:           HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x000000000000000F
+                         }
+
+
++4328 ms
+Send Event:              HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
+                           page_number=0x02
+                         }
+
+
++4343 ms
+Receive Event:           HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x000000000000030F
+                         }
+
+
++4343 ms
+Send Event:              HCI!HCI_WRITE_PAGE_TIMEOUT{
+                           page_timeout=0xFFFF
+                         }
+
+
++4343 ms
+Receive Event:           HCI?HCI_WRITE_PAGE_TIMEOUT_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4343 ms
+Send Event:              HCI!HCI_WRITE_SCAN_ENABLE{
+                           scanEnable=0x03
+                         }
+
+
++4343 ms
+Receive Event:           HCI?HCI_WRITE_SCAN_ENABLE_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4343 ms
+Preliminary Verdict:     PASS
+
+
+
++4343 ms
+Send Event:              HCI!HCI_WRITE_LOCAL_NAME{
+                           name=PTS-SDP-E44E
+                         }
+
+
++4343 ms
+Receive Event:           HCI?HCI_WRITE_LOCAL_NAME_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4343 ms
+Preliminary Verdict:     PASS
+
+
+
++4343 ms
+Send Event:              HCI!HCI_WRITE_EXTENDED_INQUIRY_RESPONSE
+
+
++4343 ms
+Receive Event:           HCI?HCI_WRITE_EXTENDED_INQUIRY_RESPONSE_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4343 ms
+Preliminary Verdict:     PASS
+
+
+
++4343 ms
+Preliminary Verdict:     PASS
+
+
+
++4343 ms
+Send Event:              HCI!HCI_WRITE_CLASS_OF_DEVICE{
+                           classOfDevice=0x200404
+                         }
+
+
++4343 ms
+Receive Event:           HCI?HCI_WRITE_CLASS_OF_DEVICE_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++4343 ms
+Preliminary Verdict:     PASS
+
+
+
++4343 ms
+Send Event:              HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0xFFFF
+                         }
+
+
++4343 ms
+Send Event:              HCI!HCI_CREATE_CONNECTION{
+                           bdAddr=0xD01769EE7819,
+                           packetType=0x0008,
+                           pageScanRepetitionMode=HCI_PSRM_R2,
+                           pageScanMode=0x00,
+                           clockOffset=0x0000,
+                           allowRoleSwitch=TRUE
+                         }
+
+
++7187 ms
+Receive Event:           HCI?HCI_CONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x005A,
+                           bdAddr=0xD01769EE7819,
+                           linkType=HCI_LINK_TYPE_ACL_CONNECTION,
+                           encryptionMode=HCI_ENCRYPTION_DISABLED
+                         }
+
+
++7187 ms
+Send Event:              HCI!HCI_ROLE_DISCOVERY{
+                           connHandle=0x005A
+                         }
+
+
++7187 ms
+Send Event:              HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x005A
+                         }
+
+
++7187 ms
+Pass:                    Central successfully initiated connection.
+
+
+
++7187 ms
+Verdict Description:     Central successfully initiated connection.
+
+
+
++7187 ms
+Send Event:              HCI!GET_DEVICE_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           device_handle=0x12
+                         }
+
+
++7187 ms
+Send Event:              HCI!HCI_READ_REMOTE_SUPPORTED_FEATURES
+
+
++7187 ms
+Verdict Description:     Connection completed.
+
+
+
++7187 ms
+Send Event:              HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x005A
+                         }
+
+
++7187 ms
+Send Event:              SDP!SDP_OPEN_SEARCH_REQ{
+                           bdAddr=0xD01769EE7819
+                         }
+
+
++7187 ms
+Receive Event:           HCI?HCI_ROLE_DISCOVERY_COMPLETE_EVENT{
+                           connectionHandle=0x005A,
+                           status=0x00,
+                           current_role=0x00
+                         }
+
+
++7203 ms
+Receive Event:           HCI?HCI_READ_REMOTE_SUPPORTED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           conn_handle=0x005A,
+                           lmpFeatures=0x877BFFDBFE8FFEBF
+                         }
+
+
++7203 ms
+Send Event:              HCI!HCI_READ_REMOTE_EXTENDED_FEATURES
+
+
++7218 ms
+Receive Event:           HCI?HCI_READ_REMOTE_EXTENDED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           conn_handle=0x005A,
+                           lmpFeatures=0x000000000000000B
+                         }
+
+
++7250 ms
+Receive Event:           SDP?SDP_OPEN_SEARCH_REQ_CFM{
+                           result=0x0
+                         }
+
+
++7250 ms
+Verdict Description:     SDP_ServiceSearchAttributeRequest with Service UUID(0x0100).
+
+
+
++7250 ms
+Send Event:              HCI!HCI_INQUIRY{
+                           lap=0x009E8B33,
+                           inquiry_length=0x18,
+                           num_response=0xFF
+                         }
+
+
++7250 ms
+Receive Event:           HCI?HCI_INQUIRY_COMMAND_STATUS_EVENT{
+                           status=HCI_OK
+                         }
+
+
++8515 ms
+Receive Event:           HCI?HCI_INQUIRY_RESULT_EVENT{
+                           num_response=1
+                         }
+
+
++8515 ms
+Preliminary Verdict:     PASS
+
+
+
++12437 ms
+Receive Event:           HCI?HCI_INQUIRY_RESULT_EVENT{
+                           num_response=1
+                         }
+
+
++12437 ms
+Preliminary Verdict:     PASS
+
+
+
++12672 ms
+Receive Event:           HCI?HCI_INQUIRY_RESULT_EVENT{
+                           num_response=1
+                         }
+
+
++12672 ms
+Preliminary Verdict:     PASS
+
+
+
++12672 ms
+Send Event:              HCI!HCI_INQUIRY_CANCEL
+
+
++12672 ms
+Receive Event:           HCI?HCI_INQUIRY_CANCEL_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++12672 ms
+Preliminary Verdict:     PASS
+
+
+
++12672 ms
+Send Event:              HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x005A
+                         }
+
+
++12672 ms
+Send Event:              SDP!SDP_SERVICE_SEARCH_ATTRIBUTE_REQ{
+                           searchPattern=3503000001,
+                           attr_id_list=0200,
+                           num_handle=1
+                         }
+
+
++12687 ms
+Receive Event:           SDP?SDC_SERVICE_SEARCH_ATTRIBUTE_CFM{
+                           result=0x0,
+                           attr_list_size=113,
+                           attr_list=36:00:6E:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00
+                         }
+
+
++12687 ms
+Preliminary Verdict:     PASS
+
+
+
++12687 ms
+Verdict Description:     Service Search Attribute Request completed successfully.
+
+
+
++12687 ms
+Verdict Description:     SDP_ServiceSearchAttributeRequest with Service UUID(0x0000-0100).
+
+
+
++12687 ms
+Send Event:              HCI!HCI_INQUIRY{
+                           lap=0x009E8B33,
+                           inquiry_length=0x18,
+                           num_response=0xFF
+                         }
+
+
++12703 ms
+Receive Event:           HCI?HCI_INQUIRY_COMMAND_STATUS_EVENT{
+                           status=HCI_OK
+                         }
+
+
++12984 ms
+Receive Event:           HCI?HCI_INQUIRY_RESULT_EVENT{
+                           num_response=1
+                         }
+
+
++12984 ms
+Preliminary Verdict:     PASS
+
+
+
++12984 ms
+Send Event:              HCI!HCI_INQUIRY_CANCEL
+
+
++12984 ms
+Receive Event:           HCI?HCI_INQUIRY_CANCEL_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++12984 ms
+Preliminary Verdict:     PASS
+
+
+
++12984 ms
+Send Event:              HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x005A
+                         }
+
+
++12984 ms
+Send Event:              SDP!SDP_SERVICE_SEARCH_ATTRIBUTE_REQ{
+                           searchPattern=35050000010000,
+                           attr_id_list=0200,
+                           num_handle=1
+                         }
+
+
++13031 ms
+Receive Event:           SDP?SDC_SERVICE_SEARCH_ATTRIBUTE_CFM{
+                           result=0x0,
+                           attr_list_size=113,
+                           attr_list=36:00:6E:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00
+                         }
+
+
++13031 ms
+Preliminary Verdict:     PASS
+
+
+
++13031 ms
+Verdict Description:     Service Search Attribute Request completed successfully.
+
+
+
++13031 ms
+Verdict Description:     SDP_ServiceSearchAttributeRequest with Service UUID(0x0000-0100-0000-1000-8000-0080-5F9B-34FB).
+
+
+
++13031 ms
+Send Event:              HCI!HCI_INQUIRY{
+                           lap=0x009E8B33,
+                           inquiry_length=0x18,
+                           num_response=0xFF
+                         }
+
+
++13031 ms
+Receive Event:           HCI?HCI_INQUIRY_COMMAND_STATUS_EVENT{
+                           status=HCI_OK
+                         }
+
+
++13140 ms
+Receive Event:           HCI?HCI_INQUIRY_RESULT_EVENT{
+                           num_response=1
+                         }
+
+
++13140 ms
+Preliminary Verdict:     PASS
+
+
+
++13890 ms
+Receive Event:           HCI?HCI_INQUIRY_RESULT_EVENT{
+                           num_response=1
+                         }
+
+
++13890 ms
+Preliminary Verdict:     PASS
+
+
+
++14906 ms
+Receive Event:           HCI?HCI_INQUIRY_RESULT_EVENT{
+                           num_response=1
+                         }
+
+
++14906 ms
+Preliminary Verdict:     PASS
+
+
+
++14906 ms
+Send Event:              HCI!HCI_INQUIRY_CANCEL
+
+
++14922 ms
+Receive Event:           HCI?HCI_INQUIRY_CANCEL_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++14922 ms
+Preliminary Verdict:     PASS
+
+
+
++14922 ms
+Send Event:              HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x005A
+                         }
+
+
++14922 ms
+Send Event:              SDP!SDP_SERVICE_SEARCH_ATTRIBUTE_REQ{
+                           searchPattern=3511000000010000001000800000805F9B34FB,
+                           attr_id_list=0200,
+                           num_handle=1
+                         }
+
+
++14937 ms
+Receive Event:           SDP?SDC_SERVICE_SEARCH_ATTRIBUTE_CFM{
+                           result=0x0,
+                           attr_list_size=113,
+                           attr_list=36:00:6E:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00:36:00:08:09:02:00:35:03:09:01:00
+                         }
+
+
++14937 ms
+Preliminary Verdict:     PASS
+
+
+
++14937 ms
+Verdict Description:     Service Search Attribute Request completed successfully.
+
+
+
++15953 ms
+Send Event:              HCI!HCI_DISCONNECT{
+                           connectionHandle=0x005A,
+                           reason=HCI_REMOTE_USER_TERMINATED_CONNECTION
+                         }
+
+
++15953 ms
+Receive Event:           HCI?HCI_DISCONNECT_STATUS_EVENT{
+                           status=HCI_OK
+                         }
+
+
++16031 ms
+Receive Event:           HCI?HCI_DISCONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x005A,
+                           reason=HCI_CONNECTION_TERMINATED_BY_LOCAL_HOST
+                         }
+
+
++16031 ms
+Verdict Description:     Received HCI disconnection event. Handle = 0x005A
+
+
+
++16031 ms
+Preliminary Verdict:     PASS
+
+
+
++16031 ms
+Send Event:              HCI!HCI_RESET
+
+
++16140 ms
+Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++17265 ms
+Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++18672 ms
+Final Verdict:           PASS
+
+
+
++18672 ms
+Encrypted Verdict:       A1#ZWY4MzQ5MDg3MmQwNTIxOGQzMzQ5YjY2ODA5M2MzNjQ5ZDY4NmY0Yjc2MzIzM2VkNTUyNTFhNGU4Mjg1MjI0NA==#xnWzHf7Y3tRWIdGS5WemifKEmKnxhGeHKlVtlc584lnbAqxNYyozydJq3fJVTyop
+
+
+
++18672 ms
+Test Case Ended:         SDP/SR/SSA/BV-19-C
+
+</LOG>
+  <SUMMARY>Test case : SDP/SR/SSA/BV-19-C started
+Final Verdict:PASS
+SDP/SR/SSA/BV-19-C finished
+</SUMMARY>
+</ARCHIVE>
