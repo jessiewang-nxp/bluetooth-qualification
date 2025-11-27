@@ -1,0 +1,153 @@
+export USER=mikem
+PATH=/etc 
+PATH=$PATH:. 
+PATH=$PATH:$HOME/bin 
+PATH=$PATH:$HOME/dev 
+PATH=$PATH:/bin 
+PATH=$PATH:/usr/sbin 
+PATH=$PATH:/usr/bin 
+PATH=$PATH:/sbin 
+PATH=$PATH:/opt/langtools/bin 
+PATH=$PATH:/usr/lib/vhelp 
+PATH=$PATH:/usr/vhelp 
+PATH=$PATH:/usr/bin/X11
+PATH=$PATH:/usr/contrib/bin  
+PATH=$PATH:/usr/contrib/bin/X11
+PATH=$PATH:/usr/contrib/lib  
+PATH=$PATH:/usr/local/lib 
+PATH=$PATH:/usr/local/bin 
+PATH=$PATH:/usr/pil/bin 
+PATH=$PATH:/usr/local/bin/X11
+PATH=$PATH:/usr/dms3.0/bin
+PATH=$PATH:/usr/bin/X11
+PATH=$PATH:/usr/local/yxx/bin
+PATH=$PATH:/usr/uimx2.5/bin
+PATH=$PATH:/usr/local/Acrobat3/bin
+PATH=$PATH:~/pure/purify-4.0-hpux
+PATH=$PATH:~/pure/purecov-1.0-hpux
+PATH=$PATH:/usr/softbench/bin 
+PATH=$PATH:/site/usr/bin
+PATH=$PATH:/usr/lib/hpnp/hpnpf
+PATH=$PATH:/opt/hindsight
+PATH=$PATH:/usr/vue/bin 
+
+
+#PATH=$PATH:/projects/pi/tools
+#PATH=$PATH:/pld/pi/system/TOOLS/FLASH 
+#PATH=$PATH:/pld/pi/system/TOOLS
+export PATH
+
+
+PS1="$(hostname):\${PWD}[!]"    export PS1
+#PS1="$(hostname).$(whoami)[!]"    export PS1
+#export PS1="&dN$hostname: \${PWD#$HOME/}>&d@ "
+#export PS1=`echo "\033&dN$hostname: \\\${PWD#$HOME/}\033&d@\033&f0k\\\${#PWD}D\\\${PWD}\n> "`
+#export PS1=`echo "\033&dN\\\$DAFFY $hostname: \\\${PWD#$HOME/}\033&d@\033&f0k\\\${#PWD}D\\\${PWD}\n> "`
+
+
+# Start Clearcase Enviornment 
+MANPATH=/usr/man:/usr/contrib/man:/usr/local/man
+MANPATH=$MANPATH:/usr/atria/doc/man
+MANPATH=$MANPATH:~/pure/purify-4.0-hpux/man
+export MANPATH
+
+PATH=$PATH:/usr/atria/bin 
+PATH=$PATH:/usr/atria/etc 
+export PATH
+
+function cl     { cleartool $*; }
+function lsvob  { cleartool lsvob $*; }
+function lsview { cleartool lsview $*; }
+function pwv    { cleartool pwv $*; }
+function clco   { cleartool lsco -cview -avobs $*; }
+function showbr { eval "cleartool find -avobs -branch 'brtype($1)' -print"; }
+function clr    { clear; }
+function clm    { clearmake; }
+function l      { launch; }
+
+if [ "$PS1" != "" ] ; then
+
+   echo prompt set
+   if [ "$CLEARCASE_ROOT" ] ; then
+      PS1="[`basename $CLEARCASE_ROOT`] $PS1"
+   fi
+
+fi
+
+# End  Clearcase Enviornment 
+
+
+# Sli env vars
+export SCPI2_INTERFACE_NAME=hpdmlau
+export SCPI2_INTERFACE_TYPE=lan
+
+
+
+# for infonet servers
+export PAL_SERVER=hpbs3356.boi.hp.com
+export INFONET_SERVER=hpbs3356.boi.hp.com
+export PAL_I2_PASSWORD=need2know
+
+export EDITOR=/usr/bin/vi
+
+#TERM=hp			export TERM
+#LPDEST=hpb10510         export LPDEST
+SB_OUTDEV=/dev/crt 	export SB_OUTDEV
+SB_DISPLAY=0x03200000   export SB_DISPLAY
+SB_OUTDRIVER=hp300h 	export SB_OTUDRIVER
+#DISPLAY=unix:0.0	export DISPLAY
+DISPLAY=hpdmlau:0.0	export DISPLAY
+
+stty erase "^H" kill "^U" intr "^C"
+
+XAPPLRESDIR=$HOME/app-defaults			export XAPPLRESDIR
+
+alias -x func='typeset -f'
+alias -x size='eval "resize"'
+alias -x ldir='ls -l | grep "^d"'
+#alias -x dlp='lp -orev -onb -o${1-2} -otl67 -olpi7'
+alias -x lp='lp -onb'
+alias -x glance="/usr//perf/bin/glance"
+alias -x stock="telnet cvstock.cv.hp.com 4444"
+alias -x h='fc -l'
+function whois  { grep $* ~/misc/hosts; }
+function fpass  { grep $* /etc/passwd; }
+function ferror { grep $* /usr/include/sys/errno.h; }
+function locate { find . | grep $*; }
+function fp     { ps -ef | grep $*; }
+function gp     { grep -i $* *.[cCh] | more; }
+function phone  { ~/bin/phone $*; }
+function out    { cat $* | lp; }
+function dout   { cat $* | lp -orev -onb -o4 -otl67 -olpi7; }
+function dman   { man $* | lp -orev -onb -o4 -otl67 -olpi7; }
+function hs     { hindsight &; }
+function b      { cd -; }
+function ob     { cd /pld/scm/ruby/obex; }
+function obt    { cd /pld/scm/ruby/obex/obexTestApp; }
+function jet    { cd /pld/scm/ruby/jetsend; }
+function src    { cd /pld/scm/ruby; }
+function jsrc   { cd /pld/scm/ruby/jetsend/src; }
+function obj    { cd /pld/scm/ruby/OBJ; }
+function inc    { cd /pld/scm/ruby/INC; }
+function jinc   { cd /pld/scm/ruby/jetsend/inc; }
+function jgrep  { grep $* /pld/scm/ruby/jetsend/src/*.c /pld/scm/ruby/jetsend/inc/*.h; }
+function exe    { cd /pld/scm/ruby/EXE; }
+function tools  { cd /pld/scm/ruby/TOOLS; }
+function sprint { cat $* > /tmp/sawux/parallel; }
+
+
+umask 002
+
+set -o ignoreeof
+set -o markdirs
+set -o monitor
+set -o viraw
+set -o vi
+set -m                  # run background in separate shell
+
+
+# This sets up the environment for Ruby FW development.
+	. /pld/scm/tools/env/ruby_env.ksh
+# This sets up the environment for Tripoli.
+	. /users/mikem/eee/eeerc
+

@@ -1,0 +1,926 @@
+11:46:37:296    > BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (1): 00 03 ff 01 00|01
+11:46:40:953    < BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (0): 00 03 ff 00 00|
+11:46:40:974    > BTP_GAP_CMD_READ_SUPPORTED_COMMANDS (0x01|0x01|0xff)
+                  raw data (0): 01 01 ff 00 00|
+11:46:41:086    < BTP_GAP_CMD_READ_SUPPORTED_COMMANDS (0x01|0x01|0xff)
+                  raw data (6): 01 01 ff 06 00|6e ff 7f 1f fe f7
+11:46:41:096    > BTP_GAP_CMD_READ_CONTROLLER_INFO (0x01|0x03|0x00)
+                  raw data (0): 01 03 00 00 00|
+11:46:41:187    < BTP_GAP_CMD_READ_CONTROLLER_INFO (0x01|0x03|0x00)
+                  raw data (277): 
+                  01 03 00 15 01|19 78 ee 69 17 d0 d3 06 02 00 13 
+                  02 00 00 00 00 00 62 74 70 5f 74 65 73 74 65 72 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00
+11:46:41:227    > BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (37): 00 03 ff 01 00|25
+11:46:41:371    < BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (0): 00 03 ff 00 00|
+11:46:41:413    > BTP_AVRCP_CMD_READ_SUPPORTED_COMMANDS (0x25|0x01|0xff)
+                  raw data (0): 25 01 ff 00 00|
+11:46:41:584    < BTP_AVRCP_CMD_READ_SUPPORTED_COMMANDS (0x25|0x01|0xff)
+                  raw data (5): 25 01 ff 05 00|fe ff e7 ff 7f
+11:46:43:650    > BTP_GAP_CMD_SET_DISCOVERABLE (0x01|0x08|0x00)
+                  raw data (1): 01 08 00 01 00|01
+11:46:43:853    < BTP_GAP_CMD_SET_DISCOVERABLE (0x01|0x08|0x00)
+                  raw data (4): 01 08 00 04 00|1b 02 00 00
+11:46:43:884    > BTP_GAP_CMD_START_ADVERTISING (0x01|0x0a|0x00)
+                  raw data (22): 
+                  01 0a 00 16 00|0f 00 09 0d 54 65 73 74 65 72 5f 
+                  30 38 45 34 34 45 ff ff ff ff 00
+11:46:44:070    < BTP_GAP_CMD_START_ADVERTISING (0x01|0x0a|0x00)
+                  raw data (4): 01 0a 00 04 00|1b 06 00 00
+11:46:46:370    < BTP_GAP_EV_DEVICE_CONNECTED (0x01|0x82|0x00)
+                  raw data (13): 
+                  01 82 00 0d 00|e0 4e e4 08 dc 1b 00 00 00 00 00 
+                  00 00
+11:46:46:371    < BTP_GAP_EV_NEW_SETTINGS (0x01|0x80|0x00)
+                  raw data (4): 01 80 00 04 00|1b 02 00 00
+11:46:48:182    < BTP_GAP_EV_ENCRYPTION_CHANGE (0x01|0x91|0x00)
+                  raw data (9): 01 91 00 09 00|e0 4e e4 08 dc 1b 00 01 10
+11:46:48:478    < BTP_GAP_EV_SEC_LEVEL_CHANGED (0x01|0x89|0x00)
+                  raw data (8): 01 89 00 08 00|e0 4e e4 08 dc 1b 00 02
+11:46:48:635    < BTP_AVRCP_EV_CONTROL_CONNECTED (0x25|0x80|0x00)
+                  raw data (6): 25 80 00 06 00|4e e4 08 dc 1b 00
+11:46:48:730    < BTP_AVRCP_EV_CONTROL_CONNECTED (0x25|0x80|0x00)
+                  raw data (6): 25 80 00 06 00|4e e4 08 dc 1b 00
+11:46:49:745    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 20 00 00
+11:46:49:869    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:46:49:931    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 20 00
+11:46:50:964    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 20 00 00
+11:46:51:102    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:46:51:258    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 20 00
+11:46:52:321    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 20 00 00
+11:46:52:430    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:46:52:618    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 20 00
+11:46:52:766    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 20 01 00
+11:46:52:867    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:46:53:057    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 a0 00
+11:46:54:179    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 21 00 00
+11:46:54:302    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:46:54:520    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 21 00
+11:46:55:584    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 21 00 00
+11:46:55:714    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:46:55:840    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 21 00
+11:46:56:917    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 21 00 00
+11:46:57:025    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:46:57:180    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 21 00
+11:46:57:358    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 21 01 00
+11:46:57:476    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:46:57:694    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 a1 00
+11:46:58:730    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 22 00 00
+11:46:58:865    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:46:59:033    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 22 00
+11:47:00:105    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 22 00 00
+11:47:00:223    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:00:421    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 22 00
+11:47:01:446    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 22 00 00
+11:47:01:586    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:01:666    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 22 00
+11:47:01:814    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 22 01 00
+11:47:01:916    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:02:119    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 a2 00
+11:47:03:166    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 23 00 00
+11:47:03:307    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:03:400    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 23 00
+11:47:04:474    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 23 00 00
+11:47:04:584    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:04:745    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 23 00
+11:47:05:815    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 23 00 00
+11:47:05:915    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:06:036    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 23 00
+11:47:06:147    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 23 01 00
+11:47:06:257    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:06:474    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 a3 00
+11:47:07:574    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 24 00 00
+11:47:07:682    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:07:766    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 24 00
+11:47:08:796    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 24 00 00
+11:47:08:901    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:09:061    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 24 00
+11:47:10:085    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 24 00 00
+11:47:10:166    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:10:390    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 24 00
+11:47:10:534    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 24 01 00
+11:47:10:665    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:10:854    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 a4 00
+11:47:11:962    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 25 00 00
+11:47:12:072    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:12:286    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 25 00
+11:47:13:348    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 25 00 00
+11:47:13:447    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:13:661    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 25 00
+11:47:14:760    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 25 00 00
+11:47:14:861    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:14:992    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 25 00
+11:47:15:144    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 25 01 00
+11:47:15:236    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:15:390    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 a5 00
+11:47:16:496    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 26 00 00
+11:47:16:586    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:16:713    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 26 00
+11:47:17:754    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 26 00 00
+11:47:17:869    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:18:088    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 26 00
+11:47:19:212    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 26 00 00
+11:47:19:336    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:19:522    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 26 00
+11:47:19:733    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 26 01 00
+11:47:19:865    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:19:928    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 a6 00
+11:47:21:027    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 27 00 00
+11:47:21:167    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:21:337    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 27 00
+11:47:22:384    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 27 00 00
+11:47:22:509    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:22:635    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 27 00
+11:47:23:712    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 27 00 00
+11:47:23:836    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:24:007    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 27 00
+11:47:24:202    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 27 01 00
+11:47:24:319    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:24:448    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 a7 00
+11:47:25:525    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 28 00 00
+11:47:25:651    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:25:785    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 28 00
+11:47:26:865    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 28 00 00
+11:47:27:004    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:27:205    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 28 00
+11:47:28:254    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 28 00 00
+11:47:28:359    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:28:489    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 28 00
+11:47:28:620    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 28 01 00
+11:47:28:751    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:28:910    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 a8 00
+11:47:29:996    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 29 00 00
+11:47:30:094    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:30:325    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 29 00
+11:47:31:435    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 29 00 00
+11:47:31:608    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:31:670    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 29 00
+11:47:32:787    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 29 00 00
+11:47:32:885    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:33:003    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 29 00
+11:47:33:124    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 29 01 00
+11:47:33:222    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:33:397    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 a9 00
+11:47:34:405    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 2a 00 00
+11:47:34:529    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:34:691    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 2a 00
+11:47:35:782    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 2a 00 00
+11:47:35:871    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:36:022    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 2a 00
+11:47:37:088    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 2a 00 00
+11:47:37:209    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:37:328    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 2a 00
+11:47:37:459    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 2a 01 00
+11:47:37:552    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:37:643    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 aa 00
+11:47:38:671    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 2b 00 00
+11:47:38:809    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:38:978    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 2b 00
+11:47:39:995    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 2b 00 00
+11:47:40:095    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:40:307    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 2b 00
+11:47:41:397    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 2b 00 00
+11:47:41:507    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:41:703    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 2b 00
+11:47:41:877    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 2b 01 00
+11:47:41:971    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:42:102    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 ab 00
+11:47:43:164    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 2c 00 00
+11:47:43:274    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:43:473    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 2c 00
+11:47:44:484    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 2c 00 00
+11:47:44:577    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:44:729    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 2c 00
+11:47:45:731    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 2c 00 00
+11:47:45:832    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:45:983    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 2c 00
+11:47:46:144    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 2c 01 00
+11:47:46:216    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:46:377    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 ac 00
+11:47:47:407    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 33 00 00
+11:47:47:488    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:47:640    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 33 00
+11:47:48:650    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 33 00 00
+11:47:48:776    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:48:894    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 33 00
+11:47:49:950    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 33 00 00
+11:47:50:047    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:50:251    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 33 00
+11:47:50:434    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 33 01 00
+11:47:50:526    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:50:677    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 b3 00
+11:47:51:726    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 34 00 00
+11:47:51:836    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:51:978    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 34 00
+11:47:53:009    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 34 00 00
+11:47:53:100    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:53:315    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 34 00
+11:47:54:396    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 34 00 00
+11:47:54:601    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:54:863    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 34 00
+11:47:54:967    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 34 01 00
+11:47:55:076    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:55:225    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 b4 00
+11:47:56:302    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 35 00 00
+11:47:56:426    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:56:510    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 35 00
+11:47:57:543    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 35 00 00
+11:47:57:620    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:57:741    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 35 00
+11:47:58:753    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 35 00 00
+11:47:58:864    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:58:965    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 35 00
+11:47:59:086    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 35 01 00
+11:47:59:192    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:47:59:362    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 b5 00
+11:48:00:397    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 36 00 00
+11:48:00:488    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:00:638    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 36 00
+11:48:01:681    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 36 00 00
+11:48:01:798    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:01:938    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 36 00
+11:48:03:004    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 36 00 00
+11:48:03:104    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:03:225    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 36 00
+11:48:03:367    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 36 01 00
+11:48:03:452    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:03:742    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 b6 00
+11:48:04:811    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 40 00 00
+11:48:04:881    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:05:055    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 40 00
+11:48:06:077    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 40 00 00
+11:48:06:149    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:06:322    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 40 00
+11:48:07:394    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 40 00 00
+11:48:07:505    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:07:640    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 40 00
+11:48:07:751    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 40 01 00
+11:48:07:862    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:07:982    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 c0 00
+11:48:08:999    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 44 00 00
+11:48:09:090    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:09:244    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 44 00
+11:48:10:246    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 44 00 00
+11:48:10:337    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:10:467    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 44 00
+11:48:11:503    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 44 00 00
+11:48:11:573    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:11:735    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 44 00
+11:48:11:876    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 44 01 00
+11:48:11:961    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:12:092    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 c4 00
+11:48:13:105    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 46 00 00
+11:48:13:206    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:13:317    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 46 00
+11:48:14:318    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 46 00 00
+11:48:14:423    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:14:555    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 46 00
+11:48:15:563    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 46 00 00
+11:48:15:670    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:15:741    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 46 00
+11:48:15:862    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 46 01 00
+11:48:15:935    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:16:088    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 c6 00
+11:48:17:170    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 45 00 00
+11:48:17:271    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:17:442    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 45 00
+11:48:18:463    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 45 00 00
+11:48:18:578    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:18:754    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 45 00
+11:48:19:828    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 45 00 00
+11:48:19:899    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:20:029    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 45 00
+11:48:20:171    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 45 01 00
+11:48:20:275    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:20:411    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 c5 00
+11:48:21:452    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 47 00 00
+11:48:21:542    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:21:714    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 47 00
+11:48:22:745    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 47 00 00
+11:48:22:840    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:23:025    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 47 00
+11:48:24:043    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 47 00 00
+11:48:24:138    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:24:259    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 47 00
+11:48:24:400    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 47 01 00
+11:48:24:472    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:24:639    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 c7 00
+11:48:25:682    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 48 00 00
+11:48:25:772    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:25:934    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 48 00
+11:48:26:965    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 48 00 00
+11:48:27:060    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:27:182    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 48 00
+11:48:28:276    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 48 00 00
+11:48:28:378    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:28:500    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 48 00
+11:48:28:631    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 48 01 00
+11:48:28:723    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:28:908    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 c8 00
+11:48:29:942    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 49 00 00
+11:48:30:022    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:30:143    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 49 00
+11:48:31:174    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 49 00 00
+11:48:31:279    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:31:416    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 49 00
+11:48:32:509    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 49 00 00
+11:48:32:588    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:32:708    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 49 00
+11:48:32:809    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 49 01 00
+11:48:32:889    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:33:055    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 c9 00
+11:48:34:088    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 4a 00 00
+11:48:34:170    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:34:292    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 4a 00
+11:48:35:302    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 4a 00 00
+11:48:35:387    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:35:518    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 4a 00
+11:48:36:542    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 4a 00 00
+11:48:36:643    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:36:797    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 4a 00
+11:48:36:927    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 4a 01 00
+11:48:37:001    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:37:211    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 ca 00
+11:48:38:315    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 4b 00 00
+11:48:38:410    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:38:501    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 4b 00
+11:48:39:532    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 4b 00 00
+11:48:39:604    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:39:754    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 4b 00
+11:48:40:800    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 4b 00 00
+11:48:40:891    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:41:009    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 4b 00
+11:48:41:125    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 4b 01 00
+11:48:41:209    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:41:330    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 cb 00
+11:48:42:374    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 4c 00 00
+11:48:42:465    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:42:631    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 4c 00
+11:48:43:642    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 4c 00 00
+11:48:43:732    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:43:844    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 4c 00
+11:48:44:908    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 4c 00 00
+11:48:44:979    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:45:121    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 4c 00
+11:48:45:272    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 4c 01 00
+11:48:45:386    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:45:498    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 cc 00
+11:48:46:533    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 50 00 00
+11:48:46:614    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:46:746    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 50 00
+11:48:47:823    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 50 00 00
+11:48:47:942    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:48:122    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 50 00
+11:48:49:188    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 50 00 00
+11:48:49:289    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:49:430    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 50 00
+11:48:49:546    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 50 01 00
+11:48:49:616    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:49:775    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 d0 00
+11:48:50:792    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 51 00 00
+11:48:50:903    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:51:003    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 51 00
+11:48:52:040    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 51 00 00
+11:48:52:182    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:52:262    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 51 00
+11:48:53:284    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 51 00 00
+11:48:53:375    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:53:547    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 51 00
+11:48:53:719    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 51 01 00
+11:48:53:824    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:53:954    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 d1 00
+11:48:54:971    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 71 00 00
+11:48:55:042    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:55:162    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 71 00
+11:48:56:183    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 71 00 00
+11:48:56:277    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:56:453    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 71 00
+11:48:57:494    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 71 00 00
+11:48:57:575    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:57:706    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 71 00
+11:48:57:837    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 71 01 00
+11:48:57:915    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:58:065    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 f1 00
+11:48:59:077    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 72 00 00
+11:48:59:168    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:48:59:289    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 72 00
+11:49:00:320    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 72 00 00
+11:49:00:385    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:00:497    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 72 00
+11:49:01:517    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 72 00 00
+11:49:01:633    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:01:814    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 72 00
+11:49:01:945    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 72 01 00
+11:49:02:028    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:02:180    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 f2 00
+11:49:03:268    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 73 00 00
+11:49:03:357    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:03:528    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 73 00
+11:49:04:600    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 73 00 00
+11:49:04:684    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:04:853    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 73 00
+11:49:05:924    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 73 00 00
+11:49:05:993    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:06:135    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 73 00
+11:49:06:266    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 73 01 00
+11:49:06:348    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:06:515    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 f3 00
+11:49:07:536    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 74 00 00
+11:49:07:626    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:07:737    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 74 00
+11:49:08:778    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 74 00 00
+11:49:08:862    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:08:993    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 74 00
+11:49:10:019    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 74 00 00
+11:49:10:162    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:10:262    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 74 00
+11:49:10:394    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 74 01 00
+11:49:10:486    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:10:597    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 f4 00
+11:49:11:682    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 75 00 00
+11:49:11:786    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:11:916    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 75 00
+11:49:12:977    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 75 00 00
+11:49:13:062    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:13:225    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 75 00
+11:49:14:311    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 75 00 00
+11:49:14:419    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:14:529    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 75 00
+11:49:14:640    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (9): 25 08 00 09 00|4e e4 08 dc 1b 00 75 01 00
+11:49:14:722    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:14:842    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (9): 25 86 00 09 00|4e e4 08 dc 1b 00 09 f5 00
+11:49:15:933    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (14): 
+                  25 08 00 0e 00|4e e4 08 dc 1b 00 7e 00 05 00 19 
+                  58 00 00
+11:49:16:015    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:16:176    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (14): 
+                  25 86 00 0e 00|4e e4 08 dc 1b 00 09 7e 05 00 19 
+                  58 00 00
+11:49:17:207    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (14): 
+                  25 08 00 0e 00|4e e4 08 dc 1b 00 7e 00 05 00 19 
+                  58 00 00
+11:49:17:300    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:17:420    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (14): 
+                  25 86 00 0e 00|4e e4 08 dc 1b 00 09 7e 05 00 19 
+                  58 00 00
+11:49:18:448    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (14): 
+                  25 08 00 0e 00|4e e4 08 dc 1b 00 7e 00 05 00 19 
+                  58 00 00
+11:49:18:548    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:18:691    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (14): 
+                  25 86 00 0e 00|4e e4 08 dc 1b 00 09 7e 05 00 19 
+                  58 00 00
+11:49:18:801    > BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (14): 
+                  25 08 00 0e 00|4e e4 08 dc 1b 00 7e 01 05 00 19 
+                  58 00 00
+11:49:18:903    < BTP_AVRCP_CMD_PASS_THROUGH (0x25|0x08|0x00)
+                  raw data (0): 25 08 00 00 00|
+11:49:19:084    < BTP_AVRCP_EV_PASS_THROUGH_RSP (0x25|0x86|0x00)
+                  raw data (14): 
+                  25 86 00 0e 00|4e e4 08 dc 1b 00 09 fe 05 00 19 
+                  58 00 00
+11:49:20:015    < BTP_AVRCP_EV_CONTROL_DISCONNECTED (0x25|0x81|0x00)
+                  raw data (6): 25 81 00 06 00|4e e4 08 dc 1b 00
+11:49:20:015    < BTP_AVRCP_EV_CONTROL_DISCONNECTED (0x25|0x81|0x00)
+                  raw data (6): 25 81 00 06 00|4e e4 08 dc 1b 00
+11:49:20:015    < BTP_GAP_EV_DEVICE_DISCONNECTED (0x01|0x83|0x00)
+                  raw data (7): 01 83 00 07 00|e0 4e e4 08 dc 1b 00
+11:49:26:097    < BTP_CORE_EV_IUT_READY (0x00|0x80|0xff)
+                  raw data (0): 00 80 ff 00 00|
