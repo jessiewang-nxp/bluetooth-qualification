@@ -1,15 +1,15 @@
 # AutoPTS report
 
-    Start time: 2025_11_28_18_21_31
+    Start time: 2025_12_01_11_10_30
 
-    End time: 2025_11_28_20_28_02
+    End time: 2025_12_01_11_14_08
 
     PTS version: 8.11.0.4
 
     Test Group/Profile Summary: 
 |  Suite  | Total | Pass | Fail | Pass Rate|
 |---------|-------|------|------|----------|
-|AVRCP    |227    |223   |4     |  98.24 % |
+|AVRCP    |2      |1     |1     |  50.00 % |
 
     Repositories:
 
