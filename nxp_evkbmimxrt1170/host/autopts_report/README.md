@@ -1,16 +1,16 @@
 # AutoPTS report
 
-    Start time: 2025_12_16_14_52_06
+    Start time: 2025_12_18_20_19_34
 
-    End time: 2025_12_16_15_05_00
+    End time: 2025_12_18_20_24_39
 
     PTS version: 8.11.0.4
 
     Test Group/Profile Summary: 
 |  Suite  | Total | Pass | Fail | Pass Rate|
 |---------|-------|------|------|----------|
-|HFP      |2      |2     |0     | 100.00 % |
+|AVRCP    |1      |1     |0     | 100.00 % |
 
     Repositories:
 
-	zephyr: ff7bba6b70977139967c0ccf6a4e89665f3cc059 [ff7bba6b709]
+	zephyr: af534a59e145cb16a3f7ac46ae5f4ba9b817da56 [v4.3.0-1639-gaf534a59e14]
