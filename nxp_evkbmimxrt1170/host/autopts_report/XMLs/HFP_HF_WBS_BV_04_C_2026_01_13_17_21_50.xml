@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ARCHIVE>
   <VERSION>2.0</VERSION>
-  <PicsPixit>Test Case Started: HFP v. 11.11.0.4, HFP/HF/WBS/BV-04-C started on Tuesday, January 13, 2026, 17:20:15
+  <PicsPixit>Test Case Started: HFP v. 11.11.0.4, HFP/HF/WBS/BV-04-C started on Tuesday, January 13, 2026, 17:21:50
 
 ICS VALUES:
 
@@ -202,67 +202,67 @@ TSPX_iut_Synchronous_Connection_method UsePredefined
 </PicsPixit>
   <LOG>
 
-+125 ms
++109 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+1672 ms
++1656 ms
 Message:                 MindTree Stack Version - 026.000.000
 
 
 
-+1672 ms
++1656 ms
 Initialize Test Case:    Build date: Oct 27 2025, 12:06:26
 
 
 
-+1672 ms
++1656 ms
 Start Test Case:         HFP/HF/WBS/BV-04-C
 
 
 
-+1672 ms
-Message:                   PTS Log started on Tuesday, January 13, 2026, 17:20:27
++1656 ms
+Message:                   PTS Log started on Tuesday, January 13, 2026, 17:22:02
 
 
 
-+1672 ms
++1656 ms
 Message:                   PTS: v8.11.0 Build 4
 
 
 
-+1672 ms
++1656 ms
 Message:                   OS: Microsoft Windows NT 10.0.22631.0
 
 
 
-+1672 ms
++1656 ms
 Message:                   OS Name: Microsoft Windows 11 Enterprise
 
 
 
-+2688 ms
++2672 ms
 Send Event:              HCI!HCI_RESET
 
 
-+2813 ms
++2797 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+2813 ms
++2797 ms
 Preliminary Verdict:     PASS
 
 
 
-+2813 ms
++2797 ms
 Send Event:              HCI!HCI_READ_LOCAL_VERSION_INFORMATION
 
 
-+2813 ms
++2797 ms
 Receive Event:           HCI?HCI_READ_LOCAL_VERSION_INFORMATION_COMPLETE_EVENT{
                            status=HCI_OK,
                            hciVersion=0x08,
@@ -273,453 +273,262 @@ Receive Event:           HCI?HCI_READ_LOCAL_VERSION_INFORMATION_COMPLETE_EVENT{
                          }
 
 
-+2813 ms
++2797 ms
 Preliminary Verdict:     PASS
 
 
 
-+2813 ms
++2797 ms
 Send Event:              HCI!HCI_LE_SET_EVENT_MASK{
                            leEventMask=0x000000000000001F
                          }
 
 
-+2813 ms
++2797 ms
 Receive Event:           HCI?HCI_LE_SET_EVENT_MASK_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+2813 ms
++2797 ms
 Send Event:              HCI!HCI_SET_EVENT_MASK{
                            eventMask=0x3FFFFFFFFFFFFFFF
                          }
 
 
-+2828 ms
++2797 ms
 Receive Event:           HCI?HCI_SET_EVENT_MASK_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+2828 ms
++2797 ms
 Preliminary Verdict:     PASS
 
 
 
-+2828 ms
++2797 ms
 Send Event:              HCI!HCI_READ_LOCAL_SUPPORTED_FEATURES
 
 
-+2828 ms
-Receive Event:           HCI?HCI_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
-                           status=HCI_OK,
-                           lmpFeatures=0x875BFFDBFE8FFFFF
-                         }
-
-
-+2828 ms
-Preliminary Verdict:     PASS
-
-
-
-+2828 ms
-Send Event:              HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
-                           page_number=0x01
-                         }
-
-
-+2828 ms
-Receive Event:           HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
-                           status=HCI_OK,
-                           lmpFeatures=0x0000000000000000
-                         }
-
-
-+2828 ms
-Preliminary Verdict:     PASS
-
-
-
-+2828 ms
-Send Event:              HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
-                           page_number=0x02
-                         }
-
-
-+2844 ms
-Receive Event:           HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
-                           status=HCI_OK,
-                           lmpFeatures=0x000000000000030F
-                         }
-
-
-+2844 ms
-Preliminary Verdict:     PASS
-
-
-
-+2844 ms
-Send Event:              HCI!HCI_READ_LOCAL_SUPPORTED_COMMANDS
-
-
-+2844 ms
-Receive Event:           HCI?HCI_READ_LOCAL_SUPPORTED_COMMANDS_COMPLETE_EVENT{
-                           status=HCI_OK,
-                           supported_commands=0x00000000000000000000000000000000000000000000000000000000000030FFFFC0007FFFFFF7610004001CFF83F73FFEE80FF3FFFFFFFFFFFFFFFE03FFFFFF
-                         }
-
-
-+2844 ms
-Preliminary Verdict:     PASS
-
-
-
-+2844 ms
-Send Event:              HCI!HCI_READ_BD_ADDR
-
-
-+2844 ms
-Receive Event:           HCI?HCI_READ_BD_ADDR_COMPLETE_EVENT{
-                           status=HCI_OK,
-                           bdAddress=0x001BDC08E44E
-                         }
-
-
-+2844 ms
-Preliminary Verdict:     PASS
-
-
-
-+2844 ms
-Send Event:              HCI!HCI_WRITE_LE_HOST_SUPPORTED{
-                           leSupportedHost=HCI_LE_SUPPORTED_HOST_ENABLED,
-                           simultaneousLeHost=HCI_SIMULTANEOUS_LE_HOST_ENABLED
-                         }
-
-
-+2844 ms
-Receive Event:           HCI?HCI_WRITE_LE_HOST_SUPPORTED_COMPLETE_EVENT{
-                           status=HCI_OK
-                         }
-
-
-+2844 ms
-Send Event:              HCI!HCI_LE_LOCAL_SUPPORTED_FEATURES
-
-
-+2844 ms
-Receive Event:           HCI?HCI_LE_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
-                           status=HCI_OK,
-                           leFeatures=0x000000000000001F
-                         }
-
-
-+2844 ms
-Preliminary Verdict:     PASS
-
-
-
-+2844 ms
-Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
-                           OCF=0x0000,
-                           DATA=0xC200000900010003700000DA00010000000000
-                         }
-
-
-+2860 ms
-Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
-                           LENGTH=19,
-                           DATA=C201000900010003700000DA00010000000700
-                         }
-
-
-+2860 ms
-Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
-                           OCF=0x0000,
-                           DATA=0xC200000900020003700000DB00010000000000
-                         }
-
-
-+2860 ms
-Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
-                           LENGTH=19,
-                           DATA=C201000900020003700000DB00010000001000
-                         }
-
-
-+2860 ms
-Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
-                           OCF=0x0000,
-                           DATA=0xC200000C00030003700000EF00040000000000000000000000
-                         }
-
-
-+2860 ms
-Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
-                           LENGTH=25,
-                           DATA=C201000C00030003700000EF0004000000FFFF8FFEDBFF5B87
-                         }
-
-
-+2860 ms
-Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
-                           OCF=0x0000,
-                           DATA=0xC200000C000400037000002301040000000000000000000000
-                         }
-
-
-+2860 ms
-Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
-                           LENGTH=25,
-                           DATA=C201000C000400037000002301040000000F03000000000000
-                         }
-
-
-+2860 ms
-Preliminary Verdict:     PASS
-
-
-
-+2860 ms
-Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
-                           OCF=0x0000,
-                           DATA=0xC200000C00050003700000EF00040000000000000000000000
-                         }
-
-
-+2875 ms
-Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
-                           LENGTH=25,
-                           DATA=C201000C00050003700000EF0004000000FFFF8FFEDBFF5B87
-                         }
-
-
-+2875 ms
-Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
-                           OCF=0x0000,
-                           DATA=0xC202000C00060003700000EF0004000000FFFF8F7ED81F5B87
-                         }
-
-
-+2875 ms
-Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
-                           LENGTH=25,
-                           DATA=C201000C00060003700000EF0004000000FFFF8F7ED81F5B87
-                         }
-
-
-+2875 ms
-Verdict Description:     Perform re-initialization of HW due to LMP feature update. Disabled ESCO.
-
-
-
-+4891 ms
-Send Event:              HCI!HCI_RESET
-
-
-+5000 ms
-Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
-                           status=HCI_OK
-                         }
-
-
-+5000 ms
-Preliminary Verdict:     PASS
-
-
-
-+5000 ms
-Send Event:              HCI!HCI_READ_LOCAL_VERSION_INFORMATION
-
-
-+5000 ms
-Receive Event:           HCI?HCI_READ_LOCAL_VERSION_INFORMATION_COMPLETE_EVENT{
-                           status=HCI_OK,
-                           hciVersion=0x08,
-                           hciRevision=0x30E8,
-                           lmpVersion=0x08,
-                           manufacturerName=0x000A,
-                           lmpSubversion=0x30E8
-                         }
-
-
-+5016 ms
-Preliminary Verdict:     PASS
-
-
-
-+5016 ms
-Send Event:              HCI!HCI_LE_SET_EVENT_MASK{
-                           leEventMask=0x000000000000001F
-                         }
-
-
-+5016 ms
-Receive Event:           HCI?HCI_LE_SET_EVENT_MASK_COMPLETE_EVENT{
-                           status=HCI_OK
-                         }
-
-
-+5016 ms
-Send Event:              HCI!HCI_SET_EVENT_MASK{
-                           eventMask=0x3FFFFFFFFFFFFFFF
-                         }
-
-
-+5016 ms
-Receive Event:           HCI?HCI_SET_EVENT_MASK_COMPLETE_EVENT{
-                           status=HCI_OK
-                         }
-
-
-+5016 ms
-Preliminary Verdict:     PASS
-
-
-
-+5016 ms
-Send Event:              HCI!HCI_READ_LOCAL_SUPPORTED_FEATURES
-
-
-+5016 ms
++2797 ms
 Receive Event:           HCI?HCI_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            lmpFeatures=0x875B1FD87E8FFFFF
                          }
 
 
-+5016 ms
++2797 ms
 Preliminary Verdict:     PASS
 
 
 
-+5016 ms
++2797 ms
 Send Event:              HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
                            page_number=0x01
                          }
 
 
-+5031 ms
++2797 ms
 Receive Event:           HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            lmpFeatures=0x0000000000000000
                          }
 
 
-+5031 ms
++2797 ms
 Preliminary Verdict:     PASS
 
 
 
-+5031 ms
++2797 ms
 Send Event:              HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
                            page_number=0x02
                          }
 
 
-+5031 ms
++2812 ms
 Receive Event:           HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            lmpFeatures=0x000000000000030F
                          }
 
 
-+5031 ms
++2812 ms
 Preliminary Verdict:     PASS
 
 
 
-+5031 ms
++2812 ms
 Send Event:              HCI!HCI_READ_LOCAL_SUPPORTED_COMMANDS
 
 
-+5031 ms
++2812 ms
 Receive Event:           HCI?HCI_READ_LOCAL_SUPPORTED_COMMANDS_COMPLETE_EVENT{
                            status=HCI_OK,
                            supported_commands=0x00000000000000000000000000000000000000000000000000000000000030FFFFC0007FFFFFF7610004001CFF83F73FFEE80FF3FFFFFFFFFFFFFFFE03FFFFFF
                          }
 
 
-+5031 ms
++2812 ms
 Preliminary Verdict:     PASS
 
 
 
-+5031 ms
++2812 ms
 Send Event:              HCI!HCI_READ_BD_ADDR
 
 
-+5031 ms
++2828 ms
 Receive Event:           HCI?HCI_READ_BD_ADDR_COMPLETE_EVENT{
                            status=HCI_OK,
                            bdAddress=0x001BDC08E44E
                          }
 
 
-+5031 ms
++2828 ms
 Preliminary Verdict:     PASS
 
 
 
-+5031 ms
++2828 ms
 Send Event:              HCI!HCI_WRITE_LE_HOST_SUPPORTED{
                            leSupportedHost=HCI_LE_SUPPORTED_HOST_ENABLED,
                            simultaneousLeHost=HCI_SIMULTANEOUS_LE_HOST_ENABLED
                          }
 
 
-+5031 ms
++2828 ms
 Receive Event:           HCI?HCI_WRITE_LE_HOST_SUPPORTED_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+5031 ms
++2828 ms
 Send Event:              HCI!HCI_LE_LOCAL_SUPPORTED_FEATURES
 
 
-+5047 ms
++2828 ms
 Receive Event:           HCI?HCI_LE_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            leFeatures=0x000000000000001F
                          }
 
 
-+5047 ms
++2828 ms
+Preliminary Verdict:     PASS
+
+
+
++2828 ms
+Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000900010003700000DA00010000000000
+                         }
+
+
++2828 ms
+Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=19,
+                           DATA=C201000900010003700000DA00010000000700
+                         }
+
+
++2828 ms
+Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000900020003700000DB00010000000000
+                         }
+
+
++2828 ms
+Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=19,
+                           DATA=C201000900020003700000DB00010000001000
+                         }
+
+
++2828 ms
+Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000C00030003700000EF00040000000000000000000000
+                         }
+
+
++2828 ms
+Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=25,
+                           DATA=C201000C00030003700000EF0004000000FFFF8F7ED81F5B87
+                         }
+
+
++2828 ms
+Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000C000400037000002301040000000000000000000000
+                         }
+
+
++2844 ms
+Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=25,
+                           DATA=C201000C000400037000002301040000000F03000000000000
+                         }
+
+
++2844 ms
+Preliminary Verdict:     PASS
+
+
+
++2844 ms
+Send Event:              HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000C00050003700000EF00040000000000000000000000
+                         }
+
+
++2844 ms
+Receive Event:           HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=25,
+                           DATA=C201000C00050003700000EF0004000000FFFF8F7ED81F5B87
+                         }
+
+
++2844 ms
 Send Event:              HCI!HCI_LE_SET_EVENT_MASK{
                            leEventMask=0x000000000000001F
                          }
 
 
-+5047 ms
++2859 ms
 Receive Event:           HCI?HCI_LE_SET_EVENT_MASK_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+5047 ms
++2859 ms
 Send Event:              HCI!HCI_SET_EVENT_MASK{
                            eventMask=0x3FFFFFFFFFFFFFFF
                          }
 
 
-+5047 ms
++2859 ms
 Receive Event:           HCI?HCI_SET_EVENT_MASK_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+5047 ms
++2859 ms
 Preliminary Verdict:     PASS
 
 
 
-+5047 ms
++2859 ms
 Send Event:              HCI!HCI_READ_BUFFER_SIZE
 
 
-+5063 ms
++2859 ms
 Receive Event:           HCI?HCI_READ_BUFFER_SIZE_COMPLETE_EVENT{
                            status=HCI_OK,
                            HC_ACL_Data_Packet_Length=0x0136,
@@ -729,147 +538,147 @@ Receive Event:           HCI?HCI_READ_BUFFER_SIZE_COMPLETE_EVENT{
                          }
 
 
-+5063 ms
++2859 ms
 Send Event:              HCI!HCI_WRITE_SIMPLE_PAIRING_MODE{
                            simplePairingMode=HCI_SIMPLE_PAIRING_ENABLED
                          }
 
 
-+5063 ms
++2859 ms
 Receive Event:           HCI?HCI_WRITE_SIMPLE_PAIRING_MODE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+5063 ms
++2859 ms
 Send Event:              HCI!HCI_WRITE_SECURE_CONNECTION_HOST_SUPPORT{
                            host_support=0
                          }
 
 
-+5063 ms
++2859 ms
 Receive Event:           HCI?HCI_WRITE_SECURE_CONNECTION_SUPPORT_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+5063 ms
++2859 ms
 Send Event:              HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
                            page_number=0x01
                          }
 
 
-+5063 ms
++2859 ms
 Receive Event:           HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            lmpFeatures=0x0000000000000007
                          }
 
 
-+5063 ms
++2859 ms
 Send Event:              HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
                            page_number=0x02
                          }
 
 
-+5063 ms
++2875 ms
 Receive Event:           HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            lmpFeatures=0x000000000000030F
                          }
 
 
-+5063 ms
++2875 ms
 Send Event:              HCI!HCI_WRITE_PAGE_TIMEOUT{
                            page_timeout=0xFFFF
                          }
 
 
-+5063 ms
++2875 ms
 Receive Event:           HCI?HCI_WRITE_PAGE_TIMEOUT_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+5063 ms
++2875 ms
 Send Event:              HCI!HCI_WRITE_SCAN_ENABLE{
                            scanEnable=0x03
                          }
 
 
-+5078 ms
++2875 ms
 Receive Event:           HCI?HCI_WRITE_SCAN_ENABLE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+5078 ms
++2875 ms
 Preliminary Verdict:     PASS
 
 
 
-+5078 ms
++2875 ms
 Send Event:              HCI!HCI_WRITE_LOCAL_NAME{
                            name=PTS-HFP-E44E
                          }
 
 
-+5078 ms
++2875 ms
 Receive Event:           HCI?HCI_WRITE_LOCAL_NAME_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+5078 ms
++2875 ms
 Preliminary Verdict:     PASS
 
 
 
-+5078 ms
++2875 ms
 Send Event:              HCI!HCI_WRITE_EXTENDED_INQUIRY_RESPONSE
 
 
-+5078 ms
++2890 ms
 Receive Event:           HCI?HCI_WRITE_EXTENDED_INQUIRY_RESPONSE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+5078 ms
++2890 ms
 Preliminary Verdict:     PASS
 
 
 
-+5078 ms
++2890 ms
 Preliminary Verdict:     PASS
 
 
 
-+5078 ms
++2890 ms
 Send Event:              HCI!HCI_WRITE_CLASS_OF_DEVICE{
                            classOfDevice=0x400204
                          }
 
 
-+5078 ms
++2890 ms
 Receive Event:           HCI?HCI_WRITE_CLASS_OF_DEVICE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+5078 ms
++2890 ms
 Preliminary Verdict:     PASS
 
 
 
-+5078 ms
++2890 ms
 Send Event:              SPP!SPP_CONNECT_ACCEPT_REQ{
                            bdAddr=0xD01769EE7819,
                            serverChannel=0x01
                          }
 
 
-+5078 ms
++2890 ms
 Send Event:              HCI!GET_CONNECTION_HANDLE{
                            addr=0xD01769EE7819,
                            addr_type=0x00,
@@ -877,7 +686,7 @@ Send Event:              HCI!GET_CONNECTION_HANDLE{
                          }
 
 
-+5078 ms
++2890 ms
 Send Event:              HCI!HCI_CREATE_CONNECTION{
                            bdAddr=0xD01769EE7819,
                            packetType=0x0008,
@@ -888,7 +697,7 @@ Send Event:              HCI!HCI_CREATE_CONNECTION{
                          }
 
 
-+5563 ms
++5734 ms
 Receive Event:           HCI?HCI_CONNECTION_COMPLETE_EVENT{
                            status=HCI_OK,
                            connectionHandle=0x005A,
@@ -898,13 +707,13 @@ Receive Event:           HCI?HCI_CONNECTION_COMPLETE_EVENT{
                          }
 
 
-+5563 ms
++5734 ms
 Send Event:              HCI!HCI_ROLE_DISCOVERY{
                            connHandle=0x005A
                          }
 
 
-+5563 ms
++5734 ms
 Send Event:              HCI!GET_CONNECTION_HANDLE{
                            addr=0xD01769EE7819,
                            addr_type=0x00,
@@ -912,17 +721,17 @@ Send Event:              HCI!GET_CONNECTION_HANDLE{
                          }
 
 
-+5563 ms
++5734 ms
 Pass:                    Central successfully initiated connection.
 
 
 
-+5563 ms
++5734 ms
 Verdict Description:     Central successfully initiated connection.
 
 
 
-+5563 ms
++5734 ms
 Send Event:              HCI!GET_DEVICE_HANDLE{
                            addr=0xD01769EE7819,
                            addr_type=0x00,
@@ -930,16 +739,16 @@ Send Event:              HCI!GET_DEVICE_HANDLE{
                          }
 
 
-+5563 ms
++5734 ms
 Send Event:              HCI!HCI_READ_REMOTE_SUPPORTED_FEATURES
 
 
-+5563 ms
++5734 ms
 Verdict Description:     Connection completed.
 
 
 
-+5563 ms
++5734 ms
 Send Event:              HCI!GET_CONNECTION_HANDLE{
                            addr=0xD01769EE7819,
                            addr_type=0x00,
@@ -947,13 +756,13 @@ Send Event:              HCI!GET_CONNECTION_HANDLE{
                          }
 
 
-+5563 ms
++5734 ms
 Send Event:              SDP!SDP_OPEN_SEARCH_REQ{
                            bdAddr=0xD01769EE7819
                          }
 
 
-+5563 ms
++5734 ms
 Receive Event:           HCI?HCI_ROLE_DISCOVERY_COMPLETE_EVENT{
                            connectionHandle=0x005A,
                            status=0x00,
@@ -961,7 +770,7 @@ Receive Event:           HCI?HCI_ROLE_DISCOVERY_COMPLETE_EVENT{
                          }
 
 
-+5578 ms
++5750 ms
 Receive Event:           HCI?HCI_READ_REMOTE_SUPPORTED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            conn_handle=0x005A,
@@ -969,11 +778,17 @@ Receive Event:           HCI?HCI_READ_REMOTE_SUPPORTED_FEATURES_COMPLETE_EVENT{
                          }
 
 
-+5578 ms
++5750 ms
 Send Event:              HCI!HCI_READ_REMOTE_EXTENDED_FEATURES
 
 
-+5578 ms
++5765 ms
+Receive Event:           SDP?SDP_OPEN_SEARCH_REQ_CFM{
+                           result=0x0
+                         }
+
+
++5765 ms
 Receive Event:           HCI?HCI_READ_REMOTE_EXTENDED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            conn_handle=0x005A,
@@ -981,19 +796,13 @@ Receive Event:           HCI?HCI_READ_REMOTE_EXTENDED_FEATURES_COMPLETE_EVENT{
                          }
 
 
-+5625 ms
-Receive Event:           SDP?SDP_OPEN_SEARCH_REQ_CFM{
-                           result=0x0
-                         }
-
-
-+6641 ms
++6781 ms
 Send Event:              SDP!SDP_SERVICE_SEARCH_REQ{
                            uuid=0x111E
                          }
 
 
-+6641 ms
++6781 ms
 Receive Event:           SDP?SDP_SERVICE_SEARCH_REQ_CFM{
                            result=0x0,
                            num_service_rec_ret=1,
@@ -1001,7 +810,7 @@ Receive Event:           SDP?SDP_SERVICE_SEARCH_REQ_CFM{
                          }
 
 
-+6641 ms
++6781 ms
 Send Event:              SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010000,
                            attr_id_list=0004,
@@ -1011,7 +820,7 @@ Send Event:              SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+6641 ms
++6781 ms
 Receive Event:           SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=39,
@@ -1019,49 +828,49 @@ Receive Event:           SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+6641 ms
++6781 ms
 Receive Event:           ConfirmedthefollowingATTRTYPE:0x0004
 
 
-+6641 ms
++6781 ms
 Receive Event:           ProtocolDescriptorListAttributewasreadvalue
 
 
-+6641 ms
++6781 ms
 Receive Event:           ConfirmedthefollowingBLUETOOTH_PROFILE_DESCRIPTOR_LIST
 
 
-+6641 ms
++6781 ms
 Receive Event:           BLUETOOTH_PROFILE_DESCRIPTOR_LISTvalue=0x0109.
 
 
-+6641 ms
++6781 ms
 Receive Event:           ConfirmedthefollowingSDP_SUPPORTED_FEATURES
 
 
-+6641 ms
++6781 ms
 Receive Event:           SDP_SUPPORTED_FEATURESvalue=0x00FF.
 
 
-+6641 ms
++6781 ms
 Verdict Description:     Channel Number: 1, Version: 0x0109 Feature: 0x00FF
 
 
 
-+6641 ms
++6781 ms
 Send Event:              SPP!SPP_CONNECT{
                            bdAddr=0xD01769EE7819,
                            serverChannel=0x01
                          }
 
 
-+6656 ms
++6781 ms
 Receive Event:           SEC?SEC_LINK_KEY_REQUEST_IND{
                            bdAddr=0xD01769EE7819
                          }
 
 
-+6656 ms
++6781 ms
 Send Event:              SEC!SEC_LINK_KEY_REQUEST_RSP{
                            bdAddr=0xD01769EE7819,
                            accept=FALSE,
@@ -1069,41 +878,41 @@ Send Event:              SEC!SEC_LINK_KEY_REQUEST_RSP{
                          }
 
 
-+6922 ms
++7047 ms
 Receive Event:           SEC?SEC_USER_CONFIRMATION_REQUEST_IND{
                            bdAddr=0xD01769EE7819,
-                           numericvalue=367890
+                           numericvalue=478813
                          }
 
 
-+6922 ms
++7047 ms
 Send Event:              SEC!SEC_USER_CONFIRMATION_REQUEST_RSP{
                            bdAddr=0xD01769EE7819,
                            accept=TRUE
                          }
 
 
-+7235 ms
++7375 ms
 Receive Event:           HCI?HCI_LINK_KEY_NOTIFICATION_EVENT{
                            BD_ADDR=0xD01769EE7819,
-                           LINK_KEY=0x51501F1CA349A66787E29E940DDA166B,
+                           LINK_KEY=0x21B16624F9116D24DA2399CC6BAC3EAF,
                            KEY_TYPE=4
                          }
 
 
-+7235 ms
++7375 ms
 Receive Event:           HCI?HCI_AUTHENTICATION_COMPLETE_EVENT{
                            status=HCI_OK,
                            connectionHandle=0x005A
                          }
 
 
-+7235 ms
-Verdict Description:     Link Key updated. BD ADDR:D01769EE7819, linkkey:51501F1CA349A66787E29E940DDA166B, type:4
++7375 ms
+Verdict Description:     Link Key updated. BD ADDR:D01769EE7819, linkkey:21B16624F9116D24DA2399CC6BAC3EAF, type:4
 
 
 
-+7235 ms
++7375 ms
 Receive Event:           SEC?GET_BR_REMOTE_IO_CAPABILITIES{
                            bdAddr=0xD01769EE7819,
                            AuthenticationRequirements=0x04,
@@ -1112,13 +921,13 @@ Receive Event:           SEC?GET_BR_REMOTE_IO_CAPABILITIES{
                          }
 
 
-+7235 ms
++7375 ms
 Receive Event:           HCI?HCI_SET_CONNECTION_ENCRYPTION_COMMAND_STATUS_EVENT{
                            status=HCI_OK
                          }
 
 
-+7250 ms
++7390 ms
 Receive Event:           HCI?HCI_ENCRYPTION_CHANGE_EVENT{
                            status=HCI_OK,
                            connectionHandle=0x005A,
@@ -1126,7 +935,7 @@ Receive Event:           HCI?HCI_ENCRYPTION_CHANGE_EVENT{
                          }
 
 
-+7250 ms
++7390 ms
 Receive Event:           HCI?HCI_READ_ENCRYPTION_KEY_SIZE_COMPLETE_EVENT{
                            status=HCI_OK,
                            conn_handle=0x005A,
@@ -1134,20 +943,20 @@ Receive Event:           HCI?HCI_READ_ENCRYPTION_KEY_SIZE_COMPLETE_EVENT{
                          }
 
 
-+7297 ms
++7422 ms
 Receive Event:           RFCOMM?RFCOMM_RECEIVED_MSC{
                            result=0x00,
                            dlci=0x02
                          }
 
 
-+7297 ms
++7437 ms
 Receive Event:           SDP?SDP_CONNECT_IND{
                            BDAddr=0xD01769EE7819
                          }
 
 
-+7297 ms
++7437 ms
 Receive Event:           RFCOMM?RFCOMM_OPEN_CFM{
                            result=0x0000,
                            dlci=0x02,
@@ -1155,18 +964,18 @@ Receive Event:           RFCOMM?RFCOMM_OPEN_CFM{
                          }
 
 
-+7297 ms
++7437 ms
 Verdict Description:     Rfcomm list[0] - CH:0x01, DLCI:0x02
 
 
 
-+7297 ms
++7453 ms
 Receive Event:           SDP?SDP_DISCONNECT_IND{
                            BDAddr=0xD01769EE7819
                          }
 
 
-+7297 ms
++7453 ms
 Receive Event:           RFCOMM?RFCOMM_READ{
                            result=0x00,
                            dlci=0x02,
@@ -1174,17 +983,17 @@ Receive Event:           RFCOMM?RFCOMM_READ{
                          }
 
 
-+7297 ms
++7453 ms
 Verdict Description:     Received: AT+BRSF=4095
 
 
 
-+7297 ms
++7453 ms
 Verdict Description:     Found matching message.
 
 
 
-+7297 ms
++7453 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x000f,
@@ -1192,7 +1001,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7297 ms
++7453 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1200,12 +1009,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7297 ms
++7453 ms
 Verdict Description:     Sent: +BRSF:3063
 
 
 
-+7422 ms
++7562 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0006,
@@ -1213,7 +1022,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7422 ms
++7562 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1221,12 +1030,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7422 ms
++7562 ms
 Verdict Description:     Sent: OK
 
 
 
-+7422 ms
++7562 ms
 Receive Event:           RFCOMM?RFCOMM_READ{
                            result=0x00,
                            dlci=0x02,
@@ -1234,12 +1043,12 @@ Receive Event:           RFCOMM?RFCOMM_READ{
                          }
 
 
-+7422 ms
++7562 ms
 Verdict Description:     Received: AT+BAC=1,2
 
 
 
-+7422 ms
++7562 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0006,
@@ -1247,7 +1056,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7422 ms
++7562 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1255,12 +1064,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7422 ms
++7562 ms
 Verdict Description:     Sent: OK
 
 
 
-+7422 ms
++7562 ms
 Receive Event:           RFCOMM?RFCOMM_READ{
                            result=0x00,
                            dlci=0x02,
@@ -1268,17 +1077,17 @@ Receive Event:           RFCOMM?RFCOMM_READ{
                          }
 
 
-+7422 ms
++7562 ms
 Verdict Description:     Received: AT+CIND=?
 
 
 
-+7422 ms
++7562 ms
 Verdict Description:     Found matching message.
 
 
 
-+7422 ms
++7562 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0096,
@@ -1286,7 +1095,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7422 ms
++7562 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1294,12 +1103,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7422 ms
++7562 ms
 Verdict Description:     Sent: +CIND:("service",(0,1)),("call",(0,1)),("callsetup",(0-3)),("callheld",(0-2)),("signal",(0-5)),("roam",(0-1)),("battchg",(0-5)),("callfwd",(0-2))
 
 
 
-+7422 ms
++7562 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0006,
@@ -1307,7 +1116,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7422 ms
++7562 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1315,12 +1124,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7422 ms
++7562 ms
 Verdict Description:     Sent: OK
 
 
 
-+7438 ms
++7578 ms
 Receive Event:           RFCOMM?RFCOMM_READ{
                            result=0x00,
                            dlci=0x02,
@@ -1328,17 +1137,17 @@ Receive Event:           RFCOMM?RFCOMM_READ{
                          }
 
 
-+7438 ms
++7578 ms
 Verdict Description:     Received: AT+CIND?
 
 
 
-+7438 ms
++7578 ms
 Verdict Description:     Found matching message.
 
 
 
-+7438 ms
++7578 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x001b,
@@ -1346,7 +1155,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7438 ms
++7578 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1354,12 +1163,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7438 ms
++7578 ms
 Verdict Description:     Sent: +CIND:1,0,0,0,5,0,5,1
 
 
 
-+7438 ms
++7578 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0006,
@@ -1367,7 +1176,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7438 ms
++7578 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1375,12 +1184,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7438 ms
++7578 ms
 Verdict Description:     Sent: OK
 
 
 
-+7453 ms
++7594 ms
 Receive Event:           RFCOMM?RFCOMM_READ{
                            result=0x00,
                            dlci=0x02,
@@ -1388,17 +1197,17 @@ Receive Event:           RFCOMM?RFCOMM_READ{
                          }
 
 
-+7453 ms
++7594 ms
 Verdict Description:     Received: AT+CMER=3,0,0,1
 
 
 
-+7453 ms
++7594 ms
 Verdict Description:     Found matching message.
 
 
 
-+7453 ms
++7594 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0006,
@@ -1406,7 +1215,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7453 ms
++7594 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1414,12 +1223,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7453 ms
++7594 ms
 Verdict Description:     Sent: OK
 
 
 
-+7453 ms
++7594 ms
 Receive Event:           RFCOMM?RFCOMM_READ{
                            result=0x00,
                            dlci=0x02,
@@ -1427,17 +1236,17 @@ Receive Event:           RFCOMM?RFCOMM_READ{
                          }
 
 
-+7453 ms
++7594 ms
 Verdict Description:     Received: AT+CHLD=?
 
 
 
-+7453 ms
++7594 ms
 Verdict Description:     Found matching message.
 
 
 
-+7453 ms
++7594 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x001c,
@@ -1445,7 +1254,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7453 ms
++7594 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1453,12 +1262,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7453 ms
++7594 ms
 Verdict Description:     Sent: +CHLD:(0,1,1x,2,2x,3,4)
 
 
 
-+7453 ms
++7594 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0006,
@@ -1466,7 +1275,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7453 ms
++7594 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1474,27 +1283,27 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7453 ms
++7594 ms
 Verdict Description:     Sent: OK
 
 
 
-+7453 ms
++7594 ms
 Verdict Description:     SetHfIndicators: HF Indicator feature is not supported.
 
 
 
-+7453 ms
++7594 ms
 Verdict Description:     RetrieveAGSupportedHfIndicators: HF Indicator feature is not supported.
 
 
 
-+7453 ms
++7594 ms
 Verdict Description:     RetrieveHfStatusIndication: HF Indicator feature is not supported.
 
 
 
-+7469 ms
++7609 ms
 Receive Event:           RFCOMM?RFCOMM_READ{
                            result=0x00,
                            dlci=0x02,
@@ -1502,12 +1311,12 @@ Receive Event:           RFCOMM?RFCOMM_READ{
                          }
 
 
-+7469 ms
++7609 ms
 Verdict Description:     Received: AT+VGM=7
 
 
 
-+7469 ms
++7609 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0006,
@@ -1515,7 +1324,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7469 ms
++7609 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1523,12 +1332,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7469 ms
++7609 ms
 Verdict Description:     Sent: OK
 
 
 
-+7469 ms
++7625 ms
 Receive Event:           RFCOMM?RFCOMM_READ{
                            result=0x00,
                            dlci=0x02,
@@ -1536,12 +1345,12 @@ Receive Event:           RFCOMM?RFCOMM_READ{
                          }
 
 
-+7469 ms
++7625 ms
 Verdict Description:     Received: AT+VGS=7
 
 
 
-+7469 ms
++7625 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0006,
@@ -1549,7 +1358,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7469 ms
++7625 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1557,12 +1366,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7469 ms
++7625 ms
 Verdict Description:     Sent: OK
 
 
 
-+7469 ms
++7625 ms
 Receive Event:           RFCOMM?RFCOMM_READ{
                            result=0x00,
                            dlci=0x02,
@@ -1570,12 +1379,12 @@ Receive Event:           RFCOMM?RFCOMM_READ{
                          }
 
 
-+7469 ms
++7625 ms
 Verdict Description:     Received: AT+CMEE=1
 
 
 
-+7469 ms
++7625 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0006,
@@ -1583,7 +1392,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7469 ms
++7625 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1591,12 +1400,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7469 ms
++7625 ms
 Verdict Description:     Sent: OK
 
 
 
-+7485 ms
++7640 ms
 Receive Event:           RFCOMM?RFCOMM_READ{
                            result=0x00,
                            dlci=0x02,
@@ -1604,12 +1413,12 @@ Receive Event:           RFCOMM?RFCOMM_READ{
                          }
 
 
-+7485 ms
++7640 ms
 Verdict Description:     Received: AT+COPS=3,0
 
 
 
-+7485 ms
++7640 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0006,
@@ -1617,7 +1426,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7485 ms
++7640 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1625,12 +1434,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7485 ms
++7640 ms
 Verdict Description:     Sent: OK
 
 
 
-+7500 ms
++7656 ms
 Receive Event:           RFCOMM?RFCOMM_READ{
                            result=0x00,
                            dlci=0x02,
@@ -1638,12 +1447,12 @@ Receive Event:           RFCOMM?RFCOMM_READ{
                          }
 
 
-+7500 ms
++7656 ms
 Verdict Description:     Received: AT+CLIP=1
 
 
 
-+7500 ms
++7656 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0006,
@@ -1651,7 +1460,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7500 ms
++7656 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1659,12 +1468,12 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7500 ms
++7656 ms
 Verdict Description:     Sent: OK
 
 
 
-+7500 ms
++7656 ms
 Receive Event:           RFCOMM?RFCOMM_READ{
                            result=0x00,
                            dlci=0x02,
@@ -1672,12 +1481,12 @@ Receive Event:           RFCOMM?RFCOMM_READ{
                          }
 
 
-+7500 ms
++7656 ms
 Verdict Description:     Received: AT+CCWA=1
 
 
 
-+7500 ms
++7656 ms
 Send Event:              SPP!DATA_REQ{
                            dlci=0x02,
                            datalength=0x0006,
@@ -1685,7 +1494,7 @@ Send Event:              SPP!DATA_REQ{
                          }
 
 
-+7500 ms
++7656 ms
 Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                            result=0x00,
                            dlci=0x02,
@@ -1693,43 +1502,43 @@ Receive Event:           RFCOMM?RFCOMM_WRITE_CNF{
                          }
 
 
-+7500 ms
++7656 ms
 Verdict Description:     Sent: OK
 
 
 
-+7813 ms
++7953 ms
 Send Event:              SPP!SPP_DISCONNECT{
                            bdAddr=0xD01769EE7819,
                            dlci=0x02
                          }
 
 
-+7844 ms
++7984 ms
 Receive Event:           RFCOMM?RFCOMM_CLOSE_CFM{
                            result=0x00
                          }
 
 
-+7844 ms
++7984 ms
 Verdict Description:     Received SPP Disconnection Cfm.
 
 
 
-+8844 ms
++8984 ms
 Send Event:              HCI!HCI_DISCONNECT{
                            connectionHandle=0x005A,
                            reason=HCI_REMOTE_USER_TERMINATED_CONNECTION
                          }
 
 
-+8844 ms
++8984 ms
 Receive Event:           HCI?HCI_DISCONNECT_STATUS_EVENT{
                            status=HCI_OK
                          }
 
 
-+8938 ms
++9062 ms
 Receive Event:           HCI?HCI_DISCONNECTION_COMPLETE_EVENT{
                            status=HCI_OK,
                            connectionHandle=0x005A,
@@ -1737,43 +1546,43 @@ Receive Event:           HCI?HCI_DISCONNECTION_COMPLETE_EVENT{
                          }
 
 
-+8938 ms
++9062 ms
 Verdict Description:     Received HCI disconnection event. Handle = 0x005A
 
 
 
-+8938 ms
++9062 ms
 Preliminary Verdict:     PASS
 
 
 
-+8938 ms
++9062 ms
 Send Event:              HCI!HCI_RESET
 
 
-+9047 ms
++9187 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+10156 ms
++10297 ms
 Receive Event:           HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+11578 ms
++11703 ms
 Final Verdict:           PASS
 
 
 
-+11578 ms
-Encrypted Verdict:       A1#ZmY4OGNiMDJlM2VhYTM3OTY5MTE1Zjg1ZGEzOWQwYTE3MjVjMWU2MTU0MmZjY2MyNGFlMjk0YmNiYmY1YjdmNA==#tzy/yZtVCfiQQahMVUZQkUpWj0z/QcZC1N/kigvQrUY+bIGc0tJ2X9jNDUlqJT2g
++11703 ms
+Encrypted Verdict:       A1#NThkZTgxMWFiOTA2ZGVmMjUxMTYxZjA1YWFkNDQwYmIxZjIxNzk4YjQ1OGU5MjFjZjkzMzJkYzQzM2QxODM4NA==#iH0/M55cgdgdyBJD9l/UCokRrlltD/K66pqsXNhiGMIrWBEf4yARITVABRiv2B6A
 
 
 
-+11578 ms
++11703 ms
 Test Case Ended:         HFP/HF/WBS/BV-04-C
 
 </LOG>
