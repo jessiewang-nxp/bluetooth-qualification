@@ -1,0 +1,80 @@
+13:47:03:024    > BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (1): 00 03 ff 01 00|01
+13:47:06:719    < BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (0): 00 03 ff 00 00|
+13:47:06:729    > BTP_GAP_CMD_READ_SUPPORTED_COMMANDS (0x01|0x01|0xff)
+                  raw data (0): 01 01 ff 00 00|
+13:47:06:896    < BTP_GAP_CMD_READ_SUPPORTED_COMMANDS (0x01|0x01|0xff)
+                  raw data (7): 01 01 ff 07 00|6e ff 7f 1f fe f7 0e
+13:47:06:916    > BTP_GAP_CMD_READ_CONTROLLER_INFO (0x01|0x03|0x00)
+                  raw data (0): 01 03 00 00 00|
+13:47:07:010    < BTP_GAP_CMD_READ_CONTROLLER_INFO (0x01|0x03|0x00)
+                  raw data (277): 
+                  01 03 00 15 01|19 78 ee 69 17 d0 d3 06 02 00 13 
+                  02 00 00 00 00 00 62 74 70 5f 74 65 73 74 65 72 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00
+13:47:07:020    > BTP_GAP_CMD_SET_DISCOVERABLE (0x01|0x08|0x00)
+                  raw data (1): 01 08 00 01 00|01
+13:47:07:121    < BTP_GAP_CMD_SET_DISCOVERABLE (0x01|0x08|0x00)
+                  raw data (4): 01 08 00 04 00|1b 02 00 00
+13:47:07:131    > BTP_GAP_CMD_SET_IO_CAP (0x01|0x10|0x00)
+                  raw data (1): 01 10 00 01 00|03
+13:47:07:222    < BTP_GAP_CMD_SET_IO_CAP (0x01|0x10|0x00)
+                  raw data (0): 01 10 00 00 00|
+13:47:07:243    > BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (32): 00 03 ff 01 00|20
+13:47:07:355    < BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (0): 00 03 ff 00 00|
+13:47:07:355    > BTP_HFP_HF_CMD_READ_SUPPORTED_COMMANDS (0x20|0x01|0xff)
+                  raw data (0): 20 01 ff 00 00|
+13:47:07:522    < BTP_HFP_HF_CMD_READ_SUPPORTED_COMMANDS (0x20|0x01|0xff)
+                  raw data (5): 20 01 ff 05 00|fe ff ff ff 7f
+13:47:11:038    < BTP_GAP_EV_DEVICE_CONNECTED (0x01|0x82|0x00)
+                  raw data (13): 
+                  01 82 00 0d 00|e0 4e e4 08 dc 1b 00 00 00 00 00 
+                  00 00
+13:47:11:038    < BTP_GAP_EV_NEW_SETTINGS (0x01|0x80|0x00)
+                  raw data (4): 01 80 00 04 00|1b 02 00 00
+13:47:12:712    < BTP_GAP_EV_ENCRYPTION_CHANGE (0x01|0x91|0x00)
+                  raw data (9): 01 91 00 09 00|e0 4e e4 08 dc 1b 00 01 10
+13:47:12:712    < BTP_GAP_EV_SEC_LEVEL_CHANGED (0x01|0x89|0x00)
+                  raw data (8): 01 89 00 08 00|e0 4e e4 08 dc 1b 00 02
+13:47:12:915    < BTP_HFP_HF_EV_CONNECTED (0x20|0x80|0x00)
+                  raw data (7): 20 80 00 07 00|e0 4e e4 08 dc 1b 00
+13:47:13:576    > BTP_HFP_HF_CMD_VOICE_RECOGNITION (0x20|0x1e|0x00)
+                  raw data (8): 20 1e 00 08 00|e0 4e e4 08 dc 1b 00 01
+13:47:13:656    < BTP_HFP_HF_CMD_VOICE_RECOGNITION (0x20|0x1e|0x00)
+                  raw data (0): 20 1e 00 00 00|
+13:47:13:690    < BTP_HFP_HF_EV_VOICE_RECOGNITION (0x20|0x9b|0x00)
+                  raw data (8): 20 9b 00 08 00|e0 4e e4 08 dc 1b 00 01
+13:47:14:892    < BTP_HFP_HF_EV_SCO_CONNECTED (0x20|0x82|0x00)
+                  raw data (7): 20 82 00 07 00|e0 4e e4 08 dc 1b 00
+13:47:15:704    > BTP_HFP_HF_CMD_VOICE_RECOGNITION (0x20|0x1e|0x00)
+                  raw data (8): 20 1e 00 08 00|e0 4e e4 08 dc 1b 00 00
+13:47:15:800    < BTP_HFP_HF_CMD_VOICE_RECOGNITION (0x20|0x1e|0x00)
+                  raw data (0): 20 1e 00 00 00|
+13:47:15:802    < BTP_HFP_HF_EV_VOICE_RECOGNITION (0x20|0x9b|0x00)
+                  raw data (8): 20 9b 00 08 00|e0 4e e4 08 dc 1b 00 00
+13:47:16:936    < BTP_HFP_HF_EV_SCO_DISCONNECTED (0x20|0x83|0x00)
+                  raw data (8): 20 83 00 08 00|e0 4e e4 08 dc 1b 00 13
+13:47:17:436    < BTP_HFP_HF_EV_DISCONNECTED (0x20|0x81|0x00)
+                  raw data (7): 20 81 00 07 00|e0 4e e4 08 dc 1b 00
+13:47:18:486    < BTP_GAP_EV_DEVICE_DISCONNECTED (0x01|0x83|0x00)
+                  raw data (7): 01 83 00 07 00|e0 4e e4 08 dc 1b 00
+13:47:22:095    < BTP_CORE_EV_IUT_READY (0x00|0x80|0xff)
+                  raw data (0): 00 80 ff 00 00|
