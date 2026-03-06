@@ -1,0 +1,14 @@
+CONTENT-LENGTH: 304
+CONTENT-TYPE: text/xml; charset = "utf-8"
+SOAPACTION: "urn:schemas-bluetooth-org:service:Printer:1#CreatePreciseJob"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"
+            s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <s:Body>
+    <u:CreatePreciseJob xmlns:u="urn:schemas-bluetooth-org:service:Printer:1">
+       <Sides>TwoSidedLongEdge</Sides>
+       <MediaSize>na_ledger_11x17in</MediaSize>
+       <PrintQuality>High</PrintQuality>
+    </u:CreatePreciseJob>
+  </s:Body>
+</s:Envelope>
