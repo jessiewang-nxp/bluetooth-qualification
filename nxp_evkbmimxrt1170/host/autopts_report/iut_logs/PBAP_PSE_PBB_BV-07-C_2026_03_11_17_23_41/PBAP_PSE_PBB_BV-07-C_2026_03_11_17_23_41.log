@@ -1,0 +1,425 @@
+2026-03-11 17:23:41,588 LT1-thread root DEBUG client.py                 82    logger_log                : Starting TestCase _run_test_case PBAP PBAP/PSE/PBB/BV-07-C
+2026-03-11 17:23:41,588 LT1-thread root DEBUG client.py                 82    logger_log                : pre_run PBAP PBAP/PSE/PBB/BV-07-C
+2026-03-11 17:23:41,588 LT1-thread root DEBUG client.py                 82    logger_log                : About to run test case PBAP PBAP/PSE/PBB/BV-07-C with commands:
+2026-03-11 17:23:41,589 LT1-thread root DEBUG client.py                 82    logger_log                : 0) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.core_init of <autopts.ptsprojects.stack.stack.Stack object at 0x00000272738E3D70>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2026-03-11 17:23:41,590 LT1-thread root DEBUG client.py                 82    logger_log                : 1) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method IutCtl.start of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x0000027273682600>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=(<autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x0000027274A5FC50>,) kwds={}
+2026-03-11 17:23:41,590 LT1-thread root DEBUG client.py                 82    logger_log                : 2) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method IutCtl.wait_iut_ready_event of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x0000027273682600>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=(False,) kwds={}
+2026-03-11 17:23:41,590 LT1-thread root DEBUG client.py                 82    logger_log                : 3) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gap at 0x0000027272277EC0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=130 args=() kwds={}
+2026-03-11 17:23:41,590 LT1-thread root DEBUG client.py                 82    logger_log                : 4) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gap_init of <autopts.ptsprojects.stack.stack.Stack object at 0x00000272738E3D70>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=128 args=(b'Tester_08E44E',) kwds={}
+2026-03-11 17:23:41,590 LT1-thread root DEBUG client.py                 82    logger_log                : 5) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_read_ctrl_info at 0x00000272722AEFC0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=128 args=() kwds={}
+2026-03-11 17:23:41,590 LT1-thread root DEBUG client.py                 82    logger_log                : 6) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases.<locals>.<lambda> at 0x00000272749FD9E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=128 args=() kwds={}
+2026-03-11 17:23:41,590 LT1-thread root DEBUG client.py                 82    logger_log                : 7) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function set_pts_addr at 0x0000027272277A60> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=128 args=('00:1B:DC:08:E4:4E', 0) kwds={}
+2026-03-11 17:23:41,590 LT1-thread root DEBUG client.py                 82    logger_log                : 8) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gatt at 0x0000027272298040> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=128 args=() kwds={}
+2026-03-11 17:23:41,590 LT1-thread root DEBUG client.py                 82    logger_log                : 9) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gatt_init of <autopts.ptsprojects.stack.stack.Stack object at 0x00000272738E3D70>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=128 args=() kwds={}
+2026-03-11 17:23:41,591 LT1-thread root DEBUG client.py                 82    logger_log                : 10) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_pbap at 0x0000027272299620> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=128 args=() kwds={}
+2026-03-11 17:23:41,591 LT1-thread root DEBUG client.py                 82    logger_log                : 11) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.pbap_init of <autopts.ptsprojects.stack.stack.Stack object at 0x00000272738E3D70>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=128 args=() kwds={}
+2026-03-11 17:23:41,591 LT1-thread root DEBUG client.py                 82    logger_log                : 12) class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method Stack.cleanup of <autopts.ptsprojects.stack.stack.Stack object at 0x00000272738E3D70>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2026-03-11 17:23:41,591 LT1-thread root DEBUG client.py                 82    logger_log                : 13) class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method ZephyrCtl.stop of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x0000027273682600>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2026-03-11 17:23:41,592 LT1-thread root DEBUG client.py                 82    logger_log                : pre_run, run pre test case script
+2026-03-11 17:23:41,619 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.core_init of <autopts.ptsprojects.stack.stack.Stack object at 0x00000272738E3D70>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=2 args=() kwds={}
+2026-03-11 17:23:41,619 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(), kwds={}
+2026-03-11 17:23:41,620 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method IutCtl.start of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x0000027273682600>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=2 args=(<autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x0000027274A5FC50>,) kwds={}
+2026-03-11 17:23:41,620 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(<autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x0000027274A5FC50>,), kwds={}
+2026-03-11 17:23:41,620 LT1-thread root DEBUG client.py                 82    logger_log                : <class 'autopts.ptsprojects.zephyr.iutctl.ZephyrCtl'>.start
+2026-03-11 17:23:41,620 LT1-thread root DEBUG client.py                 82    logger_log                : <class 'autopts.ptsprojects.zephyr.iutctl.ZephyrCtl'>.flush_serial
+2026-03-11 17:23:42,857 LT1-thread root DEBUG client.py                 82    logger_log                : Starting socat process: socat.exe -x -v tcp:10.17.12.9:64075,retry=100,interval=1 /dev/ttyS2,raw,b115200,
+2026-03-11 17:23:42,876 LT1-thread root DEBUG client.py                 82    logger_log                : accept
+2026-03-11 17:23:42,954 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : BTPWorkerThread-5949 (_rx_task) started
+2026-03-11 17:23:42,954 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method IutCtl.wait_iut_ready_event of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x0000027273682600>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=2 args=(False,) kwds={}
+2026-03-11 17:23:42,955 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(False,), kwds={}
+2026-03-11 17:23:42,955 LT1-thread root DEBUG client.py                 82    logger_log                : IUT ready event received OK
+2026-03-11 17:23:42,955 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gap at 0x0000027272277EC0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=131 args=() kwds={}
+2026-03-11 17:23:42,955 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(), kwds={}
+2026-03-11 17:23:42,955 LT1-thread root DEBUG client.py                 82    logger_log                : core_reg_svc_univ: gap_reg (GAP)
+2026-03-11 17:23:42,955 LT1-thread root DEBUG client.py                 82    logger_log                : send, 0 3 255 '1'
+2026-03-11 17:23:42,956 LT1-thread root DEBUG client.py                 82    logger_log                : sending frame '0003ff010001'
+2026-03-11 17:23:42,956 LT1-thread root DEBUG client.py                 82    logger_log                : core_reg_svc_rsp_succ
+2026-03-11 17:23:42,956 LT1-thread root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:23:47,154 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:23:47,159 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x00, op=0x03, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x03\xff\x00\x00')
+2026-03-11 17:23:47,164 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {''}, bytearray(b'')
+2026-03-11 17:23:47,175 LT1-thread root DEBUG client.py                 82    logger_log                : received Header(svc_id=0, op=3, ctrl_index=255, data_len=0) (b'',)
+2026-03-11 17:23:47,175 LT1-thread root DEBUG client.py                 82    logger_log                : expected ((0, 3, 255, 0), (b'',))
+2026-03-11 17:23:47,176 LT1-thread root DEBUG client.py                 82    logger_log                : response is valid
+2026-03-11 17:23:47,176 LT1-thread root DEBUG client.py                 82    logger_log                : Reading supported commands for service: GAP
+2026-03-11 17:23:47,176 LT1-thread root DEBUG client.py                 82    logger_log                : send, 1 1 255 ''
+2026-03-11 17:23:47,176 LT1-thread root DEBUG client.py                 82    logger_log                : sending frame '0101ff0000'
+2026-03-11 17:23:47,176 LT1-thread root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:23:47,221 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:23:47,232 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x01, ctrl_index=0xff, data_len=0x07) bytearray(b'\x01\x01\xff\x07\x00')
+2026-03-11 17:23:47,248 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 7 bytes data
+2026-03-11 17:23:47,259 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'6e ff 7f 1f fe f7 0e'}, bytearray(b'n\xff\x7f\x1f\xfe\xf7\x0e')
+2026-03-11 17:23:47,270 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gap_init of <autopts.ptsprojects.stack.stack.Stack object at 0x00000272738E3D70>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=129 args=(b'Tester_08E44E',) kwds={}
+2026-03-11 17:23:47,270 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(b'Tester_08E44E',), kwds={}
+2026-03-11 17:23:47,271 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_read_ctrl_info at 0x00000272722AEFC0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=129 args=() kwds={}
+2026-03-11 17:23:47,271 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(), kwds={}
+2026-03-11 17:23:47,271 LT1-thread root DEBUG client.py                 82    logger_log                : gap_read_ctrl_info
+2026-03-11 17:23:47,271 LT1-thread root DEBUG client.py                 82    logger_log                : send, 1 3 0 ''
+2026-03-11 17:23:47,271 LT1-thread root DEBUG client.py                 82    logger_log                : sending frame '0103000000'
+2026-03-11 17:23:47,271 LT1-thread root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:23:47,302 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:23:47,311 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x03, ctrl_index=0x00, data_len=0x115) bytearray(b'\x01\x03\x00\x15\x01')
+2026-03-11 17:23:47,374 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 277 bytes data
+2026-03-11 17:23:47,385 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'19 78 ee 69 17 d0 d3 06 02 00 13 02 00 00 00 00 00 62 74 70 5f 74 65 73 74 65 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00'}, bytearray(b'\x19x\xeei\x17\xd0\xd3\x06\x02\x00\x13\x02\x00\x00\x00\x00\x00btp_tester\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+2026-03-11 17:23:47,385 LT1-thread root DEBUG client.py                 82    logger_log                : received Header(svc_id=1, op=3, ctrl_index=0, data_len=277) (b'\x19x\xeei\x17\xd0\xd3\x06\x02\x00\x13\x02\x00\x00\x00\x00\x00btp_tester\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',)
+2026-03-11 17:23:47,385 LT1-thread root DEBUG client.py                 82    logger_log                : IUT address 'd01769ee7819' 'public'
+2026-03-11 17:23:47,385 LT1-thread root DEBUG client.py                 82    logger_log                : __gap_current_settings_update 531
+2026-03-11 17:23:47,387 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases.<locals>.<lambda> at 0x00000272749FD9E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=129 args=() kwds={}
+2026-03-11 17:23:47,387 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(), kwds={}
+2026-03-11 17:23:47,392 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function set_pts_addr at 0x0000027272277A60> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=129 args=('00:1B:DC:08:E4:4E', 0) kwds={}
+2026-03-11 17:23:47,392 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=('00:1B:DC:08:E4:4E', 0), kwds={}
+2026-03-11 17:23:47,392 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gatt at 0x0000027272298040> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=129 args=() kwds={}
+2026-03-11 17:23:47,393 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(), kwds={}
+2026-03-11 17:23:47,393 LT1-thread root DEBUG client.py                 82    logger_log                : core_reg_svc_univ: gatt_reg (GATT)
+2026-03-11 17:23:47,393 LT1-thread root DEBUG client.py                 82    logger_log                : send, 0 3 255 '2'
+2026-03-11 17:23:47,393 LT1-thread root DEBUG client.py                 82    logger_log                : sending frame '0003ff010002'
+2026-03-11 17:23:47,393 LT1-thread root DEBUG client.py                 82    logger_log                : core_reg_svc_rsp_succ
+2026-03-11 17:23:47,394 LT1-thread root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:23:47,425 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:23:47,435 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x00, op=0x03, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x03\xff\x00\x00')
+2026-03-11 17:23:47,441 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {''}, bytearray(b'')
+2026-03-11 17:23:47,458 LT1-thread root DEBUG client.py                 82    logger_log                : received Header(svc_id=0, op=3, ctrl_index=255, data_len=0) (b'',)
+2026-03-11 17:23:47,458 LT1-thread root DEBUG client.py                 82    logger_log                : expected ((0, 3, 255, 0), (b'',))
+2026-03-11 17:23:47,458 LT1-thread root DEBUG client.py                 82    logger_log                : response is valid
+2026-03-11 17:23:47,458 LT1-thread root DEBUG client.py                 82    logger_log                : Reading supported commands for service: GATT
+2026-03-11 17:23:47,458 LT1-thread root DEBUG client.py                 82    logger_log                : send, 2 1 255 ''
+2026-03-11 17:23:47,459 LT1-thread root DEBUG client.py                 82    logger_log                : sending frame '0201ff0000'
+2026-03-11 17:23:47,459 LT1-thread root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:23:47,495 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:23:47,505 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x02, op=0x01, ctrl_index=0xff, data_len=0x05) bytearray(b'\x02\x01\xff\x05\x00')
+2026-03-11 17:23:47,528 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes data
+2026-03-11 17:23:47,538 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'fe fe bf fd 0f'}, bytearray(b'\xfe\xfe\xbf\xfd\x0f')
+2026-03-11 17:23:47,555 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gatt_init of <autopts.ptsprojects.stack.stack.Stack object at 0x00000272738E3D70>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=129 args=() kwds={}
+2026-03-11 17:23:47,555 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(), kwds={}
+2026-03-11 17:23:47,555 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_pbap at 0x0000027272299620> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=129 args=() kwds={}
+2026-03-11 17:23:47,555 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(), kwds={}
+2026-03-11 17:23:47,555 LT1-thread root DEBUG client.py                 82    logger_log                : core_reg_svc_univ: pbap_reg (PBAP)
+2026-03-11 17:23:47,556 LT1-thread root DEBUG client.py                 82    logger_log                : send, 0 3 255 '34'
+2026-03-11 17:23:47,556 LT1-thread root DEBUG client.py                 82    logger_log                : sending frame '0003ff010022'
+2026-03-11 17:23:47,556 LT1-thread root DEBUG client.py                 82    logger_log                : core_reg_svc_rsp_succ
+2026-03-11 17:23:47,556 LT1-thread root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:23:47,591 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:23:47,602 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x00, op=0x03, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x03\xff\x00\x00')
+2026-03-11 17:23:47,618 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {''}, bytearray(b'')
+2026-03-11 17:23:47,623 LT1-thread root DEBUG client.py                 82    logger_log                : received Header(svc_id=0, op=3, ctrl_index=255, data_len=0) (b'',)
+2026-03-11 17:23:47,623 LT1-thread root DEBUG client.py                 82    logger_log                : expected ((0, 3, 255, 0), (b'',))
+2026-03-11 17:23:47,624 LT1-thread root DEBUG client.py                 82    logger_log                : response is valid
+2026-03-11 17:23:47,624 LT1-thread root DEBUG client.py                 82    logger_log                : Reading supported commands for service: PBAP
+2026-03-11 17:23:47,624 LT1-thread root DEBUG client.py                 82    logger_log                : send, 34 1 255 ''
+2026-03-11 17:23:47,624 LT1-thread root DEBUG client.py                 82    logger_log                : sending frame '2201ff0000'
+2026-03-11 17:23:47,624 LT1-thread root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:23:47,664 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:23:47,675 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x01, ctrl_index=0xff, data_len=0x03) bytearray(b'"\x01\xff\x03\x00')
+2026-03-11 17:23:47,697 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 3 bytes data
+2026-03-11 17:23:47,716 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'fe ff 1f'}, bytearray(b'\xfe\xff\x1f')
+2026-03-11 17:23:47,743 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.pbap_init of <autopts.ptsprojects.stack.stack.Stack object at 0x00000272738E3D70>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=129 args=() kwds={}
+2026-03-11 17:23:47,743 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(), kwds={}
+2026-03-11 17:23:47,744 LT1-thread root DEBUG client.py                 82    logger_log                : PBAP event handler started
+2026-03-11 17:23:47,746 LT1-thread root DEBUG client.py                 82    logger_log                : ClientCallback.get_result run_test_case
+2026-03-11 17:23:53,511 LT1-callback ClientCallback.on_implicit_send INFO client.py                 82    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: PBAP
+    wid: 38
+    test_case_name: PBAP/PSE/PBB/BV-07-C
+    description: Click OK when the IUT becomes connectable.
+    style: MMI_Style_Ok_Cancel1 0x11041
+2026-03-11 17:23:53,511 LT1-callback ClientCallback.on_implicit_send INFO client.py                 82    logger_log                : Calling test cases on_implicit_send
+2026-03-11 17:23:53,511 LT1-callback ClientCallback.on_implicit_send INFO client.py                 82    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-03-11 17:23:53,749 LT1-thread root DEBUG client.py                 82    logger_log                : PBAP PBAP/PSE/PBB/BV-07-C on_implicit_send
+2026-03-11 17:23:53,749 LT1-thread root DEBUG client.py                 82    logger_log                : pbap_wid_hdl, 38, Click OK when the IUT becomes connectable., PBAP/PSE/PBB/BV-07-C
+2026-03-11 17:23:53,749 LT1-thread root DEBUG client.py                 82    logger_log                : gap_set_conn
+2026-03-11 17:23:53,749 LT1-thread root DEBUG client.py                 82    logger_log                : gap_set_gendiscov
+2026-03-11 17:23:53,749 LT1-thread root DEBUG client.py                 82    logger_log                : send, 1 8 0 '1'
+2026-03-11 17:23:53,749 LT1-thread root DEBUG client.py                 82    logger_log                : sending frame '010800010001'
+2026-03-11 17:23:53,749 LT1-thread root DEBUG client.py                 82    logger_log                : gap_command_rsp_succ
+2026-03-11 17:23:53,749 LT1-thread root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:23:53,809 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:23:53,820 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x08, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x08\x00\x04\x00')
+2026-03-11 17:23:53,832 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 4 bytes data
+2026-03-11 17:23:53,842 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2026-03-11 17:23:53,857 LT1-thread root DEBUG client.py                 82    logger_log                : received Header(svc_id=1, op=8, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2026-03-11 17:23:53,858 LT1-thread root DEBUG client.py                 82    logger_log                : __gap_current_settings_update (b'\x1b\x02\x00\x00',)
+2026-03-11 17:23:53,858 LT1-thread root DEBUG client.py                 82    logger_log                : Sending response 'OK' to wid 38 test case PBAP/PSE/PBB/BV-07-C
+2026-03-11 17:23:53,860 LT1-thread root DEBUG client.py                 82    logger_log                : ClientCallback.get_result run_test_case
+2026-03-11 17:23:59,036 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:23:59,036 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x82, ctrl_index=0x00, data_len=0x0d) bytearray(b'\x01\x82\x00\r\x00')
+2026-03-11 17:23:59,037 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 13 bytes data
+2026-03-11 17:23:59,037 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'e0 4e e4 08 dc 1b 00 00 00 00 00 00 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x00\x00\x00\x00\x00\x00')
+2026-03-11 17:23:59,037 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=1, op=130, ctrl_index=0, data_len=13) (b'\xe0N\xe4\x08\xdc\x1b\x00\x00\x00\x00\x00\x00\x00',)
+2026-03-11 17:23:59,037 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : gap_connected_ev_ b'\xe0N\xe4\x08\xdc\x1b\x00\x00\x00\x00\x00\x00\x00'
+2026-03-11 17:23:59,037 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:23:59,037 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x80, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x80\x00\x04\x00')
+2026-03-11 17:23:59,037 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 4 bytes data
+2026-03-11 17:23:59,037 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2026-03-11 17:23:59,037 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=1, op=128, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2026-03-11 17:23:59,037 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : gap_new_settings_ev_ b'\x1b\x02\x00\x00'
+2026-03-11 17:23:59,038 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : __gap_current_settings_update 539
+2026-03-11 17:23:59,158 LT1-callback ClientCallback.on_implicit_send INFO client.py                 82    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: PBAP
+    wid: 4017
+    test_case_name: PBAP/PSE/PBB/BV-07-C
+    description:  Please accept the l2cap channel connection for an OBEX connection.
+    style: MMI_Style_Ok_Cancel1 0x11041
+2026-03-11 17:23:59,159 LT1-callback ClientCallback.on_implicit_send INFO client.py                 82    logger_log                : Calling test cases on_implicit_send
+2026-03-11 17:23:59,159 LT1-callback ClientCallback.on_implicit_send INFO client.py                 82    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-03-11 17:23:59,863 LT1-thread root DEBUG client.py                 82    logger_log                : PBAP PBAP/PSE/PBB/BV-07-C on_implicit_send
+2026-03-11 17:23:59,863 LT1-thread root DEBUG client.py                 82    logger_log                : pbap_wid_hdl, 4017,  Please accept the l2cap channel connection for an OBEX connection., PBAP/PSE/PBB/BV-07-C
+2026-03-11 17:23:59,863 LT1-thread root DEBUG client.py                 82    logger_log                : Sending response 'OK' to wid 4017 test case PBAP/PSE/PBB/BV-07-C
+2026-03-11 17:23:59,865 LT1-thread root DEBUG client.py                 82    logger_log                : ClientCallback.get_result run_test_case
+2026-03-11 17:24:00,784 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:00,784 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x91, ctrl_index=0x00, data_len=0x09) bytearray(b'\x01\x91\x00\t\x00')
+2026-03-11 17:24:00,784 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 9 bytes data
+2026-03-11 17:24:00,784 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'e0 4e e4 08 dc 1b 00 01 10'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x01\x10')
+2026-03-11 17:24:00,784 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=1, op=145, ctrl_index=0, data_len=9) (b'\xe0N\xe4\x08\xdc\x1b\x00\x01\x10',)
+2026-03-11 17:24:00,784 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : gap_encryption_change_ev_
+2026-03-11 17:24:00,784 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : enc change received b'\xe0N\xe4\x08\xdc\x1b\x00\x01\x10'
+2026-03-11 17:24:00,784 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : received (224, '001bdc08e44e', 1, 16)
+2026-03-11 17:24:00,785 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:00,785 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x89, ctrl_index=0x00, data_len=0x08) bytearray(b'\x01\x89\x00\x08\x00')
+2026-03-11 17:24:00,785 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 8 bytes data
+2026-03-11 17:24:00,785 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'e0 4e e4 08 dc 1b 00 02'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x02')
+2026-03-11 17:24:00,785 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=1, op=137, ctrl_index=0, data_len=8) (b'\xe0N\xe4\x08\xdc\x1b\x00\x02',)
+2026-03-11 17:24:00,785 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : gap_sec_level_changed_ev_
+2026-03-11 17:24:00,785 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : received b'\xe0N\xe4\x08\xdc\x1b\x00\x02'
+2026-03-11 17:24:00,785 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : received (224, '001bdc08e44e', 2)
+2026-03-11 17:24:00,805 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:00,805 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x8d, ctrl_index=0x00, data_len=0x07) bytearray(b'"\x8d\x00\x07\x00')
+2026-03-11 17:24:00,805 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 7 bytes data
+2026-03-11 17:24:00,806 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'e0 4e e4 08 dc 1b 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00')
+2026-03-11 17:24:00,806 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=34, op=141, ctrl_index=0, data_len=7) (b'\xe0N\xe4\x08\xdc\x1b\x00',)
+2026-03-11 17:24:00,806 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : pbap_pse_l2cap_connected_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00' 7
+2026-03-11 17:24:00,806 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _pbap_pse_l2cap_connected_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00' 7
+2026-03-11 17:24:00,806 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : PBAP PSE L2CAP connected to addr b'N\xe4\x08\xdc\x1b\x00'
+2026-03-11 17:24:00,903 LT1-callback ClientCallback.on_implicit_send INFO client.py                 82    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: PBAP
+    wid: 4004
+    test_case_name: PBAP/PSE/PBB/BV-07-C
+    description:  Please accept the OBEX CONNECT REQ.
+    style: MMI_Style_Ok_Cancel1 0x11041
+2026-03-11 17:24:00,903 LT1-callback ClientCallback.on_implicit_send INFO client.py                 82    logger_log                : Calling test cases on_implicit_send
+2026-03-11 17:24:00,903 LT1-callback ClientCallback.on_implicit_send INFO client.py                 82    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-03-11 17:24:00,913 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:00,914 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x8f, ctrl_index=0x00, data_len=0x28) bytearray(b'"\x8f\x00(\x00')
+2026-03-11 17:24:00,914 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 40 bytes data
+2026-03-11 17:24:00,914 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'e0 4e e4 08 dc 1b 00 10 fe 06 1c 00 46 00 13 79 61 35 f0 f0 c5 11 d8 09 66 08 00 20 0c 9a 66 4c 00 09 10 04 00 00 03 ff'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x10\xfe\x06\x1c\x00F\x00\x13ya5\xf0\xf0\xc5\x11\xd8\tf\x08\x00 \x0c\x9afL\x00\t\x10\x04\x00\x00\x03\xff')
+2026-03-11 17:24:00,914 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=34, op=143, ctrl_index=0, data_len=40) (b'\xe0N\xe4\x08\xdc\x1b\x00\x10\xfe\x06\x1c\x00F\x00\x13ya5\xf0\xf0\xc5\x11\xd8\tf\x08\x00 \x0c\x9afL\x00\t\x10\x04\x00\x00\x03\xff',)
+2026-03-11 17:24:00,914 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : pbap_pse_connect_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00\x10\xfe\x06\x1c\x00F\x00\x13ya5\xf0\xf0\xc5\x11\xd8\tf\x08\x00 \x0c\x9afL\x00\t\x10\x04\x00\x00\x03\xff' 40
+2026-03-11 17:24:00,914 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _pbap_pse_connect_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00\x10\xfe\x06\x1c\x00F\x00\x13ya5\xf0\xf0\xc5\x11\xd8\tf\x08\x00 \x0c\x9afL\x00\t\x10\x04\x00\x00\x03\xff' 40
+2026-03-11 17:24:00,915 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : PBAP PSE connect from addr b'N\xe4\x08\xdc\x1b\x00', version 16, mopl 1790
+2026-03-11 17:24:00,915 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_get_headers 28 bytearray(b'F\x00\x13ya5\xf0\xf0\xc5\x11\xd8\tf\x08\x00 \x0c\x9afL\x00\t\x10\x04\x00\x00\x03\xff')
+2026-03-11 17:24:00,915 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _get_header_encoding 70
+2026-03-11 17:24:00,915 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _get_header_encoding 76
+2026-03-11 17:24:00,915 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _parse_tlv 6 b'\x10\x04\x00\x00\x03\xff'
+2026-03-11 17:24:00,915 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : bt_pbap_parse_header_app_param {16: b'\x00\x00\x03\xff'}
+2026-03-11 17:24:00,915 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_add_headers bytearray(b'') {74: bytearray(b'ya5\xf0\xf0\xc5\x11\xd8\tf\x08\x00 \x0c\x9af'), 203: 1}
+2026-03-11 17:24:00,915 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_set_info '001bdc08e44e' 'tx_data' {74: bytearray(b'ya5\xf0\xf0\xc5\x11\xd8\tf\x08\x00 \x0c\x9af'), 203: 1}
+2026-03-11 17:24:00,915 Thread-5958 (_process_events) root INFO client.py                 82    logger_log                : tx = {13: [(160, bytearray(b'J\x00\x13ya5\xf0\xf0\xc5\x11\xd8\tf\x08\x00 \x0c\x9af\xcb\x00\x00\x00\x01'))]}
+2026-03-11 17:24:00,915 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_pse_connect_rsp None 224 255 160 bytearray(b'J\x00\x13ya5\xf0\xf0\xc5\x11\xd8\tf\x08\x00 \x0c\x9af\xcb\x00\x00\x00\x01')
+2026-03-11 17:24:00,915 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : send, 34 13 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\xff\\x00\\xa0\\x18\\x00J\\x00\\x13ya5\\xf0\\xf0\\xc5\\x11\\xd8\\tf\\x08\\x00 \\x0c\\x9af\\xcb\\x00\\x00\\x00\\x01')"
+2026-03-11 17:24:00,915 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : sending frame '220d002400e04ee408dc1b00ff00a018004a0013796135f0f0c511d809660800200c9a66cb00000001'
+2026-03-11 17:24:00,916 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:24:00,952 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:00,963 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x0d, ctrl_index=0x00, data_len=0x00) bytearray(b'"\r\x00\x00\x00')
+2026-03-11 17:24:00,974 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {''}, bytearray(b'')
+2026-03-11 17:24:00,980 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:00,980 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x94, ctrl_index=0x00, data_len=0x12) bytearray(b'"\x94\x00\x12\x00')
+2026-03-11 17:24:00,981 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 18 bytes data
+2026-03-11 17:24:00,981 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'e0 4e e4 08 dc 1b 00 02 08 00 01 00 03 cb 00 00 00 01'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x08\x00\x01\x00\x03\xcb\x00\x00\x00\x01')
+2026-03-11 17:24:00,981 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=34, op=148, ctrl_index=0, data_len=18) (b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x08\x00\x01\x00\x03\xcb\x00\x00\x00\x01',)
+2026-03-11 17:24:00,981 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : pbap_pse_set_phone_book_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x08\x00\x01\x00\x03\xcb\x00\x00\x00\x01' 18
+2026-03-11 17:24:00,981 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _pbap_pse_set_phone_book_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x08\x00\x01\x00\x03\xcb\x00\x00\x00\x01' 18
+2026-03-11 17:24:00,981 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : PBAP PSE set path from addr b'N\xe4\x08\xdc\x1b\x00', flags 2
+2026-03-11 17:24:00,982 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_get_headers 8 bytearray(b'\x01\x00\x03\xcb\x00\x00\x00\x01')
+2026-03-11 17:24:00,982 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _get_header_encoding 1
+2026-03-11 17:24:00,982 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _get_header_encoding 203
+2026-03-11 17:24:00,982 Thread-5958 (_process_events) root INFO client.py                 82    logger_log                : flags = 2, path = 
+2026-03-11 17:24:00,982 Thread-5958 (_process_events) root INFO client.py                 82    logger_log                : tx = {13: [(160, bytearray(b'J\x00\x13ya5\xf0\xf0\xc5\x11\xd8\tf\x08\x00 \x0c\x9af\xcb\x00\x00\x00\x01'))], 18: [(160, bytearray(b''))]}
+2026-03-11 17:24:00,982 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_pse_set_phone_book_rsp None 224 160 b''
+2026-03-11 17:24:00,982 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : send, 34 18 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\xa0\\x00\\x00')"
+2026-03-11 17:24:00,982 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : sending frame '2212000a00e04ee408dc1b00a00000'
+2026-03-11 17:24:00,983 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:24:01,023 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:01,037 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x12, ctrl_index=0x00, data_len=0x00) bytearray(b'"\x12\x00\x00\x00')
+2026-03-11 17:24:01,048 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {''}, bytearray(b'')
+2026-03-11 17:24:01,065 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:01,065 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x94, ctrl_index=0x00, data_len=0x22) bytearray(b'"\x94\x00"\x00')
+2026-03-11 17:24:01,065 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 34 bytes data
+2026-03-11 17:24:01,066 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'e0 4e e4 08 dc 1b 00 02 18 00 01 00 13 00 74 00 65 00 6c 00 65 00 63 00 6f 00 6d 00 00 cb 00 00 00 01'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x18\x00\x01\x00\x13\x00t\x00e\x00l\x00e\x00c\x00o\x00m\x00\x00\xcb\x00\x00\x00\x01')
+2026-03-11 17:24:01,066 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=34, op=148, ctrl_index=0, data_len=34) (b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x18\x00\x01\x00\x13\x00t\x00e\x00l\x00e\x00c\x00o\x00m\x00\x00\xcb\x00\x00\x00\x01',)
+2026-03-11 17:24:01,066 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : pbap_pse_set_phone_book_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x18\x00\x01\x00\x13\x00t\x00e\x00l\x00e\x00c\x00o\x00m\x00\x00\xcb\x00\x00\x00\x01' 34
+2026-03-11 17:24:01,066 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _pbap_pse_set_phone_book_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x18\x00\x01\x00\x13\x00t\x00e\x00l\x00e\x00c\x00o\x00m\x00\x00\xcb\x00\x00\x00\x01' 34
+2026-03-11 17:24:01,066 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : PBAP PSE set path from addr b'N\xe4\x08\xdc\x1b\x00', flags 2
+2026-03-11 17:24:01,066 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_get_headers 24 bytearray(b'\x01\x00\x13\x00t\x00e\x00l\x00e\x00c\x00o\x00m\x00\x00\xcb\x00\x00\x00\x01')
+2026-03-11 17:24:01,066 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _get_header_encoding 1
+2026-03-11 17:24:01,067 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _get_header_encoding 203
+2026-03-11 17:24:01,067 Thread-5958 (_process_events) root INFO client.py                 82    logger_log                : flags = 2, path = telecom
+2026-03-11 17:24:01,067 Thread-5958 (_process_events) root INFO client.py                 82    logger_log                : tx = {13: [(160, bytearray(b'J\x00\x13ya5\xf0\xf0\xc5\x11\xd8\tf\x08\x00 \x0c\x9af\xcb\x00\x00\x00\x01'))], 18: [(160, bytearray(b'')), (160, bytearray(b''))]}
+2026-03-11 17:24:01,067 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_pse_set_phone_book_rsp None 224 160 b''
+2026-03-11 17:24:01,067 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : send, 34 18 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\xa0\\x00\\x00')"
+2026-03-11 17:24:01,067 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : sending frame '2212000a00e04ee408dc1b00a00000'
+2026-03-11 17:24:01,067 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:24:01,101 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:01,112 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x12, ctrl_index=0x00, data_len=0x00) bytearray(b'"\x12\x00\x00\x00')
+2026-03-11 17:24:01,117 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {''}, bytearray(b'')
+2026-03-11 17:24:01,123 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:01,123 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x92, ctrl_index=0x00, data_len=0x2f) bytearray(b'"\x92\x00/\x00')
+2026-03-11 17:24:01,123 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 47 bytes data
+2026-03-11 17:24:01,124 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'e0 4e e4 08 dc 1b 00 26 00 01 00 09 00 70 00 62 00 00 42 00 16 78 2d 62 74 2f 76 63 61 72 64 2d 6c 69 73 74 69 6e 67 00 97 01 cb 00 00 00 01'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00&\x00\x01\x00\t\x00p\x00b\x00\x00B\x00\x16x-bt/vcard-listing\x00\x97\x01\xcb\x00\x00\x00\x01')
+2026-03-11 17:24:01,124 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=34, op=146, ctrl_index=0, data_len=47) (b'\xe0N\xe4\x08\xdc\x1b\x00&\x00\x01\x00\t\x00p\x00b\x00\x00B\x00\x16x-bt/vcard-listing\x00\x97\x01\xcb\x00\x00\x00\x01',)
+2026-03-11 17:24:01,124 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : pbap_pse_pull_vcard_listing_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00&\x00\x01\x00\t\x00p\x00b\x00\x00B\x00\x16x-bt/vcard-listing\x00\x97\x01\xcb\x00\x00\x00\x01' 47
+2026-03-11 17:24:01,124 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _pbap_pse_pull_vcard_listing_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00&\x00\x01\x00\t\x00p\x00b\x00\x00B\x00\x16x-bt/vcard-listing\x00\x97\x01\xcb\x00\x00\x00\x01' 47
+2026-03-11 17:24:01,124 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_get_headers 38 bytearray(b'\x01\x00\t\x00p\x00b\x00\x00B\x00\x16x-bt/vcard-listing\x00\x97\x01\xcb\x00\x00\x00\x01')
+2026-03-11 17:24:01,124 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _get_header_encoding 1
+2026-03-11 17:24:01,124 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _get_header_encoding 66
+2026-03-11 17:24:01,125 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _get_header_encoding 151
+2026-03-11 17:24:01,125 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _get_header_encoding 203
+2026-03-11 17:24:01,125 Thread-5958 (_process_events) root INFO client.py                 82    logger_log                : vcard_selector = None
+2026-03-11 17:24:01,125 Thread-5958 (_process_events) root INFO client.py                 82    logger_log                : data = <?xml version="1.0"?>
+<!DOCTYPE vcard-listing SYSTEM "vcard-listing.dtd">
+<vCard-listing version="1.0">
+  <card handle="0.vcf" name="PTS"/>
+  <card handle="1.vcf" name="Jane Doe"/>
+  <card handle="2.vcf" name="Dr. Michael Johnson Jr."/>
+  <card handle="3.vcf" name="Sarah Williams"/>
+  <card handle="4.vcf" name="Robert Brown"/>
+  <card handle="5.vcf" name="Wei Zhang"/>
+  <card handle="6.vcf" name="Ming Li"/>
+  <card handle="7.vcf" name="PTS_PH"/>
+  <card handle="8.vcf" name="PTS_8"/>
+  <card handle="9.vcf" name="PTS_9"/>
+</vCard-listing>
+2026-03-11 17:24:01,125 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_add_headers bytearray(b'') {76: {10: bytearray(b'2adab21e07e29b74a540bd97779d1ea6'), 11: bytearray(b'c0fef38bde8471b7dc382c02d7ca0436'), 13: bytearray(b'3ae01b21baed5d6a6d4a9ebcfd52c402')}, 151: 1}
+2026-03-11 17:24:01,125 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : bt_pbap_add_header_app_param {10: bytearray(b'2adab21e07e29b74a540bd97779d1ea6'), 11: bytearray(b'c0fef38bde8471b7dc382c02d7ca0436'), 13: bytearray(b'3ae01b21baed5d6a6d4a9ebcfd52c402')}
+2026-03-11 17:24:01,125 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_add_headers bytearray(b'L\x009\n\x102adab21e07e29b74\x0b\x10c0fef38bde8471b7\r\x103ae01b21baed5d6a\x97\x01') {72: '<?xml version="1.0"?>\n<!DOCTYPE vcard-listing SYSTEM "vcard-listing.dtd">\n<vCard-listing version="1.0">\n  <card handle="0.vcf" name="PTS"/>\n  <card handle="1.vcf" name="Jane Doe"/>\n  <card '}
+2026-03-11 17:24:01,125 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_pse_pull_vcard_listing_rsp None 224 144 bytearray(b'L\x009\n\x102adab21e07e29b74\x0b\x10c0fef38bde8471b7\r\x103ae01b21baed5d6a\x97\x01H\x00\xc0<?xml version="1.0"?>\n<!DOCTYPE vcard-listing SYSTEM "vcard-listing.dtd">\n<vCard-listing version="1.0">\n  <card handle="0.vcf" name="PTS"/>\n  <card handle="1.vcf" name="Jane Doe"/>\n  <card ')
+2026-03-11 17:24:01,125 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : send, 34 16 0 'bytearray(b\'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\x90\\xfb\\x00L\\x009\\n\\x102adab21e07e29b74\\x0b\\x10c0fef38bde8471b7\\r\\x103ae01b21baed5d6a\\x97\\x01H\\x00\\xc0<?xml version="1.0"?>\\n<!DOCTYPE vcard-listing SYSTEM "vcard-listing.dtd">\\n<vCard-listing version="1.0">\\n  <card handle="0.vcf" name="PTS"/>\\n  <card handle="1.vcf" name="Jane Doe"/>\\n  <card \')'
+2026-03-11 17:24:01,125 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : sending frame '2210000501e04ee408dc1b0090fb004c00390a10326164616232316530376532396237340b10633066656633386264653834373162370d103361653031623231626165643564366197014800c03c3f786d6c2076657273696f6e3d22312e30223f3e0a3c21444f43545950452076636172642d6c697374696e672053595354454d202276636172642d6c697374696e672e647464223e0a3c76436172642d6c697374696e672076657273696f6e3d22312e30223e0a20203c636172642068616e646c653d22302e76636622206e616d653d22505453222f3e0a20203c636172642068616e646c653d22312e76636622206e616d653d224a616e6520446f65222f3e0a20203c6361726420'
+2026-03-11 17:24:01,126 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:24:01,185 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:01,201 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x10, ctrl_index=0x00, data_len=0x00) bytearray(b'"\x10\x00\x00\x00')
+2026-03-11 17:24:01,211 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {''}, bytearray(b'')
+2026-03-11 17:24:01,228 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_add_headers bytearray(b'') {}
+2026-03-11 17:24:01,228 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_add_headers bytearray(b'') {72: 'handle="2.vcf" name="Dr. Michael Johnson Jr."/>\n  <card handle="3.vcf" name="Sarah Williams"/>\n  <card handle="4.vcf" name="Robert Brown"/>\n  <card handle="5.vcf" name="Wei Zhang"/>\n  <card handle="6.vcf" name="Ming Li"/>\n  <card handle="7.vcf" nam'}
+2026-03-11 17:24:01,228 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_pse_pull_vcard_listing_rsp None 224 144 bytearray(b'H\x00\xfbhandle="2.vcf" name="Dr. Michael Johnson Jr."/>\n  <card handle="3.vcf" name="Sarah Williams"/>\n  <card handle="4.vcf" name="Robert Brown"/>\n  <card handle="5.vcf" name="Wei Zhang"/>\n  <card handle="6.vcf" name="Ming Li"/>\n  <card handle="7.vcf" nam')
+2026-03-11 17:24:01,228 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : send, 34 16 0 'bytearray(b\'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\x90\\xfb\\x00H\\x00\\xfbhandle="2.vcf" name="Dr. Michael Johnson Jr."/>\\n  <card handle="3.vcf" name="Sarah Williams"/>\\n  <card handle="4.vcf" name="Robert Brown"/>\\n  <card handle="5.vcf" name="Wei Zhang"/>\\n  <card handle="6.vcf" name="Ming Li"/>\\n  <card handle="7.vcf" nam\')'
+2026-03-11 17:24:01,228 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : sending frame '2210000501e04ee408dc1b0090fb004800fb68616e646c653d22322e76636622206e616d653d2244722e204d69636861656c204a6f686e736f6e204a722e222f3e0a20203c636172642068616e646c653d22332e76636622206e616d653d2253617261682057696c6c69616d73222f3e0a20203c636172642068616e646c653d22342e76636622206e616d653d22526f626572742042726f776e222f3e0a20203c636172642068616e646c653d22352e76636622206e616d653d22576569205a68616e67222f3e0a20203c636172642068616e646c653d22362e76636622206e616d653d224d696e67204c69222f3e0a20203c636172642068616e646c653d22372e76636622206e616d'
+2026-03-11 17:24:01,229 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:24:01,278 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:01,278 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x10, ctrl_index=0x00, data_len=0x00) bytearray(b'"\x10\x00\x00\x00')
+2026-03-11 17:24:01,279 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {''}, bytearray(b'')
+2026-03-11 17:24:01,279 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_add_headers bytearray(b'') {}
+2026-03-11 17:24:01,279 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_add_headers bytearray(b'') {73: 'e="PTS_PH"/>\n  <card handle="8.vcf" name="PTS_8"/>\n  <card handle="9.vcf" name="PTS_9"/>\n</vCard-listing>'}
+2026-03-11 17:24:01,279 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_pse_pull_vcard_listing_rsp None 224 160 bytearray(b'I\x00le="PTS_PH"/>\n  <card handle="8.vcf" name="PTS_8"/>\n  <card handle="9.vcf" name="PTS_9"/>\n</vCard-listing>')
+2026-03-11 17:24:01,280 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : send, 34 16 0 'bytearray(b\'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\xa0l\\x00I\\x00le="PTS_PH"/>\\n  <card handle="8.vcf" name="PTS_8"/>\\n  <card handle="9.vcf" name="PTS_9"/>\\n</vCard-listing>\')'
+2026-03-11 17:24:01,280 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : sending frame '2210007600e04ee408dc1b00a06c0049006c653d225054535f5048222f3e0a20203c636172642068616e646c653d22382e76636622206e616d653d225054535f38222f3e0a20203c636172642068616e646c653d22392e76636622206e616d653d225054535f39222f3e0a3c2f76436172642d6c697374696e673e'
+2026-03-11 17:24:01,280 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:24:01,322 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:01,333 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x10, ctrl_index=0x00, data_len=0x00) bytearray(b'"\x10\x00\x00\x00')
+2026-03-11 17:24:01,340 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {''}, bytearray(b'')
+2026-03-11 17:24:01,350 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:01,351 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x90, ctrl_index=0x00, data_len=0x0e) bytearray(b'"\x90\x00\x0e\x00')
+2026-03-11 17:24:01,351 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 14 bytes data
+2026-03-11 17:24:01,351 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'e0 4e e4 08 dc 1b 00 05 00 cb 00 00 00 01'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x05\x00\xcb\x00\x00\x00\x01')
+2026-03-11 17:24:01,351 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=34, op=144, ctrl_index=0, data_len=14) (b'\xe0N\xe4\x08\xdc\x1b\x00\x05\x00\xcb\x00\x00\x00\x01',)
+2026-03-11 17:24:01,351 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : pbap_pse_disconnect_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00\x05\x00\xcb\x00\x00\x00\x01' 14
+2026-03-11 17:24:01,352 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _pbap_pse_disconnect_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00\x05\x00\xcb\x00\x00\x00\x01' 14
+2026-03-11 17:24:01,352 Thread-5958 (_process_events) root INFO client.py                 82    logger_log                : tx = {13: [(160, bytearray(b'J\x00\x13ya5\xf0\xf0\xc5\x11\xd8\tf\x08\x00 \x0c\x9af\xcb\x00\x00\x00\x01'))], 18: [(160, bytearray(b'')), (160, bytearray(b''))], 14: [(160, bytearray(b''))]}
+2026-03-11 17:24:01,352 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : pbap_pse_disconnect_rsp None 224 160 b''
+2026-03-11 17:24:01,352 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : send, 34 14 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\xa0\\x00\\x00')"
+2026-03-11 17:24:01,352 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : sending frame '220e000a00e04ee408dc1b00a00000'
+2026-03-11 17:24:01,352 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : read
+2026-03-11 17:24:01,387 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:01,399 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x0e, ctrl_index=0x00, data_len=0x00) bytearray(b'"\x0e\x00\x00\x00')
+2026-03-11 17:24:01,399 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {''}, bytearray(b'')
+2026-03-11 17:24:01,400 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:01,400 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x22, op=0x8e, ctrl_index=0x00, data_len=0x07) bytearray(b'"\x8e\x00\x07\x00')
+2026-03-11 17:24:01,400 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 7 bytes data
+2026-03-11 17:24:01,401 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'e0 4e e4 08 dc 1b 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00')
+2026-03-11 17:24:01,401 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=34, op=142, ctrl_index=0, data_len=7) (b'\xe0N\xe4\x08\xdc\x1b\x00',)
+2026-03-11 17:24:01,401 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : pbap_pse_l2cap_disconnected_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00' 7
+2026-03-11 17:24:01,401 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:01,401 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x01, op=0x83, ctrl_index=0x00, data_len=0x07) bytearray(b'\x01\x83\x00\x07\x00')
+2026-03-11 17:24:01,401 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : _pbap_pse_l2cap_disconnected_ev <autopts.ptsprojects.stack.layers.pbap.PBAP object at 0x00000272759B5D00> b'\xe0N\xe4\x08\xdc\x1b\x00' 7
+2026-03-11 17:24:01,401 Thread-5958 (_process_events) root DEBUG client.py                 82    logger_log                : PBAP PSE L2CAP disconnected from addr b'N\xe4\x08\xdc\x1b\x00'
+2026-03-11 17:24:01,401 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 7 bytes data
+2026-03-11 17:24:01,402 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {'e0 4e e4 08 dc 1b 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00')
+2026-03-11 17:24:01,402 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=1, op=131, ctrl_index=0, data_len=7) (b'\xe0N\xe4\x08\xdc\x1b\x00',)
+2026-03-11 17:24:01,402 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : gap_disconnected_ev_ b'\xe0N\xe4\x08\xdc\x1b\x00'
+2026-03-11 17:24:01,866 LT1-thread root DEBUG client.py                 82    logger_log                : PBAP PBAP/PSE/PBB/BV-07-C on_implicit_send
+2026-03-11 17:24:01,866 LT1-thread root DEBUG client.py                 82    logger_log                : pbap_wid_hdl, 4004,  Please accept the OBEX CONNECT REQ., PBAP/PSE/PBB/BV-07-C
+2026-03-11 17:24:01,866 LT1-thread root DEBUG client.py                 82    logger_log                : Sending response 'OK' to wid 4004 test case PBAP/PSE/PBB/BV-07-C
+2026-03-11 17:24:01,867 LT1-thread root DEBUG client.py                 82    logger_log                : ClientCallback.get_result run_test_case
+2026-03-11 17:24:01,870 LT1-callback ClientCallback.on_implicit_send INFO client.py                 82    logger_log                : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: PBAP
+    wid: 4016
+    test_case_name: PBAP/PSE/PBB/BV-07-C
+    description: Please accept the SET_PATH command.
+    style: MMI_Style_Ok_Cancel1 0x11041
+2026-03-11 17:24:01,870 LT1-callback ClientCallback.on_implicit_send INFO client.py                 82    logger_log                : Calling test cases on_implicit_send
+2026-03-11 17:24:01,870 LT1-callback ClientCallback.on_implicit_send INFO client.py                 82    logger_log                : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-03-11 17:24:02,869 LT1-thread root DEBUG client.py                 82    logger_log                : PBAP PBAP/PSE/PBB/BV-07-C on_implicit_send
+2026-03-11 17:24:02,869 LT1-thread root DEBUG client.py                 82    logger_log                : pbap_wid_hdl, 4016, Please accept the SET_PATH command., PBAP/PSE/PBB/BV-07-C
+2026-03-11 17:24:02,869 LT1-thread root DEBUG client.py                 82    logger_log                : pbap_wait_for_func_finished
+2026-03-11 17:24:02,869 LT1-thread root DEBUG client.py                 82    logger_log                : data = None
+2026-03-11 17:24:02,869 LT1-thread root DEBUG client.py                 82    logger_log                : Sending response 'Cancel' to wid 4016 test case PBAP/PSE/PBB/BV-07-C
+2026-03-11 17:24:02,871 LT1-thread root DEBUG client.py                 82    logger_log                : ClientCallback.get_result run_test_case
+2026-03-11 17:24:04,106 LT1-callback ClientCallback.log INFO client.py                 82    logger_log                : PTS_LOGTYPE_START_TEST Start Test Case 
+
++1641 ms
+ PBAP/PSE/PBB/BV-07-C PBAP/PSE/PBB/BV-07-C
+
+2026-03-11 17:24:04,533 LT1-callback ClientCallback.log INFO client.py                 82    logger_log                : PTS_LOGTYPE_FINAL_VERDICT Final Verdict 
+
++15531 ms
+ PBAP/PSE/PBB/BV-07-C PASS
+
+2026-03-11 17:24:04,538 LT1-callback ClientCallback.log INFO client.py                 82    logger_log                : PTS_LOGTYPE_FINAL_VERDICT Encrypted Verdict 
+
++15531 ms
+ PBAP/PSE/PBB/BV-07-C A1#ZGE2M2M1NzRlMzA2NzNlM2UzNGI5YTFiMDU2OTQ1Mzk4YjFkZGZlYzRhNTYxZjNjNjA4ZjQwYjNmNDdlZThjZA==#axv/3T6QABXhP7XvZyJD5MkwenZnW94Kpc+o3KFi6rloK9EdlKW5FxKBzN5ecqqs
+
+2026-03-11 17:24:04,624 LT1-callback ClientCallback.log INFO client.py                 82    logger_log                : PTS_LOGTYPE_END_TEST Test Case Ended 
+
++15531 ms
+ PBAP/PSE/PBB/BV-07-C PBAP/PSE/PBB/BV-07-C
+
+2026-03-11 17:24:04,725 LT1-callback root DEBUG client.py                 82    logger_log                : ClientCallback, set_result, run_test_case, PASS
+2026-03-11 17:24:04,725 LT1-thread root DEBUG client.py                 82    logger_log                : After run_test_case error_code=0 status='PASS'
+2026-03-11 17:24:04,726 LT1-thread root DEBUG client.py                 82    logger_log                : post_run PBAP PBAP/PSE/PBB/BV-07-C 0
+2026-03-11 17:24:04,726 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method Stack.cleanup of <autopts.ptsprojects.stack.stack.Stack object at 0x00000272738E3D70>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=2 args=() kwds={}
+2026-03-11 17:24:04,726 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(), kwds={}
+2026-03-11 17:24:04,727 LT1-thread root DEBUG client.py                 82    logger_log                : PBAP event handler started
+2026-03-11 17:24:04,727 LT1-thread root DEBUG client.py                 82    logger_log                : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method ZephyrCtl.stop of <autopts.ptsprojects.zephyr.iutctl.ZephyrCtl object at 0x0000027273682600>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=2 args=() kwds={}
+2026-03-11 17:24:04,727 LT1-thread root DEBUG client.py                 82    logger_log                : Test function parameters: args=(), kwds={}
+2026-03-11 17:24:04,727 LT1-thread root DEBUG client.py                 82    logger_log                : <class 'autopts.ptsprojects.zephyr.iutctl.ZephyrCtl'>.stop
+2026-03-11 17:24:04,727 LT1-thread root DEBUG client.py                 82    logger_log                : About to reset DUT: JLink -CommandFile reset.jlink -usb 1063214216 -device MIMXRT1176XXXA_M7
+2026-03-11 17:24:05,091 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Read 5 bytes
+2026-03-11 17:24:05,091 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received: hdr: Header(svc_id=0x00, op=0x80, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x80\xff\x00\x00')
+2026-03-11 17:24:05,091 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : Received data: {''}, bytearray(b'')
+2026-03-11 17:24:05,091 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : event_handler Header(svc_id=0, op=128, ctrl_index=255, data_len=0) (b'',)
+2026-03-11 17:24:05,092 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : core_iut_ready_ev
+2026-03-11 17:24:05,565 LT1-thread root DEBUG client.py                 82    logger_log                : IUT ready event received OK
+2026-03-11 17:24:05,565 LT1-thread root DEBUG client.py                 82    logger_log                : Waiting for _rx_worker to finish ...
+2026-03-11 17:24:06,092 BTPWorkerThread-5949 (_rx_task) root DEBUG client.py                 82    logger_log                : BTPWorkerThread-5949 (_rx_task) finishing...
+2026-03-11 17:24:09,100 LT1-thread root DEBUG client.py                 82    logger_log                : post_run, cleanup running post test case script
+2026-03-11 17:24:09,100 LT1-thread root DEBUG client.py                 82    logger_log                : post_run, run post test case script
+2026-03-11 17:24:09,191 LT1-thread root DEBUG client.py                 82    logger_log                : Done TestCase _run_test_case PBAP PBAP/PSE/PBB/BV-07-C

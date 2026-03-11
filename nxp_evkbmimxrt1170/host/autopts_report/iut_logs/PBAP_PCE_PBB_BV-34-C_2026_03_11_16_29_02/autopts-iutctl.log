@@ -1,0 +1,552 @@
+16:29:03:848    > BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (1): 00 03 ff 01 00|01
+16:29:08:077    < BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (0): 00 03 ff 00 00|
+16:29:08:093    > BTP_GAP_CMD_READ_SUPPORTED_COMMANDS (0x01|0x01|0xff)
+                  raw data (0): 01 01 ff 00 00|
+16:29:08:178    < BTP_GAP_CMD_READ_SUPPORTED_COMMANDS (0x01|0x01|0xff)
+                  raw data (7): 01 01 ff 07 00|6e ff 7f 1f fe f7 0e
+16:29:08:196    > BTP_GAP_CMD_READ_CONTROLLER_INFO (0x01|0x03|0x00)
+                  raw data (0): 01 03 00 00 00|
+16:29:08:275    < BTP_GAP_CMD_READ_CONTROLLER_INFO (0x01|0x03|0x00)
+                  raw data (277): 
+                  01 03 00 15 01|19 78 ee 69 17 d0 d3 06 02 00 13 
+                  02 00 00 00 00 00 62 74 70 5f 74 65 73 74 65 72 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00
+16:29:08:297    > BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (2): 00 03 ff 01 00|02
+16:29:08:360    < BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (0): 00 03 ff 00 00|
+16:29:08:372    > BTP_GATT_CMD_READ_SUPPORTED_COMMANDS (0x02|0x01|0xff)
+                  raw data (0): 02 01 ff 00 00|
+16:29:08:458    < BTP_GATT_CMD_READ_SUPPORTED_COMMANDS (0x02|0x01|0xff)
+                  raw data (5): 02 01 ff 05 00|fe fe bf fd 0f
+16:29:08:475    > BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (34): 00 03 ff 01 00|22
+16:29:08:517    < BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (0): 00 03 ff 00 00|
+16:29:08:533    > BTP_PBAP_CMD_READ_SUPPORTED_COMMANDS (0x22|0x01|0xff)
+                  raw data (0): 22 01 ff 00 00|
+16:29:08:601    < BTP_PBAP_CMD_READ_SUPPORTED_COMMANDS (0x22|0x01|0xff)
+                  raw data (3): 22 01 ff 03 00|fe ff 1f
+16:29:12:608    > BTP_GAP_CMD_CONNECT (0x01|0x0e|0x00)
+                  raw data (8): 01 0e 00 08 00|e0 4e e4 08 dc 1b 00 00
+16:29:12:654    < BTP_GAP_CMD_CONNECT (0x01|0x0e|0x00)
+                  raw data (0): 01 0e 00 00 00|
+16:29:13:268    < BTP_GAP_EV_DEVICE_CONNECTED (0x01|0x82|0x00)
+                  raw data (13): 
+                  01 82 00 0d 00|e0 4e e4 08 dc 1b 00 00 00 00 00 
+                  00 00
+16:29:13:304    > BTP_PBAP_CMD_SDP_DISCOVER (0x22|0x14|0x00)
+                  raw data (7): 22 14 00 07 00|e0 4e e4 08 dc 1b 00
+16:29:13:367    < BTP_PBAP_CMD_SDP_DISCOVER (0x22|0x14|0x00)
+                  raw data (0): 22 14 00 00 00|
+16:29:13:434    < BTP_PBAP_EV_SDP_DISCOVER (0x22|0x96|0x00)
+                  raw data (15): 
+                  22 96 00 0f 00|e0 4e e4 08 dc 1b 00 02 05 10 bf 
+                  03 00 00 0f
+16:29:13:488    > BTP_PBAP_CMD_PCE_L2CAP_CONNECT (0x22|0x04|0x00)
+                  raw data (9): 22 04 00 09 00|e0 4e e4 08 dc 1b 00 05 10
+16:29:13:564    < BTP_PBAP_CMD_PCE_L2CAP_CONNECT (0x22|0x04|0x00)
+                  raw data (0): 22 04 00 00 00|
+16:29:15:357    < BTP_GAP_EV_ENCRYPTION_CHANGE (0x01|0x91|0x00)
+                  raw data (9): 01 91 00 09 00|e0 4e e4 08 dc 1b 00 01 10
+16:29:15:460    < BTP_GAP_EV_SEC_LEVEL_CHANGED (0x01|0x89|0x00)
+                  raw data (8): 01 89 00 08 00|e0 4e e4 08 dc 1b 00 02
+16:29:15:565    < BTP_PBAP_EV_PCE_L2CAP_CONNECTED (0x22|0x82|0x00)
+                  raw data (7): 22 82 00 07 00|e0 4e e4 08 dc 1b 00
+16:29:16:647    > BTP_PBAP_CMD_PCE_CONNECT (0x22|0x06|0x00)
+                  raw data (39): 
+                  22 06 00 27 00|e0 4e e4 08 dc 1b 00 00 01 1c 00 
+                  46 00 13 79 61 35 f0 f0 c5 11 d8 09 66 08 00 20 
+                  0c 9a 66 4c 00 09 10 04 00 00 03 ff
+16:29:16:688    < BTP_PBAP_CMD_PCE_CONNECT (0x22|0x06|0x00)
+                  raw data (0): 22 06 00 00 00|
+16:29:16:715    < BTP_PBAP_EV_PCE_CONNECTED (0x22|0x84|0x00)
+                  raw data (37): 
+                  22 84 00 25 00|e0 4e e4 08 dc 1b 00 a0 10 fe 06 
+                  18 00 4a 00 13 79 61 35 f0 f0 c5 11 d8 09 66 08 
+                  00 20 0c 9a 66 cb 70 5d af 96
+16:29:17:854    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 02 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:17:901    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:17:930    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:17:945    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (33): 
+                  22 0b 00 21 00|e0 4e e4 08 dc 1b 00 02 17 00 cb 
+                  70 5d af 96 01 00 12 00 74 00 65 00 6c 00 65 00 
+                  63 00 6f 00 6d 00
+16:29:18:005    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:18:006    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:19:077    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (23): 
+                  22 0b 00 17 00|e0 4e e4 08 dc 1b 00 02 0d 00 cb 
+                  70 5d af 96 01 00 08 00 70 00 62 00
+16:29:19:121    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:19:156    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:19:174    > BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (61): 
+                  22 0a 00 3d 00|e0 4e e4 08 dc 1b 00 34 00 cb 70 
+                  5d af 96 42 00 0e 78 2d 62 74 2f 76 63 61 72 64 
+                  00 01 00 0e 00 31 00 2e 00 76 00 63 00 66 00 97 
+                  01 4c 00 11 06 08 00 00 00 00 00 00 00 04 04 02 
+                  00 0a
+16:29:19:224    < BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (0): 22 0a 00 00 00|
+16:29:19:230    < BTP_PBAP_EV_PCE_PULL_VCARD_ENTRY (0x22|0x88|0x00)
+                  raw data (111): 
+                  22 88 00 6f 00|e0 4e e4 08 dc 1b 00 a0 65 00 4c 
+                  00 15 0d 10 61 62 63 64 65 66 39 38 37 36 35 34 
+                  33 32 31 30 97 01 49 00 4e 42 45 47 49 4e 3a 56 
+                  43 41 52 44 0d 0a 56 45 52 53 49 4f 4e 3a 33 2e 
+                  30 0d 0a 4e 3a 50 54 53 31 3b 3b 3b 3b 0d 0a 54 
+                  45 4c 3b 57 4f 52 4b 3a 2b 31 2d 34 32 35 2d 36 
+                  39 31 2d 33 35 33 35 0d 0a 45 4e 44 3a 56 43 41 
+                  52 44 0d 0a
+16:29:19:256    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 03 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:19:297    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:19:314    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:20:344    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (25): 
+                  22 0b 00 19 00|e0 4e e4 08 dc 1b 00 02 0f 00 cb 
+                  70 5d af 96 01 00 0a 00 69 00 63 00 68 00
+16:29:20:384    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:20:413    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:20:443    > BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (61): 
+                  22 0a 00 3d 00|e0 4e e4 08 dc 1b 00 34 00 cb 70 
+                  5d af 96 42 00 0e 78 2d 62 74 2f 76 63 61 72 64 
+                  00 01 00 0e 00 31 00 2e 00 76 00 63 00 66 00 97 
+                  01 4c 00 11 06 08 00 00 00 00 00 00 00 04 04 02 
+                  00 0a
+16:29:20:496    < BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (0): 22 0a 00 00 00|
+16:29:20:533    < BTP_PBAP_EV_PCE_PULL_VCARD_ENTRY (0x22|0x88|0x00)
+                  raw data (113): 
+                  22 88 00 71 00|e0 4e e4 08 dc 1b 00 a0 67 00 4c 
+                  00 15 0d 10 61 62 63 64 65 66 39 38 37 36 35 34 
+                  33 32 31 30 97 01 49 00 50 42 45 47 49 4e 3a 56 
+                  43 41 52 44 0d 0a 56 45 52 53 49 4f 4e 3a 33 2e 
+                  30 0d 0a 4e 3a 50 54 53 20 32 30 3b 3b 3b 3b 0d 
+                  0a 54 45 4c 3b 57 4f 52 4b 3a 2b 31 2d 34 32 35 
+                  2d 36 39 31 2d 33 35 33 35 0d 0a 45 4e 44 3a 56 
+                  43 41 52 44 0d 0a
+16:29:20:606    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 03 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:20:663    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:20:696    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:21:748    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (25): 
+                  22 0b 00 19 00|e0 4e e4 08 dc 1b 00 02 0f 00 cb 
+                  70 5d af 96 01 00 0a 00 6f 00 63 00 68 00
+16:29:21:788    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:21:790    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:21:825    > BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (61): 
+                  22 0a 00 3d 00|e0 4e e4 08 dc 1b 00 34 00 cb 70 
+                  5d af 96 42 00 0e 78 2d 62 74 2f 76 63 61 72 64 
+                  00 01 00 0e 00 31 00 2e 00 76 00 63 00 66 00 97 
+                  01 4c 00 11 06 08 00 00 00 00 00 00 00 04 04 02 
+                  00 0a
+16:29:21:859    < BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (0): 22 0a 00 00 00|
+16:29:21:885    < BTP_PBAP_EV_PCE_PULL_VCARD_ENTRY (0x22|0x88|0x00)
+                  raw data (113): 
+                  22 88 00 71 00|e0 4e e4 08 dc 1b 00 a0 67 00 4c 
+                  00 15 0d 10 61 62 63 64 65 66 39 38 37 36 35 34 
+                  33 32 31 30 97 01 49 00 50 42 45 47 49 4e 3a 56 
+                  43 41 52 44 0d 0a 56 45 52 53 49 4f 4e 3a 33 2e 
+                  30 0d 0a 4e 3a 50 54 53 20 32 30 3b 3b 3b 3b 0d 
+                  0a 54 45 4c 3b 57 4f 52 4b 3a 2b 31 2d 34 32 35 
+                  2d 36 39 31 2d 33 35 33 35 0d 0a 45 4e 44 3a 56 
+                  43 41 52 44 0d 0a
+16:29:21:967    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 03 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:22:016    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:22:029    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:23:056    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (25): 
+                  22 0b 00 19 00|e0 4e e4 08 dc 1b 00 02 0f 00 cb 
+                  70 5d af 96 01 00 0a 00 6d 00 63 00 68 00
+16:29:23:105    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:23:149    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:23:173    > BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (61): 
+                  22 0a 00 3d 00|e0 4e e4 08 dc 1b 00 34 00 cb 70 
+                  5d af 96 42 00 0e 78 2d 62 74 2f 76 63 61 72 64 
+                  00 01 00 0e 00 31 00 2e 00 76 00 63 00 66 00 97 
+                  01 4c 00 11 06 08 00 00 00 00 00 00 00 04 04 02 
+                  00 0a
+16:29:23:223    < BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (0): 22 0a 00 00 00|
+16:29:23:257    < BTP_PBAP_EV_PCE_PULL_VCARD_ENTRY (0x22|0x88|0x00)
+                  raw data (113): 
+                  22 88 00 71 00|e0 4e e4 08 dc 1b 00 a0 67 00 4c 
+                  00 15 0d 10 61 62 63 64 65 66 39 38 37 36 35 34 
+                  33 32 31 30 97 01 49 00 50 42 45 47 49 4e 3a 56 
+                  43 41 52 44 0d 0a 56 45 52 53 49 4f 4e 3a 33 2e 
+                  30 0d 0a 4e 3a 50 54 53 20 32 30 3b 3b 3b 3b 0d 
+                  0a 54 45 4c 3b 57 4f 52 4b 3a 2b 31 2d 34 32 35 
+                  2d 36 39 31 2d 33 35 33 35 0d 0a 45 4e 44 3a 56 
+                  43 41 52 44 0d 0a
+16:29:23:379    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 03 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:23:442    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:23:502    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:24:551    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (25): 
+                  22 0b 00 19 00|e0 4e e4 08 dc 1b 00 02 0f 00 cb 
+                  70 5d af 96 01 00 0a 00 63 00 63 00 68 00
+16:29:24:594    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:24:601    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:24:644    > BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (61): 
+                  22 0a 00 3d 00|e0 4e e4 08 dc 1b 00 34 00 cb 70 
+                  5d af 96 42 00 0e 78 2d 62 74 2f 76 63 61 72 64 
+                  00 01 00 0e 00 31 00 2e 00 76 00 63 00 66 00 97 
+                  01 4c 00 11 06 08 00 00 00 00 00 00 00 04 04 02 
+                  00 0a
+16:29:24:701    < BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (0): 22 0a 00 00 00|
+16:29:24:712    < BTP_PBAP_EV_PCE_PULL_VCARD_ENTRY (0x22|0x88|0x00)
+                  raw data (113): 
+                  22 88 00 71 00|e0 4e e4 08 dc 1b 00 a0 67 00 4c 
+                  00 15 0d 10 61 62 63 64 65 66 39 38 37 36 35 34 
+                  33 32 31 30 97 01 49 00 50 42 45 47 49 4e 3a 56 
+                  43 41 52 44 0d 0a 56 45 52 53 49 4f 4e 3a 33 2e 
+                  30 0d 0a 4e 3a 50 54 53 20 32 30 3b 3b 3b 3b 0d 
+                  0a 54 45 4c 3b 57 4f 52 4b 3a 2b 31 2d 34 32 35 
+                  2d 36 39 31 2d 33 35 33 35 0d 0a 45 4e 44 3a 56 
+                  43 41 52 44 0d 0a
+16:29:24:780    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 03 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:24:840    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:24:873    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:25:931    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (25): 
+                  22 0b 00 19 00|e0 4e e4 08 dc 1b 00 02 0f 00 cb 
+                  70 5d af 96 01 00 0a 00 73 00 70 00 64 00
+16:29:26:035    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:26:036    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:26:071    > BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (61): 
+                  22 0a 00 3d 00|e0 4e e4 08 dc 1b 00 34 00 cb 70 
+                  5d af 96 42 00 0e 78 2d 62 74 2f 76 63 61 72 64 
+                  00 01 00 0e 00 31 00 2e 00 76 00 63 00 66 00 97 
+                  01 4c 00 11 06 08 00 00 00 00 00 00 00 04 04 02 
+                  00 0a
+16:29:26:121    < BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (0): 22 0a 00 00 00|
+16:29:26:151    < BTP_PBAP_EV_PCE_PULL_VCARD_ENTRY (0x22|0x88|0x00)
+                  raw data (111): 
+                  22 88 00 6f 00|e0 4e e4 08 dc 1b 00 a0 65 00 4c 
+                  00 15 0d 10 61 62 63 64 65 66 39 38 37 36 35 34 
+                  33 32 31 30 97 01 49 00 4e 42 45 47 49 4e 3a 56 
+                  43 41 52 44 0d 0a 56 45 52 53 49 4f 4e 3a 33 2e 
+                  30 0d 0a 4e 3a 50 54 53 31 3b 3b 3b 3b 0d 0a 54 
+                  45 4c 3b 57 4f 52 4b 3a 2b 31 2d 34 32 35 2d 36 
+                  39 31 2d 33 35 33 35 0d 0a 45 4e 44 3a 56 43 41 
+                  52 44 0d 0a
+16:29:26:257    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 03 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:26:304    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:26:311    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:27:375    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (25): 
+                  22 0b 00 19 00|e0 4e e4 08 dc 1b 00 02 0f 00 cb 
+                  70 5d af 96 01 00 0a 00 66 00 61 00 76 00
+16:29:27:423    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:27:472    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:27:485    > BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (61): 
+                  22 0a 00 3d 00|e0 4e e4 08 dc 1b 00 34 00 cb 70 
+                  5d af 96 42 00 0e 78 2d 62 74 2f 76 63 61 72 64 
+                  00 01 00 0e 00 31 00 2e 00 76 00 63 00 66 00 97 
+                  01 4c 00 11 06 08 00 00 00 00 00 00 00 04 04 02 
+                  00 0a
+16:29:27:537    < BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (0): 22 0a 00 00 00|
+16:29:27:593    < BTP_PBAP_EV_PCE_PULL_VCARD_ENTRY (0x22|0x88|0x00)
+                  raw data (111): 
+                  22 88 00 6f 00|e0 4e e4 08 dc 1b 00 a0 65 00 4c 
+                  00 15 0d 10 61 62 63 64 65 66 39 38 37 36 35 34 
+                  33 32 31 30 97 01 49 00 4e 42 45 47 49 4e 3a 56 
+                  43 41 52 44 0d 0a 56 45 52 53 49 4f 4e 3a 33 2e 
+                  30 0d 0a 4e 3a 50 54 53 31 3b 3b 3b 3b 0d 0a 54 
+                  45 4c 3b 57 4f 52 4b 3a 2b 31 2d 34 32 35 2d 36 
+                  39 31 2d 33 35 33 35 0d 0a 45 4e 44 3a 56 43 41 
+                  52 44 0d 0a
+16:29:27:704    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 03 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:27:756    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:27:768    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:28:808    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 02 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:28:853    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:28:880    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:28:931    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (27): 
+                  22 0b 00 1b 00|e0 4e e4 08 dc 1b 00 02 11 00 cb 
+                  70 5d af 96 01 00 0c 00 53 00 49 00 4d 00 31 00
+16:29:28:986    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:29:026    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:29:093    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (33): 
+                  22 0b 00 21 00|e0 4e e4 08 dc 1b 00 02 17 00 cb 
+                  70 5d af 96 01 00 12 00 74 00 65 00 6c 00 65 00 
+                  63 00 6f 00 6d 00
+16:29:29:151    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:29:169    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:30:240    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (23): 
+                  22 0b 00 17 00|e0 4e e4 08 dc 1b 00 02 0d 00 cb 
+                  70 5d af 96 01 00 08 00 70 00 62 00
+16:29:30:292    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:30:340    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:30:399    > BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (61): 
+                  22 0a 00 3d 00|e0 4e e4 08 dc 1b 00 34 00 cb 70 
+                  5d af 96 42 00 0e 78 2d 62 74 2f 76 63 61 72 64 
+                  00 01 00 0e 00 31 00 2e 00 76 00 63 00 66 00 97 
+                  01 4c 00 11 06 08 00 00 00 00 00 00 00 04 04 02 
+                  00 0a
+16:29:30:458    < BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (0): 22 0a 00 00 00|
+16:29:30:497    < BTP_PBAP_EV_PCE_PULL_VCARD_ENTRY (0x22|0x88|0x00)
+                  raw data (111): 
+                  22 88 00 6f 00|e0 4e e4 08 dc 1b 00 a0 65 00 4c 
+                  00 15 0d 10 61 62 63 64 65 66 39 38 37 36 35 34 
+                  33 32 31 30 97 01 49 00 4e 42 45 47 49 4e 3a 56 
+                  43 41 52 44 0d 0a 56 45 52 53 49 4f 4e 3a 33 2e 
+                  30 0d 0a 4e 3a 50 54 53 31 3b 3b 3b 3b 0d 0a 54 
+                  45 4c 3b 57 4f 52 4b 3a 2b 31 2d 34 32 35 2d 36 
+                  39 31 2d 33 35 33 35 0d 0a 45 4e 44 3a 56 43 41 
+                  52 44 0d 0a
+16:29:30:592    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 03 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:30:650    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:30:657    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:31:703    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (25): 
+                  22 0b 00 19 00|e0 4e e4 08 dc 1b 00 02 0f 00 cb 
+                  70 5d af 96 01 00 0a 00 69 00 63 00 68 00
+16:29:31:757    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:31:785    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:31:829    > BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (61): 
+                  22 0a 00 3d 00|e0 4e e4 08 dc 1b 00 34 00 cb 70 
+                  5d af 96 42 00 0e 78 2d 62 74 2f 76 63 61 72 64 
+                  00 01 00 0e 00 31 00 2e 00 76 00 63 00 66 00 97 
+                  01 4c 00 11 06 08 00 00 00 00 00 00 00 04 04 02 
+                  00 0a
+16:29:31:882    < BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (0): 22 0a 00 00 00|
+16:29:31:920    < BTP_PBAP_EV_PCE_PULL_VCARD_ENTRY (0x22|0x88|0x00)
+                  raw data (113): 
+                  22 88 00 71 00|e0 4e e4 08 dc 1b 00 a0 67 00 4c 
+                  00 15 0d 10 61 62 63 64 65 66 39 38 37 36 35 34 
+                  33 32 31 30 97 01 49 00 50 42 45 47 49 4e 3a 56 
+                  43 41 52 44 0d 0a 56 45 52 53 49 4f 4e 3a 33 2e 
+                  30 0d 0a 4e 3a 50 54 53 20 31 30 3b 3b 3b 3b 0d 
+                  0a 54 45 4c 3b 57 4f 52 4b 3a 2b 31 2d 34 32 35 
+                  2d 36 39 31 2d 33 35 33 35 0d 0a 45 4e 44 3a 56 
+                  43 41 52 44 0d 0a
+16:29:32:001    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 03 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:32:050    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:32:113    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:33:164    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (25): 
+                  22 0b 00 19 00|e0 4e e4 08 dc 1b 00 02 0f 00 cb 
+                  70 5d af 96 01 00 0a 00 6f 00 63 00 68 00
+16:29:33:221    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:33:283    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:33:334    > BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (61): 
+                  22 0a 00 3d 00|e0 4e e4 08 dc 1b 00 34 00 cb 70 
+                  5d af 96 42 00 0e 78 2d 62 74 2f 76 63 61 72 64 
+                  00 01 00 0e 00 31 00 2e 00 76 00 63 00 66 00 97 
+                  01 4c 00 11 06 08 00 00 00 00 00 00 00 04 04 02 
+                  00 0a
+16:29:33:383    < BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (0): 22 0a 00 00 00|
+16:29:33:427    < BTP_PBAP_EV_PCE_PULL_VCARD_ENTRY (0x22|0x88|0x00)
+                  raw data (112): 
+                  22 88 00 70 00|e0 4e e4 08 dc 1b 00 a0 66 00 4c 
+                  00 15 0d 10 61 62 63 64 65 66 39 38 37 36 35 34 
+                  33 32 31 30 97 01 49 00 4f 42 45 47 49 4e 3a 56 
+                  43 41 52 44 0d 0a 56 45 52 53 49 4f 4e 3a 33 2e 
+                  30 0d 0a 4e 3a 50 54 53 31 34 3b 3b 3b 3b 0d 0a 
+                  54 45 4c 3b 57 4f 52 4b 3a 2b 31 2d 34 31 34 2d 
+                  36 39 31 2d 33 31 31 34 0d 0a 45 4e 44 3a 56 43 
+                  41 52 44 0d 0a
+16:29:33:519    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 03 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:33:583    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:33:605    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:34:648    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (25): 
+                  22 0b 00 19 00|e0 4e e4 08 dc 1b 00 02 0f 00 cb 
+                  70 5d af 96 01 00 0a 00 6d 00 63 00 68 00
+16:29:34:694    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:34:732    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:34:787    > BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (61): 
+                  22 0a 00 3d 00|e0 4e e4 08 dc 1b 00 34 00 cb 70 
+                  5d af 96 42 00 0e 78 2d 62 74 2f 76 63 61 72 64 
+                  00 01 00 0e 00 31 00 2e 00 76 00 63 00 66 00 97 
+                  01 4c 00 11 06 08 00 00 00 00 00 00 00 04 04 02 
+                  00 0a
+16:29:34:849    < BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (0): 22 0a 00 00 00|
+16:29:34:883    < BTP_PBAP_EV_PCE_PULL_VCARD_ENTRY (0x22|0x88|0x00)
+                  raw data (112): 
+                  22 88 00 70 00|e0 4e e4 08 dc 1b 00 a0 66 00 4c 
+                  00 15 0d 10 61 62 63 64 65 66 39 38 37 36 35 34 
+                  33 32 31 30 97 01 49 00 4f 42 45 47 49 4e 3a 56 
+                  43 41 52 44 0d 0a 56 45 52 53 49 4f 4e 3a 33 2e 
+                  30 0d 0a 4e 3a 50 54 53 31 37 3b 3b 3b 3b 0d 0a 
+                  54 45 4c 3b 57 4f 52 4b 3a 2b 31 2d 37 32 35 2d 
+                  36 39 31 2d 33 35 33 35 0d 0a 45 4e 44 3a 56 43 
+                  41 52 44 0d 0a
+16:29:34:964    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 03 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:35:021    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:35:050    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:36:091    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (25): 
+                  22 0b 00 19 00|e0 4e e4 08 dc 1b 00 02 0f 00 cb 
+                  70 5d af 96 01 00 0a 00 63 00 63 00 68 00
+16:29:36:137    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:36:154    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:36:203    > BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (61): 
+                  22 0a 00 3d 00|e0 4e e4 08 dc 1b 00 34 00 cb 70 
+                  5d af 96 42 00 0e 78 2d 62 74 2f 76 63 61 72 64 
+                  00 01 00 0e 00 31 00 2e 00 76 00 63 00 66 00 97 
+                  01 4c 00 11 06 08 00 00 00 00 00 00 00 04 04 02 
+                  00 0a
+16:29:36:258    < BTP_PBAP_CMD_PCE_PULL_VCARD_ENTRY (0x22|0x0a|0x00)
+                  raw data (0): 22 0a 00 00 00|
+16:29:36:276    < BTP_PBAP_EV_PCE_PULL_VCARD_ENTRY (0x22|0x88|0x00)
+                  raw data (112): 
+                  22 88 00 70 00|e0 4e e4 08 dc 1b 00 a0 66 00 4c 
+                  00 15 0d 10 61 62 63 64 65 66 39 38 37 36 35 34 
+                  33 32 31 30 97 01 49 00 4f 42 45 47 49 4e 3a 56 
+                  43 41 52 44 0d 0a 56 45 52 53 49 4f 4e 3a 33 2e 
+                  30 0d 0a 4e 3a 50 54 53 31 34 3b 3b 3b 3b 0d 0a 
+                  54 45 4c 3b 57 4f 52 4b 3a 2b 31 2d 34 31 34 2d 
+                  36 39 31 2d 33 31 31 34 0d 0a 45 4e 44 3a 56 43 
+                  41 52 44 0d 0a
+16:29:36:352    > BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (18): 
+                  22 0b 00 12 00|e0 4e e4 08 dc 1b 00 03 08 00 cb 
+                  70 5d af 96 01 00 03
+16:29:36:400    < BTP_PBAP_CMD_PCE_SET_PHONE_BOOK (0x22|0x0b|0x00)
+                  raw data (0): 22 0b 00 00 00|
+16:29:36:428    < BTP_PBAP_EV_PCE_SET_PHONE_BOOK (0x22|0x89|0x00)
+                  raw data (10): 22 89 00 0a 00|e0 4e e4 08 dc 1b 00 a0 00 00
+16:29:41:293    < BTP_PBAP_EV_PCE_L2CAP_DISCONNECTED (0x22|0x83|0x00)
+                  raw data (7): 22 83 00 07 00|e0 4e e4 08 dc 1b 00
+16:29:41:295    < BTP_GAP_EV_DEVICE_DISCONNECTED (0x01|0x83|0x00)
+                  raw data (7): 01 83 00 07 00|e0 4e e4 08 dc 1b 00
+16:29:45:200    < BTP_CORE_EV_IUT_READY (0x00|0x80|0xff)
+                  raw data (0): 00 80 ff 00 00|
