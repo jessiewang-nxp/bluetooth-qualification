@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ARCHIVE>
   <VERSION>2.0</VERSION>
-  <PicsPixit>Test Case Started: MAP v. 11.12.0.6, MAP/MSE/GOEP/SRMP/BV-03-C started on Thursday, March 26, 2026, 19:45:22
+  <PicsPixit>Test Case Started: MAP v. 11.12.0.6, MAP/MSE/GOEP/SRMP/BV-03-C started on Friday, March 27, 2026, 11:47:53
 
 ICS VALUES:
 
@@ -280,7 +280,7 @@ Start Test Case:         MAP/MSE/GOEP/SRMP/BV-03-C
 
 
 +3125 ms
-Message:                   PTS Log started on Thursday, March 26, 2026, 19:45:37
+Message:                   PTS Log started on Friday, March 27, 2026, 11:48:08
 
 
 
@@ -299,26 +299,26 @@ Message:                   OS Name: Microsoft Windows 11 Enterprise
 
 
 
-+4156 ms
++4203 ms
 Send Event               HCI!HCI_RESET
 
 
-+4281 ms
++4312 ms
 Receive Event            HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4281 ms
++4312 ms
 Preliminary Verdict:     PASS
 
 
 
-+4281 ms
++4312 ms
 Send Event               HCI!HCI_READ_LOCAL_VERSION_INFORMATION
 
 
-+4281 ms
++4312 ms
 Receive Event            HCI?HCI_READ_LOCAL_VERSION_INFORMATION_COMPLETE_EVENT{
                            status=HCI_OK,
                            hciVersion=0x08,
@@ -329,248 +329,248 @@ Receive Event            HCI?HCI_READ_LOCAL_VERSION_INFORMATION_COMPLETE_EVENT{
                          }
 
 
-+4281 ms
++4328 ms
 Preliminary Verdict:     PASS
 
 
 
-+4281 ms
++4328 ms
 Send Event               HCI!HCI_LE_SET_EVENT_MASK{
                            leEventMask=0x000000000000001F
                          }
 
 
-+4281 ms
++4328 ms
 Receive Event            HCI?HCI_LE_SET_EVENT_MASK_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4281 ms
++4328 ms
 Send Event               HCI!HCI_SET_EVENT_MASK{
                            eventMask=0x3FFFFFFFFFFFFFFF
                          }
 
 
-+4281 ms
++4328 ms
 Receive Event            HCI?HCI_SET_EVENT_MASK_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4281 ms
++4328 ms
 Preliminary Verdict:     PASS
 
 
 
-+4281 ms
++4328 ms
 Send Event               HCI!HCI_READ_LOCAL_SUPPORTED_FEATURES
 
 
-+4297 ms
++4328 ms
 Receive Event            HCI?HCI_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            lmpFeatures=0x875BFFDBFE8FFFFF
                          }
 
 
-+4297 ms
++4328 ms
 Preliminary Verdict:     PASS
 
 
 
-+4297 ms
++4328 ms
 Send Event               HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
                            page_number=0x01
                          }
 
 
-+4297 ms
++4328 ms
 Receive Event            HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            lmpFeatures=0x0000000000000000
                          }
 
 
-+4297 ms
++4343 ms
 Preliminary Verdict:     PASS
 
 
 
-+4297 ms
++4343 ms
 Send Event               HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
                            page_number=0x02
                          }
 
 
-+4297 ms
++4343 ms
 Receive Event            HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            lmpFeatures=0x000000000000030F
                          }
 
 
-+4297 ms
++4343 ms
 Preliminary Verdict:     PASS
 
 
 
-+4297 ms
++4343 ms
 Send Event               HCI!HCI_READ_LOCAL_SUPPORTED_COMMANDS
 
 
-+4312 ms
++4343 ms
 Receive Event            HCI?HCI_READ_LOCAL_SUPPORTED_COMMANDS_COMPLETE_EVENT{
                            status=HCI_OK,
                            supported_commands=0x00000000000000000000000000000000000000000000000000000000000030FFFFC0007FFFFFF7610004001CFF83F73FFEE80FF3FFFFFFFFFFFFFFFE03FFFFFF
                          }
 
 
-+4312 ms
++4343 ms
 Preliminary Verdict:     PASS
 
 
 
-+4312 ms
++4343 ms
 Send Event               HCI!HCI_READ_BD_ADDR
 
 
-+4312 ms
++4343 ms
 Receive Event            HCI?HCI_READ_BD_ADDR_COMPLETE_EVENT{
                            status=HCI_OK,
                            bdAddress=0x001BDC08E44E
                          }
 
 
-+4312 ms
++4343 ms
 Preliminary Verdict:     PASS
 
 
 
-+4312 ms
++4343 ms
 Send Event               HCI!HCI_WRITE_LE_HOST_SUPPORTED{
                            leSupportedHost=HCI_LE_SUPPORTED_HOST_ENABLED,
                            simultaneousLeHost=HCI_SIMULTANEOUS_LE_HOST_ENABLED
                          }
 
 
-+4312 ms
++4359 ms
 Receive Event            HCI?HCI_WRITE_LE_HOST_SUPPORTED_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4312 ms
++4359 ms
 Send Event               HCI!HCI_LE_LOCAL_SUPPORTED_FEATURES
 
 
-+4312 ms
++4359 ms
 Receive Event            HCI?HCI_LE_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            leFeatures=0x000000000000001F
                          }
 
 
-+4312 ms
++4359 ms
 Preliminary Verdict:     PASS
 
 
 
-+4312 ms
++4359 ms
 Send Event               HCI!VENDOR_SPECIFIC_COMMAND{
                            OCF=0x0000,
                            DATA=0xC200000900010003700000DA00010000000000
                          }
 
 
-+4328 ms
++4359 ms
 Receive Event            HCI?HCI_VENDOR_SPECIFIC_EVENT{
                            LENGTH=19,
                            DATA=C201000900010003700000DA00010000000700
                          }
 
 
-+4328 ms
++4359 ms
 Send Event               HCI!VENDOR_SPECIFIC_COMMAND{
                            OCF=0x0000,
                            DATA=0xC200000900020003700000DB00010000000000
                          }
 
 
-+4328 ms
++4359 ms
 Receive Event            HCI?HCI_VENDOR_SPECIFIC_EVENT{
                            LENGTH=19,
                            DATA=C201000900020003700000DB00010000001000
                          }
 
 
-+4328 ms
++4359 ms
 Send Event               HCI!VENDOR_SPECIFIC_COMMAND{
                            OCF=0x0000,
                            DATA=0xC200000C00030003700000EF00040000000000000000000000
                          }
 
 
-+4328 ms
++4375 ms
 Receive Event            HCI?HCI_VENDOR_SPECIFIC_EVENT{
                            LENGTH=25,
                            DATA=C201000C00030003700000EF0004000000FFFF8FFEDBFF5B87
                          }
 
 
-+4328 ms
++4375 ms
 Send Event               HCI!VENDOR_SPECIFIC_COMMAND{
                            OCF=0x0000,
                            DATA=0xC200000C000400037000002301040000000000000000000000
                          }
 
 
-+4328 ms
++4375 ms
 Receive Event            HCI?HCI_VENDOR_SPECIFIC_EVENT{
                            LENGTH=25,
                            DATA=C201000C000400037000002301040000000F03000000000000
                          }
 
 
-+4328 ms
++4375 ms
 Preliminary Verdict:     PASS
 
 
 
-+4343 ms
++4375 ms
 Send Event               HCI!HCI_LE_SET_EVENT_MASK{
                            leEventMask=0x000000000000001F
                          }
 
 
-+4343 ms
++4375 ms
 Receive Event            HCI?HCI_LE_SET_EVENT_MASK_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4343 ms
++4375 ms
 Send Event               HCI!HCI_SET_EVENT_MASK{
                            eventMask=0x3FFFFFFFFFFFFFFF
                          }
 
 
-+4343 ms
++4390 ms
 Receive Event            HCI?HCI_SET_EVENT_MASK_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4343 ms
++4390 ms
 Preliminary Verdict:     PASS
 
 
 
-+4343 ms
++4390 ms
 Send Event               HCI!HCI_READ_BUFFER_SIZE
 
 
-+4343 ms
++4390 ms
 Receive Event            HCI?HCI_READ_BUFFER_SIZE_COMPLETE_EVENT{
                            status=HCI_OK,
                            HC_ACL_Data_Packet_Length=0x0136,
@@ -580,145 +580,145 @@ Receive Event            HCI?HCI_READ_BUFFER_SIZE_COMPLETE_EVENT{
                          }
 
 
-+4343 ms
++4390 ms
 Send Event               HCI!HCI_WRITE_SIMPLE_PAIRING_MODE{
                            simplePairingMode=HCI_SIMPLE_PAIRING_ENABLED
                          }
 
 
-+4343 ms
++4390 ms
 Receive Event            HCI?HCI_WRITE_SIMPLE_PAIRING_MODE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4343 ms
++4390 ms
 Send Event               HCI!HCI_WRITE_SECURE_CONNECTION_HOST_SUPPORT{
                            host_support=1
                          }
 
 
-+4359 ms
++4390 ms
 Receive Event            HCI?HCI_WRITE_SECURE_CONNECTION_SUPPORT_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4359 ms
++4390 ms
 Send Event               HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
                            page_number=0x01
                          }
 
 
-+4359 ms
++4390 ms
 Receive Event            HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            lmpFeatures=0x000000000000000F
                          }
 
 
-+4359 ms
++4406 ms
 Send Event               HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
                            page_number=0x02
                          }
 
 
-+4359 ms
++4406 ms
 Receive Event            HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
                            status=HCI_OK,
                            lmpFeatures=0x000000000000030F
                          }
 
 
-+4359 ms
++4406 ms
 Send Event               HCI!HCI_WRITE_PAGE_TIMEOUT{
                            page_timeout=0xFFFF
                          }
 
 
-+4359 ms
++4406 ms
 Receive Event            HCI?HCI_WRITE_PAGE_TIMEOUT_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4359 ms
++4406 ms
 Send Event               HCI!HCI_WRITE_SCAN_ENABLE{
                            scanEnable=0x03
                          }
 
 
-+4375 ms
++4406 ms
 Receive Event            HCI?HCI_WRITE_SCAN_ENABLE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4375 ms
++4406 ms
 Preliminary Verdict:     PASS
 
 
 
-+4375 ms
++4406 ms
 Send Event               HCI!HCI_WRITE_LOCAL_NAME{
                            name=PTS-MAP-E44E
                          }
 
 
-+4375 ms
++4422 ms
 Receive Event            HCI?HCI_WRITE_LOCAL_NAME_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4375 ms
++4422 ms
 Preliminary Verdict:     PASS
 
 
 
-+4375 ms
++4422 ms
 Send Event               HCI!HCI_WRITE_EXTENDED_INQUIRY_RESPONSE
 
 
-+4375 ms
++4422 ms
 Receive Event            HCI?HCI_WRITE_EXTENDED_INQUIRY_RESPONSE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4375 ms
++4422 ms
 Preliminary Verdict:     PASS
 
 
 
-+4375 ms
++4422 ms
 Preliminary Verdict:     PASS
 
 
 
-+4375 ms
++4422 ms
 Send Event               HCI!HCI_WRITE_CLASS_OF_DEVICE{
                            classOfDevice=0x100104
                          }
 
 
-+4375 ms
++4422 ms
 Receive Event            HCI?HCI_WRITE_CLASS_OF_DEVICE_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+4375 ms
++4422 ms
 Preliminary Verdict:     PASS
 
 
 
-+4656 ms
++4984 ms
 Preliminary Verdict:     PASS
 
 
 
-+4656 ms
++4984 ms
 Send Event               HCI!GET_CONNECTION_HANDLE{
                            addr=0xD01769EE7819,
                            addr_type=0x00,
@@ -726,12 +726,12 @@ Send Event               HCI!GET_CONNECTION_HANDLE{
                          }
 
 
-+4656 ms
++4984 ms
 Verdict Description:     PTS will query SDP records. Please prepare IUT to be ready for connection.
 
 
 
-+4656 ms
++4984 ms
 Send Event               HCI!HCI_CREATE_CONNECTION{
                            bdAddr=0xD01769EE7819,
                            packetType=0x0008,
@@ -742,59 +742,59 @@ Send Event               HCI!HCI_CREATE_CONNECTION{
                          }
 
 
-+8562 ms
++8875 ms
 Receive Event            HCI?HCI_CONNECTION_COMPLETE_EVENT{
                            status=HCI_OK,
-                           connectionHandle=0x0062,
+                           connectionHandle=0x0063,
                            bdAddr=0xD01769EE7819,
                            linkType=HCI_LINK_TYPE_ACL_CONNECTION,
                            encryptionMode=HCI_ENCRYPTION_DISABLED
                          }
 
 
-+8562 ms
++8875 ms
 Send Event               HCI!HCI_ROLE_DISCOVERY{
-                           connHandle=0x0062
+                           connHandle=0x0063
                          }
 
 
-+8562 ms
++8875 ms
 Preliminary Verdict:     PASS
 
 
 
-+8562 ms
++8875 ms
 Send Event               SDP!SDP_OPEN_SEARCH_REQ{
                            bdAddr=0xD01769EE7819
                          }
 
 
-+8578 ms
++8890 ms
 Receive Event            HCI?HCI_ROLE_DISCOVERY_COMPLETE_EVENT{
-                           connectionHandle=0x0062,
+                           connectionHandle=0x0063,
                            status=0x00,
                            current_role=0x00
                          }
 
 
-+8609 ms
++8922 ms
 Receive Event            SDP?SDP_OPEN_SEARCH_REQ_CFM{
                            result=0x0
                          }
 
 
-+8609 ms
++8922 ms
 Preliminary Verdict:     PASS
 
 
 
-+8609 ms
++8922 ms
 Send Event               SDP!SDP_SERVICE_SEARCH_REQ{
                            uuid=0x1132
                          }
 
 
-+8625 ms
++8968 ms
 Receive Event            SDP?SDP_SERVICE_SEARCH_REQ_CFM{
                            result=0x0,
                            num_service_rec_ret=2,
@@ -803,12 +803,12 @@ Receive Event            SDP?SDP_SERVICE_SEARCH_REQ_CFM{
                          }
 
 
-+8625 ms
++8968 ms
 Preliminary Verdict:     PASS
 
 
 
-+8625 ms
++8968 ms
 Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010001,
                            attr_id_list=0009,
@@ -816,7 +816,7 @@ Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+8640 ms
++8984 ms
 Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=16,
@@ -824,12 +824,12 @@ Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+8640 ms
++8984 ms
 Preliminary Verdict:     PASS
 
 
 
-+8640 ms
++8984 ms
 Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010001,
                            attr_id_list=0004,
@@ -837,7 +837,7 @@ Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+8640 ms
++8984 ms
 Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=25,
@@ -845,12 +845,12 @@ Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+8640 ms
++8984 ms
 Preliminary Verdict:     PASS
 
 
 
-+8640 ms
++8984 ms
 Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010001,
                            attr_id_list=0200,
@@ -858,7 +858,7 @@ Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+8656 ms
++9000 ms
 Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=9,
@@ -866,12 +866,12 @@ Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+8656 ms
++9000 ms
 Preliminary Verdict:     PASS
 
 
 
-+8656 ms
++9000 ms
 Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010001,
                            attr_id_list=0317,
@@ -879,7 +879,7 @@ Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+8656 ms
++9000 ms
 Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=11,
@@ -887,12 +887,12 @@ Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+8656 ms
++9000 ms
 Preliminary Verdict:     PASS
 
 
 
-+8656 ms
++9000 ms
 Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010001,
                            attr_id_list=0315,
@@ -900,7 +900,7 @@ Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+8656 ms
++9031 ms
 Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=8,
@@ -908,12 +908,12 @@ Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+8656 ms
++9031 ms
 Preliminary Verdict:     PASS
 
 
 
-+8656 ms
++9031 ms
 Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010001,
                            attr_id_list=0316,
@@ -921,7 +921,7 @@ Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+8672 ms
++9062 ms
 Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=8,
@@ -929,12 +929,12 @@ Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+8672 ms
++9062 ms
 Preliminary Verdict:     PASS
 
 
 
-+8672 ms
++9062 ms
 Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010002,
                            attr_id_list=0009,
@@ -942,7 +942,7 @@ Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+8672 ms
++9078 ms
 Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=16,
@@ -950,12 +950,12 @@ Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+8672 ms
++9078 ms
 Preliminary Verdict:     PASS
 
 
 
-+8672 ms
++9078 ms
 Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010002,
                            attr_id_list=0004,
@@ -963,7 +963,7 @@ Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+8687 ms
++9093 ms
 Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=25,
@@ -971,12 +971,12 @@ Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+8687 ms
++9093 ms
 Preliminary Verdict:     PASS
 
 
 
-+8687 ms
++9093 ms
 Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010002,
                            attr_id_list=0200,
@@ -984,7 +984,7 @@ Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+8687 ms
++9093 ms
 Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=9,
@@ -992,12 +992,12 @@ Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+8687 ms
++9093 ms
 Preliminary Verdict:     PASS
 
 
 
-+8687 ms
++9093 ms
 Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010002,
                            attr_id_list=0317,
@@ -1005,7 +1005,7 @@ Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+8687 ms
++9109 ms
 Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=11,
@@ -1013,12 +1013,12 @@ Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+8687 ms
++9109 ms
 Preliminary Verdict:     PASS
 
 
 
-+8687 ms
++9109 ms
 Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010002,
                            attr_id_list=0315,
@@ -1026,7 +1026,7 @@ Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+8703 ms
++9125 ms
 Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=8,
@@ -1034,12 +1034,12 @@ Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+8703 ms
++9125 ms
 Preliminary Verdict:     PASS
 
 
 
-+8703 ms
++9125 ms
 Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                            record_handle=0x00010002,
                            attr_id_list=0316,
@@ -1047,7 +1047,7 @@ Send Event               SDP!SDP_SERVICE_ATTRIBUTE_REQ{
                          }
 
 
-+8703 ms
++9140 ms
 Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                            result=0x0,
                            attr_list_size=8,
@@ -1055,51 +1055,51 @@ Receive Event            SDP?SDC_SERVICE_ATTRIBUTE_CFM{
                          }
 
 
-+8703 ms
++9140 ms
 Preliminary Verdict:     PASS
 
 
 
-+8703 ms
++9140 ms
 Send Event               SDP!SDP_CLOSE_REQ
 
 
-+8718 ms
++9140 ms
 Receive Event            SDP?SDP_CLOSE_REQ_CFM{
                            result=0x0
                          }
 
 
-+8718 ms
++9140 ms
 Preliminary Verdict:     PASS
 
 
 
-+8718 ms
++9140 ms
 Verdict Description:     Service Discovery Request completed successfully.
 
 
 
-+8718 ms
++9140 ms
 Send Event               OBEX!TRANSPORT{
                            bdAddr=0xD01769EE7819
                          }
 
 
-+8718 ms
++9140 ms
 Send Event               OBEX!OBEX_REG_CLIENT{
                            rfcommChannel=0x00
 l2capChannel=0x1003
                          }
 
 
-+8734 ms
++9156 ms
 Receive Event            SEC?SEC_LINK_KEY_REQUEST_IND{
                            bdAddr=0xD01769EE7819
                          }
 
 
-+8734 ms
++9156 ms
 Send Event               SEC!SEC_LINK_KEY_REQUEST_RSP{
                            bdAddr=0xD01769EE7819,
                            accept=FALSE,
@@ -1107,41 +1107,41 @@ Send Event               SEC!SEC_LINK_KEY_REQUEST_RSP{
                          }
 
 
-+9578 ms
++9968 ms
 Receive Event            SEC?SEC_USER_CONFIRMATION_REQUEST_IND{
                            bdAddr=0xD01769EE7819,
-                           numericvalue=907811
+                           numericvalue=917318
                          }
 
 
-+9578 ms
++9968 ms
 Send Event               SEC!SEC_USER_CONFIRMATION_REQUEST_RSP{
                            bdAddr=0xD01769EE7819,
                            accept=TRUE
                          }
 
 
-+10281 ms
++10703 ms
 Receive Event            HCI?HCI_LINK_KEY_NOTIFICATION_EVENT{
                            BD_ADDR=0xD01769EE7819,
-                           LINK_KEY=0x3A27B72C59A5E60561B0884D7C08F28A,
+                           LINK_KEY=0x324316AE696832DE7C8780B70363F51A,
                            KEY_TYPE=7
                          }
 
 
-+10281 ms
++10703 ms
 Receive Event            HCI?HCI_AUTHENTICATION_COMPLETE_EVENT{
                            status=HCI_OK,
-                           connectionHandle=0x0062
+                           connectionHandle=0x0063
                          }
 
 
-+10281 ms
-Verdict Description:     Link Key updated. BD ADDR:D01769EE7819, linkkey:3A27B72C59A5E60561B0884D7C08F28A, type:7
++10718 ms
+Verdict Description:     Link Key updated. BD ADDR:D01769EE7819, linkkey:324316AE696832DE7C8780B70363F51A, type:7
 
 
 
-+10281 ms
++10718 ms
 Receive Event            SEC?GET_BR_REMOTE_IO_CAPABILITIES{
                            bdAddr=0xD01769EE7819,
                            AuthenticationRequirements=0x04,
@@ -1150,29 +1150,29 @@ Receive Event            SEC?GET_BR_REMOTE_IO_CAPABILITIES{
                          }
 
 
-+10281 ms
++10718 ms
 Receive Event            HCI?HCI_SET_CONNECTION_ENCRYPTION_COMMAND_STATUS_EVENT{
                            status=HCI_OK
                          }
 
 
-+10297 ms
++10734 ms
 Receive Event            HCI?HCI_ENCRYPTION_CHANGE_EVENT{
                            status=HCI_OK,
-                           connectionHandle=0x0062,
+                           connectionHandle=0x0063,
                            encryptionEnable=0x02
                          }
 
 
-+10312 ms
++10734 ms
 Receive Event            HCI?HCI_READ_ENCRYPTION_KEY_SIZE_COMPLETE_EVENT{
                            status=HCI_OK,
-                           conn_handle=0x0062,
+                           conn_handle=0x0063,
                            key_size=0x10
                          }
 
 
-+10328 ms
++10765 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1187,13 +1187,13 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+10422 ms
++10875 ms
 Send Event               OBEX!OBEX_CONNECT{
                            header=460013BB582B40420C11DBB0DE0800200C9A664C00092904007FFFFF
                          }
 
 
-+10468 ms
++10906 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1208,19 +1208,19 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+10468 ms
++10906 ms
 Verdict Description:     IUT accepted MAS Obex connection.
 
 
 
-+10468 ms
++10906 ms
 Send Event               OBEX!OBEX_SETPATH{
                            flag=0x2
 header=010003CB00000001
                          }
 
 
-+10547 ms
++11000 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1235,14 +1235,14 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+10547 ms
++11000 ms
 Send Event               OBEX!OBEX_SETPATH{
                            flag=0x2
 header=01000B74656C65636F6D00CB00000001
                          }
 
 
-+10593 ms
++11078 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1257,14 +1257,14 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+10593 ms
++11078 ms
 Send Event               OBEX!OBEX_SETPATH{
                            flag=0x2
 header=0100076D736700CB00000001
                          }
 
 
-+10656 ms
++11140 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1279,14 +1279,14 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+10656 ms
++11140 ms
 Send Event               OBEX!OBEX_PUT{
                            final_bit=0headerLength=0x00f4
 header=010009647261667400420010782D62742F6D657373616765004C00061401019701CB000000014800CE424547494E3A424D53470D0A56455253494F4E3A312E300D0A5354415455533A554E524541440D0A545950453A534D535F47534D0D0A464F4C4445523A54454C45434F4D2F4D53472F494E424F580D0A424547494E3A56434152440D0A56455253494F4E3A322E310D0A4E3A4955540D0A54454C3A313233343536373839300D0A454E443A56434152440D0A424547494E3A42454E560D0A424547494E3A56434152440D0A56455253494F4E3A322E310D0A4E3A5054530D0A54454C3A31343235363931333532340D0A45
                          }
 
 
-+10750 ms
++11203 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1301,14 +1301,14 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+10750 ms
++11203 ms
 Send Event               OBEX!OBEX_PUT{
                            final_bit=0headerLength=0x00fd
 header=4800FD4E443A56434152440D0A424547494E3A42424F44590D0A434841525345543A5554462D380D0A4C454E4754483A3937380D0A424547494E3A4D53470D0A0D0A5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E0D0A5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E505453
                          }
 
 
-+10828 ms
++11297 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1323,14 +1323,14 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+10828 ms
++11297 ms
 Send Event               OBEX!OBEX_PUT{
                            final_bit=0headerLength=0x00fd
 header=4800FD2047534D206D6573736167652074657374696E6720312E0D0A5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E0D0A5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E0D0A5054532047534D206D65737361
                          }
 
 
-+10828 ms
++11297 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1345,14 +1345,14 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+10859 ms
++11328 ms
 Send Event               OBEX!OBEX_PUT{
                            final_bit=0headerLength=0x00fd
 header=4800FD67652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E0D0A5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E0D0A5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E672031
                          }
 
 
-+10859 ms
++11328 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1367,14 +1367,14 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+10890 ms
++11359 ms
 Send Event               OBEX!OBEX_PUT{
                            final_bit=0headerLength=0x00fd
 header=4800FD2E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E0D0A5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E0D0A5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573736167652074657374696E6720312E5054532047534D206D6573
                          }
 
 
-+10890 ms
++11359 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1389,14 +1389,14 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+10922 ms
++11390 ms
 Send Event               OBEX!OBEX_PUT{
                            final_bit=1headerLength=0x003c
 header=49003C736167652074657374696E6720312E0D0A0D0A454E443A4D53470D0A454E443A42424F44590D0A454E443A42454E560D0A454E443A424D5347
                          }
 
 
-+10953 ms
++11437 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1411,13 +1411,13 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+10953 ms
++11437 ms
 Send Event               OBEX!OBEX_DISCONNECT_REQUEST{
                            header=CB00000001
                          }
 
 
-+11031 ms
++11500 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1432,20 +1432,20 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+11031 ms
++11500 ms
 Send Event               HCI!HCI_DISCONNECT{
-                           connectionHandle=0x0062,
+                           connectionHandle=0x0063,
                            reason=HCI_REMOTE_USER_TERMINATED_CONNECTION
                          }
 
 
-+11047 ms
++11515 ms
 Receive Event            HCI?HCI_DISCONNECT_STATUS_EVENT{
                            status=HCI_OK
                          }
 
 
-+11125 ms
++11593 ms
 Receive Event            OBEX?OBEX_RECV{
                            obexHandle[0x00],
                            eventCode[
@@ -1460,51 +1460,51 @@ Receive Event            OBEX?OBEX_RECV{
                          }
 
 
-+11125 ms
++11593 ms
 Receive Event            HCI?HCI_DISCONNECTION_COMPLETE_EVENT{
                            status=HCI_OK,
-                           connectionHandle=0x0062,
+                           connectionHandle=0x0063,
                            reason=HCI_CONNECTION_TERMINATED_BY_LOCAL_HOST
                          }
 
 
-+11125 ms
-Verdict Description:     Received HCI disconnection event. Handle = 0x0062
++11593 ms
+Verdict Description:     Received HCI disconnection event. Handle = 0x0063
 
 
 
-+11125 ms
++11593 ms
 Preliminary Verdict:     PASS
 
 
 
-+11125 ms
++11593 ms
 Send Event               HCI!HCI_RESET
 
 
-+11234 ms
++11703 ms
 Receive Event            HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+12359 ms
++12828 ms
 Receive Event            HCI?HCI_RESET_COMPLETE_EVENT{
                            status=HCI_OK
                          }
 
 
-+13750 ms
++14218 ms
 Final Verdict:           PASS
 
 
 
-+13750 ms
-Encrypted Verdict:       A1#MTE2Y2NhY2FjMTNhOGY5ZDhkM2Y1ZGVkMzI2YWNlNmJjNzNiOTAzN2IzMjNiMzRhYzExNzYyZjQ2YTlkYzZlYw==#q8ExbBRcvUeQ0a8WiKl1HmgCx5dlpaJujQ1dipFwW1LADgoEeLYHSgIQ7kcsrt/QS7MW4v75oic=
++14218 ms
+Encrypted Verdict:       A1#NzRiNWE2NzU1YTM3M2IyMTVmNzViZDA2Y2JkODRhNzM2MzJlOTYyOWNkM2NmYTM3ZDY0N2RiNzc3MTQwMDQ5OQ==#6pQvzSGyH44Sm8KnsZONrYLgiVJIg2hG79SYqm4kZ+BpNpXvLK3lAUqXYYYhW7HAjF4P3A09a94=
 
 
 
-+13750 ms
++14218 ms
 Test Case Ended:         MAP/MSE/GOEP/SRMP/BV-03-C
 
 </LOG>
