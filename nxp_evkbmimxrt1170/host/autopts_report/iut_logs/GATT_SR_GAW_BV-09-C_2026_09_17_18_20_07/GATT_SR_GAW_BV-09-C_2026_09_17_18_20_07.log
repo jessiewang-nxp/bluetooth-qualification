@@ -1,0 +1,875 @@
+2026-09-17 18:20:07,221 LT1-thread root DEBUG client.py                 1099  _run_test_case            : Starting TestCase _run_test_case GATT GATT/SR/GAW/BV-09-C
+2026-09-17 18:20:07,221 LT1-thread root DEBUG testcase.py               727   pre_run                   : pre_run GATT GATT/SR/GAW/BV-09-C
+2026-09-17 18:20:07,221 LT1-thread root DEBUG testcase.py               729   pre_run                   : About to run test case GATT GATT/SR/GAW/BV-09-C with commands:
+2026-09-17 18:20:07,221 LT1-thread root DEBUG testcase.py               731   pre_run                   : 0) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZTestCase._test_case_start of <autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x00000203DCD77410>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=() kwds={}
+2026-09-17 18:20:07,223 LT1-thread root DEBUG testcase.py               731   pre_run                   : 1) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gap at 0x00000203DA228720> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=() kwds={}
+2026-09-17 18:20:07,223 LT1-thread root DEBUG testcase.py               731   pre_run                   : 2) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gap_init of <autopts.ptsprojects.stack.stack.Stack object at 0x00000203DA34D4F0>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(b'Tester_08E44E',) kwds={}
+2026-09-17 18:20:07,223 LT1-thread root DEBUG testcase.py               731   pre_run                   : 3) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gatt at 0x00000203DA228860> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=() kwds={}
+2026-09-17 18:20:07,223 LT1-thread root DEBUG testcase.py               731   pre_run                   : 4) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_read_controller_info at 0x00000203DA247560> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=() kwds={}
+2026-09-17 18:20:07,223 LT1-thread root DEBUG testcase.py               731   pre_run                   : 5) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases_server.<locals>.<lambda> at 0x00000203DCCF6E80> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=() kwds={}
+2026-09-17 18:20:07,223 LT1-thread root DEBUG testcase.py               731   pre_run                   : 6) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases_server.<locals>.<lambda> at 0x00000203DCCF6FC0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=() kwds={}
+2026-09-17 18:20:07,223 LT1-thread root DEBUG testcase.py               731   pre_run                   : 7) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_set_io_capability at 0x00000203DA246A20> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0,) kwds={}
+2026-09-17 18:20:07,223 LT1-thread root DEBUG testcase.py               731   pre_run                   : 8) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function set_pts_addr at 0x00000203DA2282C0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=('00:1B:DC:08:E4:4E', 0) kwds={}
+2026-09-17 18:20:07,223 LT1-thread root DEBUG testcase.py               731   pre_run                   : 9) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gatt_init of <autopts.ptsprojects.stack.stack.Stack object at 0x00000203DA34D4F0>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=() kwds={}
+2026-09-17 18:20:07,223 LT1-thread root DEBUG testcase.py               731   pre_run                   : 10) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_svc at 0x00000203DA2722A0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(1, 'AA40') kwds={}
+2026-09-17 18:20:07,223 LT1-thread root DEBUG testcase.py               731   pre_run                   : 11) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 10, 3, 'AA50') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 12) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 13) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 10, 12, 'AA51') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 14) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 15) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 10, 48, 'AA52') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 16) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 17) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 10, 192, 'AA53') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 18) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 19) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 58, 3, 'AA54') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 20) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 21) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_desc at 0x00000203DA272520> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 3, '2902') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 22) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 58, 3, 'AA55') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 23) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 24) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_desc at 0x00000203DA272520> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 3, '2902') kwds={}
+2026-09-17 18:20:07,224 LT1-thread root DEBUG testcase.py               731   pre_run                   : 25) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 6, 3, 'AA56') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 26) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 27) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 6, 48, 'AA57') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 28) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 29) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 138, 3, 'AA58') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 30) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 31) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_desc at 0x00000203DA272520> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 1, '2900') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 32) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0100') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 33) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 10, 12, 'AA59') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 34) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 35) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_enc_key_size at 0x00000203DA2728E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 15) kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 36) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 10, 12, 'AA5A') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 37) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 38) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_enc_key_size at 0x00000203DA2728E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 15) kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 39) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 10, 3, 'F000BB5004514000B123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 40) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 41) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_svc at 0x00000203DA2722A0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 'AA41') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 42) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_inc_svc at 0x00000203DA272340> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(1,) kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 43) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 10, 3, 'AA50') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 44) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 45) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 10, 3, 'AA51') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 46) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 'FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 47) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 10, 12, 'AA52') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 48) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 'FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 49) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_enc_key_size at 0x00000203DA2728E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 15) kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 50) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 2, 1, 'AA53') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 51) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 52) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_desc at 0x00000203DA272520> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 3, 'AA54') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 53) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101') kwds={}
+2026-09-17 18:20:07,225 LT1-thread root DEBUG testcase.py               731   pre_run                   : 54) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 10, 3, 'AA55') kwds={}
+2026-09-17 18:20:07,226 LT1-thread root DEBUG testcase.py               731   pre_run                   : 55) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF') kwds={}
+2026-09-17 18:20:07,226 LT1-thread root DEBUG testcase.py               731   pre_run                   : 56) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, 10, 3, 'AA56') kwds={}
+2026-09-17 18:20:07,226 LT1-thread root DEBUG testcase.py               731   pre_run                   : 57) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=(0, '0202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202') kwds={}
+2026-09-17 18:20:07,226 LT1-thread root DEBUG testcase.py               731   pre_run                   : 58) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_start_server at 0x00000203DA272700> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=66 args=() kwds={}
+2026-09-17 18:20:07,226 LT1-thread root DEBUG testcase.py               731   pre_run                   : 59) class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method ZTestCase._test_case_cleanup of <autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x00000203DCD77410>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=() kwds={}
+2026-09-17 18:20:07,226 LT1-thread root DEBUG testcase.py               738   pre_run                   : pre_run, run pre test case script
+2026-09-17 18:20:07,234 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZTestCase._test_case_start of <autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x00000203DCD77410>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2026-09-17 18:20:07,235 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-17 18:20:07,235 LT1-thread root DEBUG iutctl.py                 172   start                     : <class 'autopts.ptsprojects.zephyr.iutctl.create_zephyr_ctl_class.<locals>.ZephyrCtl'>.start
+2026-09-17 18:20:07,235 LT1-thread root DEBUG iutctl.py                 325   flush_serial              : <class 'autopts.ptsprojects.zephyr.iutctl.create_zephyr_ctl_class.<locals>.ZephyrCtl'>.flush_serial
+2026-09-17 18:20:08,423 LT1-thread root DEBUG iutctl.py                 249   _start_tty_mode           : Starting socat process: socat.exe -x -v tcp:10.17.12.9:50796,retry=100,interval=1 /dev/ttyS2,raw,b115200,
+2026-09-17 18:20:08,430 LT1-thread root DEBUG iutctl_common.py          402   accept                    : 
+2026-09-17 18:20:09,332 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          299   _rx_task                  : BTPWorkerThread-11978 (_rx_task) started
+2026-09-17 18:20:09,332 LT1-thread root DEBUG iutctl.py                 395   wait_iut_ready_event      : IUT ready event received OK
+2026-09-17 18:20:09,333 LT1-thread root DEBUG btp.py                    51    read_supp_svcs            : 
+2026-09-17 18:20:09,333 LT1-thread root DEBUG iutctl_common.py          161   send                      : 0 2 255 ''
+2026-09-17 18:20:09,333 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0002ff0000'
+2026-09-17 18:20:09,333 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:09,344 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:09,356 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x02, ctrl_index=0xff, data_len=0x05) bytearray(b'\x00\x02\xff\x05\x00')
+2026-09-17 18:20:09,361 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 5 bytes data
+2026-09-17 18:20:09,367 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'0f 00 00 a0 01'}, bytearray(b'\x0f\x00\x00\xa0\x01')
+2026-09-17 18:20:09,367 LT1-thread root DEBUG btp.py                    62    read_supp_svcs            : received Header(svc_id=0, op=2, ctrl_index=255, data_len=5) (b'\x0f\x00\x00\xa0\x01',)
+2026-09-17 18:20:09,367 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gap at 0x00000203DA228720> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=() kwds={}
+2026-09-17 18:20:09,367 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-17 18:20:09,368 LT1-thread root DEBUG btp.py                    117   core_reg_svc_univ         : core_reg_svc_univ: gap_reg (GAP)
+2026-09-17 18:20:09,368 LT1-thread root DEBUG iutctl_common.py          161   send                      : 0 3 255 '1'
+2026-09-17 18:20:09,368 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0003ff010001'
+2026-09-17 18:20:09,368 LT1-thread root DEBUG btp.py                    618   core_reg_svc_rsp_succ     : 
+2026-09-17 18:20:09,368 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:13,490 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:13,500 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x03, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x03\xff\x00\x00')
+2026-09-17 18:20:13,512 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:13,528 LT1-thread root DEBUG btp.py                    629   core_reg_svc_rsp_succ     : received Header(svc_id=0, op=3, ctrl_index=255, data_len=0) (b'',)
+2026-09-17 18:20:13,528 LT1-thread root DEBUG btp.py                    630   core_reg_svc_rsp_succ     : expected ((0, 3, 255, 0), (b'',))
+2026-09-17 18:20:13,528 LT1-thread root DEBUG btp.py                    635   core_reg_svc_rsp_succ     : response is valid
+2026-09-17 18:20:13,528 LT1-thread root DEBUG btp.py                    638   core_reg_svc_rsp_succ     : Reading supported commands for service: GAP
+2026-09-17 18:20:13,528 LT1-thread root DEBUG iutctl_common.py          161   send                      : 1 1 255 ''
+2026-09-17 18:20:13,528 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0101ff0000'
+2026-09-17 18:20:13,528 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:13,568 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:13,579 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x01, ctrl_index=0xff, data_len=0x07) bytearray(b'\x01\x01\xff\x07\x00')
+2026-09-17 18:20:13,600 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-17 18:20:13,612 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'6e ff 7f 1f fe ff 0e'}, bytearray(b'n\xff\x7f\x1f\xfe\xff\x0e')
+2026-09-17 18:20:13,629 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gap_init of <autopts.ptsprojects.stack.stack.Stack object at 0x00000203DA34D4F0>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(b'Tester_08E44E',) kwds={}
+2026-09-17 18:20:13,629 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(b'Tester_08E44E',), kwds={}
+2026-09-17 18:20:13,629 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gatt at 0x00000203DA228860> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=() kwds={}
+2026-09-17 18:20:13,629 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-17 18:20:13,629 LT1-thread root DEBUG btp.py                    117   core_reg_svc_univ         : core_reg_svc_univ: gatt_reg (GATT)
+2026-09-17 18:20:13,629 LT1-thread root DEBUG iutctl_common.py          161   send                      : 0 3 255 '2'
+2026-09-17 18:20:13,629 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0003ff010002'
+2026-09-17 18:20:13,630 LT1-thread root DEBUG btp.py                    618   core_reg_svc_rsp_succ     : 
+2026-09-17 18:20:13,630 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:13,667 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:13,679 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x03, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x03\xff\x00\x00')
+2026-09-17 18:20:13,679 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:13,685 LT1-thread root DEBUG btp.py                    629   core_reg_svc_rsp_succ     : received Header(svc_id=0, op=3, ctrl_index=255, data_len=0) (b'',)
+2026-09-17 18:20:13,685 LT1-thread root DEBUG btp.py                    630   core_reg_svc_rsp_succ     : expected ((0, 3, 255, 0), (b'',))
+2026-09-17 18:20:13,685 LT1-thread root DEBUG btp.py                    635   core_reg_svc_rsp_succ     : response is valid
+2026-09-17 18:20:13,685 LT1-thread root DEBUG btp.py                    638   core_reg_svc_rsp_succ     : Reading supported commands for service: GATT
+2026-09-17 18:20:13,685 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 1 255 ''
+2026-09-17 18:20:13,686 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0201ff0000'
+2026-09-17 18:20:13,686 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:13,721 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:13,732 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x01, ctrl_index=0xff, data_len=0x05) bytearray(b'\x02\x01\xff\x05\x00')
+2026-09-17 18:20:13,738 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 5 bytes data
+2026-09-17 18:20:13,743 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'fe fe bf fd 0f'}, bytearray(b'\xfe\xfe\xbf\xfd\x0f')
+2026-09-17 18:20:13,753 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_read_controller_info at 0x00000203DA247560> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=() kwds={}
+2026-09-17 18:20:13,753 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-17 18:20:13,753 LT1-thread root DEBUG gap.py                    1161  gap_read_controller_info  : 
+2026-09-17 18:20:13,753 LT1-thread root DEBUG iutctl_common.py          161   send                      : 1 3 0 ''
+2026-09-17 18:20:13,754 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0103000000'
+2026-09-17 18:20:13,754 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:13,792 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:13,803 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x03, ctrl_index=0x00, data_len=0x115) bytearray(b'\x01\x03\x00\x15\x01')
+2026-09-17 18:20:13,826 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 277 bytes data
+2026-09-17 18:20:13,826 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'19 78 ee 69 17 d0 d3 06 02 00 13 02 00 00 00 00 00 62 74 70 5f 74 65 73 74 65 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00'}, bytearray(b'\x19x\xeei\x17\xd0\xd3\x06\x02\x00\x13\x02\x00\x00\x00\x00\x00btp_tester\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+2026-09-17 18:20:13,832 LT1-thread root DEBUG gap.py                    1168  gap_read_controller_info  : received Header(svc_id=1, op=3, ctrl_index=0, data_len=277) (b'\x19x\xeei\x17\xd0\xd3\x06\x02\x00\x13\x02\x00\x00\x00\x00\x00btp_tester\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',)
+2026-09-17 18:20:13,832 LT1-thread root DEBUG gap.py                    1189  gap_read_controller_info  : IUT address 'd01769ee7819' 'public'
+2026-09-17 18:20:13,832 LT1-thread root DEBUG gap.py                    594   __gap_current_settings_update : 531
+2026-09-17 18:20:13,832 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases_server.<locals>.<lambda> at 0x00000203DCCF6E80> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=() kwds={}
+2026-09-17 18:20:13,832 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-17 18:20:13,835 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases_server.<locals>.<lambda> at 0x00000203DCCF6FC0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=() kwds={}
+2026-09-17 18:20:13,836 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-17 18:20:13,836 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_set_io_capability at 0x00000203DA246A20> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0,) kwds={}
+2026-09-17 18:20:13,836 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0,), kwds={}
+2026-09-17 18:20:13,836 LT1-thread root DEBUG gap.py                    859   gap_set_io_capability     : 0
+2026-09-17 18:20:13,836 LT1-thread root DEBUG iutctl_common.py          161   send                      : 1 16 0 '\x00'
+2026-09-17 18:20:13,836 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '011000010000'
+2026-09-17 18:20:13,836 LT1-thread root DEBUG gap.py                    1227  gap_command_rsp_succ      : 
+2026-09-17 18:20:13,836 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:13,869 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:13,880 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x10, ctrl_index=0x00, data_len=0x00) bytearray(b'\x01\x10\x00\x00\x00')
+2026-09-17 18:20:13,891 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:13,908 LT1-thread root DEBUG gap.py                    1232  gap_command_rsp_succ      : received Header(svc_id=1, op=16, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:13,908 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function set_pts_addr at 0x00000203DA2282C0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=('00:1B:DC:08:E4:4E', 0) kwds={}
+2026-09-17 18:20:13,908 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=('00:1B:DC:08:E4:4E', 0), kwds={}
+2026-09-17 18:20:13,908 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gatt_init of <autopts.ptsprojects.stack.stack.Stack object at 0x00000203DA34D4F0>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=() kwds={}
+2026-09-17 18:20:13,908 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-17 18:20:13,908 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_svc at 0x00000203DA2722A0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(1, 'AA40') kwds={}
+2026-09-17 18:20:13,908 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(1, 'AA40'), kwds={}
+2026-09-17 18:20:13,908 LT1-thread root DEBUG gatt.py                   143   gatts_add_svc             : 1 'AA40'
+2026-09-17 18:20:13,909 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 2 0 "bytearray(b'\\x01\\x02@\\xaa')"
+2026-09-17 18:20:13,909 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0202000400010240aa'
+2026-09-17 18:20:13,909 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:13,909 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:13,951 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:13,962 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x02, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x02\x00\x02\x00')
+2026-09-17 18:20:13,967 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:13,973 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:13,984 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=2, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:13,984 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 10, 3, 'AA50') kwds={}
+2026-09-17 18:20:13,984 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 10, 3, 'AA50'), kwds={}
+2026-09-17 18:20:13,984 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 10 3 'AA50'
+2026-09-17 18:20:13,985 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\n\\x03\\x02P\\xaa')"
+2026-09-17 18:20:13,985 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000000a030250aa'
+2026-09-17 18:20:13,985 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:13,985 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:14,039 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:14,050 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:14,079 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:14,089 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:14,106 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:14,106 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:14,106 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:14,106 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF' 
+2026-09-17 18:20:14,106 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x08\\x00\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:14,106 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000c00000008000123456789abcdef'
+2026-09-17 18:20:14,107 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:14,107 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:14,148 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:14,158 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:14,169 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:14,186 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:14,186 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 10, 12, 'AA51') kwds={}
+2026-09-17 18:20:14,186 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 10, 12, 'AA51'), kwds={}
+2026-09-17 18:20:14,186 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 10 12 'AA51'
+2026-09-17 18:20:14,186 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\n\\x0c\\x02Q\\xaa')"
+2026-09-17 18:20:14,186 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000000a0c0251aa'
+2026-09-17 18:20:14,187 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:14,187 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:14,226 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:14,236 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:14,257 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:14,268 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:14,285 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:14,285 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:14,285 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:14,285 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF' 
+2026-09-17 18:20:14,285 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x08\\x00\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:14,285 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000c00000008000123456789abcdef'
+2026-09-17 18:20:14,286 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:14,286 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:14,324 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:14,330 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:14,336 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:14,348 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:14,348 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 10, 48, 'AA52') kwds={}
+2026-09-17 18:20:14,348 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 10, 48, 'AA52'), kwds={}
+2026-09-17 18:20:14,348 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 10 48 'AA52'
+2026-09-17 18:20:14,348 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\n0\\x02R\\xaa')"
+2026-09-17 18:20:14,349 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000000a300252aa'
+2026-09-17 18:20:14,349 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:14,349 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:14,384 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:14,395 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:14,417 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:14,428 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:14,440 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:14,440 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:14,440 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:14,440 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF' 
+2026-09-17 18:20:14,440 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x08\\x00\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:14,440 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000c00000008000123456789abcdef'
+2026-09-17 18:20:14,441 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:14,441 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:14,477 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:14,488 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:14,500 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:14,518 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:14,518 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 10, 192, 'AA53') kwds={}
+2026-09-17 18:20:14,518 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 10, 192, 'AA53'), kwds={}
+2026-09-17 18:20:14,518 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 10 192 'AA53'
+2026-09-17 18:20:14,518 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\n\\xc0\\x02S\\xaa')"
+2026-09-17 18:20:14,518 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000000ac00253aa'
+2026-09-17 18:20:14,519 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:14,519 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:14,555 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:14,566 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:14,587 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:14,593 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:14,605 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:14,605 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:14,605 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:14,605 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF' 
+2026-09-17 18:20:14,605 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x08\\x00\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:14,605 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000c00000008000123456789abcdef'
+2026-09-17 18:20:14,605 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:14,606 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:14,641 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:14,651 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:14,657 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:14,663 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:14,663 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 58, 3, 'AA54') kwds={}
+2026-09-17 18:20:14,663 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 58, 3, 'AA54'), kwds={}
+2026-09-17 18:20:14,663 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 58 3 'AA54'
+2026-09-17 18:20:14,663 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00:\\x03\\x02T\\xaa')"
+2026-09-17 18:20:14,663 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000003a030254aa'
+2026-09-17 18:20:14,664 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:14,664 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:14,707 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:14,717 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:14,723 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:14,728 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:14,734 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:14,734 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:14,734 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:14,734 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF' 
+2026-09-17 18:20:14,734 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x08\\x00\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:14,735 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000c00000008000123456789abcdef'
+2026-09-17 18:20:14,735 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:14,735 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:14,773 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:14,784 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:14,794 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:14,804 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:14,804 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_desc at 0x00000203DA272520> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 3, '2902') kwds={}
+2026-09-17 18:20:14,804 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 3, '2902'), kwds={}
+2026-09-17 18:20:14,804 LT1-thread root DEBUG gatt.py                   236   gatts_add_desc            : 0 3 '2902'
+2026-09-17 18:20:14,804 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 4 0 "bytearray(b'\\x00\\x00\\x03\\x02\\x02)')"
+2026-09-17 18:20:14,804 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0204000600000003020229'
+2026-09-17 18:20:14,804 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:14,805 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:14,838 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:14,848 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x04, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x04\x00\x02\x00')
+2026-09-17 18:20:14,871 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:14,882 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:14,899 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=4, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:14,899 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 58, 3, 'AA55') kwds={}
+2026-09-17 18:20:14,899 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 58, 3, 'AA55'), kwds={}
+2026-09-17 18:20:14,899 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 58 3 'AA55'
+2026-09-17 18:20:14,899 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00:\\x03\\x02U\\xaa')"
+2026-09-17 18:20:14,899 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000003a030255aa'
+2026-09-17 18:20:14,900 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:14,900 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:14,937 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:14,949 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:14,970 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:14,981 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:14,998 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:14,998 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:14,998 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:14,998 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF' 
+2026-09-17 18:20:14,998 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x08\\x00\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:14,998 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000c00000008000123456789abcdef'
+2026-09-17 18:20:14,999 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:14,999 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,035 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:15,047 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:15,058 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:15,085 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:15,085 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_desc at 0x00000203DA272520> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 3, '2902') kwds={}
+2026-09-17 18:20:15,085 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 3, '2902'), kwds={}
+2026-09-17 18:20:15,085 LT1-thread root DEBUG gatt.py                   236   gatts_add_desc            : 0 3 '2902'
+2026-09-17 18:20:15,085 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 4 0 "bytearray(b'\\x00\\x00\\x03\\x02\\x02)')"
+2026-09-17 18:20:15,085 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0204000600000003020229'
+2026-09-17 18:20:15,086 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:15,086 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,124 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:15,135 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x04, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x04\x00\x02\x00')
+2026-09-17 18:20:15,157 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:15,163 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:15,179 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=4, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:15,179 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 6, 3, 'AA56') kwds={}
+2026-09-17 18:20:15,179 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 6, 3, 'AA56'), kwds={}
+2026-09-17 18:20:15,179 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 6 3 'AA56'
+2026-09-17 18:20:15,179 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\x06\\x03\\x02V\\xaa')"
+2026-09-17 18:20:15,179 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0203000700000006030256aa'
+2026-09-17 18:20:15,180 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:15,180 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,223 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:15,235 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:15,251 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:15,251 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:15,257 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:15,257 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:15,257 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:15,257 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF' 
+2026-09-17 18:20:15,257 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x08\\x00\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:15,257 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000c00000008000123456789abcdef'
+2026-09-17 18:20:15,258 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:15,258 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,299 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:15,310 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:15,321 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:15,331 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:15,331 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 6, 48, 'AA57') kwds={}
+2026-09-17 18:20:15,331 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 6, 48, 'AA57'), kwds={}
+2026-09-17 18:20:15,331 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 6 48 'AA57'
+2026-09-17 18:20:15,331 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\x060\\x02W\\xaa')"
+2026-09-17 18:20:15,331 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0203000700000006300257aa'
+2026-09-17 18:20:15,331 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:15,332 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,364 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:15,375 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:15,399 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:15,409 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:15,427 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:15,427 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:15,427 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:15,427 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF' 
+2026-09-17 18:20:15,427 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x08\\x00\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:15,427 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000c00000008000123456789abcdef'
+2026-09-17 18:20:15,427 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:15,428 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,463 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:15,474 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:15,486 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:15,503 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:15,503 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 138, 3, 'AA58') kwds={}
+2026-09-17 18:20:15,503 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 138, 3, 'AA58'), kwds={}
+2026-09-17 18:20:15,503 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 138 3 'AA58'
+2026-09-17 18:20:15,503 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\x8a\\x03\\x02X\\xaa')"
+2026-09-17 18:20:15,503 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000008a030258aa'
+2026-09-17 18:20:15,504 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:15,504 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,541 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:15,553 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:15,558 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:15,570 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:15,581 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:15,581 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:15,581 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:15,581 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF' 
+2026-09-17 18:20:15,581 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x08\\x00\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:15,581 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000c00000008000123456789abcdef'
+2026-09-17 18:20:15,582 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:15,582 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,611 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:15,622 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:15,632 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:15,638 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:15,638 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_desc at 0x00000203DA272520> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 1, '2900') kwds={}
+2026-09-17 18:20:15,638 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 1, '2900'), kwds={}
+2026-09-17 18:20:15,638 LT1-thread root DEBUG gatt.py                   236   gatts_add_desc            : 0 1 '2900'
+2026-09-17 18:20:15,638 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 4 0 "bytearray(b'\\x00\\x00\\x01\\x02\\x00)')"
+2026-09-17 18:20:15,639 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0204000600000001020029'
+2026-09-17 18:20:15,639 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:15,639 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,682 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:15,693 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x04, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x04\x00\x02\x00')
+2026-09-17 18:20:15,698 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:15,704 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:15,709 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=4, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:15,709 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0100') kwds={}
+2026-09-17 18:20:15,709 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0100'), kwds={}
+2026-09-17 18:20:15,709 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0100' 
+2026-09-17 18:20:15,709 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x02\\x00\\x01\\x00')"
+2026-09-17 18:20:15,709 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000600000002000100'
+2026-09-17 18:20:15,710 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:15,710 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,749 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:15,760 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:15,771 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:15,782 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:15,782 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 10, 12, 'AA59') kwds={}
+2026-09-17 18:20:15,782 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 10, 12, 'AA59'), kwds={}
+2026-09-17 18:20:15,782 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 10 12 'AA59'
+2026-09-17 18:20:15,782 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\n\\x0c\\x02Y\\xaa')"
+2026-09-17 18:20:15,782 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000000a0c0259aa'
+2026-09-17 18:20:15,783 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:15,783 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,825 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:15,835 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:15,858 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:15,869 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:15,880 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:15,880 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:15,880 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:15,880 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF' 
+2026-09-17 18:20:15,880 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x08\\x00\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:15,880 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000c00000008000123456789abcdef'
+2026-09-17 18:20:15,881 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:15,881 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,923 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:15,935 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:15,941 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:15,956 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:15,956 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_enc_key_size at 0x00000203DA2728E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 15) kwds={}
+2026-09-17 18:20:15,956 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 15), kwds={}
+2026-09-17 18:20:15,956 LT1-thread root DEBUG gatt.py                   356   gatts_set_enc_key_size    : 0 15
+2026-09-17 18:20:15,956 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 9 0 "bytearray(b'\\x00\\x00\\x0f')"
+2026-09-17 18:20:15,956 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020900030000000f'
+2026-09-17 18:20:15,956 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:15,957 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:15,999 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,010 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x09, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\t\x00\x00\x00')
+2026-09-17 18:20:16,021 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:16,038 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=9, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:16,038 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 10, 12, 'AA5A') kwds={}
+2026-09-17 18:20:16,038 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 10, 12, 'AA5A'), kwds={}
+2026-09-17 18:20:16,038 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 10 12 'AA5A'
+2026-09-17 18:20:16,038 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\n\\x0c\\x02Z\\xaa')"
+2026-09-17 18:20:16,038 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000000a0c025aaa'
+2026-09-17 18:20:16,038 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,039 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,089 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,094 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:16,105 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:16,105 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:16,110 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:16,110 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:16,110 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:16,110 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF' 
+2026-09-17 18:20:16,110 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x08\\x00\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:16,110 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000c00000008000123456789abcdef'
+2026-09-17 18:20:16,111 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,111 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,149 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,160 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:16,166 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:16,171 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:16,171 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_enc_key_size at 0x00000203DA2728E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 15) kwds={}
+2026-09-17 18:20:16,171 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 15), kwds={}
+2026-09-17 18:20:16,171 LT1-thread root DEBUG gatt.py                   356   gatts_set_enc_key_size    : 0 15
+2026-09-17 18:20:16,171 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 9 0 "bytearray(b'\\x00\\x00\\x0f')"
+2026-09-17 18:20:16,172 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020900030000000f'
+2026-09-17 18:20:16,172 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,172 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,209 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,220 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x09, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\t\x00\x00\x00')
+2026-09-17 18:20:16,231 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:16,237 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=9, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:16,237 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 10, 3, 'F000BB5004514000B123456789ABCDEF') kwds={}
+2026-09-17 18:20:16,237 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 10, 3, 'F000BB5004514000B123456789ABCDEF'), kwds={}
+2026-09-17 18:20:16,237 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 10 3 'F000BB5004514000B123456789ABCDEF'
+2026-09-17 18:20:16,237 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\n\\x03\\x10\\xef\\xcd\\xab\\x89gE#\\xb1\\x00@Q\\x04P\\xbb\\x00\\xf0')"
+2026-09-17 18:20:16,237 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300150000000a0310efcdab89674523b10040510450bb00f0'
+2026-09-17 18:20:16,238 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,238 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,269 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,280 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:16,286 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:16,292 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:16,297 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:16,297 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF') kwds={}
+2026-09-17 18:20:16,297 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:16,297 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF' 
+2026-09-17 18:20:16,297 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x08\\x00\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:16,297 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000c00000008000123456789abcdef'
+2026-09-17 18:20:16,298 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,298 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,340 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,350 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:16,355 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:16,360 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:16,360 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_svc at 0x00000203DA2722A0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 'AA41') kwds={}
+2026-09-17 18:20:16,360 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 'AA41'), kwds={}
+2026-09-17 18:20:16,360 LT1-thread root DEBUG gatt.py                   143   gatts_add_svc             : 0 'AA41'
+2026-09-17 18:20:16,360 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 2 0 "bytearray(b'\\x00\\x02A\\xaa')"
+2026-09-17 18:20:16,361 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0202000400000241aa'
+2026-09-17 18:20:16,361 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,361 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,390 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,400 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x02, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x02\x00\x02\x00')
+2026-09-17 18:20:16,405 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:16,411 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:16,422 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=2, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:16,422 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_inc_svc at 0x00000203DA272340> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(1,) kwds={}
+2026-09-17 18:20:16,422 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(1,), kwds={}
+2026-09-17 18:20:16,422 LT1-thread root DEBUG gatt.py                   160   gatts_add_inc_svc         : 1
+2026-09-17 18:20:16,423 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 5 0 "bytearray(b'\\x01\\x00')"
+2026-09-17 18:20:16,423 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '02050002000100'
+2026-09-17 18:20:16,423 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,423 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,457 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,468 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x05, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x05\x00\x02\x00')
+2026-09-17 18:20:16,473 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:16,478 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:16,490 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=5, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:16,490 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 10, 3, 'AA50') kwds={}
+2026-09-17 18:20:16,490 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 10, 3, 'AA50'), kwds={}
+2026-09-17 18:20:16,490 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 10 3 'AA50'
+2026-09-17 18:20:16,490 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\n\\x03\\x02P\\xaa')"
+2026-09-17 18:20:16,490 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000000a030250aa'
+2026-09-17 18:20:16,491 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,491 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,522 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,533 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:16,543 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:16,543 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:16,549 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:16,549 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF') kwds={}
+2026-09-17 18:20:16,549 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:16,549 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF' 
+2026-09-17 18:20:16,549 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00 \\x00\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:16,550 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206002400000020000123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef'
+2026-09-17 18:20:16,550 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,550 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,593 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,604 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:16,614 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:16,625 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:16,625 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 10, 3, 'AA51') kwds={}
+2026-09-17 18:20:16,625 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 10, 3, 'AA51'), kwds={}
+2026-09-17 18:20:16,625 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 10 3 'AA51'
+2026-09-17 18:20:16,625 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\n\\x03\\x02Q\\xaa')"
+2026-09-17 18:20:16,626 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000000a030251aa'
+2026-09-17 18:20:16,626 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,626 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,659 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,670 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:16,691 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:16,703 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:16,720 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:16,720 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 'FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210') kwds={}
+2026-09-17 18:20:16,720 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 'FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210'), kwds={}
+2026-09-17 18:20:16,720 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 'FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210' 
+2026-09-17 18:20:16,720 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00 \\x00\\xfe\\xdc\\xba\\x98vT2\\x10\\xfe\\xdc\\xba\\x98vT2\\x10\\xfe\\xdc\\xba\\x98vT2\\x10\\xfe\\xdc\\xba\\x98vT2\\x10')"
+2026-09-17 18:20:16,720 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020600240000002000fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210'
+2026-09-17 18:20:16,721 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,721 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,759 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,770 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:16,781 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:16,798 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:16,798 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 10, 12, 'AA52') kwds={}
+2026-09-17 18:20:16,798 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 10, 12, 'AA52'), kwds={}
+2026-09-17 18:20:16,798 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 10 12 'AA52'
+2026-09-17 18:20:16,798 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\n\\x0c\\x02R\\xaa')"
+2026-09-17 18:20:16,798 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000000a0c0252aa'
+2026-09-17 18:20:16,799 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,799 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,835 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,841 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:16,863 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:16,873 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:16,884 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:16,884 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 'FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210') kwds={}
+2026-09-17 18:20:16,884 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 'FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210'), kwds={}
+2026-09-17 18:20:16,884 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 'FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210' 
+2026-09-17 18:20:16,884 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x008\\x00\\xfe\\xdc\\xba\\x98vT2\\x10\\xfe\\xdc\\xba\\x98vT2\\x10\\xfe\\xdc\\xba\\x98vT2\\x10\\xfe\\xdc\\xba\\x98vT2\\x10\\xfe\\xdc\\xba\\x98vT2\\x10\\xfe\\xdc\\xba\\x98vT2\\x10\\xfe\\xdc\\xba\\x98vT2\\x10')"
+2026-09-17 18:20:16,884 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206003c0000003800fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210'
+2026-09-17 18:20:16,885 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,885 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,921 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,926 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:16,926 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:16,932 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:16,932 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_enc_key_size at 0x00000203DA2728E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 15) kwds={}
+2026-09-17 18:20:16,932 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 15), kwds={}
+2026-09-17 18:20:16,932 LT1-thread root DEBUG gatt.py                   356   gatts_set_enc_key_size    : 0 15
+2026-09-17 18:20:16,932 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 9 0 "bytearray(b'\\x00\\x00\\x0f')"
+2026-09-17 18:20:16,932 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020900030000000f'
+2026-09-17 18:20:16,932 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,933 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:16,976 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:16,987 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x09, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\t\x00\x00\x00')
+2026-09-17 18:20:16,993 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:16,998 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=9, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:16,998 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 2, 1, 'AA53') kwds={}
+2026-09-17 18:20:16,998 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 2, 1, 'AA53'), kwds={}
+2026-09-17 18:20:16,998 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 2 1 'AA53'
+2026-09-17 18:20:16,998 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\x02\\x01\\x02S\\xaa')"
+2026-09-17 18:20:16,998 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0203000700000002010253aa'
+2026-09-17 18:20:16,999 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:16,999 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:17,041 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:17,052 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:17,058 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:17,058 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:17,068 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:17,068 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF') kwds={}
+2026-09-17 18:20:17,068 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:17,068 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF' 
+2026-09-17 18:20:17,068 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00P\\x00\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:17,068 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206005400000050000123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef'
+2026-09-17 18:20:17,069 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:17,069 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:17,106 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:17,118 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:17,118 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:17,124 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:17,124 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_desc at 0x00000203DA272520> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 3, 'AA54') kwds={}
+2026-09-17 18:20:17,124 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 3, 'AA54'), kwds={}
+2026-09-17 18:20:17,124 LT1-thread root DEBUG gatt.py                   236   gatts_add_desc            : 0 3 'AA54'
+2026-09-17 18:20:17,124 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 4 0 "bytearray(b'\\x00\\x00\\x03\\x02T\\xaa')"
+2026-09-17 18:20:17,124 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '02040006000000030254aa'
+2026-09-17 18:20:17,125 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:17,125 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:17,163 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:17,174 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x04, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x04\x00\x02\x00')
+2026-09-17 18:20:17,196 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:17,208 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:17,219 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=4, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:17,219 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101') kwds={}
+2026-09-17 18:20:17,219 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101'), kwds={}
+2026-09-17 18:20:17,219 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101' 
+2026-09-17 18:20:17,219 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00@\\x00\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01\\x01')"
+2026-09-17 18:20:17,219 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '02060044000000400001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101'
+2026-09-17 18:20:17,220 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:17,220 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:17,262 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:17,267 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:17,267 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:17,272 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:17,272 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 10, 3, 'AA55') kwds={}
+2026-09-17 18:20:17,272 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 10, 3, 'AA55'), kwds={}
+2026-09-17 18:20:17,272 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 10 3 'AA55'
+2026-09-17 18:20:17,273 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\n\\x03\\x02U\\xaa')"
+2026-09-17 18:20:17,273 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000000a030255aa'
+2026-09-17 18:20:17,273 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:17,273 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:17,301 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:17,311 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:17,316 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:17,322 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:17,334 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:17,334 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF') kwds={}
+2026-09-17 18:20:17,334 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF'), kwds={}
+2026-09-17 18:20:17,334 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF0123456789ABCDEF' 
+2026-09-17 18:20:17,334 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00P\\x00\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef\\x01#Eg\\x89\\xab\\xcd\\xef')"
+2026-09-17 18:20:17,335 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206005400000050000123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef'
+2026-09-17 18:20:17,335 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:17,335 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:17,372 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:17,383 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:17,394 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:17,412 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:17,412 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_add_char at 0x00000203DA2723E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, 10, 3, 'AA56') kwds={}
+2026-09-17 18:20:17,412 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, 10, 3, 'AA56'), kwds={}
+2026-09-17 18:20:17,412 LT1-thread root DEBUG gatt.py                   177   gatts_add_char            : 0 10 3 'AA56'
+2026-09-17 18:20:17,412 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 3 0 "bytearray(b'\\x00\\x00\\n\\x03\\x02V\\xaa')"
+2026-09-17 18:20:17,412 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '020300070000000a030256aa'
+2026-09-17 18:20:17,413 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:17,413 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:17,450 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:17,462 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x03, ctrl_index=0x00, data_len=0x02) bytearray(b'\x02\x03\x00\x02\x00')
+2026-09-17 18:20:17,478 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 2 bytes data
+2026-09-17 18:20:17,490 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00'}, bytearray(b'\x00\x00')
+2026-09-17 18:20:17,501 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=3, ctrl_index=0, data_len=2) (b'\x00\x00',)
+2026-09-17 18:20:17,501 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_set_val at 0x00000203DA272480> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=(0, '0202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202') kwds={}
+2026-09-17 18:20:17,501 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(0, '0202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202'), kwds={}
+2026-09-17 18:20:17,502 LT1-thread root DEBUG gatt.py                   209   gatts_set_val             : 0 '0202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202' 
+2026-09-17 18:20:17,502 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 6 0 "bytearray(b'\\x00\\x00\\x00\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02\\x02')"
+2026-09-17 18:20:17,502 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0206000402000000020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202'
+2026-09-17 18:20:17,502 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:17,502 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:17,588 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:17,599 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x06, ctrl_index=0x00, data_len=0x00) bytearray(b'\x02\x06\x00\x00\x00')
+2026-09-17 18:20:17,610 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:17,628 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=6, ctrl_index=0, data_len=0) (b'',)
+2026-09-17 18:20:17,628 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gatts_start_server at 0x00000203DA272700> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=67 args=() kwds={}
+2026-09-17 18:20:17,628 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-17 18:20:17,628 LT1-thread root DEBUG gatt.py                   306   gatts_start_server        : 
+2026-09-17 18:20:17,628 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 7 0 ''
+2026-09-17 18:20:17,628 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0207000000'
+2026-09-17 18:20:17,629 LT1-thread root DEBUG gatt.py                   1190  gatt_command_rsp_succ     : 
+2026-09-17 18:20:17,629 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:17,660 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:17,666 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x07, ctrl_index=0x00, data_len=0x03) bytearray(b'\x02\x07\x00\x03\x00')
+2026-09-17 18:20:17,681 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 3 bytes data
+2026-09-17 18:20:17,693 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 00 00'}, bytearray(b'\x00\x00\x00')
+2026-09-17 18:20:17,704 LT1-thread root DEBUG gatt.py                   1195  gatt_command_rsp_succ     : received Header(svc_id=2, op=7, ctrl_index=0, data_len=3) (b'\x00\x00\x00',)
+2026-09-17 18:20:17,706 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-17 18:20:21,517 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: GATT
+    wid: 1
+    test_case_name: GATT/SR/GAW/BV-09-C
+    description: Please prepare IUT into a connectable mode.
+
+Description: Verify that the Implementation Under Test (IUT) can accept GATT connect request from PTS.
+    style: MMI_Style_Ok_Cancel2 0x11141
+2026-09-17 18:20:21,517 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-17 18:20:21,517 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-17 18:20:21,709 LT1-thread root DEBUG testcase.py               679   run_wid                   : GATT GATT/SR/GAW/BV-09-C on_implicit_send
+2026-09-17 18:20:21,709 LT1-thread root DEBUG gatt_wid.py               24    gatt_wid_hdl              : gatt_wid_hdl, 1, Please prepare IUT into a connectable mode.
+
+Description: Verify that the Implementation Under Test (IUT) can accept GATT connect request from PTS., GATT/SR/GAW/BV-09-C
+2026-09-17 18:20:21,709 LT1-thread root DEBUG gap.py                    982   gap_set_connectable       : 
+2026-09-17 18:20:21,709 LT1-thread root DEBUG gap.py                    1033  gap_set_general_discoverable : 
+2026-09-17 18:20:21,709 LT1-thread root DEBUG iutctl_common.py          161   send                      : 1 8 0 '1'
+2026-09-17 18:20:21,709 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '010800010001'
+2026-09-17 18:20:21,709 LT1-thread root DEBUG gap.py                    1227  gap_command_rsp_succ      : 
+2026-09-17 18:20:21,709 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:21,762 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:21,773 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x08, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x08\x00\x04\x00')
+2026-09-17 18:20:21,795 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 4 bytes data
+2026-09-17 18:20:21,806 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2026-09-17 18:20:21,817 LT1-thread root DEBUG gap.py                    1232  gap_command_rsp_succ      : received Header(svc_id=1, op=8, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2026-09-17 18:20:21,817 LT1-thread root DEBUG gap.py                    594   __gap_current_settings_update : (b'\x1b\x02\x00\x00',)
+2026-09-17 18:20:21,817 LT1-thread root DEBUG gap.py                    648   gap_start_advertising     : {9: b'Tester_08E44E'} None
+2026-09-17 18:20:21,817 LT1-thread root DEBUG iutctl_common.py          161   send                      : 1 10 0 "bytearray(b'\\x0f\\x00\\t\\rTester_08E44E\\xff\\xff\\xff\\xff\\x00')"
+2026-09-17 18:20:21,818 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '010a0016000f00090d5465737465725f303845343445ffffffff00'
+2026-09-17 18:20:21,818 LT1-thread root DEBUG gap.py                    1227  gap_command_rsp_succ      : 
+2026-09-17 18:20:21,818 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-17 18:20:21,856 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:21,867 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x0a, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\n\x00\x04\x00')
+2026-09-17 18:20:21,890 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 4 bytes data
+2026-09-17 18:20:21,895 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'1b 06 00 00'}, bytearray(b'\x1b\x06\x00\x00')
+2026-09-17 18:20:21,901 LT1-thread root DEBUG gap.py                    1232  gap_command_rsp_succ      : received Header(svc_id=1, op=10, ctrl_index=0, data_len=4) (b'\x1b\x06\x00\x00',)
+2026-09-17 18:20:21,901 LT1-thread root DEBUG gap.py                    594   __gap_current_settings_update : (b'\x1b\x06\x00\x00',)
+2026-09-17 18:20:22,235 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:22,235 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x82, ctrl_index=0x00, data_len=0x0d) bytearray(b'\x01\x82\x00\r\x00')
+2026-09-17 18:20:22,235 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 13 bytes data
+2026-09-17 18:20:22,235 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 4e e4 08 dc 1b 00 3c 00 00 00 d0 07'}, bytearray(b'\x00N\xe4\x08\xdc\x1b\x00<\x00\x00\x00\xd0\x07')
+2026-09-17 18:20:22,235 BTPWorkerThread-11978 (_rx_task) root DEBUG btp.py                    700   event_handler             : Header(svc_id=1, op=130, ctrl_index=0, data_len=13) (b'\x00N\xe4\x08\xdc\x1b\x00<\x00\x00\x00\xd0\x07',)
+2026-09-17 18:20:22,236 BTPWorkerThread-11978 (_rx_task) root DEBUG gap.py                    213   gap_connected_ev_         : b'\x00N\xe4\x08\xdc\x1b\x00<\x00\x00\x00\xd0\x07'
+2026-09-17 18:20:22,236 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 4 bytes
+2026-09-17 18:20:22,246 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 1 bytes
+2026-09-17 18:20:22,247 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x80, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x80\x00\x04\x00')
+2026-09-17 18:20:22,247 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 4 bytes data
+2026-09-17 18:20:22,247 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2026-09-17 18:20:22,247 BTPWorkerThread-11978 (_rx_task) root DEBUG btp.py                    700   event_handler             : Header(svc_id=1, op=128, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2026-09-17 18:20:22,247 BTPWorkerThread-11978 (_rx_task) root DEBUG gap.py                    181   gap_new_settings_ev_      : b'\x1b\x02\x00\x00'
+2026-09-17 18:20:22,247 BTPWorkerThread-11978 (_rx_task) root DEBUG gap.py                    594   __gap_current_settings_update : 539
+2026-09-17 18:20:22,304 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'OK' to wid 1 test case GATT/SR/GAW/BV-09-C
+2026-09-17 18:20:22,306 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-17 18:20:33,307 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: GATT
+    wid: 400
+    test_case_name: GATT/SR/GAW/BV-09-C
+    description: Please prepare IUT into an L2CAP Credit Based Connection connectable mode using LE signaling channel.
+
+Description: Verify that the Implementation Under Test (IUT) can accept L2CAP_CREDIT_BASED_CONNECTION_REQ from PTS.
+    style: MMI_Style_Ok_Cancel2 0x11141
+2026-09-17 18:20:33,307 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-17 18:20:33,307 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-17 18:20:33,312 LT1-thread root DEBUG testcase.py               679   run_wid                   : GATT GATT/SR/GAW/BV-09-C on_implicit_send
+2026-09-17 18:20:33,312 LT1-thread root DEBUG gatt_wid.py               24    gatt_wid_hdl              : gatt_wid_hdl, 400, Please prepare IUT into an L2CAP Credit Based Connection connectable mode using LE signaling channel.
+
+Description: Verify that the Implementation Under Test (IUT) can accept L2CAP_CREDIT_BASED_CONNECTION_REQ from PTS., GATT/SR/GAW/BV-09-C
+2026-09-17 18:20:33,483 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:33,484 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x91, ctrl_index=0x00, data_len=0x09) bytearray(b'\x01\x91\x00\t\x00')
+2026-09-17 18:20:33,484 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 9 bytes data
+2026-09-17 18:20:33,484 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 4e e4 08 dc 1b 00 01 10'}, bytearray(b'\x00N\xe4\x08\xdc\x1b\x00\x01\x10')
+2026-09-17 18:20:33,484 BTPWorkerThread-11978 (_rx_task) root DEBUG btp.py                    700   event_handler             : Header(svc_id=1, op=145, ctrl_index=0, data_len=9) (b'\x00N\xe4\x08\xdc\x1b\x00\x01\x10',)
+2026-09-17 18:20:33,484 BTPWorkerThread-11978 (_rx_task) root DEBUG gap.py                    492   gap_encryption_change_ev_ : 
+2026-09-17 18:20:33,484 BTPWorkerThread-11978 (_rx_task) root DEBUG gap.py                    494   gap_encryption_change_ev_ : enc change received b'\x00N\xe4\x08\xdc\x1b\x00\x01\x10'
+2026-09-17 18:20:33,484 BTPWorkerThread-11978 (_rx_task) root DEBUG gap.py                    503   gap_encryption_change_ev_ : received (0, '001bdc08e44e', 1, 16)
+2026-09-17 18:20:33,484 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:33,484 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x89, ctrl_index=0x00, data_len=0x08) bytearray(b'\x01\x89\x00\x08\x00')
+2026-09-17 18:20:33,484 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 8 bytes data
+2026-09-17 18:20:33,485 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 4e e4 08 dc 1b 00 02'}, bytearray(b'\x00N\xe4\x08\xdc\x1b\x00\x02')
+2026-09-17 18:20:33,485 BTPWorkerThread-11978 (_rx_task) root DEBUG btp.py                    700   event_handler             : Header(svc_id=1, op=137, ctrl_index=0, data_len=8) (b'\x00N\xe4\x08\xdc\x1b\x00\x02',)
+2026-09-17 18:20:33,485 BTPWorkerThread-11978 (_rx_task) root DEBUG gap.py                    298   gap_sec_level_changed_ev_ : 
+2026-09-17 18:20:33,485 BTPWorkerThread-11978 (_rx_task) root DEBUG gap.py                    300   gap_sec_level_changed_ev_ : received b'\x00N\xe4\x08\xdc\x1b\x00\x02'
+2026-09-17 18:20:33,485 BTPWorkerThread-11978 (_rx_task) root DEBUG gap.py                    311   gap_sec_level_changed_ev_ : received (0, '001bdc08e44e', 2)
+2026-09-17 18:20:33,514 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'OK' to wid 400 test case GATT/SR/GAW/BV-09-C
+2026-09-17 18:20:33,516 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-17 18:20:33,604 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:33,604 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x98, ctrl_index=0x00, data_len=0x08) bytearray(b'\x01\x98\x00\x08\x00')
+2026-09-17 18:20:33,604 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 8 bytes data
+2026-09-17 18:20:33,605 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 4e e4 08 dc 1b 00 00'}, bytearray(b'\x00N\xe4\x08\xdc\x1b\x00\x00')
+2026-09-17 18:20:33,605 BTPWorkerThread-11978 (_rx_task) root DEBUG btp.py                    700   event_handler             : Header(svc_id=1, op=152, ctrl_index=0, data_len=8) (b'\x00N\xe4\x08\xdc\x1b\x00\x00',)
+2026-09-17 18:20:33,605 BTPWorkerThread-11978 (_rx_task) root DEBUG gap.py                    509   gap_peer_car_status_ev_   : 
+2026-09-17 18:20:33,605 BTPWorkerThread-11978 (_rx_task) root DEBUG gap.py                    516   gap_peer_car_status_ev_   : received (0, '001bdc08e44e', 0)
+2026-09-17 18:20:39,907 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:39,907 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x81, ctrl_index=0x00, data_len=0x44) bytearray(b'\x02\x81\x00D\x00')
+2026-09-17 18:20:39,907 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 68 bytes data
+2026-09-17 18:20:39,908 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'4d 00 40 00 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31 30 31'}, bytearray(b'M\x00@\x000101010101010101010101010101010101010101010101010101010101010101')
+2026-09-17 18:20:39,908 BTPWorkerThread-11978 (_rx_task) root DEBUG btp.py                    700   event_handler             : Header(svc_id=2, op=129, ctrl_index=0, data_len=68) (b'M\x00@\x000101010101010101010101010101010101010101010101010101010101010101',)
+2026-09-17 18:20:39,908 BTPWorkerThread-11978 (_rx_task) root DEBUG gatt.py                   121   gatt_attr_value_changed_ev_ : 77 (b'0101010101010101010101010101010101010101010101010101010101010101',)
+2026-09-17 18:20:41,706 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:41,707 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x83, ctrl_index=0x00, data_len=0x07) bytearray(b'\x01\x83\x00\x07\x00')
+2026-09-17 18:20:41,707 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-17 18:20:41,707 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'00 4e e4 08 dc 1b 00'}, bytearray(b'\x00N\xe4\x08\xdc\x1b\x00')
+2026-09-17 18:20:41,707 BTPWorkerThread-11978 (_rx_task) root DEBUG btp.py                    700   event_handler             : Header(svc_id=1, op=131, ctrl_index=0, data_len=7) (b'\x00N\xe4\x08\xdc\x1b\x00',)
+2026-09-17 18:20:41,707 BTPWorkerThread-11978 (_rx_task) root DEBUG gap.py                    226   gap_disconnected_ev_      : b'\x00N\xe4\x08\xdc\x1b\x00'
+2026-09-17 18:20:45,342 LT1-callback ClientCallback.log INFO client.py                 200   log                       : PTS_LOGTYPE_START_TEST Start Test Case 
+
++2156 ms
+ GATT/SR/GAW/BV-09-C GATT/SR/GAW/BV-09-C
+
+2026-09-17 18:20:46,633 LT1-callback ClientCallback.log INFO client.py                 200   log                       : PTS_LOGTYPE_FINAL_VERDICT Final Verdict 
+
++27156 ms
+ GATT/SR/GAW/BV-09-C PASS
+
+2026-09-17 18:20:46,637 LT1-callback ClientCallback.log INFO client.py                 200   log                       : PTS_LOGTYPE_FINAL_VERDICT Encrypted Verdict 
+
++27156 ms
+ GATT/SR/GAW/BV-09-C A1#ZWY4MzQ5MDg3MmQwNTIxOGQzMzQ5YjY2ODA5M2MzNjQ5ZDY4NmY0Yjc2MzIzM2VkNTUyNTFhNGU4Mjg1MjI0NA==#ZtVDbgy8SUmWnXoi+YmDKPIsJc+iR42Tb5EMrtjbbaQw49AoZkmt8UdlyuY+cF1l
+
+2026-09-17 18:20:46,642 LT1-callback ClientCallback.log INFO client.py                 200   log                       : PTS_LOGTYPE_END_TEST Test Case Ended 
+
++27156 ms
+ GATT/SR/GAW/BV-09-C GATT/SR/GAW/BV-09-C
+
+2026-09-17 18:20:46,686 LT1-callback root DEBUG client.py                 261   set_result                : ClientCallback, set_result, run_test_case, PASS
+2026-09-17 18:20:46,686 LT1-thread root DEBUG client.py                 1186  _run_test_case            : After run_test_case error_code=0 status='PASS'
+2026-09-17 18:20:46,686 LT1-thread root DEBUG testcase.py               766   post_run                  : post_run GATT GATT/SR/GAW/BV-09-C 0
+2026-09-17 18:20:46,687 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method ZTestCase._test_case_cleanup of <autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x00000203DCD77410>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2026-09-17 18:20:46,687 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-17 18:20:46,687 LT1-thread root DEBUG iutctl.py                 415   stop                      : <class 'autopts.ptsprojects.zephyr.iutctl.create_zephyr_ctl_class.<locals>.ZephyrCtl'>.stop
+2026-09-17 18:20:46,687 LT1-thread root DEBUG __init__.py               51    reset                     : About to reset DUT: JLink -CommandFile reset.jlink -usb 1063214216 -device MIMXRT1176XXXA_M7
+2026-09-17 18:20:47,002 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-17 18:20:47,003 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x80, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x80\xff\x00\x00')
+2026-09-17 18:20:47,003 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-17 18:20:47,003 BTPWorkerThread-11978 (_rx_task) root DEBUG btp.py                    700   event_handler             : Header(svc_id=0, op=128, ctrl_index=255, data_len=0) (b'',)
+2026-09-17 18:20:47,003 BTPWorkerThread-11978 (_rx_task) root DEBUG core.py                   23    core_iut_ready_ev         : 
+2026-09-17 18:20:47,068 LT1-thread root DEBUG iutctl.py                 436   _stop_tty_mode            : IUT ready event received OK
+2026-09-17 18:20:47,068 LT1-thread root DEBUG iutctl_common.py          416   close                     : Waiting for _rx_worker to finish ...
+2026-09-17 18:20:48,004 BTPWorkerThread-11978 (_rx_task) root DEBUG iutctl_common.py          332   _rx_task                  : BTPWorkerThread-11978 (_rx_task) finishing...
+2026-09-17 18:20:51,012 LT1-thread root DEBUG testcase.py               794   post_run                  : post_run, cleanup running post test case script
+2026-09-17 18:20:51,012 LT1-thread root DEBUG testcase.py               802   post_run                  : post_run, run post test case script
+2026-09-17 18:20:51,092 LT1-thread root DEBUG client.py                 1220  _run_test_case            : Done TestCase _run_test_case GATT GATT/SR/GAW/BV-09-C

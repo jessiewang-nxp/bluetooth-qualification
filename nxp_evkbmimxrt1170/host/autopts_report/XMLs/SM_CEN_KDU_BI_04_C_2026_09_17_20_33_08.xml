@@ -1,0 +1,1637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ARCHIVE>
+  <VERSION>2.0</VERSION>
+  <PicsPixit>Test Case Started: SM v. 11.14.0.4, SM/CEN/KDU/BI-04-C started on Thursday, September 17, 2026, 20:33:08
+
+ICS VALUES:
+
+TSPC_SM_1_1 TRUE
+TSPC_SM_1_2 TRUE
+TSPC_SM_2a_1 TRUE
+TSPC_SM_2a_2 TRUE
+TSPC_SM_4a_1 TRUE
+TSPC_SM_4a_2 TRUE
+TSPC_SM_4a_3 TRUE
+TSPC_SM_4b_1 TRUE
+TSPC_SM_4b_2 TRUE
+TSPC_SM_4b_3 TRUE
+TSPC_SM_4b_4 TRUE
+TSPC_SM_5_1 TRUE
+TSPC_SM_5_2 TRUE
+TSPC_SM_5_3 TRUE
+TSPC_SM_5_4 TRUE
+TSPC_SM_5_5 TRUE
+TSPC_SM_5_6 FALSE
+TSPC_SM_6_1 FALSE
+TSPC_SM_6_2 FALSE
+TSPC_SM_7a_1 TRUE
+TSPC_SM_7a_2 TRUE
+TSPC_SM_7a_3 FALSE
+TSPC_SM_7b_1 TRUE
+TSPC_SM_7b_2 TRUE
+TSPC_SM_7b_3 FALSE
+TSPC_SM_8a_1 TRUE
+TSPC_SM_8a_2 TRUE
+TSPC_SM_8a_3 TRUE
+TSPC_SM_8b_1 TRUE
+TSPC_SM_8b_2 TRUE
+TSPC_SM_8b_3 TRUE
+TSPC_CORE_1a_60 TRUE
+TSPC_CORE_1a_62 FALSE
+TSPC_CORE_1b_60 FALSE
+TSPC_CORE_1b_62 TRUE
+TSPC_CORE_2a_53 TRUE
+TSPC_CORE_2a_54 TRUE
+TSPC_CORE_2a_60 TRUE
+TSPC_CORE_2a_62 TRUE
+TSPC_CORE_2a_63 FALSE
+TSPC_CORE_2b_54 FALSE
+TSPC_CORE_2b_60 FALSE
+TSPC_ALL FALSE
+
+IXIT VALUES:
+
+TSPX_bd_addr_iut D01769EE7819
+TSPX_iut_device_name_in_adv_packet_for_random_address Tester_08E44E
+TSPX_time_guard 180000
+TSPX_use_implicit_send TRUE
+TSPX_new_key_failed_count 0
+TSPX_Bonding_Flags 01
+TSPX_ATTR_HANDLE 0000
+TSPX_ATTR_VALUE 0000000000000000
+TSPX_Min_Encryption_Key_Length 07
+TSPX_OOB_Data 0000000000000000FE12036E5A889F4D
+TSPX_tester_role_optional L2CAP_ROLE_INITIATOR
+</PicsPixit>
+  <LOG>
+
++125 ms
+Receive Event            HCI?HCI_RESET_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1641 ms
+Message                  Message:
+
+
+
++1641 ms
+Initialize Test Case:    Build date: Jun 17 2026, 16:31:12
+
+
+
++1641 ms
+Start Test Case:         SM/CEN/KDU/BI-04-C
+
+
+
++1641 ms
+Message:                   PTS Log started on Thursday, September 17, 2026, 20:33:56
+
+
+
++1641 ms
+Message:                   PTS: v8.14.0 Build 4
+
+
+
++1641 ms
+Message:                   OS: Microsoft Windows NT 10.0.26200.0
+
+
+
++1641 ms
+Message:                   OS Name: Microsoft Windows 11 Enterprise
+
+
+
++2657 ms
+Send Event               HCI!HCI_RESET
+
+
++2766 ms
+Receive Event            HCI?HCI_RESET_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2766 ms
+Preliminary Verdict:     PASS
+
+
+
++2766 ms
+Send Event               HCI!HCI_READ_LOCAL_VERSION_INFORMATION
+
+
++2766 ms
+Receive Event            HCI?HCI_READ_LOCAL_VERSION_INFORMATION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           hciVersion=0x08,
+                           hciRevision=0x30E8,
+                           lmpVersion=0x08,
+                           manufacturerName=0x000A,
+                           lmpSubversion=0x30E8
+                         }
+
+
++2766 ms
+Preliminary Verdict:     PASS
+
+
+
++2766 ms
+Send Event               HCI!HCI_LE_SET_EVENT_MASK{
+                           leEventMask=0x000000000000001F
+                         }
+
+
++2782 ms
+Receive Event            HCI?HCI_LE_SET_EVENT_MASK_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2782 ms
+Send Event               HCI!HCI_SET_EVENT_MASK{
+                           eventMask=0x3FFFFFFFFFFFFFFF
+                         }
+
+
++2782 ms
+Receive Event            HCI?HCI_SET_EVENT_MASK_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2782 ms
+Preliminary Verdict:     PASS
+
+
+
++2782 ms
+Send Event               HCI!HCI_READ_LOCAL_SUPPORTED_FEATURES
+
+
++2782 ms
+Receive Event            HCI?HCI_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x875BFFDBFE8FFFFF
+                         }
+
+
++2782 ms
+Preliminary Verdict:     PASS
+
+
+
++2782 ms
+Send Event               HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
+                           page_number=0x01
+                         }
+
+
++2782 ms
+Receive Event            HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x0000000000000000
+                         }
+
+
++2782 ms
+Preliminary Verdict:     PASS
+
+
+
++2782 ms
+Send Event               HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
+                           page_number=0x02
+                         }
+
+
++2782 ms
+Receive Event            HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x000000000000030F
+                         }
+
+
++2782 ms
+Preliminary Verdict:     PASS
+
+
+
++2782 ms
+Send Event               HCI!HCI_READ_LOCAL_SUPPORTED_COMMANDS
+
+
++2797 ms
+Receive Event            HCI?HCI_READ_LOCAL_SUPPORTED_COMMANDS_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           supported_commands=0x00000000000000000000000000000000000000000000000000000000000030FFFFC0007FFFFFF7610004001CFF83F73FFEE80FF3FFFFFFFFFFFFFFFE03FFFFFF
+                         }
+
+
++2797 ms
+Preliminary Verdict:     PASS
+
+
+
++2797 ms
+Send Event               HCI!HCI_READ_BD_ADDR
+
+
++2797 ms
+Receive Event            HCI?HCI_READ_BD_ADDR_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           bdAddress=0x001BDC08E44E
+                         }
+
+
++2797 ms
+Preliminary Verdict:     PASS
+
+
+
++2797 ms
+Send Event               HCI!HCI_WRITE_LE_HOST_SUPPORTED{
+                           leSupportedHost=HCI_LE_SUPPORTED_HOST_ENABLED,
+                           simultaneousLeHost=HCI_SIMULTANEOUS_LE_HOST_ENABLED
+                         }
+
+
++2797 ms
+Receive Event            HCI?HCI_WRITE_LE_HOST_SUPPORTED_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2797 ms
+Send Event               HCI!HCI_LE_LOCAL_SUPPORTED_FEATURES
+
+
++2797 ms
+Receive Event            HCI?HCI_LE_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           leFeatures=0x000000000000001F
+                         }
+
+
++2797 ms
+Preliminary Verdict:     PASS
+
+
+
++2797 ms
+Send Event               HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000900010003700000DA00010000000000
+                         }
+
+
++2813 ms
+Receive Event            HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=19,
+                           DATA=C201000900010003700000DA00010000000700
+                         }
+
+
++2813 ms
+Send Event               HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000900020003700000DB00010000000000
+                         }
+
+
++2813 ms
+Receive Event            HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=19,
+                           DATA=C201000900020003700000DB00010000001000
+                         }
+
+
++2813 ms
+Send Event               HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000C00030003700000EF00040000000000000000000000
+                         }
+
+
++2813 ms
+Receive Event            HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=25,
+                           DATA=C201000C00030003700000EF0004000000FFFF8FFEDBFF5B87
+                         }
+
+
++2813 ms
+Send Event               HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000C000400037000002301040000000000000000000000
+                         }
+
+
++2813 ms
+Receive Event            HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=25,
+                           DATA=C201000C000400037000002301040000000F03000000000000
+                         }
+
+
++2813 ms
+Preliminary Verdict:     PASS
+
+
+
++2813 ms
+Send Event               HCI!HCI_LE_SET_EVENT_MASK{
+                           leEventMask=0x000000000000001F
+                         }
+
+
++2829 ms
+Receive Event            HCI?HCI_LE_SET_EVENT_MASK_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2829 ms
+Send Event               HCI!HCI_SET_EVENT_MASK{
+                           eventMask=0x3FFFFFFFFFFFFFFF
+                         }
+
+
++2829 ms
+Receive Event            HCI?HCI_SET_EVENT_MASK_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2829 ms
+Preliminary Verdict:     PASS
+
+
+
++2829 ms
+Send Event               HCI!HCI_LE_ADD_DEVICE_TO_FILTER_ACCEPT_LIST{
+                           addressType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           address=0xD01769EE7819
+                         }
+
+
++2829 ms
+Receive Event            HCI?HCI_LE_ADD_DEVICE_TO_FILTER_ACCEPT_LIST_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2829 ms
+Send Event               HCI!HCI_LE_ADD_DEVICE_TO_FILTER_ACCEPT_LIST{
+                           addressType=HCI_LE_RANDOM_DEVICE_ADDRESS,
+                           address=0xD01769EE7819
+                         }
+
+
++2829 ms
+Receive Event            HCI?HCI_LE_ADD_DEVICE_TO_FILTER_ACCEPT_LIST_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2829 ms
+Preliminary Verdict:     PASS
+
+
+
++2829 ms
+Send Event               HCI!HCI_LE_SET_ADVERTISING_PARAMETERS{
+                           advertisingIntervalMin=0x00A0,
+                           advertisingIntervalMax=0x00C0,
+                           advertisingType=HCI_LE_CONNECTABLE_UNDIRECTED_ADVERTISING,
+                           ownAddressType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           directAddressType=HCI_LE_RANDOM_DEVICE_ADDRESS,
+                           directAddress=0xD01769EE7819,
+                           advertisingChannelMap=0x07,
+                           advertisingFilterPolicy=HCI_LE_ALLOW_REQ_SCAN_ANY_CONNECT_ANY
+                         }
+
+
++2829 ms
+Receive Event            HCI?HCI_LE_SET_ADVERTISING_PARAMETERS_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2829 ms
+Preliminary Verdict:     PASS
+
+
+
++2829 ms
+Send Event               HCI!HCI_LE_SET_ADVERTISING_DATA{
+                           advertisingDataLength=0x14,
+                           advertisingData=0x020102030200180C095054532D534D2D34454534
+                         }
+
+
++2829 ms
+Receive Event            HCI?HCI_LE_SET_ADVERTISING_DATA_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2829 ms
+Preliminary Verdict:     PASS
+
+
+
++2829 ms
+Send Event               HCI!HCI_LE_SET_SCAN_RESPONSE_DATA{
+                           scanResponseDataLength=0x04,
+                           scanResponseData=0x03190000
+                         }
+
+
++2844 ms
+Receive Event            HCI?HCI_LE_SET_SCAN_RESPONSE_DATA_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2844 ms
+Preliminary Verdict:     PASS
+
+
+
++2875 ms
+Send Event               HCI!HCI_LE_SET_ADVERTISE_ENABLE{
+                           advertisingEnable=HCI_LE_ADVERTISING_ENABLE
+                         }
+
+
++2875 ms
+Receive Event            HCI?HCI_LE_SET_ADVERTISE_ENABLE_COMMAND_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++2875 ms
+Preliminary Verdict:     PASS
+
+
+
++2875 ms
+Preliminary Verdict:     PASS
+
+
+
++3875 ms
+Receive Event            ATT?ATT_CONNECT_IND{
+                           bdAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           lcid=0x1205,
+                           status=0x0000
+                         }
+
+
++3875 ms
+Receive Event            HCI?HCI_LE_CONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x0061,
+                           role=HCI_ROLE_PERIPHERAL,
+                           peerAddressType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           peerAddress=D01769EE7819,
+                           connInterval=0x0024,
+                           connLatency=0x0000,
+                           supervisionTimeout=0x0190,
+                           clockAccuracy=HCI_LE_CLOCK_ACCURACY_250PPM
+                         }
+
+
++3875 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0xFFFF
+                         }
+
+
++3875 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x0061
+                         }
+
+
++3875 ms
+Preliminary Verdict:     PASS
+
+
+
++3875 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x0061
+                         }
+
+
++3875 ms
+Verdict Description:     Connection established successfully.
+
+
+
++3875 ms
+Pass:                    IUT successfully initiated connection.
+
+
+
++3875 ms
+Verdict Description:     IUT successfully initiated connection.
+
+
+
++4375 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0002,
+                           Data=0B0D
+                         }
+
+
++4391 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=2,
+                           data=0B0D
+                         }
+
+
++4438 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=7,
+                           data=0100002910090B
+                         }
+
+
++4438 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0007,
+                           Data=0204000D100000
+                         }
+
+
++4438 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=7,
+                           data=0204000D100000
+                         }
+
+
++4532 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=65,
+                           data=0C49D83BBACF5B0659EEB8C4206AFE35AD586FD6CE74D85F88BC2B43F001E6679CDFFBFB7080E869FFD2807F4116FD7DD06BC4542EDB62540FBBEF102AA0FA00E4
+                         }
+
+
++4532 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0041,
+                           Data=0CA0969A021E3E92C9044BD162D3BAFA62465BB506BC18724B3DABCB8E87E7B35A0000000000000000000000000000000000000000000000000000000000000000
+                         }
+
+
++4532 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=65,
+                           data=0CA0969A021E3E92C9044BD162D3BAFA62465BB506BC18724B3DABCB8E87E7B35A0000000000000000000000000000000000000000000000000000000000000000
+                         }
+
+
++4610 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=2,
+                           data=050B
+                         }
+
+
++10000 ms
+Verdict Description:     Passkey Code : 0
+
+
+
++10000 ms
+Verdict Description:     Pairing failed message received.
+
+
+
++11047 ms
+Receive Event            ATT?ATT_DISCONNECT_IND{
+                           lcid=0x1205
+                         }
+
+
++11047 ms
+Receive Event            HCI?HCI_DISCONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x0061,
+                           reason=HCI_REMOTE_USER_TERMINATED_CONNECTION
+                         }
+
+
++11047 ms
+Verdict Description:     Received HCI disconnection event. Handle = 0x0061
+
+
+
++11047 ms
+Preliminary Verdict:     PASS
+
+
+
++11047 ms
+Verdict Description:     Connection terminated successfully.
+
+
+
++11157 ms
+Pass:                    IUT successfully initiated disconnection.
+
+
+
++11157 ms
+Verdict Description:     IUT successfully initiated disconnection.
+
+
+
++16844 ms
+Preliminary Verdict:     PASS
+
+
+
++16844 ms
+Verdict Description:     **************** Test with Invalid public key Y (Y set to 0).
+
+
+
++16844 ms
+Send Event               HCI!HCI_LE_SET_ADVERTISE_ENABLE{
+                           advertisingEnable=HCI_LE_ADVERTISING_ENABLE
+                         }
+
+
++16844 ms
+Receive Event            HCI?HCI_LE_SET_ADVERTISE_ENABLE_COMMAND_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++16844 ms
+Preliminary Verdict:     PASS
+
+
+
++16844 ms
+Preliminary Verdict:     PASS
+
+
+
++18110 ms
+Receive Event            ATT?ATT_CONNECT_IND{
+                           bdAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           lcid=0x1205,
+                           status=0x0000
+                         }
+
+
++18110 ms
+Receive Event            HCI?HCI_LE_CONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x0060,
+                           role=HCI_ROLE_PERIPHERAL,
+                           peerAddressType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           peerAddress=D01769EE7819,
+                           connInterval=0x0024,
+                           connLatency=0x0000,
+                           supervisionTimeout=0x0190,
+                           clockAccuracy=HCI_LE_CLOCK_ACCURACY_250PPM
+                         }
+
+
++18110 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0xFFFF
+                         }
+
+
++18110 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x0060
+                         }
+
+
++18110 ms
+Preliminary Verdict:     PASS
+
+
+
++18110 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x0060
+                         }
+
+
++18110 ms
+Verdict Description:     Connection established successfully.
+
+
+
++18110 ms
+Pass:                    IUT successfully initiated connection.
+
+
+
++18110 ms
+Verdict Description:     IUT successfully initiated connection.
+
+
+
++18610 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0002,
+                           Data=0B0D
+                         }
+
+
++18610 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=2,
+                           data=0B0D
+                         }
+
+
++18688 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=7,
+                           data=0103002910090B
+                         }
+
+
++18688 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0007,
+                           Data=0204000D100000
+                         }
+
+
++18688 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=7,
+                           data=0204000D100000
+                         }
+
+
++18766 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=65,
+                           data=0CD60A2988549346359187580D2C9538333C5220BF37BACB2B29991A85AC1D23A903A555F1D18CCE7670757A7BF3386457AC4C031D0CBC308737E9D5FB2C359EA9
+                         }
+
+
++18766 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0041,
+                           Data=0C23F805142C377545EC7F0690ACCB63CBCBC787FD65648E330BF023CFDCA6AA5B0000000000000000000000000000000000000000000000000000000000000000
+                         }
+
+
++18766 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=65,
+                           data=0C23F805142C377545EC7F0690ACCB63CBCBC787FD65648E330BF023CFDCA6AA5B0000000000000000000000000000000000000000000000000000000000000000
+                         }
+
+
++18860 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=2,
+                           data=050B
+                         }
+
+
++18860 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0011,
+                           Data=03FA4544FF2E481256CEC6434033CA7A3A
+                         }
+
+
++18860 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=17,
+                           data=03FA4544FF2E481256CEC6434033CA7A3A
+                         }
+
+
++18954 ms
+Verdict Description:     Pairing failed message received.
+
+
+
++19219 ms
+Receive Event            ATT?ATT_DISCONNECT_IND{
+                           lcid=0x1205
+                         }
+
+
++19219 ms
+Receive Event            HCI?HCI_DISCONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x0060,
+                           reason=HCI_REMOTE_USER_TERMINATED_CONNECTION
+                         }
+
+
++19219 ms
+Verdict Description:     Received HCI disconnection event. Handle = 0x0060
+
+
+
++19219 ms
+Preliminary Verdict:     PASS
+
+
+
++19219 ms
+Verdict Description:     Connection terminated successfully.
+
+
+
++19329 ms
+Pass:                    IUT successfully initiated disconnection.
+
+
+
++19329 ms
+Verdict Description:     IUT successfully initiated disconnection.
+
+
+
++25032 ms
+Preliminary Verdict:     PASS
+
+
+
++25032 ms
+Verdict Description:     **************** Test with Invalid public key Y (flip the bit).
+
+
+
++25032 ms
+Send Event               HCI!HCI_LE_SET_ADVERTISE_ENABLE{
+                           advertisingEnable=HCI_LE_ADVERTISING_ENABLE
+                         }
+
+
++25032 ms
+Receive Event            HCI?HCI_LE_SET_ADVERTISE_ENABLE_COMMAND_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++25032 ms
+Preliminary Verdict:     PASS
+
+
+
++25032 ms
+Preliminary Verdict:     PASS
+
+
+
++26657 ms
+Receive Event            ATT?ATT_CONNECT_IND{
+                           bdAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           lcid=0x1205,
+                           status=0x0000
+                         }
+
+
++26657 ms
+Receive Event            HCI?HCI_LE_CONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x005F,
+                           role=HCI_ROLE_PERIPHERAL,
+                           peerAddressType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           peerAddress=D01769EE7819,
+                           connInterval=0x0024,
+                           connLatency=0x0000,
+                           supervisionTimeout=0x0190,
+                           clockAccuracy=HCI_LE_CLOCK_ACCURACY_250PPM
+                         }
+
+
++26657 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0xFFFF
+                         }
+
+
++26657 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x005F
+                         }
+
+
++26657 ms
+Preliminary Verdict:     PASS
+
+
+
++26657 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x005F
+                         }
+
+
++26657 ms
+Verdict Description:     Connection established successfully.
+
+
+
++26657 ms
+Pass:                    IUT successfully initiated connection.
+
+
+
++26657 ms
+Verdict Description:     IUT successfully initiated connection.
+
+
+
++27157 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0002,
+                           Data=0B0D
+                         }
+
+
++27157 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=2,
+                           data=0B0D
+                         }
+
+
++27235 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=7,
+                           data=0103002910090B
+                         }
+
+
++27235 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0007,
+                           Data=0204000D100000
+                         }
+
+
++27235 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=7,
+                           data=0204000D100000
+                         }
+
+
++27329 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=65,
+                           data=0C642A49B5D784CD2C79E93969AFE90FDEA4C133BED1BD8DBF41250FA337E6C102A2B864B95485C950520DB1DEF182CB99DD34E6B822E69E41D60DA7D655156076
+                         }
+
+
++27329 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0041,
+                           Data=0C2D05396825FA96DAE8C6F3BF6F34EC873BC3EC0BFB4A480C0C8F9DD0DD5FC9D95D7E4BB2C881F63672FAB4A09F539F1FC90C06091E9DBCC2BDF22174D15615A8
+                         }
+
+
++27329 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=65,
+                           data=0C2D05396825FA96DAE8C6F3BF6F34EC873BC3EC0BFB4A480C0C8F9DD0DD5FC9D95D7E4BB2C881F63672FAB4A09F539F1FC90C06091E9DBCC2BDF22174D15615A8
+                         }
+
+
++27407 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=2,
+                           data=050B
+                         }
+
+
++27407 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0011,
+                           Data=03063836241CAAD5A6A71FFC9F56943B6D
+                         }
+
+
++27407 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=17,
+                           data=03063836241CAAD5A6A71FFC9F56943B6D
+                         }
+
+
++27500 ms
+Verdict Description:     Pairing failed message received.
+
+
+
++27735 ms
+Receive Event            ATT?ATT_DISCONNECT_IND{
+                           lcid=0x1205
+                         }
+
+
++27735 ms
+Receive Event            HCI?HCI_DISCONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x005F,
+                           reason=HCI_REMOTE_USER_TERMINATED_CONNECTION
+                         }
+
+
++27735 ms
+Verdict Description:     Received HCI disconnection event. Handle = 0x005F
+
+
+
++27735 ms
+Preliminary Verdict:     PASS
+
+
+
++27735 ms
+Verdict Description:     Connection terminated successfully.
+
+
+
++27829 ms
+Pass:                    IUT successfully initiated disconnection.
+
+
+
++27829 ms
+Verdict Description:     IUT successfully initiated disconnection.
+
+
+
++33563 ms
+Preliminary Verdict:     PASS
+
+
+
++33563 ms
+Verdict Description:     **************** Test with Invalid public key X and Y (all set to 0).
+
+
+
++33563 ms
+Send Event               HCI!HCI_LE_SET_ADVERTISE_ENABLE{
+                           advertisingEnable=HCI_LE_ADVERTISING_ENABLE
+                         }
+
+
++33563 ms
+Receive Event            HCI?HCI_LE_SET_ADVERTISE_ENABLE_COMMAND_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++33563 ms
+Preliminary Verdict:     PASS
+
+
+
++33563 ms
+Preliminary Verdict:     PASS
+
+
+
++34688 ms
+Receive Event            ATT?ATT_CONNECT_IND{
+                           bdAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           lcid=0x1205,
+                           status=0x0000
+                         }
+
+
++34688 ms
+Receive Event            HCI?HCI_LE_CONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x0061,
+                           role=HCI_ROLE_PERIPHERAL,
+                           peerAddressType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           peerAddress=D01769EE7819,
+                           connInterval=0x0024,
+                           connLatency=0x0000,
+                           supervisionTimeout=0x0190,
+                           clockAccuracy=HCI_LE_CLOCK_ACCURACY_250PPM
+                         }
+
+
++34688 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0xFFFF
+                         }
+
+
++34688 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x0061
+                         }
+
+
++34688 ms
+Preliminary Verdict:     PASS
+
+
+
++34688 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x0061
+                         }
+
+
++34688 ms
+Verdict Description:     Connection established successfully.
+
+
+
++34688 ms
+Pass:                    IUT successfully initiated connection.
+
+
+
++34688 ms
+Verdict Description:     IUT successfully initiated connection.
+
+
+
++35188 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0002,
+                           Data=0B0D
+                         }
+
+
++35188 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=2,
+                           data=0B0D
+                         }
+
+
++35266 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=7,
+                           data=0103002910090B
+                         }
+
+
++35266 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0007,
+                           Data=0204000D100000
+                         }
+
+
++35266 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=7,
+                           data=0204000D100000
+                         }
+
+
++35344 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=65,
+                           data=0C5BFAAF8BDC4D2A3B3DFE9B346FCDC4EF69345F47823346C9BAD9F1066929518884ADE627280F9F5DC2909F15D27CB8C7EF95F10A1E8D54153E3382F8C47BCA57
+                         }
+
+
++35344 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0041,
+                           Data=0C00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+                         }
+
+
++35360 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=65,
+                           data=0C00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+                         }
+
+
++35438 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=2,
+                           data=050B
+                         }
+
+
++35438 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0011,
+                           Data=03106723A0746183E5066FA48CBA2B0800
+                         }
+
+
++35438 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=17,
+                           data=03106723A0746183E5066FA48CBA2B0800
+                         }
+
+
++35532 ms
+Verdict Description:     Pairing failed message received.
+
+
+
++35750 ms
+Receive Event            ATT?ATT_DISCONNECT_IND{
+                           lcid=0x1205
+                         }
+
+
++35750 ms
+Receive Event            HCI?HCI_DISCONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x0061,
+                           reason=HCI_REMOTE_USER_TERMINATED_CONNECTION
+                         }
+
+
++35750 ms
+Verdict Description:     Received HCI disconnection event. Handle = 0x0061
+
+
+
++35750 ms
+Preliminary Verdict:     PASS
+
+
+
++35750 ms
+Verdict Description:     Connection terminated successfully.
+
+
+
++35860 ms
+Pass:                    IUT successfully initiated disconnection.
+
+
+
++35860 ms
+Verdict Description:     IUT successfully initiated disconnection.
+
+
+
++41610 ms
+Preliminary Verdict:     PASS
+
+
+
++41610 ms
+Verdict Description:     **************** Test with same X-coordinate as the IUT
+
+
+
++41610 ms
+Send Event               HCI!HCI_LE_SET_ADVERTISE_ENABLE{
+                           advertisingEnable=HCI_LE_ADVERTISING_ENABLE
+                         }
+
+
++41610 ms
+Receive Event            HCI?HCI_LE_SET_ADVERTISE_ENABLE_COMMAND_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++41610 ms
+Preliminary Verdict:     PASS
+
+
+
++41610 ms
+Preliminary Verdict:     PASS
+
+
+
++42735 ms
+Receive Event            ATT?ATT_CONNECT_IND{
+                           bdAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           lcid=0x1205,
+                           status=0x0000
+                         }
+
+
++42735 ms
+Receive Event            HCI?HCI_LE_CONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x0060,
+                           role=HCI_ROLE_PERIPHERAL,
+                           peerAddressType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           peerAddress=D01769EE7819,
+                           connInterval=0x0024,
+                           connLatency=0x0000,
+                           supervisionTimeout=0x0190,
+                           clockAccuracy=HCI_LE_CLOCK_ACCURACY_250PPM
+                         }
+
+
++42735 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0xFFFF
+                         }
+
+
++42735 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x0060
+                         }
+
+
++42735 ms
+Preliminary Verdict:     PASS
+
+
+
++42735 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x0060
+                         }
+
+
++42735 ms
+Verdict Description:     Connection established successfully.
+
+
+
++42735 ms
+Pass:                    IUT successfully initiated connection.
+
+
+
++42735 ms
+Verdict Description:     IUT successfully initiated connection.
+
+
+
++43235 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0002,
+                           Data=0B0D
+                         }
+
+
++43235 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=2,
+                           data=0B0D
+                         }
+
+
++43297 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=7,
+                           data=0103002910090B
+                         }
+
+
++43297 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0007,
+                           Data=0204000D100000
+                         }
+
+
++43297 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=7,
+                           data=0204000D100000
+                         }
+
+
++43391 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=65,
+                           data=0CC4C37AA9674E16EF2487AEA02B338BA4AFB0D00A319267F867CCBF369CD051D1AEB2843C7E5B50B285518FD3592E88B05C40A5577429F8004B51E7FCC285EC83
+                         }
+
+
++43391 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0041,
+                           Data=0CC4C37AA9674E16EF2487AEA02B338BA4AFB0D00A319267F867CCBF369CD051D115C3D61A95A4DB6046DD4023D7A42550781C125C5902492B655A69AAC989787E
+                         }
+
+
++43391 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=65,
+                           data=0CC4C37AA9674E16EF2487AEA02B338BA4AFB0D00A319267F867CCBF369CD051D115C3D61A95A4DB6046DD4023D7A42550781C125C5902492B655A69AAC989787E
+                         }
+
+
++43485 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_READ_IND{
+                           peerAddr=0xD01769EE7819,
+                           peerAddrType=HCI_LE_PUBLIC_DEVICE_ADDRESS,
+                           length=2,
+                           data=050B
+                         }
+
+
++43485 ms
+Send Event               L2CAP!L2CAP_LE_FIXED_CH_DATA_SEND_REQ{
+                           handle=12,
+                           length=0x0011,
+                           Data=037BA7592419403F1B69481EB9F93FABE5
+                         }
+
+
++43485 ms
+Receive Event            L2CAP?L2CAP_FIXED_CH_DATA_TX_ECHO_IND{
+                           length=17,
+                           data=037BA7592419403F1B69481EB9F93FABE5
+                         }
+
+
++43563 ms
+Verdict Description:     Pairing failed message received.
+
+
+
++44875 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x0060
+                         }
+
+
++44875 ms
+Send Event               HCI!HCI_DISCONNECT{
+                           connectionHandle=0x0060,
+                           reason=HCI_REMOTE_USER_TERMINATED_CONNECTION
+                         }
+
+
++44875 ms
+Receive Event            HCI?HCI_DISCONNECT_STATUS_EVENT{
+                           status=HCI_OK
+                         }
+
+
++44969 ms
+Receive Event            ATT?ATT_DISCONNECT_IND{
+                           lcid=0x1205
+                         }
+
+
++44969 ms
+Receive Event            HCI?HCI_DISCONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x0060,
+                           reason=HCI_CONNECTION_TERMINATED_BY_LOCAL_HOST
+                         }
+
+
++44969 ms
+Verdict Description:     Received HCI disconnection event. Handle = 0x0060
+
+
+
++44969 ms
+Verdict Description:     Connection terminated successfully.
+
+
+
++44969 ms
+Send Event               HCI!HCI_RESET
+
+
++45079 ms
+Receive Event            HCI?HCI_RESET_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++46204 ms
+Receive Event            HCI?HCI_RESET_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++47594 ms
+Final Verdict:           PASS
+
+
+
++47594 ms
+Encrypted Verdict:       A1#MWViMTZmMmQyMGNjZjdiNzIyMTJlZWQ4YTRkMzQ3ODNkNGRiZWViOWE4NDhmYmI4MTU2MTdhZDBlNjcxMWM1MA==#CbkQlRfCkdkcdEpx5toaQziyyJ/xfqo7Oygzo11YDmVKeKWqt/MdE8KYG6smpj22
+
+
+
++47594 ms
+Test Case Ended:         SM/CEN/KDU/BI-04-C
+
+</LOG>
+  <SUMMARY>Test case : SM/CEN/KDU/BI-04-C started
+Final Verdict:PASS
+SM/CEN/KDU/BI-04-C finished
+</SUMMARY>
+</ARCHIVE>
