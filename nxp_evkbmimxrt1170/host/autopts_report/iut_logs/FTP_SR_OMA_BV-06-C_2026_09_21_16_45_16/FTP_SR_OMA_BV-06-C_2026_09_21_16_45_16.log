@@ -1,0 +1,463 @@
+2026-09-21 16:45:16,459 LT1-thread root DEBUG client.py                 1099  _run_test_case            : Starting TestCase _run_test_case FTP FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:16,460 LT1-thread root DEBUG testcase.py               727   pre_run                   : pre_run FTP FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:16,460 LT1-thread root DEBUG testcase.py               729   pre_run                   : About to run test case FTP FTP/SR/OMA/BV-06-C with commands:
+2026-09-21 16:45:16,460 LT1-thread root DEBUG testcase.py               731   pre_run                   : 0) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZTestCase._test_case_start of <autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x000001D20B9D7A10>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=() kwds={}
+2026-09-21 16:45:16,460 LT1-thread root DEBUG testcase.py               731   pre_run                   : 1) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gap at 0x000001D2091834C0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=84 args=() kwds={}
+2026-09-21 16:45:16,460 LT1-thread root DEBUG testcase.py               731   pre_run                   : 2) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gap_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000001D20B64E300>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=84 args=(b'Tester_08E44E',) kwds={}
+2026-09-21 16:45:16,460 LT1-thread root DEBUG testcase.py               731   pre_run                   : 3) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_read_controller_info at 0x000001D2091B63E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=84 args=() kwds={}
+2026-09-21 16:45:16,460 LT1-thread root DEBUG testcase.py               731   pre_run                   : 4) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases.<locals>.<lambda> at 0x000001D20B949C60> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=84 args=() kwds={}
+2026-09-21 16:45:16,461 LT1-thread root DEBUG testcase.py               731   pre_run                   : 5) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function set_pts_addr at 0x000001D209183060> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=84 args=('00:1B:DC:08:E4:4E', 0) kwds={}
+2026-09-21 16:45:16,461 LT1-thread root DEBUG testcase.py               731   pre_run                   : 6) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gatt at 0x000001D209183600> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=84 args=() kwds={}
+2026-09-21 16:45:16,461 LT1-thread root DEBUG testcase.py               731   pre_run                   : 7) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gatt_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000001D20B64E300>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=84 args=() kwds={}
+2026-09-21 16:45:16,461 LT1-thread root DEBUG testcase.py               731   pre_run                   : 8) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_ftp at 0x000001D20915CC20> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=84 args=() kwds={}
+2026-09-21 16:45:16,461 LT1-thread root DEBUG testcase.py               731   pre_run                   : 9) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.ftp_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000001D20B64E300>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=84 args=() kwds={}
+2026-09-21 16:45:16,461 LT1-thread root DEBUG testcase.py               731   pre_run                   : 10) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_set_connectable at 0x000001D2091B5D00> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=84 args=() kwds={}
+2026-09-21 16:45:16,461 LT1-thread root DEBUG testcase.py               731   pre_run                   : 11) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_set_general_discoverable at 0x000001D2091B5EE0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=84 args=() kwds={}
+2026-09-21 16:45:16,461 LT1-thread root DEBUG testcase.py               731   pre_run                   : 12) class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method ZTestCase._test_case_cleanup of <autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x000001D20B9D7A10>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=() kwds={}
+2026-09-21 16:45:16,461 LT1-thread root DEBUG testcase.py               738   pre_run                   : pre_run, run pre test case script
+2026-09-21 16:45:16,470 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZTestCase._test_case_start of <autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x000001D20B9D7A10>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2026-09-21 16:45:16,470 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-21 16:45:16,470 LT1-thread root DEBUG iutctl.py                 172   start                     : <class 'autopts.ptsprojects.zephyr.iutctl.create_zephyr_ctl_class.<locals>.ZephyrCtl'>.start
+2026-09-21 16:45:16,470 LT1-thread root DEBUG iutctl.py                 325   flush_serial              : <class 'autopts.ptsprojects.zephyr.iutctl.create_zephyr_ctl_class.<locals>.ZephyrCtl'>.flush_serial
+2026-09-21 16:45:17,695 LT1-thread root DEBUG iutctl.py                 249   _start_tty_mode           : Starting socat process: socat.exe -x -v tcp:10.17.12.9:62323,retry=100,interval=1 /dev/ttyS2,raw,b115200,
+2026-09-21 16:45:17,702 LT1-thread root DEBUG iutctl_common.py          402   accept                    : 
+2026-09-21 16:45:17,782 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          299   _rx_task                  : BTPWorkerThread-14801 (_rx_task) started
+2026-09-21 16:45:17,782 LT1-thread root DEBUG iutctl.py                 395   wait_iut_ready_event      : IUT ready event received OK
+2026-09-21 16:45:17,782 LT1-thread root DEBUG btp.py                    51    read_supp_svcs            : 
+2026-09-21 16:45:17,782 LT1-thread root DEBUG iutctl_common.py          161   send                      : 0 2 255 ''
+2026-09-21 16:45:17,783 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0002ff0000'
+2026-09-21 16:45:17,783 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:17,797 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:17,814 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x02, ctrl_index=0xff, data_len=0x06) bytearray(b'\x00\x02\xff\x06\x00')
+2026-09-21 16:45:17,835 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 6 bytes data
+2026-09-21 16:45:17,841 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'0f 00 00 a0 01 04'}, bytearray(b'\x0f\x00\x00\xa0\x01\x04')
+2026-09-21 16:45:17,863 LT1-thread root DEBUG btp.py                    62    read_supp_svcs            : received Header(svc_id=0, op=2, ctrl_index=255, data_len=6) (b'\x0f\x00\x00\xa0\x01\x04',)
+2026-09-21 16:45:17,863 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gap at 0x000001D2091834C0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=85 args=() kwds={}
+2026-09-21 16:45:17,863 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-21 16:45:17,863 LT1-thread root DEBUG btp.py                    117   core_reg_svc_univ         : core_reg_svc_univ: gap_reg (GAP)
+2026-09-21 16:45:17,863 LT1-thread root DEBUG iutctl_common.py          161   send                      : 0 3 255 '1'
+2026-09-21 16:45:17,863 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0003ff010001'
+2026-09-21 16:45:17,864 LT1-thread root DEBUG btp.py                    622   core_reg_svc_rsp_succ     : 
+2026-09-21 16:45:17,864 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:21,968 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:22,008 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x03, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x03\xff\x00\x00')
+2026-09-21 16:45:22,008 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-21 16:45:22,034 LT1-thread root DEBUG btp.py                    633   core_reg_svc_rsp_succ     : received Header(svc_id=0, op=3, ctrl_index=255, data_len=0) (b'',)
+2026-09-21 16:45:22,034 LT1-thread root DEBUG btp.py                    634   core_reg_svc_rsp_succ     : expected ((0, 3, 255, 0), (b'',))
+2026-09-21 16:45:22,035 LT1-thread root DEBUG btp.py                    639   core_reg_svc_rsp_succ     : response is valid
+2026-09-21 16:45:22,035 LT1-thread root DEBUG btp.py                    642   core_reg_svc_rsp_succ     : Reading supported commands for service: GAP
+2026-09-21 16:45:22,035 LT1-thread root DEBUG iutctl_common.py          161   send                      : 1 1 255 ''
+2026-09-21 16:45:22,035 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0101ff0000'
+2026-09-21 16:45:22,035 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:22,073 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:22,084 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x01, ctrl_index=0xff, data_len=0x07) bytearray(b'\x01\x01\xff\x07\x00')
+2026-09-21 16:45:22,096 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-21 16:45:22,101 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'6e ff 7f 1f fe ff 0e'}, bytearray(b'n\xff\x7f\x1f\xfe\xff\x0e')
+2026-09-21 16:45:22,107 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gap_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000001D20B64E300>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=85 args=(b'Tester_08E44E',) kwds={}
+2026-09-21 16:45:22,107 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(b'Tester_08E44E',), kwds={}
+2026-09-21 16:45:22,107 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_read_controller_info at 0x000001D2091B63E0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=85 args=() kwds={}
+2026-09-21 16:45:22,108 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-21 16:45:22,108 LT1-thread root DEBUG gap.py                    1161  gap_read_controller_info  : 
+2026-09-21 16:45:22,108 LT1-thread root DEBUG iutctl_common.py          161   send                      : 1 3 0 ''
+2026-09-21 16:45:22,108 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0103000000'
+2026-09-21 16:45:22,108 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:22,150 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:22,161 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x03, ctrl_index=0x00, data_len=0x115) bytearray(b'\x01\x03\x00\x15\x01')
+2026-09-21 16:45:22,189 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 277 bytes data
+2026-09-21 16:45:22,199 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'19 78 ee 69 17 d0 d3 06 02 00 13 02 00 00 00 00 00 62 74 70 5f 74 65 73 74 65 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00'}, bytearray(b'\x19x\xeei\x17\xd0\xd3\x06\x02\x00\x13\x02\x00\x00\x00\x00\x00btp_tester\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+2026-09-21 16:45:22,228 LT1-thread root DEBUG gap.py                    1168  gap_read_controller_info  : received Header(svc_id=1, op=3, ctrl_index=0, data_len=277) (b'\x19x\xeei\x17\xd0\xd3\x06\x02\x00\x13\x02\x00\x00\x00\x00\x00btp_tester\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',)
+2026-09-21 16:45:22,228 LT1-thread root DEBUG gap.py                    1189  gap_read_controller_info  : IUT address 'd01769ee7819' 'public'
+2026-09-21 16:45:22,228 LT1-thread root DEBUG gap.py                    594   __gap_current_settings_update : 531
+2026-09-21 16:45:22,229 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases.<locals>.<lambda> at 0x000001D20B949C60> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=85 args=() kwds={}
+2026-09-21 16:45:22,229 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-21 16:45:22,232 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function set_pts_addr at 0x000001D209183060> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=85 args=('00:1B:DC:08:E4:4E', 0) kwds={}
+2026-09-21 16:45:22,232 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=('00:1B:DC:08:E4:4E', 0), kwds={}
+2026-09-21 16:45:22,232 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gatt at 0x000001D209183600> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=85 args=() kwds={}
+2026-09-21 16:45:22,232 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-21 16:45:22,232 LT1-thread root DEBUG btp.py                    117   core_reg_svc_univ         : core_reg_svc_univ: gatt_reg (GATT)
+2026-09-21 16:45:22,232 LT1-thread root DEBUG iutctl_common.py          161   send                      : 0 3 255 '2'
+2026-09-21 16:45:22,232 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0003ff010002'
+2026-09-21 16:45:22,233 LT1-thread root DEBUG btp.py                    622   core_reg_svc_rsp_succ     : 
+2026-09-21 16:45:22,233 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:22,269 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:22,281 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x03, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x03\xff\x00\x00')
+2026-09-21 16:45:22,291 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-21 16:45:22,309 LT1-thread root DEBUG btp.py                    633   core_reg_svc_rsp_succ     : received Header(svc_id=0, op=3, ctrl_index=255, data_len=0) (b'',)
+2026-09-21 16:45:22,309 LT1-thread root DEBUG btp.py                    634   core_reg_svc_rsp_succ     : expected ((0, 3, 255, 0), (b'',))
+2026-09-21 16:45:22,309 LT1-thread root DEBUG btp.py                    639   core_reg_svc_rsp_succ     : response is valid
+2026-09-21 16:45:22,309 LT1-thread root DEBUG btp.py                    642   core_reg_svc_rsp_succ     : Reading supported commands for service: GATT
+2026-09-21 16:45:22,309 LT1-thread root DEBUG iutctl_common.py          161   send                      : 2 1 255 ''
+2026-09-21 16:45:22,309 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0201ff0000'
+2026-09-21 16:45:22,310 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:22,349 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:22,355 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x02, op=0x01, ctrl_index=0xff, data_len=0x05) bytearray(b'\x02\x01\xff\x05\x00')
+2026-09-21 16:45:22,355 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 5 bytes data
+2026-09-21 16:45:22,366 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'fe fe bf fd 0f'}, bytearray(b'\xfe\xfe\xbf\xfd\x0f')
+2026-09-21 16:45:22,387 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gatt_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000001D20B64E300>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=85 args=() kwds={}
+2026-09-21 16:45:22,387 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-21 16:45:22,387 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_ftp at 0x000001D20915CC20> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=85 args=() kwds={}
+2026-09-21 16:45:22,388 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-21 16:45:22,388 LT1-thread root DEBUG btp.py                    117   core_reg_svc_univ         : core_reg_svc_univ: ftp_reg (FTP)
+2026-09-21 16:45:22,388 LT1-thread root DEBUG iutctl_common.py          161   send                      : 0 3 255 '42'
+2026-09-21 16:45:22,388 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0003ff01002a'
+2026-09-21 16:45:22,388 LT1-thread root DEBUG btp.py                    622   core_reg_svc_rsp_succ     : 
+2026-09-21 16:45:22,388 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:22,424 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:22,435 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x03, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x03\xff\x00\x00')
+2026-09-21 16:45:22,446 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-21 16:45:22,446 LT1-thread root DEBUG btp.py                    633   core_reg_svc_rsp_succ     : received Header(svc_id=0, op=3, ctrl_index=255, data_len=0) (b'',)
+2026-09-21 16:45:22,446 LT1-thread root DEBUG btp.py                    634   core_reg_svc_rsp_succ     : expected ((0, 3, 255, 0), (b'',))
+2026-09-21 16:45:22,446 LT1-thread root DEBUG btp.py                    639   core_reg_svc_rsp_succ     : response is valid
+2026-09-21 16:45:22,446 LT1-thread root DEBUG btp.py                    642   core_reg_svc_rsp_succ     : Reading supported commands for service: FTP
+2026-09-21 16:45:22,447 LT1-thread root DEBUG iutctl_common.py          161   send                      : 42 1 255 ''
+2026-09-21 16:45:22,447 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '2a01ff0000'
+2026-09-21 16:45:22,447 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:22,495 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:22,512 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x01, ctrl_index=0xff, data_len=0x04) bytearray(b'*\x01\xff\x04\x00')
+2026-09-21 16:45:22,534 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 4 bytes data
+2026-09-21 16:45:22,544 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'fe ff ff 3f'}, bytearray(b'\xfe\xff\xff?')
+2026-09-21 16:45:22,555 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.ftp_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000001D20B64E300>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=85 args=() kwds={}
+2026-09-21 16:45:22,555 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-21 16:45:22,555 LT1-thread root DEBUG ftp.py                    668   __init__                  : FTP: storage initialized
+2026-09-21 16:45:22,556 LT1-thread root DEBUG ftp.py                    1861  start                     : FTP event handler started
+2026-09-21 16:45:22,556 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_set_connectable at 0x000001D2091B5D00> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=85 args=() kwds={}
+2026-09-21 16:45:22,556 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-21 16:45:22,556 LT1-thread root DEBUG gap.py                    982   gap_set_connectable       : 
+2026-09-21 16:45:22,556 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_set_general_discoverable at 0x000001D2091B5EE0> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=85 args=() kwds={}
+2026-09-21 16:45:22,556 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-21 16:45:22,556 LT1-thread root DEBUG gap.py                    1033  gap_set_general_discoverable : 
+2026-09-21 16:45:22,556 LT1-thread root DEBUG iutctl_common.py          161   send                      : 1 8 0 '1'
+2026-09-21 16:45:22,557 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '010800010001'
+2026-09-21 16:45:22,557 LT1-thread root DEBUG gap.py                    1227  gap_command_rsp_succ      : 
+2026-09-21 16:45:22,557 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:22,626 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:22,631 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x08, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x08\x00\x04\x00')
+2026-09-21 16:45:22,648 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 4 bytes data
+2026-09-21 16:45:22,660 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2026-09-21 16:45:22,688 LT1-thread root DEBUG gap.py                    1232  gap_command_rsp_succ      : received Header(svc_id=1, op=8, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2026-09-21 16:45:22,688 LT1-thread root DEBUG gap.py                    594   __gap_current_settings_update : (b'\x1b\x02\x00\x00',)
+2026-09-21 16:45:22,690 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-21 16:45:31,782 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:31,783 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x82, ctrl_index=0x00, data_len=0x0d) bytearray(b'\x01\x82\x00\r\x00')
+2026-09-21 16:45:31,783 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 13 bytes data
+2026-09-21 16:45:31,783 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 00 00 00 00 00 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x00\x00\x00\x00\x00\x00')
+2026-09-21 16:45:31,783 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=1, op=130, ctrl_index=0, data_len=13) (b'\xe0N\xe4\x08\xdc\x1b\x00\x00\x00\x00\x00\x00\x00',)
+2026-09-21 16:45:31,783 BTPWorkerThread-14801 (_rx_task) root DEBUG gap.py                    213   gap_connected_ev_         : b'\xe0N\xe4\x08\xdc\x1b\x00\x00\x00\x00\x00\x00\x00'
+2026-09-21 16:45:31,783 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:31,783 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x80, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x80\x00\x04\x00')
+2026-09-21 16:45:31,783 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 4 bytes data
+2026-09-21 16:45:31,783 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2026-09-21 16:45:31,783 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=1, op=128, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2026-09-21 16:45:31,784 BTPWorkerThread-14801 (_rx_task) root DEBUG gap.py                    181   gap_new_settings_ev_      : b'\x1b\x02\x00\x00'
+2026-09-21 16:45:31,784 BTPWorkerThread-14801 (_rx_task) root DEBUG gap.py                    594   __gap_current_settings_update : 539
+2026-09-21 16:45:31,876 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: FTP
+    wid: 4017
+    test_case_name: FTP/SR/OMA/BV-06-C
+    description:  Please accept the l2cap channel connection for an OBEX connection.
+    style: MMI_Style_Ok_Cancel1 0x11041
+2026-09-21 16:45:31,876 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-21 16:45:31,876 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-21 16:45:32,696 LT1-thread root DEBUG testcase.py               679   run_wid                   : FTP FTP/SR/OMA/BV-06-C on_implicit_send
+2026-09-21 16:45:32,696 LT1-thread root DEBUG ftp_wid.py                25    ftp_wid_hdl               : ftp_wid_hdl, 4017,  Please accept the l2cap channel connection for an OBEX connection., FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:32,696 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'OK' to wid 4017 test case FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:32,698 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-21 16:45:33,446 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:33,447 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x91, ctrl_index=0x00, data_len=0x09) bytearray(b'\x01\x91\x00\t\x00')
+2026-09-21 16:45:33,447 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 9 bytes data
+2026-09-21 16:45:33,447 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 01 10'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x01\x10')
+2026-09-21 16:45:33,447 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=1, op=145, ctrl_index=0, data_len=9) (b'\xe0N\xe4\x08\xdc\x1b\x00\x01\x10',)
+2026-09-21 16:45:33,447 BTPWorkerThread-14801 (_rx_task) root DEBUG gap.py                    492   gap_encryption_change_ev_ : 
+2026-09-21 16:45:33,447 BTPWorkerThread-14801 (_rx_task) root DEBUG gap.py                    494   gap_encryption_change_ev_ : enc change received b'\xe0N\xe4\x08\xdc\x1b\x00\x01\x10'
+2026-09-21 16:45:33,447 BTPWorkerThread-14801 (_rx_task) root DEBUG gap.py                    503   gap_encryption_change_ev_ : received (224, '001bdc08e44e', 1, 16)
+2026-09-21 16:45:33,447 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:33,448 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x89, ctrl_index=0x00, data_len=0x08) bytearray(b'\x01\x89\x00\x08\x00')
+2026-09-21 16:45:33,448 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-21 16:45:33,457 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 1 bytes data
+2026-09-21 16:45:33,457 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 02'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x02')
+2026-09-21 16:45:33,457 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=1, op=137, ctrl_index=0, data_len=8) (b'\xe0N\xe4\x08\xdc\x1b\x00\x02',)
+2026-09-21 16:45:33,458 BTPWorkerThread-14801 (_rx_task) root DEBUG gap.py                    298   gap_sec_level_changed_ev_ : 
+2026-09-21 16:45:33,458 BTPWorkerThread-14801 (_rx_task) root DEBUG gap.py                    300   gap_sec_level_changed_ev_ : received b'\xe0N\xe4\x08\xdc\x1b\x00\x02'
+2026-09-21 16:45:33,458 BTPWorkerThread-14801 (_rx_task) root DEBUG gap.py                    311   gap_sec_level_changed_ev_ : received (224, '001bdc08e44e', 2)
+2026-09-21 16:45:33,468 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:33,469 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x91, ctrl_index=0x00, data_len=0x07) bytearray(b'*\x91\x00\x07\x00')
+2026-09-21 16:45:33,469 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-21 16:45:33,470 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00')
+2026-09-21 16:45:33,470 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=42, op=145, ctrl_index=0, data_len=7) (b'\xe0N\xe4\x08\xdc\x1b\x00',)
+2026-09-21 16:45:33,471 Thread-14811 (_process_events) root DEBUG ftp.py                    1380  _ftp_server_l2cap_connected_ev : _ftp_server_l2cap_connected_ev b'\xe0N\xe4\x08\xdc\x1b\x00'
+2026-09-21 16:45:33,471 Thread-14811 (_process_events) root DEBUG ftp.py                    713   add_connection            : FTP: created new connection addr=001bdc08e44e
+2026-09-21 16:45:33,471 Thread-14811 (_process_events) root DEBUG ftp.py                    724   add_connection            : FTP: add_connection addr=001bdc08e44e type=0x91
+2026-09-21 16:45:33,564 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: FTP
+    wid: 4004
+    test_case_name: FTP/SR/OMA/BV-06-C
+    description:  Please accept the OBEX CONNECT REQ.
+    style: MMI_Style_Ok_Cancel1 0x11041
+2026-09-21 16:45:33,564 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-21 16:45:33,564 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-21 16:45:33,567 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:33,567 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x93, ctrl_index=0x00, data_len=0x1f) bytearray(b'*\x93\x00\x1f\x00')
+2026-09-21 16:45:33,568 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 27 bytes data
+2026-09-21 16:45:33,578 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 4 bytes data
+2026-09-21 16:45:33,579 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 10 0a 01 13 00 46 00 13 f9 ec 7b c4 95 3c 11 d2 98 4e 52 54 00 dc 9e 09'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x10\n\x01\x13\x00F\x00\x13\xf9\xec{\xc4\x95<\x11\xd2\x98NRT\x00\xdc\x9e\t')
+2026-09-21 16:45:33,579 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=42, op=147, ctrl_index=0, data_len=31) (b'\xe0N\xe4\x08\xdc\x1b\x00\x10\n\x01\x13\x00F\x00\x13\xf9\xec{\xc4\x95<\x11\xd2\x98NRT\x00\xdc\x9e\t',)
+2026-09-21 16:45:33,579 Thread-14811 (_process_events) root DEBUG ftp.py                    1423  _ftp_server_connect_ev    : _ftp_server_connect_ev b'\xe0N\xe4\x08\xdc\x1b\x00\x10\n\x01\x13\x00F\x00\x13\xf9\xec{\xc4\x95<\x11\xd2\x98NRT\x00\xdc\x9e\t'
+2026-09-21 16:45:33,579 Thread-14811 (_process_events) root DEBUG ftp.py                    633   ftp_server_connect        : ftp_server_connect rsp=0xc1 '001bdc08e44e'
+2026-09-21 16:45:33,579 Thread-14811 (_process_events) root DEBUG iutctl_common.py          161   send                      : 42 19 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\xc1\\x15\\x00M\\x00\\x15\\x00\\x10\\xa8A;\\x93\\x0c\\x1di\\xa8%9\\xdciU\\xf9k\\xaf')"
+2026-09-21 16:45:33,579 Thread-14811 (_process_events) root DEBUG iutctl_common.py          166   send                      : sending frame '2a13001f00e04ee408dc1b00c115004d00150010a8413b930c1d69a82539dc6955f96baf'
+2026-09-21 16:45:33,580 Thread-14811 (_process_events) root DEBUG ftp.py                    284   ftp_command_rsp_succ      : ftp_command_rsp_succ
+2026-09-21 16:45:33,580 Thread-14811 (_process_events) root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:33,605 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:33,633 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x13, ctrl_index=0x00, data_len=0x00) bytearray(b'*\x13\x00\x00\x00')
+2026-09-21 16:45:33,633 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-21 16:45:33,633 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:33,634 Thread-14811 (_process_events) root DEBUG ftp.py                    287   ftp_command_rsp_succ      : received Header(svc_id=42, op=19, ctrl_index=0, data_len=0) (b'',)
+2026-09-21 16:45:33,634 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x93, ctrl_index=0x00, data_len=0x66) bytearray(b'*\x93\x00f\x00')
+2026-09-21 16:45:33,634 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 102 bytes data
+2026-09-21 16:45:33,635 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 10 0a 01 5a 00 46 00 13 f9 ec 7b c4 95 3c 11 d2 98 4e 52 54 00 dc 9e 09 4d 00 1b 00 10 5f ab e1 27 65 a0 47 64 b0 ad f4 27 0f 10 4f fd 01 01 00 02 01 00 4e 00 2c 00 10 3c 2e 6d c5 da 02 6c 1e 6d d7 d0 df c5 5b e3 1a 01 03 70 74 73 02 10 a8 41 3b 93 0c 1d 69 a8 25 39 dc 69 55 f9 6b af'}, bytearray(b"\xe0N\xe4\x08\xdc\x1b\x00\x10\n\x01Z\x00F\x00\x13\xf9\xec{\xc4\x95<\x11\xd2\x98NRT\x00\xdc\x9e\tM\x00\x1b\x00\x10_\xab\xe1\'e\xa0Gd\xb0\xad\xf4\'\x0f\x10O\xfd\x01\x01\x00\x02\x01\x00N\x00,\x00\x10<.m\xc5\xda\x02l\x1em\xd7\xd0\xdf\xc5[\xe3\x1a\x01\x03pts\x02\x10\xa8A;\x93\x0c\x1di\xa8%9\xdciU\xf9k\xaf")
+2026-09-21 16:45:33,635 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=42, op=147, ctrl_index=0, data_len=102) (b"\xe0N\xe4\x08\xdc\x1b\x00\x10\n\x01Z\x00F\x00\x13\xf9\xec{\xc4\x95<\x11\xd2\x98NRT\x00\xdc\x9e\tM\x00\x1b\x00\x10_\xab\xe1'e\xa0Gd\xb0\xad\xf4'\x0f\x10O\xfd\x01\x01\x00\x02\x01\x00N\x00,\x00\x10<.m\xc5\xda\x02l\x1em\xd7\xd0\xdf\xc5[\xe3\x1a\x01\x03pts\x02\x10\xa8A;\x93\x0c\x1di\xa8%9\xdciU\xf9k\xaf",)
+2026-09-21 16:45:33,635 Thread-14811 (_process_events) root DEBUG ftp.py                    1423  _ftp_server_connect_ev    : _ftp_server_connect_ev b"\xe0N\xe4\x08\xdc\x1b\x00\x10\n\x01Z\x00F\x00\x13\xf9\xec{\xc4\x95<\x11\xd2\x98NRT\x00\xdc\x9e\tM\x00\x1b\x00\x10_\xab\xe1'e\xa0Gd\xb0\xad\xf4'\x0f\x10O\xfd\x01\x01\x00\x02\x01\x00N\x00,\x00\x10<.m\xc5\xda\x02l\x1em\xd7\xd0\xdf\xc5[\xe3\x1a\x01\x03pts\x02\x10\xa8A;\x93\x0c\x1di\xa8%9\xdciU\xf9k\xaf"
+2026-09-21 16:45:33,635 Thread-14811 (_process_events) root DEBUG ftp.py                    1450  _ftp_server_connect_ev    : _ftp_server_connect_ev: client authentication succeeded
+2026-09-21 16:45:33,635 Thread-14811 (_process_events) root DEBUG ftp.py                    1456  _ftp_server_connect_ev    : _ftp_server_connect_ev: client also requires authentication
+2026-09-21 16:45:33,636 Thread-14811 (_process_events) root DEBUG ftp.py                    633   ftp_server_connect        : ftp_server_connect rsp=0xa0 '001bdc08e44e'
+2026-09-21 16:45:33,636 Thread-14811 (_process_events) root DEBUG iutctl_common.py          161   send                      : 42 19 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\xa0\\x15\\x00N\\x00\\x15\\x00\\x105)\\xb8\\xac\\x7f\\xd8\\x88\\xb3f\\xe1\\\\\\x82\\x94U\\x80S')"
+2026-09-21 16:45:33,636 Thread-14811 (_process_events) root DEBUG iutctl_common.py          166   send                      : sending frame '2a13001f00e04ee408dc1b00a015004e001500103529b8ac7fd888b366e15c8294558053'
+2026-09-21 16:45:33,636 Thread-14811 (_process_events) root DEBUG ftp.py                    284   ftp_command_rsp_succ      : ftp_command_rsp_succ
+2026-09-21 16:45:33,636 Thread-14811 (_process_events) root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:33,670 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:33,677 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x13, ctrl_index=0x00, data_len=0x00) bytearray(b'*\x13\x00\x00\x00')
+2026-09-21 16:45:33,699 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-21 16:45:33,699 LT1-thread root DEBUG testcase.py               679   run_wid                   : FTP FTP/SR/OMA/BV-06-C on_implicit_send
+2026-09-21 16:45:33,700 LT1-thread root DEBUG ftp_wid.py                25    ftp_wid_hdl               : ftp_wid_hdl, 4004,  Please accept the OBEX CONNECT REQ., FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:33,700 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'OK' to wid 4004 test case FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:33,700 Thread-14811 (_process_events) root DEBUG ftp.py                    287   ftp_command_rsp_succ      : received Header(svc_id=42, op=19, ctrl_index=0, data_len=0) (b'',)
+2026-09-21 16:45:33,700 Thread-14811 (_process_events) root DEBUG ftp.py                    724   add_connection            : FTP: add_connection addr=001bdc08e44e type=0x93
+2026-09-21 16:45:33,700 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:33,701 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x96, ctrl_index=0x00, data_len=0x12) bytearray(b'*\x96\x00\x12\x00')
+2026-09-21 16:45:33,701 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 18 bytes data
+2026-09-21 16:45:33,702 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 02 08 00 01 00 03 cb 00 00 00 01'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x08\x00\x01\x00\x03\xcb\x00\x00\x00\x01')
+2026-09-21 16:45:33,702 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=42, op=150, ctrl_index=0, data_len=18) (b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x08\x00\x01\x00\x03\xcb\x00\x00\x00\x01',)
+2026-09-21 16:45:33,703 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-21 16:45:33,703 Thread-14811 (_process_events) root DEBUG ftp.py                    1502  _ftp_server_set_folder_ev : _ftp_server_set_folder_ev b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x08\x00\x01\x00\x03\xcb\x00\x00\x00\x01'
+2026-09-21 16:45:33,703 Thread-14811 (_process_events) root DEBUG ftp.py                    214   set_folder                : FtpStorage: cwd -> / (root)
+2026-09-21 16:45:33,703 Thread-14811 (_process_events) root DEBUG ftp.py                    683   ftp_server_set_folder     : ftp_server_set_folder rsp=0xa0 '001bdc08e44e'
+2026-09-21 16:45:33,703 Thread-14811 (_process_events) root DEBUG iutctl_common.py          161   send                      : 42 22 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\xa0')"
+2026-09-21 16:45:33,703 Thread-14811 (_process_events) root DEBUG iutctl_common.py          166   send                      : sending frame '2a16000800e04ee408dc1b00a0'
+2026-09-21 16:45:33,704 Thread-14811 (_process_events) root DEBUG ftp.py                    284   ftp_command_rsp_succ      : ftp_command_rsp_succ
+2026-09-21 16:45:33,704 Thread-14811 (_process_events) root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:33,705 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: FTP
+    wid: 4004
+    test_case_name: FTP/SR/OMA/BV-06-C
+    description:  Please accept the OBEX CONNECT REQ.
+    style: MMI_Style_Ok_Cancel1 0x11041
+2026-09-21 16:45:33,705 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-21 16:45:33,705 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-21 16:45:33,753 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:33,754 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x16, ctrl_index=0x00, data_len=0x00) bytearray(b'*\x16\x00\x00\x00')
+2026-09-21 16:45:33,765 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-21 16:45:33,775 Thread-14811 (_process_events) root DEBUG ftp.py                    287   ftp_command_rsp_succ      : received Header(svc_id=42, op=22, ctrl_index=0, data_len=0) (b'',)
+2026-09-21 16:45:33,775 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:33,776 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x96, ctrl_index=0x00, data_len=0x1a) bytearray(b'*\x96\x00\x1a\x00')
+2026-09-21 16:45:33,776 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 26 bytes data
+2026-09-21 16:45:33,776 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 02 10 00 01 00 0b 00 70 00 74 00 73 00 00 cb 00 00 00 01'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x10\x00\x01\x00\x0b\x00p\x00t\x00s\x00\x00\xcb\x00\x00\x00\x01')
+2026-09-21 16:45:33,776 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=42, op=150, ctrl_index=0, data_len=26) (b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x10\x00\x01\x00\x0b\x00p\x00t\x00s\x00\x00\xcb\x00\x00\x00\x01',)
+2026-09-21 16:45:33,776 Thread-14811 (_process_events) root DEBUG ftp.py                    1502  _ftp_server_set_folder_ev : _ftp_server_set_folder_ev b'\xe0N\xe4\x08\xdc\x1b\x00\x02\x10\x00\x01\x00\x0b\x00p\x00t\x00s\x00\x00\xcb\x00\x00\x00\x01'
+2026-09-21 16:45:33,776 Thread-14811 (_process_events) root DEBUG ftp.py                    228   set_folder                : FtpStorage: cwd -> /pts
+2026-09-21 16:45:33,777 Thread-14811 (_process_events) root DEBUG ftp.py                    683   ftp_server_set_folder     : ftp_server_set_folder rsp=0xa0 '001bdc08e44e'
+2026-09-21 16:45:33,777 Thread-14811 (_process_events) root DEBUG iutctl_common.py          161   send                      : 42 22 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\xa0')"
+2026-09-21 16:45:33,777 Thread-14811 (_process_events) root DEBUG iutctl_common.py          166   send                      : sending frame '2a16000800e04ee408dc1b00a0'
+2026-09-21 16:45:33,777 Thread-14811 (_process_events) root DEBUG ftp.py                    284   ftp_command_rsp_succ      : ftp_command_rsp_succ
+2026-09-21 16:45:33,777 Thread-14811 (_process_events) root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:33,827 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:33,865 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x16, ctrl_index=0x00, data_len=0x00) bytearray(b'*\x16\x00\x00\x00')
+2026-09-21 16:45:33,866 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-21 16:45:33,887 Thread-14811 (_process_events) root DEBUG ftp.py                    287   ftp_command_rsp_succ      : received Header(svc_id=42, op=22, ctrl_index=0, data_len=0) (b'',)
+2026-09-21 16:45:34,703 LT1-thread root DEBUG testcase.py               679   run_wid                   : FTP FTP/SR/OMA/BV-06-C on_implicit_send
+2026-09-21 16:45:34,703 LT1-thread root DEBUG ftp_wid.py                25    ftp_wid_hdl               : ftp_wid_hdl, 4004,  Please accept the OBEX CONNECT REQ., FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:34,703 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'OK' to wid 4004 test case FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:34,705 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-21 16:45:34,707 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: FTP
+    wid: 4016
+    test_case_name: FTP/SR/OMA/BV-06-C
+    description: Please accept the SET_PATH command.
+    style: MMI_Style_Ok_Cancel1 0x11041
+2026-09-21 16:45:34,707 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-21 16:45:34,707 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-21 16:45:35,706 LT1-thread root DEBUG testcase.py               679   run_wid                   : FTP FTP/SR/OMA/BV-06-C on_implicit_send
+2026-09-21 16:45:35,706 LT1-thread root DEBUG ftp_wid.py                25    ftp_wid_hdl               : ftp_wid_hdl, 4016, Please accept the SET_PATH command., FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:35,706 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'OK' to wid 4016 test case FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:35,708 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-21 16:45:35,711 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: FTP
+    wid: 4016
+    test_case_name: FTP/SR/OMA/BV-06-C
+    description: Please accept the SET_PATH command.
+    style: MMI_Style_Ok_Cancel1 0x11041
+2026-09-21 16:45:35,712 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-21 16:45:35,712 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-21 16:45:36,710 LT1-thread root DEBUG testcase.py               679   run_wid                   : FTP FTP/SR/OMA/BV-06-C on_implicit_send
+2026-09-21 16:45:36,710 LT1-thread root DEBUG ftp_wid.py                25    ftp_wid_hdl               : ftp_wid_hdl, 4016, Please accept the SET_PATH command., FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:36,710 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'OK' to wid 4016 test case FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:36,712 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-21 16:45:36,714 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: FTP
+    wid: 34
+    test_case_name: FTP/SR/OMA/BV-06-C
+    description: If necessary take action to create a folder named 'pts\OMA_BV_06_I' now.  Once the folder is in place press 'OK' to continue.
+    style: MMI_Style_Yes_No1 0x11044
+2026-09-21 16:45:36,714 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-21 16:45:36,714 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-21 16:45:37,712 LT1-thread root DEBUG testcase.py               679   run_wid                   : FTP FTP/SR/OMA/BV-06-C on_implicit_send
+2026-09-21 16:45:37,712 LT1-thread root DEBUG ftp_wid.py                25    ftp_wid_hdl               : ftp_wid_hdl, 34, If necessary take action to create a folder named 'pts\OMA_BV_06_I' now.  Once the folder is in place press 'OK' to continue., FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:37,713 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'Yes' to wid 34 test case FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:37,714 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-21 16:45:37,719 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: FTP
+    wid: 1
+    test_case_name: FTP/SR/OMA/BV-06-C
+    description: Take action to accept the Put Delete operation.
+    style: MMI_Style_Ok_Cancel1 0x11041
+2026-09-21 16:45:37,719 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-21 16:45:37,719 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-21 16:45:37,725 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:37,726 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x9a, ctrl_index=0x00, data_len=0x2a) bytearray(b'*\x9a\x00*\x00')
+2026-09-21 16:45:37,726 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 42 bytes data
+2026-09-21 16:45:37,726 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 01 20 00 01 00 1b 00 4f 00 4d 00 41 00 5f 00 42 00 56 00 5f 00 30 00 36 00 5f 00 49 00 00 cb 00 00 00 01'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x01 \x00\x01\x00\x1b\x00O\x00M\x00A\x00_\x00B\x00V\x00_\x000\x006\x00_\x00I\x00\x00\xcb\x00\x00\x00\x01')
+2026-09-21 16:45:37,726 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=42, op=154, ctrl_index=0, data_len=42) (b'\xe0N\xe4\x08\xdc\x1b\x00\x01 \x00\x01\x00\x1b\x00O\x00M\x00A\x00_\x00B\x00V\x00_\x000\x006\x00_\x00I\x00\x00\xcb\x00\x00\x00\x01',)
+2026-09-21 16:45:37,726 Thread-14811 (_process_events) root DEBUG ftp.py                    1715  _ftp_server_delete_ev     : _ftp_server_delete_ev b'\xe0N\xe4\x08\xdc\x1b\x00\x01 \x00\x01\x00\x1b\x00O\x00M\x00A\x00_\x00B\x00V\x00_\x000\x006\x00_\x00I\x00\x00\xcb\x00\x00\x00\x01'
+2026-09-21 16:45:37,726 Thread-14811 (_process_events) root DEBUG ftp.py                    392   delete                    : FtpStorage: deleted 'OMA_BV_06_I' from /pts
+2026-09-21 16:45:37,727 Thread-14811 (_process_events) root DEBUG ftp.py                    753   ftp_server_delete         : ftp_server_delete rsp=0xa0 '001bdc08e44e'
+2026-09-21 16:45:37,727 Thread-14811 (_process_events) root DEBUG iutctl_common.py          161   send                      : 42 26 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\xa0')"
+2026-09-21 16:45:37,727 Thread-14811 (_process_events) root DEBUG iutctl_common.py          166   send                      : sending frame '2a1a000800e04ee408dc1b00a0'
+2026-09-21 16:45:37,727 Thread-14811 (_process_events) root DEBUG ftp.py                    284   ftp_command_rsp_succ      : ftp_command_rsp_succ
+2026-09-21 16:45:37,727 Thread-14811 (_process_events) root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:37,770 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:37,781 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x1a, ctrl_index=0x00, data_len=0x00) bytearray(b'*\x1a\x00\x00\x00')
+2026-09-21 16:45:37,792 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-21 16:45:37,808 Thread-14811 (_process_events) root DEBUG ftp.py                    287   ftp_command_rsp_succ      : received Header(svc_id=42, op=26, ctrl_index=0, data_len=0) (b'',)
+2026-09-21 16:45:38,716 LT1-thread root DEBUG testcase.py               679   run_wid                   : FTP FTP/SR/OMA/BV-06-C on_implicit_send
+2026-09-21 16:45:38,716 LT1-thread root DEBUG ftp_wid.py                25    ftp_wid_hdl               : ftp_wid_hdl, 1, Take action to accept the Put Delete operation., FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:38,716 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'OK' to wid 1 test case FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:38,718 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-21 16:45:38,720 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: FTP
+    wid: 46
+    test_case_name: FTP/SR/OMA/BV-06-C
+    description: The  folder named 'OMA_BV_06_I' should not be available on the IUT, press 'Yes' to confirm.
+    style: MMI_Style_Yes_No1 0x11044
+2026-09-21 16:45:38,720 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-21 16:45:38,720 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-21 16:45:39,719 LT1-thread root DEBUG testcase.py               679   run_wid                   : FTP FTP/SR/OMA/BV-06-C on_implicit_send
+2026-09-21 16:45:39,719 LT1-thread root DEBUG ftp_wid.py                25    ftp_wid_hdl               : ftp_wid_hdl, 46, The  folder named 'OMA_BV_06_I' should not be available on the IUT, press 'Yes' to confirm., FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:39,719 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'Yes' to wid 46 test case FTP/SR/OMA/BV-06-C
+2026-09-21 16:45:39,720 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-21 16:45:39,735 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:39,735 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x94, ctrl_index=0x00, data_len=0x0e) bytearray(b'*\x94\x00\x0e\x00')
+2026-09-21 16:45:39,736 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 14 bytes data
+2026-09-21 16:45:39,736 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 05 00 cb 00 00 00 01'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x05\x00\xcb\x00\x00\x00\x01')
+2026-09-21 16:45:39,736 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=42, op=148, ctrl_index=0, data_len=14) (b'\xe0N\xe4\x08\xdc\x1b\x00\x05\x00\xcb\x00\x00\x00\x01',)
+2026-09-21 16:45:39,737 Thread-14811 (_process_events) root DEBUG ftp.py                    1488  _ftp_server_disconnect_ev : _ftp_server_disconnect_ev b'\xe0N\xe4\x08\xdc\x1b\x00\x05\x00\xcb\x00\x00\x00\x01'
+2026-09-21 16:45:39,737 Thread-14811 (_process_events) root DEBUG ftp.py                    651   ftp_server_disconnect     : ftp_server_disconnect rsp=0xa0 '001bdc08e44e'
+2026-09-21 16:45:39,737 Thread-14811 (_process_events) root DEBUG iutctl_common.py          161   send                      : 42 20 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\xa0')"
+2026-09-21 16:45:39,737 Thread-14811 (_process_events) root DEBUG iutctl_common.py          166   send                      : sending frame '2a14000800e04ee408dc1b00a0'
+2026-09-21 16:45:39,737 Thread-14811 (_process_events) root DEBUG ftp.py                    284   ftp_command_rsp_succ      : ftp_command_rsp_succ
+2026-09-21 16:45:39,737 Thread-14811 (_process_events) root DEBUG iutctl_common.py          339   read                      : 
+2026-09-21 16:45:39,774 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:39,785 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x14, ctrl_index=0x00, data_len=0x00) bytearray(b'*\x14\x00\x00\x00')
+2026-09-21 16:45:39,790 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-21 16:45:39,790 Thread-14811 (_process_events) root DEBUG ftp.py                    287   ftp_command_rsp_succ      : received Header(svc_id=42, op=20, ctrl_index=0, data_len=0) (b'',)
+2026-09-21 16:45:39,790 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:39,792 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x2a, op=0x92, ctrl_index=0x00, data_len=0x07) bytearray(b'*\x92\x00\x07\x00')
+2026-09-21 16:45:39,792 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-21 16:45:39,792 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00')
+2026-09-21 16:45:39,792 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=42, op=146, ctrl_index=0, data_len=7) (b'\xe0N\xe4\x08\xdc\x1b\x00',)
+2026-09-21 16:45:39,792 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:39,793 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x83, ctrl_index=0x00, data_len=0x07) bytearray(b'\x01\x83\x00\x07\x00')
+2026-09-21 16:45:39,793 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-21 16:45:39,793 Thread-14811 (_process_events) root DEBUG ftp.py                    1386  _ftp_server_l2cap_disconnected_ev : _ftp_server_l2cap_disconnected_ev b'\xe0N\xe4\x08\xdc\x1b\x00'
+2026-09-21 16:45:39,793 Thread-14811 (_process_events) root DEBUG ftp.py                    739   remove_connection         : FTP: removed connection addr=001bdc08e44e
+2026-09-21 16:45:39,793 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00')
+2026-09-21 16:45:39,793 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=1, op=131, ctrl_index=0, data_len=7) (b'\xe0N\xe4\x08\xdc\x1b\x00',)
+2026-09-21 16:45:39,793 BTPWorkerThread-14801 (_rx_task) root DEBUG gap.py                    226   gap_disconnected_ev_      : b'\xe0N\xe4\x08\xdc\x1b\x00'
+2026-09-21 16:45:42,478 LT1-callback ClientCallback.log INFO client.py                 200   log                       : PTS_LOGTYPE_START_TEST Start Test Case 
+
++141 ms
+ FTP/SR/OMA/BV-06-C FTP/SR/OMA/BV-06-C
+
+2026-09-21 16:45:42,887 LT1-callback ClientCallback.log INFO client.py                 200   log                       : PTS_LOGTYPE_FINAL_VERDICT Final Verdict 
+
++17735 ms
+ FTP/SR/OMA/BV-06-C PASS
+
+2026-09-21 16:45:42,892 LT1-callback ClientCallback.log INFO client.py                 200   log                       : PTS_LOGTYPE_FINAL_VERDICT Encrypted Verdict 
+
++17735 ms
+ FTP/SR/OMA/BV-06-C A1#ZWY4MzQ5MDg3MmQwNTIxOGQzMzQ5YjY2ODA5M2MzNjQ5ZDY4NmY0Yjc2MzIzM2VkNTUyNTFhNGU4Mjg1MjI0NA==#syE3gqkjOG+yQlhKT4ll/G6fzvi7tP6s9xzWdZj6mNCdvkq/0zITHtJq3fJVTyop
+
+2026-09-21 16:45:42,896 LT1-callback ClientCallback.log INFO client.py                 200   log                       : PTS_LOGTYPE_END_TEST Test Case Ended 
+
++17735 ms
+ FTP/SR/OMA/BV-06-C FTP/SR/OMA/BV-06-C
+
+2026-09-21 16:45:42,992 LT1-callback root DEBUG client.py                 261   set_result                : ClientCallback, set_result, run_test_case, PASS
+2026-09-21 16:45:42,992 LT1-thread root DEBUG client.py                 1186  _run_test_case            : After run_test_case error_code=0 status='PASS'
+2026-09-21 16:45:42,993 LT1-thread root DEBUG testcase.py               766   post_run                  : post_run FTP FTP/SR/OMA/BV-06-C 0
+2026-09-21 16:45:42,993 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method ZTestCase._test_case_cleanup of <autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x000001D20B9D7A10>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2026-09-21 16:45:42,993 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-21 16:45:42,993 LT1-thread root DEBUG ftp.py                    668   __init__                  : FTP: storage initialized
+2026-09-21 16:45:42,994 LT1-thread root DEBUG ftp.py                    1861  start                     : FTP event handler started
+2026-09-21 16:45:42,994 LT1-thread root DEBUG iutctl.py                 415   stop                      : <class 'autopts.ptsprojects.zephyr.iutctl.create_zephyr_ctl_class.<locals>.ZephyrCtl'>.stop
+2026-09-21 16:45:42,994 LT1-thread root DEBUG __init__.py               51    reset                     : About to reset DUT: JLink -CommandFile reset.jlink -usb 1063214216 -device MIMXRT1176XXXA_M7
+2026-09-21 16:45:43,303 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-21 16:45:43,304 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x80, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x80\xff\x00\x00')
+2026-09-21 16:45:43,304 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-21 16:45:43,304 BTPWorkerThread-14801 (_rx_task) root DEBUG btp.py                    704   event_handler             : Header(svc_id=0, op=128, ctrl_index=255, data_len=0) (b'',)
+2026-09-21 16:45:43,304 BTPWorkerThread-14801 (_rx_task) root DEBUG core.py                   23    core_iut_ready_ev         : 
+2026-09-21 16:45:43,368 LT1-thread root DEBUG iutctl.py                 436   _stop_tty_mode            : IUT ready event received OK
+2026-09-21 16:45:43,368 LT1-thread root DEBUG iutctl_common.py          416   close                     : Waiting for _rx_worker to finish ...
+2026-09-21 16:45:44,304 BTPWorkerThread-14801 (_rx_task) root DEBUG iutctl_common.py          332   _rx_task                  : BTPWorkerThread-14801 (_rx_task) finishing...
+2026-09-21 16:45:47,311 LT1-thread root DEBUG testcase.py               794   post_run                  : post_run, cleanup running post test case script
+2026-09-21 16:45:47,311 LT1-thread root DEBUG testcase.py               802   post_run                  : post_run, run post test case script
+2026-09-21 16:45:47,387 LT1-thread root DEBUG client.py                 1220  _run_test_case            : Done TestCase _run_test_case FTP FTP/SR/OMA/BV-06-C
