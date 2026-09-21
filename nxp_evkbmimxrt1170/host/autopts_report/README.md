@@ -1,18 +1,16 @@
 # AutoPTS report
 
-    Start time: 2026_09_18_12_11_52
+    Start time: 2026_09_21_11_35_13
 
-    End time: 2026_09_18_12_57_51
+    End time: 2026_09_21_11_35_26
 
-    PTS version: 8.14.0.4
+    PTS version: 
 
     Test Group/Profile Summary: 
 |  Suite  | Total | Pass | Fail | Pass Rate|
 |---------|-------|------|------|----------|
-|RFCOMM   |17     |16    |1     |  94.12 % |
-|SDP      |56     |56    |0     | 100.00 % |
-|Total    |73     |72    |1     |  98.63 % |
+|Total    |0      |0     |0     |   0.00 % |
 
     Repositories:
 
-	zephyr: 52b48529aecc3ad0ef9b159996bdb5d2b3e5b794 [v4.4.0-15851-g52b48529aec]
+	zephyr: fdc16d912376fb21d338e358d2afd8f3286ce02a [v4.4.0-15178-gfdc16d91237]
