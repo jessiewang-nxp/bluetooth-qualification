@@ -1,16 +1,16 @@
 # AutoPTS report
 
-    Start time: 2026_09_22_16_22_31
+    Start time: 2026_09_22_16_36_01
 
-    End time: 2026_09_22_16_29_33
+    End time: 2026_09_22_16_46_03
 
     PTS version: 8.14.0.4
 
     Test Group/Profile Summary: 
 |  Suite  | Total | Pass | Fail | Pass Rate|
 |---------|-------|------|------|----------|
-|BIP      |3      |3     |0     | 100.00 % |
-|Total    |3      |3     |0     | 100.00 % |
+|IOPT     |9      |9     |0     | 100.00 % |
+|Total    |9      |9     |0     | 100.00 % |
 
     Repositories:
 
