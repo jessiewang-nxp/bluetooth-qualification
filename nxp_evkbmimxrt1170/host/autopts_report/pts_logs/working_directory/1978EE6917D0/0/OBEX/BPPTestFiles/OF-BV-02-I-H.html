@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//PWG//DTD XHTML-Print 1.0//EN"
+		  "http://www.pwg.org/xhtml-print/xhtml-print10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Testing CSS Constructs for XHTML Print - Part 8</title>
+	<style type="text/css">
+	
+	.underline {text-decoration: underline;}
+	.normal {text-decoration: normal;}
+	.left {text-align: left;}
+	.center {text-align: center;}
+
+	.indenti {text-indent: 0.5in;}
+	.indentm {text-indent: 13mm;}
+	.indentex {text-indent: 6ex;}	
+	.indentp {text-indent: 50%;}
+	.pre {white-space: pre;}
+	.nowrap {white-space: nowrap;}
+	.normal {white-space: normal;}
+
+	</style>
+</head>
+
+<body>
+<h1> BPP TSS Section 5.5.1.2 TP/OF/BV-02-I-H [Printer - XHTML: CSS Constructs Part 8]</h1>
+<h6>  This test is part of a suite of qualification tests for printing in conformance with the Bluetooth Basic Printing Profile, (C) Bluetooth SIG. 
+<br /> Last Modified:  09/21/02 </h6>
+<hr />
+<h2> Testing text-align</h2>
+<p class = "left"> This line must be left aligned.</p>
+<p class = "center"> This line must be centered.</p>
+
+<p><br /><br /></p>
+<h2> Testing text-decoration</h2>
+<p class = "underline"> This line must be underlined.</p>
+
+<p><br /><br /></p>
+
+<h2> Testing text-indent</h2>
+<p> This sentence should not be indented.</p>
+<p class = "indenti"> The first line of this sentence must be indented approximately half of an inch from the beginning of the previous sentence.</p>
+<p class = "indentm"> The first line of this sentence should be indented 13 millimeters and must have approximately the same indent as the previous sentence.</p>
+<p class = "indentex"> The first line of this sentence should be indented 6 ex and must have approximately the same indent as the previous sentence.</p>
+<p class = "indentp"> The first line of this sentence must be indented approximately 1/2 of the printable area of the page.</p>
+<p><br /><br /></p>
+
+<h2> Testing white-space</h2>
+<p class = "pre"> There       must     be    extra     white     space  in  this     sentence and 
+ this half of the sentence must be on a separate line.</p>
+<p class = "nowrap"> This line tests nowrap and must go on forever and ever and not ever wrap
+no matter how long it is, it should just never ever ever ever ever ever ever ever ever ever wrap.</p>
+<p class = "normal"> There       must  not   be    any extra     white     space  in  this     sentence.</p>
+
+<p><br /><br /></p>
+<h3>end of test</h3>
+
+
+
+
+
+</body>
+</html>
