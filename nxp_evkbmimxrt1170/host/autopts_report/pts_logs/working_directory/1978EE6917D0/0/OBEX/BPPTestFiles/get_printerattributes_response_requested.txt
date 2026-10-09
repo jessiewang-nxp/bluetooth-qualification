@@ -1,0 +1,22 @@
+CONTENT-LENGTH: 244
+CONTENT-TYPE: text/xml; charset = "utf-8"
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"
+            s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <s:Body>
+    <u:GetPrinterAttributesResponse xmlns:u="urn:schemas-bluetooth-org:service:Printer:1">
+      <PrinterName>MyPrinter</PrinterName>
+      <PrinterLocation>MyLocation</PrinterLocation>
+      <PrinterState>idle</PrinterState>
+      <PrinterStateReasons>none</PrinterStateReasons>
+      <DocumentFormatsSupported>
+        <DocumentFormat> application/vnd.pwg-xhtml-print+xml:0.95 </DocumentFormat>
+        <DocumentFormat> application/vnd.hp-PCL:5E</DocumentFormat>
+        <DocumentFormat> text/plain</DocumentFormat>
+        <DocumentFormat> application/PostScript:3</DocumentFormat>
+      </DocumentFormatsSupported>
+      <ColorSupported>true</ColorSupported>
+      <MaxCopiesSupported>1</MaxCopiesSupported>
+    </u:GetPrinterAttributesResponse>
+  </s:Body>
+</s:Envelope>

@@ -1,0 +1,462 @@
+2026-09-24 13:15:09,469 LT1-thread root DEBUG client.py                 1099  _run_test_case            : Starting TestCase _run_test_case AVRCP AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:09,470 LT1-thread root DEBUG testcase.py               727   pre_run                   : pre_run AVRCP AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:09,470 LT1-thread root DEBUG testcase.py               729   pre_run                   : About to run test case AVRCP AVRCP/CT/MCN/SRC/BV-05-C with commands:
+2026-09-24 13:15:09,470 LT1-thread root DEBUG testcase.py               731   pre_run                   : 0) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZTestCase._test_case_start of <autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x000002622B4C1FD0>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=() kwds={}
+2026-09-24 13:15:09,470 LT1-thread root DEBUG testcase.py               731   pre_run                   : 1) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gap at 0x0000026227D2E160> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=() kwds={}
+2026-09-24 13:15:09,470 LT1-thread root DEBUG testcase.py               731   pre_run                   : 2) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gap_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000002622ACA1670>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=(b'Tester_08E44E',) kwds={}
+2026-09-24 13:15:09,470 LT1-thread root DEBUG testcase.py               731   pre_run                   : 3) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_read_controller_info at 0x0000026227D6EB60> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=() kwds={}
+2026-09-24 13:15:09,471 LT1-thread root DEBUG testcase.py               731   pre_run                   : 4) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases.<locals>.<lambda> at 0x000002622B49C680> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=() kwds={}
+2026-09-24 13:15:09,471 LT1-thread root DEBUG testcase.py               731   pre_run                   : 5) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function set_pts_addr at 0x0000026227D2DD00> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=('00:1B:DC:08:E4:4E', 0) kwds={}
+2026-09-24 13:15:09,471 LT1-thread root DEBUG testcase.py               731   pre_run                   : 6) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_avrcp at 0x0000026227D2FB00> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=() kwds={}
+2026-09-24 13:15:09,471 LT1-thread root DEBUG testcase.py               731   pre_run                   : 7) class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.avrcp_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000002622ACA1670>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=58 args=() kwds={}
+2026-09-24 13:15:09,471 LT1-thread root DEBUG testcase.py               731   pre_run                   : 8) class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method ZTestCase._test_case_cleanup of <autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x000002622B4C1FD0>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=0 args=() kwds={}
+2026-09-24 13:15:09,471 LT1-thread root DEBUG testcase.py               738   pre_run                   : pre_run, run pre test case script
+2026-09-24 13:15:09,480 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method ZTestCase._test_case_start of <autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x000002622B4C1FD0>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2026-09-24 13:15:09,480 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-24 13:15:09,481 LT1-thread root DEBUG iutctl.py                 172   start                     : <class 'autopts.ptsprojects.zephyr.iutctl.create_zephyr_ctl_class.<locals>.ZephyrCtl'>.start
+2026-09-24 13:15:09,481 LT1-thread root DEBUG iutctl.py                 325   flush_serial              : <class 'autopts.ptsprojects.zephyr.iutctl.create_zephyr_ctl_class.<locals>.ZephyrCtl'>.flush_serial
+2026-09-24 13:15:10,667 LT1-thread root DEBUG iutctl.py                 249   _start_tty_mode           : Starting socat process: socat.exe -x -v tcp:10.17.12.9:53329,retry=100,interval=1 /dev/ttyS2,raw,b115200,
+2026-09-24 13:15:10,674 LT1-thread root DEBUG iutctl_common.py          402   accept                    : 
+2026-09-24 13:15:10,750 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          299   _rx_task                  : BTPWorkerThread-4198 (_rx_task) started
+2026-09-24 13:15:10,750 LT1-thread root DEBUG iutctl.py                 395   wait_iut_ready_event      : IUT ready event received OK
+2026-09-24 13:15:10,750 LT1-thread root DEBUG btp.py                    51    read_supp_svcs            : 
+2026-09-24 13:15:10,750 LT1-thread root DEBUG iutctl_common.py          161   send                      : 0 2 255 ''
+2026-09-24 13:15:10,751 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0002ff0000'
+2026-09-24 13:15:10,751 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:10,761 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:10,767 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x02, ctrl_index=0xff, data_len=0x06) bytearray(b'\x00\x02\xff\x06\x00')
+2026-09-24 13:15:10,773 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 6 bytes data
+2026-09-24 13:15:10,779 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'0f 00 00 a0 ff 03'}, bytearray(b'\x0f\x00\x00\xa0\xff\x03')
+2026-09-24 13:15:10,784 LT1-thread root DEBUG btp.py                    62    read_supp_svcs            : received Header(svc_id=0, op=2, ctrl_index=255, data_len=6) (b'\x0f\x00\x00\xa0\xff\x03',)
+2026-09-24 13:15:10,784 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_gap at 0x0000026227D2E160> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=59 args=() kwds={}
+2026-09-24 13:15:10,784 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-24 13:15:10,784 LT1-thread root DEBUG btp.py                    117   core_reg_svc_univ         : core_reg_svc_univ: gap_reg (GAP)
+2026-09-24 13:15:10,784 LT1-thread root DEBUG iutctl_common.py          161   send                      : 0 3 255 '1'
+2026-09-24 13:15:10,785 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0003ff010001'
+2026-09-24 13:15:10,785 LT1-thread root DEBUG btp.py                    654   core_reg_svc_rsp_succ     : 
+2026-09-24 13:15:10,785 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:14,893 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:14,898 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x03, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x03\xff\x00\x00')
+2026-09-24 13:15:14,904 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-24 13:15:14,910 LT1-thread root DEBUG btp.py                    665   core_reg_svc_rsp_succ     : received Header(svc_id=0, op=3, ctrl_index=255, data_len=0) (b'',)
+2026-09-24 13:15:14,910 LT1-thread root DEBUG btp.py                    666   core_reg_svc_rsp_succ     : expected ((0, 3, 255, 0), (b'',))
+2026-09-24 13:15:14,910 LT1-thread root DEBUG btp.py                    671   core_reg_svc_rsp_succ     : response is valid
+2026-09-24 13:15:14,910 LT1-thread root DEBUG btp.py                    674   core_reg_svc_rsp_succ     : Reading supported commands for service: GAP
+2026-09-24 13:15:14,911 LT1-thread root DEBUG iutctl_common.py          161   send                      : 1 1 255 ''
+2026-09-24 13:15:14,911 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0101ff0000'
+2026-09-24 13:15:14,911 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:14,949 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:14,961 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x01, ctrl_index=0xff, data_len=0x07) bytearray(b'\x01\x01\xff\x07\x00')
+2026-09-24 13:15:14,972 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-24 13:15:14,984 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'6e ff 7f 1f fe ff 2e'}, bytearray(b'n\xff\x7f\x1f\xfe\xff.')
+2026-09-24 13:15:14,996 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.gap_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000002622ACA1670>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=59 args=(b'Tester_08E44E',) kwds={}
+2026-09-24 13:15:14,996 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(b'Tester_08E44E',), kwds={}
+2026-09-24 13:15:14,996 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function gap_read_controller_info at 0x0000026227D6EB60> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=59 args=() kwds={}
+2026-09-24 13:15:14,996 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-24 13:15:14,996 LT1-thread root DEBUG gap.py                    1163  gap_read_controller_info  : 
+2026-09-24 13:15:14,996 LT1-thread root DEBUG iutctl_common.py          161   send                      : 1 3 0 ''
+2026-09-24 13:15:14,996 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0103000000'
+2026-09-24 13:15:14,997 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:15,025 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:15,031 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x03, ctrl_index=0x00, data_len=0x115) bytearray(b'\x01\x03\x00\x15\x01')
+2026-09-24 13:15:15,037 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 230 bytes data
+2026-09-24 13:15:15,054 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 47 bytes data
+2026-09-24 13:15:15,066 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'19 78 ee 69 17 d0 d3 06 02 00 13 02 00 00 00 00 00 62 74 70 5f 74 65 73 74 65 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00'}, bytearray(b'\x19x\xeei\x17\xd0\xd3\x06\x02\x00\x13\x02\x00\x00\x00\x00\x00btp_tester\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+2026-09-24 13:15:15,077 LT1-thread root DEBUG gap.py                    1170  gap_read_controller_info  : received Header(svc_id=1, op=3, ctrl_index=0, data_len=277) (b'\x19x\xeei\x17\xd0\xd3\x06\x02\x00\x13\x02\x00\x00\x00\x00\x00btp_tester\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',)
+2026-09-24 13:15:15,077 LT1-thread root DEBUG gap.py                    1191  gap_read_controller_info  : IUT address 'd01769ee7819' 'public'
+2026-09-24 13:15:15,077 LT1-thread root DEBUG gap.py                    596   __gap_current_settings_update : 531
+2026-09-24 13:15:15,077 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function test_cases.<locals>.<lambda> at 0x000002622B49C680> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=59 args=() kwds={}
+2026-09-24 13:15:15,077 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-24 13:15:15,081 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function set_pts_addr at 0x0000026227D2DD00> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=59 args=('00:1B:DC:08:E4:4E', 0) kwds={}
+2026-09-24 13:15:15,082 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=('00:1B:DC:08:E4:4E', 0), kwds={}
+2026-09-24 13:15:15,082 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<function core_reg_svc_avrcp at 0x0000026227D2FB00> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=59 args=() kwds={}
+2026-09-24 13:15:15,082 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-24 13:15:15,082 LT1-thread root DEBUG btp.py                    117   core_reg_svc_univ         : core_reg_svc_univ: avrcp_reg (AVRCP)
+2026-09-24 13:15:15,082 LT1-thread root DEBUG iutctl_common.py          161   send                      : 0 3 255 '37'
+2026-09-24 13:15:15,082 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '0003ff010025'
+2026-09-24 13:15:15,082 LT1-thread root DEBUG btp.py                    654   core_reg_svc_rsp_succ     : 
+2026-09-24 13:15:15,082 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:15,113 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:15,119 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x03, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x03\xff\x00\x00')
+2026-09-24 13:15:15,124 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-24 13:15:15,136 LT1-thread root DEBUG btp.py                    665   core_reg_svc_rsp_succ     : received Header(svc_id=0, op=3, ctrl_index=255, data_len=0) (b'',)
+2026-09-24 13:15:15,136 LT1-thread root DEBUG btp.py                    666   core_reg_svc_rsp_succ     : expected ((0, 3, 255, 0), (b'',))
+2026-09-24 13:15:15,136 LT1-thread root DEBUG btp.py                    671   core_reg_svc_rsp_succ     : response is valid
+2026-09-24 13:15:15,136 LT1-thread root DEBUG btp.py                    674   core_reg_svc_rsp_succ     : Reading supported commands for service: AVRCP
+2026-09-24 13:15:15,136 LT1-thread root DEBUG iutctl_common.py          161   send                      : 37 1 255 ''
+2026-09-24 13:15:15,136 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '2501ff0000'
+2026-09-24 13:15:15,137 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:15,167 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:15,167 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x01, ctrl_index=0xff, data_len=0x05) bytearray(b'%\x01\xff\x05\x00')
+2026-09-24 13:15:15,183 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 5 bytes data
+2026-09-24 13:15:15,183 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'fe ff ff ff 1f'}, bytearray(b'\xfe\xff\xff\xff\x1f')
+2026-09-24 13:15:15,183 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFunc'>, func=<bound method Stack.avrcp_init of <autopts.ptsprojects.stack.stack.Stack object at 0x000002622ACA1670>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=59 args=() kwds={}
+2026-09-24 13:15:15,184 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-24 13:15:15,186 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-24 13:15:17,187 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: AVRCP
+    wid: 84
+    test_case_name: AVRCP/CT/MCN/SRC/BV-05-C
+    description: Action: Place the IUT in connectable mode.
+
+Description : PTS requires that the IUT be in connectable mode.The PTS will attempt to establish an ACL connection.
+    style: MMI_Style_Ok_Cancel1 0x11041
+2026-09-24 13:15:17,187 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-24 13:15:17,187 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-24 13:15:17,188 LT1-thread root DEBUG testcase.py               679   run_wid                   : AVRCP AVRCP/CT/MCN/SRC/BV-05-C on_implicit_send
+2026-09-24 13:15:17,188 LT1-thread root DEBUG avrcp_wid.py              25    avrcp_wid_hdl             : avrcp_wid_hdl, 84, Action: Place the IUT in connectable mode.
+
+Description : PTS requires that the IUT be in connectable mode.The PTS will attempt to establish an ACL connection., AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:17,188 LT1-thread root DEBUG gap.py                    984   gap_set_connectable       : 
+2026-09-24 13:15:17,188 LT1-thread root DEBUG gap.py                    1035  gap_set_general_discoverable : 
+2026-09-24 13:15:17,188 LT1-thread root DEBUG iutctl_common.py          161   send                      : 1 8 0 '1'
+2026-09-24 13:15:17,188 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '010800010001'
+2026-09-24 13:15:17,188 LT1-thread root DEBUG gap.py                    1229  gap_command_rsp_succ      : 
+2026-09-24 13:15:17,188 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:17,244 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:17,254 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x08, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x08\x00\x04\x00')
+2026-09-24 13:15:17,260 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 4 bytes data
+2026-09-24 13:15:17,260 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2026-09-24 13:15:17,272 LT1-thread root DEBUG gap.py                    1234  gap_command_rsp_succ      : received Header(svc_id=1, op=8, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2026-09-24 13:15:17,272 LT1-thread root DEBUG gap.py                    596   __gap_current_settings_update : (b'\x1b\x02\x00\x00',)
+2026-09-24 13:15:17,272 LT1-thread root DEBUG gap.py                    650   gap_start_advertising     : {9: b'Tester_08E44E'} None
+2026-09-24 13:15:17,272 LT1-thread root DEBUG iutctl_common.py          161   send                      : 1 10 0 "bytearray(b'\\x0f\\x00\\t\\rTester_08E44E\\xff\\xff\\xff\\xff\\x00')"
+2026-09-24 13:15:17,272 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '010a0016000f00090d5465737465725f303845343445ffffffff00'
+2026-09-24 13:15:17,273 LT1-thread root DEBUG gap.py                    1229  gap_command_rsp_succ      : 
+2026-09-24 13:15:17,273 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:17,314 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:17,324 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x0a, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\n\x00\x04\x00')
+2026-09-24 13:15:17,335 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 4 bytes data
+2026-09-24 13:15:17,346 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'1b 06 00 00'}, bytearray(b'\x1b\x06\x00\x00')
+2026-09-24 13:15:17,356 LT1-thread root DEBUG gap.py                    1234  gap_command_rsp_succ      : received Header(svc_id=1, op=10, ctrl_index=0, data_len=4) (b'\x1b\x06\x00\x00',)
+2026-09-24 13:15:17,356 LT1-thread root DEBUG gap.py                    596   __gap_current_settings_update : (b'\x1b\x06\x00\x00',)
+2026-09-24 13:15:17,356 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'OK' to wid 84 test case AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:17,358 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-24 13:15:21,188 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:21,188 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x82, ctrl_index=0x00, data_len=0x0d) bytearray(b'\x01\x82\x00\r\x00')
+2026-09-24 13:15:21,188 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 13 bytes data
+2026-09-24 13:15:21,189 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 00 00 00 00 00 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x00\x00\x00\x00\x00\x00')
+2026-09-24 13:15:21,189 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=1, op=130, ctrl_index=0, data_len=13) (b'\xe0N\xe4\x08\xdc\x1b\x00\x00\x00\x00\x00\x00\x00',)
+2026-09-24 13:15:21,189 BTPWorkerThread-4198 (_rx_task) root DEBUG gap.py                    215   gap_connected_ev_         : b'\xe0N\xe4\x08\xdc\x1b\x00\x00\x00\x00\x00\x00\x00'
+2026-09-24 13:15:21,189 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:21,189 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x80, ctrl_index=0x00, data_len=0x04) bytearray(b'\x01\x80\x00\x04\x00')
+2026-09-24 13:15:21,189 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 4 bytes data
+2026-09-24 13:15:21,189 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'1b 02 00 00'}, bytearray(b'\x1b\x02\x00\x00')
+2026-09-24 13:15:21,189 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=1, op=128, ctrl_index=0, data_len=4) (b'\x1b\x02\x00\x00',)
+2026-09-24 13:15:21,189 BTPWorkerThread-4198 (_rx_task) root DEBUG gap.py                    183   gap_new_settings_ev_      : b'\x1b\x02\x00\x00'
+2026-09-24 13:15:21,190 BTPWorkerThread-4198 (_rx_task) root DEBUG gap.py                    596   __gap_current_settings_update : 539
+2026-09-24 13:15:21,341 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: AVRCP
+    wid: 2002
+    test_case_name: AVRCP/CT/MCN/SRC/BV-05-C
+    description: Please wait while PTS creates an AVCTP control channel connection.
+
+Action: Make sure the IUT is in a connectable state.
+    style: MMI_Style_Ok_Cancel2 0x11141
+2026-09-24 13:15:21,341 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-24 13:15:21,341 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-24 13:15:21,359 LT1-thread root DEBUG testcase.py               679   run_wid                   : AVRCP AVRCP/CT/MCN/SRC/BV-05-C on_implicit_send
+2026-09-24 13:15:21,359 LT1-thread root DEBUG avrcp_wid.py              25    avrcp_wid_hdl             : avrcp_wid_hdl, 2002, Please wait while PTS creates an AVCTP control channel connection.
+
+Action: Make sure the IUT is in a connectable state., AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:22,946 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:22,947 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x91, ctrl_index=0x00, data_len=0x09) bytearray(b'\x01\x91\x00\t\x00')
+2026-09-24 13:15:22,947 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 9 bytes data
+2026-09-24 13:15:22,947 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 01 10'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x01\x10')
+2026-09-24 13:15:22,947 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=1, op=145, ctrl_index=0, data_len=9) (b'\xe0N\xe4\x08\xdc\x1b\x00\x01\x10',)
+2026-09-24 13:15:22,947 BTPWorkerThread-4198 (_rx_task) root DEBUG gap.py                    494   gap_encryption_change_ev_ : 
+2026-09-24 13:15:22,947 BTPWorkerThread-4198 (_rx_task) root DEBUG gap.py                    496   gap_encryption_change_ev_ : enc change received b'\xe0N\xe4\x08\xdc\x1b\x00\x01\x10'
+2026-09-24 13:15:22,947 BTPWorkerThread-4198 (_rx_task) root DEBUG gap.py                    505   gap_encryption_change_ev_ : received (224, '001bdc08e44e', 1, 16)
+2026-09-24 13:15:22,947 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:22,947 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x01, op=0x89, ctrl_index=0x00, data_len=0x08) bytearray(b'\x01\x89\x00\x08\x00')
+2026-09-24 13:15:22,948 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 8 bytes data
+2026-09-24 13:15:22,948 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 02'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x02')
+2026-09-24 13:15:22,948 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=1, op=137, ctrl_index=0, data_len=8) (b'\xe0N\xe4\x08\xdc\x1b\x00\x02',)
+2026-09-24 13:15:22,948 BTPWorkerThread-4198 (_rx_task) root DEBUG gap.py                    300   gap_sec_level_changed_ev_ : 
+2026-09-24 13:15:22,948 BTPWorkerThread-4198 (_rx_task) root DEBUG gap.py                    302   gap_sec_level_changed_ev_ : received b'\xe0N\xe4\x08\xdc\x1b\x00\x02'
+2026-09-24 13:15:22,948 BTPWorkerThread-4198 (_rx_task) root DEBUG gap.py                    313   gap_sec_level_changed_ev_ : received (224, '001bdc08e44e', 2)
+2026-09-24 13:15:22,968 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:22,968 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x80, ctrl_index=0x00, data_len=0x07) bytearray(b'%\x80\x00\x07\x00')
+2026-09-24 13:15:22,969 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-24 13:15:22,969 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00')
+2026-09-24 13:15:22,969 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=37, op=128, ctrl_index=0, data_len=7) (b'\xe0N\xe4\x08\xdc\x1b\x00',)
+2026-09-24 13:15:22,969 BTPWorkerThread-4198 (_rx_task) root DEBUG avrcp.py                  994   avrcp_ev_control_connected : avrcp_ev_control_connected b'\xe0N\xe4\x08\xdc\x1b\x00'
+2026-09-24 13:15:22,969 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:22,970 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x80, ctrl_index=0x00, data_len=0x07) bytearray(b'%\x80\x00\x07\x00')
+2026-09-24 13:15:22,970 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-24 13:15:22,970 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00')
+2026-09-24 13:15:22,970 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=37, op=128, ctrl_index=0, data_len=7) (b'\xe0N\xe4\x08\xdc\x1b\x00',)
+2026-09-24 13:15:22,970 BTPWorkerThread-4198 (_rx_task) root DEBUG avrcp.py                  994   avrcp_ev_control_connected : avrcp_ev_control_connected b'\xe0N\xe4\x08\xdc\x1b\x00'
+2026-09-24 13:15:22,979 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:22,979 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x82, ctrl_index=0x00, data_len=0x07) bytearray(b'%\x82\x00\x07\x00')
+2026-09-24 13:15:22,979 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-24 13:15:22,980 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00')
+2026-09-24 13:15:22,980 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=37, op=130, ctrl_index=0, data_len=7) (b'\xe0N\xe4\x08\xdc\x1b\x00',)
+2026-09-24 13:15:22,980 BTPWorkerThread-4198 (_rx_task) root DEBUG avrcp.py                  1006  avrcp_ev_browsing_connected : avrcp_ev_browsing_connected b'\xe0N\xe4\x08\xdc\x1b\x00'
+2026-09-24 13:15:22,980 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:22,980 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x82, ctrl_index=0x00, data_len=0x07) bytearray(b'%\x82\x00\x07\x00')
+2026-09-24 13:15:22,980 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-24 13:15:22,981 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00')
+2026-09-24 13:15:22,981 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=37, op=130, ctrl_index=0, data_len=7) (b'\xe0N\xe4\x08\xdc\x1b\x00',)
+2026-09-24 13:15:22,981 BTPWorkerThread-4198 (_rx_task) root DEBUG avrcp.py                  1006  avrcp_ev_browsing_connected : avrcp_ev_browsing_connected b'\xe0N\xe4\x08\xdc\x1b\x00'
+2026-09-24 13:15:23,068 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'OK' to wid 2002 test case AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:23,070 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-24 13:15:23,072 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: AVRCP
+    wid: 2001
+    test_case_name: AVRCP/CT/MCN/SRC/BV-05-C
+    description: Please wait while PTS creates an AVCTP browsing channel connection.
+
+Action: Make sure the IUT is in a connectable state.
+    style: MMI_Style_Ok_Cancel2 0x11141
+2026-09-24 13:15:23,072 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-24 13:15:23,072 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-24 13:15:24,070 LT1-thread root DEBUG testcase.py               679   run_wid                   : AVRCP AVRCP/CT/MCN/SRC/BV-05-C on_implicit_send
+2026-09-24 13:15:24,071 LT1-thread root DEBUG avrcp_wid.py              25    avrcp_wid_hdl             : avrcp_wid_hdl, 2001, Please wait while PTS creates an AVCTP browsing channel connection.
+
+Action: Make sure the IUT is in a connectable state., AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:24,071 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'OK' to wid 2001 test case AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:24,073 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-24 13:15:24,075 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: AVRCP
+    wid: 3086
+    test_case_name: AVRCP/CT/MCN/SRC/BV-05-C
+    description: Take action to send a [Set Browsed Player] command to the PTS from the IUT.
+
+Description: Verify that the Implementation Under Test (IUT) can send a Set Browsed Player command to PTS.  Browse for media players to find a browsable media player ID to use for this command.
+    style: MMI_Style_Ok 0x11040
+2026-09-24 13:15:24,075 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-24 13:15:24,075 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-24 13:15:25,073 LT1-thread root DEBUG testcase.py               679   run_wid                   : AVRCP AVRCP/CT/MCN/SRC/BV-05-C on_implicit_send
+2026-09-24 13:15:25,073 LT1-thread root DEBUG avrcp_wid.py              25    avrcp_wid_hdl             : avrcp_wid_hdl, 3086, Take action to send a [Set Browsed Player] command to the PTS from the IUT.
+
+Description: Verify that the Implementation Under Test (IUT) can send a Set Browsed Player command to PTS.  Browse for media players to find a browsable media player ID to use for this command., AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:25,073 LT1-thread root DEBUG avrcp.py                  700   avrcp_get_folder_items    : avrcp_get_folder_items None 0 0 10 []
+2026-09-24 13:15:25,073 LT1-thread root DEBUG iutctl_common.py          161   send                      : 37 21 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\x00\\x00\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x00')"
+2026-09-24 13:15:25,073 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '2515001100e04ee408dc1b0000000000000a00000000'
+2026-09-24 13:15:25,074 LT1-thread root DEBUG avrcp.py                  145   avrcp_command_rsp_succ    : avrcp_command_rsp_succ
+2026-09-24 13:15:25,074 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:25,113 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:25,124 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x15, ctrl_index=0x00, data_len=0x00) bytearray(b'%\x15\x00\x00\x00')
+2026-09-24 13:15:25,130 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-24 13:15:25,130 LT1-thread root DEBUG avrcp.py                  150   avrcp_command_rsp_succ    : received Header(svc_id=37, op=21, ctrl_index=0, data_len=0) (b'',)
+2026-09-24 13:15:25,216 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:25,216 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x93, ctrl_index=0x00, data_len=0x68) bytearray(b'%\x93\x00h\x00')
+2026-09-24 13:15:25,216 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 33 bytes data
+2026-09-24 13:15:25,227 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 71 bytes data
+2026-09-24 13:15:25,228 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 04 56 10 02 00 01 2a 00 01 00 03 01 00 00 00 00 ff ff ff ff ff ff ff 7f 1f 00 00 00 00 00 00 00 6a 00 0e 00 42 72 6f 77 73 65 64 20 50 6c 61 79 65 72 01 2c 00 02 00 03 01 00 00 00 00 ff ff ff ff ff ff ff 77 1f 00 00 00 00 00 00 00 6a 00 10 00 41 64 64 72 65 73 73 65 64 20 50 6c 61 79 65 72'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x02\x00\x01*\x00\x01\x00\x03\x01\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\x7f\x1f\x00\x00\x00\x00\x00\x00\x00j\x00\x0e\x00Browsed Player\x01,\x00\x02\x00\x03\x01\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xffw\x1f\x00\x00\x00\x00\x00\x00\x00j\x00\x10\x00Addressed Player')
+2026-09-24 13:15:25,228 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=37, op=147, ctrl_index=0, data_len=104) (b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x02\x00\x01*\x00\x01\x00\x03\x01\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\x7f\x1f\x00\x00\x00\x00\x00\x00\x00j\x00\x0e\x00Browsed Player\x01,\x00\x02\x00\x03\x01\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xffw\x1f\x00\x00\x00\x00\x00\x00\x00j\x00\x10\x00Addressed Player',)
+2026-09-24 13:15:25,228 BTPWorkerThread-4198 (_rx_task) root DEBUG avrcp.py                  1103  avrcp_ev_get_folder_items_rsp : avrcp_ev_get_folder_items_rsp b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x02\x00\x01*\x00\x01\x00\x03\x01\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\x7f\x1f\x00\x00\x00\x00\x00\x00\x00j\x00\x0e\x00Browsed Player\x01,\x00\x02\x00\x03\x01\x00\x00\x00\x00\xff\xff\xff\xff\xff\xff\xffw\x1f\x00\x00\x00\x00\x00\x00\x00j\x00\x10\x00Addressed Player'
+2026-09-24 13:15:25,232 LT1-thread root DEBUG avrcp.py                  743   avrcp_set_browsed_player  : avrcp_set_browsed_player None 1
+2026-09-24 13:15:25,233 LT1-thread root DEBUG iutctl_common.py          161   send                      : 37 23 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\x01\\x00')"
+2026-09-24 13:15:25,233 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '2517000900e04ee408dc1b000100'
+2026-09-24 13:15:25,233 LT1-thread root DEBUG avrcp.py                  145   avrcp_command_rsp_succ    : avrcp_command_rsp_succ
+2026-09-24 13:15:25,233 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:25,270 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:25,270 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x17, ctrl_index=0x00, data_len=0x00) bytearray(b'%\x17\x00\x00\x00')
+2026-09-24 13:15:25,275 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-24 13:15:25,275 LT1-thread root DEBUG avrcp.py                  150   avrcp_command_rsp_succ    : received Header(svc_id=37, op=23, ctrl_index=0, data_len=0) (b'',)
+2026-09-24 13:15:25,379 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:25,379 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x95, ctrl_index=0x00, data_len=0x11) bytearray(b'%\x95\x00\x11\x00')
+2026-09-24 13:15:25,379 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 17 bytes data
+2026-09-24 13:15:25,380 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 04 56 10 07 00 00 00 6a 00 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x07\x00\x00\x00j\x00\x00')
+2026-09-24 13:15:25,380 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=37, op=149, ctrl_index=0, data_len=17) (b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x07\x00\x00\x00j\x00\x00',)
+2026-09-24 13:15:25,380 BTPWorkerThread-4198 (_rx_task) root DEBUG avrcp.py                  1098  avrcp_ev_set_browsed_player_rsp : avrcp_ev_set_browsed_player_rsp b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x07\x00\x00\x00j\x00\x00'
+2026-09-24 13:15:25,477 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'Ok' to wid 3086 test case AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:25,479 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-24 13:15:25,481 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: AVRCP
+    wid: 3083
+    test_case_name: AVRCP/CT/MCN/SRC/BV-05-C
+    description: Take action to send a [Search] command with the search string '3' (other values will be accepted but may not result in any search results) to the PTS from the IUT.
+
+Description: Verify that the Implementation Under Test (IUT) can issue a valid Search command to PTS.
+    style: MMI_Style_Ok 0x11040
+2026-09-24 13:15:25,482 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-24 13:15:25,482 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-24 13:15:26,480 LT1-thread root DEBUG testcase.py               679   run_wid                   : AVRCP AVRCP/CT/MCN/SRC/BV-05-C on_implicit_send
+2026-09-24 13:15:26,480 LT1-thread root DEBUG avrcp_wid.py              25    avrcp_wid_hdl             : avrcp_wid_hdl, 3083, Take action to send a [Search] command with the search string '3' (other values will be accepted but may not result in any search results) to the PTS from the IUT.
+
+Description: Verify that the Implementation Under Test (IUT) can issue a valid Search command to PTS., AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:26,480 LT1-thread root DEBUG avrcp.py                  819   avrcp_search              : avrcp_search None '3'
+2026-09-24 13:15:26,480 LT1-thread root DEBUG iutctl_common.py          161   send                      : 37 27 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\x01\\x003')"
+2026-09-24 13:15:26,480 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '251b000a00e04ee408dc1b00010033'
+2026-09-24 13:15:26,481 LT1-thread root DEBUG avrcp.py                  145   avrcp_command_rsp_succ    : avrcp_command_rsp_succ
+2026-09-24 13:15:26,481 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:26,518 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:26,524 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x1b, ctrl_index=0x00, data_len=0x00) bytearray(b'%\x1b\x00\x00\x00')
+2026-09-24 13:15:26,524 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-24 13:15:26,524 LT1-thread root DEBUG avrcp.py                  150   avrcp_command_rsp_succ    : received Header(svc_id=37, op=27, ctrl_index=0, data_len=0) (b'',)
+2026-09-24 13:15:26,630 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:26,630 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x99, ctrl_index=0x00, data_len=0x0e) bytearray(b'%\x99\x00\x0e\x00')
+2026-09-24 13:15:26,630 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 14 bytes data
+2026-09-24 13:15:26,631 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 04 56 10 01 00 00 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x01\x00\x00\x00')
+2026-09-24 13:15:26,631 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=37, op=153, ctrl_index=0, data_len=14) (b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x01\x00\x00\x00',)
+2026-09-24 13:15:26,631 BTPWorkerThread-4198 (_rx_task) root DEBUG avrcp.py                  1128  avrcp_ev_search_rsp       : avrcp_ev_search_rsp b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x01\x00\x00\x00'
+2026-09-24 13:15:26,726 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'Ok' to wid 3083 test case AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:26,728 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-24 13:15:26,731 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: AVRCP
+    wid: 3039
+    test_case_name: AVRCP/CT/MCN/SRC/BV-05-C
+    description: Take action to send a [Get Folder Items] command with the scope of <Search> to the PTS from the IUT.
+
+Description: The Implementation Under Test (IUT) can achieve this by browsing the Search Results.
+    style: MMI_Style_Ok 0x11040
+2026-09-24 13:15:26,731 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-24 13:15:26,731 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-24 13:15:27,729 LT1-thread root DEBUG testcase.py               679   run_wid                   : AVRCP AVRCP/CT/MCN/SRC/BV-05-C on_implicit_send
+2026-09-24 13:15:27,729 LT1-thread root DEBUG avrcp_wid.py              25    avrcp_wid_hdl             : avrcp_wid_hdl, 3039, Take action to send a [Get Folder Items] command with the scope of <Search> to the PTS from the IUT.
+
+Description: The Implementation Under Test (IUT) can achieve this by browsing the Search Results., AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:27,729 LT1-thread root DEBUG avrcp.py                  700   avrcp_get_folder_items    : avrcp_get_folder_items None 2 0 10 []
+2026-09-24 13:15:27,729 LT1-thread root DEBUG iutctl_common.py          161   send                      : 37 21 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\x02\\x00\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x00')"
+2026-09-24 13:15:27,729 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '2515001100e04ee408dc1b0002000000000a00000000'
+2026-09-24 13:15:27,730 LT1-thread root DEBUG avrcp.py                  145   avrcp_command_rsp_succ    : avrcp_command_rsp_succ
+2026-09-24 13:15:27,730 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:27,771 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:27,783 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x15, ctrl_index=0x00, data_len=0x00) bytearray(b'%\x15\x00\x00\x00')
+2026-09-24 13:15:27,783 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-24 13:15:27,788 LT1-thread root DEBUG avrcp.py                  150   avrcp_command_rsp_succ    : received Header(svc_id=37, op=21, ctrl_index=0, data_len=0) (b'',)
+2026-09-24 13:15:27,890 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 3 bytes
+2026-09-24 13:15:27,890 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 2 bytes
+2026-09-24 13:15:27,890 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x93, ctrl_index=0x00, data_len=0x2f) bytearray(b'%\x93\x00/\x00')
+2026-09-24 13:15:27,891 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 12 bytes data
+2026-09-24 13:15:27,901 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 35 bytes data
+2026-09-24 13:15:27,901 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 04 56 10 01 00 03 20 00 50 00 00 00 50 00 00 00 00 6a 00 07 00 53 61 6d 70 6c 65 33 01 03 00 00 00 6a 00 03 00 50 54 53'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x01\x00\x03 \x00P\x00\x00\x00P\x00\x00\x00\x00j\x00\x07\x00Sample3\x01\x03\x00\x00\x00j\x00\x03\x00PTS')
+2026-09-24 13:15:27,902 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=37, op=147, ctrl_index=0, data_len=47) (b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x01\x00\x03 \x00P\x00\x00\x00P\x00\x00\x00\x00j\x00\x07\x00Sample3\x01\x03\x00\x00\x00j\x00\x03\x00PTS',)
+2026-09-24 13:15:27,902 BTPWorkerThread-4198 (_rx_task) root DEBUG avrcp.py                  1103  avrcp_ev_get_folder_items_rsp : avrcp_ev_get_folder_items_rsp b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x01\x00\x03 \x00P\x00\x00\x00P\x00\x00\x00\x00j\x00\x07\x00Sample3\x01\x03\x00\x00\x00j\x00\x03\x00PTS'
+2026-09-24 13:15:27,989 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'Ok' to wid 3039 test case AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:27,991 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-24 13:15:27,994 LT1-callback ClientCallback.on_implicit_send INFO client.py                 223   on_implicit_send          : 
+    ********************
+    BEGIN OnImplicitSend:
+    project_name: AVRCP
+    wid: 3043
+    test_case_name: AVRCP/CT/MCN/SRC/BV-05-C
+    description: Take action to send a [Get Item Attributes] within the <Search> scope and a valid media item UID (Other than playing UID) to the PTS from the IUT.
+
+Description: Verify that the Implementation Under Test (IUT) can send a valid Get Item Attributes command to PTS.  It may be necessary to browse the Search Results to find a valid UID to use.
+    style: MMI_Style_Ok 0x11040
+2026-09-24 13:15:27,994 LT1-callback ClientCallback.on_implicit_send INFO client.py                 236   on_implicit_send          : Calling test cases on_implicit_send
+2026-09-24 13:15:27,994 LT1-callback ClientCallback.on_implicit_send INFO client.py                 249   on_implicit_send          : 
+    on_implicit_send returned response: WAIT
+    END OnImplicitSend
+    ********************
+2026-09-24 13:15:28,992 LT1-thread root DEBUG testcase.py               679   run_wid                   : AVRCP AVRCP/CT/MCN/SRC/BV-05-C on_implicit_send
+2026-09-24 13:15:28,992 LT1-thread root DEBUG avrcp_wid.py              25    avrcp_wid_hdl             : avrcp_wid_hdl, 3043, Take action to send a [Get Item Attributes] within the <Search> scope and a valid media item UID (Other than playing UID) to the PTS from the IUT.
+
+Description: Verify that the Implementation Under Test (IUT) can send a valid Get Item Attributes command to PTS.  It may be necessary to browse the Search Results to find a valid UID to use., AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:28,992 LT1-thread root DEBUG avrcp.py                  700   avrcp_get_folder_items    : avrcp_get_folder_items None 2 0 10 []
+2026-09-24 13:15:28,992 LT1-thread root DEBUG iutctl_common.py          161   send                      : 37 21 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\x02\\x00\\x00\\x00\\x00\\n\\x00\\x00\\x00\\x00')"
+2026-09-24 13:15:28,992 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '2515001100e04ee408dc1b0002000000000a00000000'
+2026-09-24 13:15:28,993 LT1-thread root DEBUG avrcp.py                  145   avrcp_command_rsp_succ    : avrcp_command_rsp_succ
+2026-09-24 13:15:28,993 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:29,021 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:29,026 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x15, ctrl_index=0x00, data_len=0x00) bytearray(b'%\x15\x00\x00\x00')
+2026-09-24 13:15:29,032 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-24 13:15:29,032 LT1-thread root DEBUG avrcp.py                  150   avrcp_command_rsp_succ    : received Header(svc_id=37, op=21, ctrl_index=0, data_len=0) (b'',)
+2026-09-24 13:15:29,123 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:29,123 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x93, ctrl_index=0x00, data_len=0x2f) bytearray(b'%\x93\x00/\x00')
+2026-09-24 13:15:29,124 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 47 bytes data
+2026-09-24 13:15:29,124 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 04 56 10 01 00 03 20 00 50 00 00 00 50 00 00 00 00 6a 00 07 00 53 61 6d 70 6c 65 33 01 03 00 00 00 6a 00 03 00 50 54 53'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x01\x00\x03 \x00P\x00\x00\x00P\x00\x00\x00\x00j\x00\x07\x00Sample3\x01\x03\x00\x00\x00j\x00\x03\x00PTS')
+2026-09-24 13:15:29,124 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=37, op=147, ctrl_index=0, data_len=47) (b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x01\x00\x03 \x00P\x00\x00\x00P\x00\x00\x00\x00j\x00\x07\x00Sample3\x01\x03\x00\x00\x00j\x00\x03\x00PTS',)
+2026-09-24 13:15:29,124 BTPWorkerThread-4198 (_rx_task) root DEBUG avrcp.py                  1103  avrcp_ev_get_folder_items_rsp : avrcp_ev_get_folder_items_rsp b'\xe0N\xe4\x08\xdc\x1b\x00\x04V\x10\x01\x00\x03 \x00P\x00\x00\x00P\x00\x00\x00\x00j\x00\x07\x00Sample3\x01\x03\x00\x00\x00j\x00\x03\x00PTS'
+2026-09-24 13:15:29,133 LT1-thread root DEBUG avrcp.py                  780   avrcp_get_item_attrs      : avrcp_get_item_attrs None 2 b'P\x00\x00\x00P\x00\x00\x00' 4182 []
+2026-09-24 13:15:29,133 LT1-thread root DEBUG iutctl_common.py          161   send                      : 37 25 0 "bytearray(b'\\xe0N\\xe4\\x08\\xdc\\x1b\\x00\\x02P\\x00\\x00\\x00P\\x00\\x00\\x00V\\x10\\x00')"
+2026-09-24 13:15:29,133 LT1-thread root DEBUG iutctl_common.py          166   send                      : sending frame '2519001300e04ee408dc1b00025000000050000000561000'
+2026-09-24 13:15:29,134 LT1-thread root DEBUG avrcp.py                  145   avrcp_command_rsp_succ    : avrcp_command_rsp_succ
+2026-09-24 13:15:29,134 LT1-thread root DEBUG iutctl_common.py          339   read                      : 
+2026-09-24 13:15:29,184 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:29,189 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x19, ctrl_index=0x00, data_len=0x00) bytearray(b'%\x19\x00\x00\x00')
+2026-09-24 13:15:29,194 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-24 13:15:29,194 LT1-thread root DEBUG avrcp.py                  150   avrcp_command_rsp_succ    : received Header(svc_id=37, op=25, ctrl_index=0, data_len=0) (b'',)
+2026-09-24 13:15:29,286 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:29,286 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x97, ctrl_index=0x00, data_len=0x14) bytearray(b'%\x97\x00\x14\x00')
+2026-09-24 13:15:29,286 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 20 bytes data
+2026-09-24 13:15:29,287 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00 04 01 03 00 00 00 6a 00 03 00 50 54 53'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00\x04\x01\x03\x00\x00\x00j\x00\x03\x00PTS')
+2026-09-24 13:15:29,287 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=37, op=151, ctrl_index=0, data_len=20) (b'\xe0N\xe4\x08\xdc\x1b\x00\x04\x01\x03\x00\x00\x00j\x00\x03\x00PTS',)
+2026-09-24 13:15:29,287 BTPWorkerThread-4198 (_rx_task) root DEBUG avrcp.py                  1113  avrcp_ev_get_item_attrs_rsp : avrcp_ev_get_item_attrs_rsp b'\xe0N\xe4\x08\xdc\x1b\x00\x04\x01\x03\x00\x00\x00j\x00\x03\x00PTS'
+2026-09-24 13:15:29,296 LT1-thread root DEBUG testcase.py               722   run_wid                   : Sending response 'Ok' to wid 3043 test case AVRCP/CT/MCN/SRC/BV-05-C
+2026-09-24 13:15:29,298 LT1-thread root DEBUG client.py                 276   get_result                : ClientCallback.get_result run_test_case
+2026-09-24 13:15:30,293 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:30,293 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x81, ctrl_index=0x00, data_len=0x07) bytearray(b'%\x81\x00\x07\x00')
+2026-09-24 13:15:30,293 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-24 13:15:30,294 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 4e e4 08 dc 1b 00'}, bytearray(b'\xe0N\xe4\x08\xdc\x1b\x00')
+2026-09-24 13:15:30,294 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=37, op=129, ctrl_index=0, data_len=7) (b'\xe0N\xe4\x08\xdc\x1b\x00',)
+2026-09-24 13:15:30,294 BTPWorkerThread-4198 (_rx_task) root DEBUG avrcp.py                  1000  avrcp_ev_control_disconnected : avrcp_ev_control_disconnected b'\xe0N\xe4\x08\xdc\x1b\x00'
+2026-09-24 13:15:30,294 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:30,294 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x25, op=0x81, ctrl_index=0x00, data_len=0x07) bytearray(b'%\x81\x00\x07\x00')
+2026-09-24 13:15:30,294 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          139   read                      : Read 7 bytes data
+2026-09-24 13:15:30,295 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {'e0 12 d8 1b 60 a1 76'}, bytearray(b'\xe0\x12\xd8\x1b`\xa1v')
+2026-09-24 13:15:30,295 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=37, op=129, ctrl_index=0, data_len=7) (b'\xe0\x12\xd8\x1b`\xa1v',)
+2026-09-24 13:15:30,295 BTPWorkerThread-4198 (_rx_task) root DEBUG avrcp.py                  1000  avrcp_ev_control_disconnected : avrcp_ev_control_disconnected b'\xe0\x12\xd8\x1b`\xa1v'
+2026-09-24 13:15:30,295 BTPWorkerThread-4198 (_rx_task) root ERROR avrcp.py                  84    remove_connection         : unknown AVRCP connection
+2026-09-24 13:15:32,995 LT1-callback ClientCallback.log INFO client.py                 200   log                       : PTS_LOGTYPE_START_TEST Start Test Case 
+
++140 ms
+ AVRCP/CT/MCN/SRC/BV-05-C AVRCP/CT/MCN/SRC/BV-05-C
+
+2026-09-24 13:15:33,567 LT1-callback ClientCallback.log INFO client.py                 200   log                       : PTS_LOGTYPE_FINAL_VERDICT Final Verdict 
+
++17156 ms
+ AVRCP/CT/MCN/SRC/BV-05-C PASS
+
+2026-09-24 13:15:33,572 LT1-callback ClientCallback.log INFO client.py                 200   log                       : PTS_LOGTYPE_FINAL_VERDICT Encrypted Verdict 
+
++17156 ms
+ AVRCP/CT/MCN/SRC/BV-05-C A1#ZWY4MzQ5MDg3MmQwNTIxOGQzMzQ5YjY2ODA5M2MzNjQ5ZDY4NmY0Yjc2MzIzM2VkNTUyNTFhNGU4Mjg1MjI0NA==#RZL+jKhtMN6XMrdsxM3paXJ0TZwBrUGHsZgI6/F6musM+sXe2AB+QcG38uPGz+xbf55rhIL676c=
+
+2026-09-24 13:15:33,576 LT1-callback ClientCallback.log INFO client.py                 200   log                       : PTS_LOGTYPE_END_TEST Test Case Ended 
+
++17156 ms
+ AVRCP/CT/MCN/SRC/BV-05-C AVRCP/CT/MCN/SRC/BV-05-C
+
+2026-09-24 13:15:33,643 LT1-callback root DEBUG client.py                 261   set_result                : ClientCallback, set_result, run_test_case, PASS
+2026-09-24 13:15:33,644 LT1-thread root DEBUG client.py                 1186  _run_test_case            : After run_test_case error_code=0 status='PASS'
+2026-09-24 13:15:33,644 LT1-thread root DEBUG testcase.py               766   post_run                  : post_run AVRCP AVRCP/CT/MCN/SRC/BV-05-C 0
+2026-09-24 13:15:33,644 LT1-thread root DEBUG testcase.py               254   start                     : Starting test function: class=<class 'autopts.ptsprojects.testcase.TestFuncCleanUp'>, func=<bound method ZTestCase._test_case_cleanup of <autopts.ptsprojects.zephyr.ztestcase.ZTestCase object at 0x000002622B4C1FD0>> start_wid=None stop_wid=None post_wid=None skip_call=None call_count=1 args=() kwds={}
+2026-09-24 13:15:33,644 LT1-thread root DEBUG testcase.py               266   start                     : Test function parameters: args=(), kwds={}
+2026-09-24 13:15:33,644 LT1-thread root DEBUG iutctl.py                 415   stop                      : <class 'autopts.ptsprojects.zephyr.iutctl.create_zephyr_ctl_class.<locals>.ZephyrCtl'>.stop
+2026-09-24 13:15:33,644 LT1-thread root DEBUG __init__.py               51    reset                     : About to reset DUT: JLink -CommandFile reset.jlink -usb 1063214216 -device MIMXRT1176XXXA_M7
+2026-09-24 13:15:33,957 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          123   read                      : Read 5 bytes
+2026-09-24 13:15:33,957 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          131   read                      : Received: hdr: Header(svc_id=0x00, op=0x80, ctrl_index=0xff, data_len=0x00) bytearray(b'\x00\x80\xff\x00\x00')
+2026-09-24 13:15:33,957 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          154   read                      : Received data: {''}, bytearray(b'')
+2026-09-24 13:15:33,958 BTPWorkerThread-4198 (_rx_task) root DEBUG btp.py                    736   event_handler             : Header(svc_id=0, op=128, ctrl_index=255, data_len=0) (b'',)
+2026-09-24 13:15:33,958 BTPWorkerThread-4198 (_rx_task) root DEBUG core.py                   23    core_iut_ready_ev         : 
+2026-09-24 13:15:34,018 LT1-thread root DEBUG iutctl.py                 436   _stop_tty_mode            : IUT ready event received OK
+2026-09-24 13:15:34,018 LT1-thread root DEBUG iutctl_common.py          416   close                     : Waiting for _rx_worker to finish ...
+2026-09-24 13:15:34,958 BTPWorkerThread-4198 (_rx_task) root DEBUG iutctl_common.py          332   _rx_task                  : BTPWorkerThread-4198 (_rx_task) finishing...
+2026-09-24 13:15:37,965 LT1-thread root DEBUG testcase.py               794   post_run                  : post_run, cleanup running post test case script
+2026-09-24 13:15:37,965 LT1-thread root DEBUG testcase.py               802   post_run                  : post_run, run post test case script
+2026-09-24 13:15:38,042 LT1-thread root DEBUG client.py                 1220  _run_test_case            : Done TestCase _run_test_case AVRCP AVRCP/CT/MCN/SRC/BV-05-C

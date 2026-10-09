@@ -1,0 +1,1948 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ARCHIVE>
+  <VERSION>2.0</VERSION>
+  <PicsPixit>Test Case Started: SDP v. 11.14.0.4, SDP/SR/SSA/BV-06-C started on Friday, October 09, 2026, 12:23:56
+
+ICS VALUES:
+
+TSPC_ALL FALSE
+TSPC_SDP_1b_1 TRUE
+TSPC_SDP_1b_2 TRUE
+TSPC_SDP_2_1 TRUE
+TSPC_SDP_2_2 TRUE
+TSPC_SDP_2_3 FALSE
+TSPC_SDP_4_1 TRUE
+TSPC_SDP_4_2 TRUE
+TSPC_SDP_4_3 TRUE
+TSPC_SDP_6_1 TRUE
+TSPC_SDP_6_2 TRUE
+TSPC_SDP_6_3 TRUE
+TSPC_SDP_8_1 TRUE
+TSPC_SDP_8_2 TRUE
+TSPC_SDP_9_1 TRUE
+TSPC_SDP_9_2 TRUE
+TSPC_SDP_9_3 TRUE
+TSPC_SDP_9_4 TRUE
+TSPC_SDP_9_5 TRUE
+TSPC_SDP_9_6 TRUE
+TSPC_SDP_9_7 TRUE
+TSPC_SDP_9_8 TRUE
+TSPC_SDP_9_9 TRUE
+TSPC_SDP_9_10 TRUE
+TSPC_SDP_9_11 TRUE
+TSPC_SDP_9_12 TRUE
+TSPC_SDP_9_13 TRUE
+TSPC_SDP_9_14 TRUE
+TSPC_SDP_9_15 TRUE
+TSPC_SDP_9_16 TRUE
+TSPC_SDP_9_17 TRUE
+TSPC_SDP_9_18 TRUE
+TSPC_SDP_9_19 TRUE
+TSPC_SDP_10_1 TRUE
+TSPC_SDP_11_1 TRUE
+
+IXIT VALUES:
+
+TSPX_sdp_service_search_pattern 0100
+TSPX_sdp_unsupported_service EEEE
+TSPX_sdp_additional_protocol_descriptor_list 
+TSPX_sdp_bluetooth_profile_descriptor_list 
+TSPX_sdp_browse_group_list 
+TSPX_sdp_client_exe_url 
+TSPX_sdp_documentation_url 
+TSPX_sdp_icon_url 
+TSPX_sdp_language_base_attribute_id_list 
+TSPX_sdp_protocol_descriptor_list 
+TSPX_sdp_provider_name 
+TSPX_sdp_service_availability 
+TSPX_sdp_service_data_base_state 0100
+TSPX_sdp_service_description 
+TSPX_sdp_service_id 
+TSPX_sdp_service_info_time_to_live 
+TSPX_sdp_version_number_list 0100
+TSPX_sdp_service_name 
+TSPX_sdp_service_record_state 
+TSPX_sdp_unsupported_attribute_id EEEE
+TSPX_sdp_attribute_id_list 0001,0004,0005
+TSPX_security_enabled FALSE
+TSPX_delete_link_key TRUE
+TSPX_bd_addr_iut D01769EE7819
+TSPX_class_of_device_pts 200404
+TSPX_pin_code 0000
+TSPX_time_guard 200000
+TSPX_use_implicit_send TRUE
+TSPX_secure_simple_pairing_pass_key_confirmation FALSE
+</PicsPixit>
+  <LOG>
+
++140 ms
+Message                  Message:
+
+
+
++156 ms
+Initialize Test Case:    Build date: Jun 17 2026, 16:31:12
+
+
+
++156 ms
+Start Test Case:         SDP/SR/SSA/BV-06-C
+
+
+
++156 ms
+Message:                   PTS Log started on Friday, October 09, 2026, 12:24:13
+
+
+
++156 ms
+Message:                   PTS: v8.14.0 Build 4
+
+
+
++156 ms
+Message:                   OS: Microsoft Windows NT 10.0.26200.0
+
+
+
++156 ms
+Message:                   OS Name: Microsoft Windows 11 Enterprise
+
+
+
++1156 ms
+Send Event               HCI!HCI_RESET
+
+
++1281 ms
+Receive Event            HCI?HCI_RESET_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1281 ms
+Preliminary Verdict:     PASS
+
+
+
++1281 ms
+Send Event               HCI!HCI_READ_LOCAL_VERSION_INFORMATION
+
+
++1281 ms
+Receive Event            HCI?HCI_READ_LOCAL_VERSION_INFORMATION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           hciVersion=0x08,
+                           hciRevision=0x30E8,
+                           lmpVersion=0x08,
+                           manufacturerName=0x000A,
+                           lmpSubversion=0x30E8
+                         }
+
+
++1281 ms
+Preliminary Verdict:     PASS
+
+
+
++1281 ms
+Send Event               HCI!HCI_LE_SET_EVENT_MASK{
+                           leEventMask=0x000000000000001F
+                         }
+
+
++1281 ms
+Receive Event            HCI?HCI_LE_SET_EVENT_MASK_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1281 ms
+Send Event               HCI!HCI_SET_EVENT_MASK{
+                           eventMask=0x3FFFFFFFFFFFFFFF
+                         }
+
+
++1281 ms
+Receive Event            HCI?HCI_SET_EVENT_MASK_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1281 ms
+Preliminary Verdict:     PASS
+
+
+
++1281 ms
+Send Event               HCI!HCI_READ_LOCAL_SUPPORTED_FEATURES
+
+
++1281 ms
+Receive Event            HCI?HCI_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x875B1FD87E8FFFFF
+                         }
+
+
++1281 ms
+Preliminary Verdict:     PASS
+
+
+
++1281 ms
+Send Event               HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
+                           page_number=0x01
+                         }
+
+
++1297 ms
+Receive Event            HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x0000000000000000
+                         }
+
+
++1297 ms
+Preliminary Verdict:     PASS
+
+
+
++1297 ms
+Send Event               HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
+                           page_number=0x02
+                         }
+
+
++1297 ms
+Receive Event            HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x000000000000030F
+                         }
+
+
++1297 ms
+Preliminary Verdict:     PASS
+
+
+
++1297 ms
+Send Event               HCI!HCI_READ_LOCAL_SUPPORTED_COMMANDS
+
+
++1297 ms
+Receive Event            HCI?HCI_READ_LOCAL_SUPPORTED_COMMANDS_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           supported_commands=0x00000000000000000000000000000000000000000000000000000000000030FFFFC0007FFFFFF7610004001CFF83F73FFEE80FF3FFFFFFFFFFFFFFFE03FFFFFF
+                         }
+
+
++1297 ms
+Preliminary Verdict:     PASS
+
+
+
++1297 ms
+Send Event               HCI!HCI_READ_BD_ADDR
+
+
++1297 ms
+Receive Event            HCI?HCI_READ_BD_ADDR_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           bdAddress=0x001BDC08E44E
+                         }
+
+
++1297 ms
+Preliminary Verdict:     PASS
+
+
+
++1297 ms
+Send Event               HCI!HCI_WRITE_LE_HOST_SUPPORTED{
+                           leSupportedHost=HCI_LE_SUPPORTED_HOST_ENABLED,
+                           simultaneousLeHost=HCI_SIMULTANEOUS_LE_HOST_ENABLED
+                         }
+
+
++1312 ms
+Receive Event            HCI?HCI_WRITE_LE_HOST_SUPPORTED_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1312 ms
+Send Event               HCI!HCI_LE_LOCAL_SUPPORTED_FEATURES
+
+
++1312 ms
+Receive Event            HCI?HCI_LE_READ_LOCAL_SUPPORTED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           leFeatures=0x000000000000001F
+                         }
+
+
++1312 ms
+Preliminary Verdict:     PASS
+
+
+
++1312 ms
+Send Event               HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000900010003700000DA00010000000000
+                         }
+
+
++1312 ms
+Receive Event            HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=19,
+                           DATA=C201000900010003700000DA00010000000700
+                         }
+
+
++1312 ms
+Send Event               HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000900020003700000DB00010000000000
+                         }
+
+
++1312 ms
+Receive Event            HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=19,
+                           DATA=C201000900020003700000DB00010000001000
+                         }
+
+
++1312 ms
+Send Event               HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000C00030003700000EF00040000000000000000000000
+                         }
+
+
++1328 ms
+Receive Event            HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=25,
+                           DATA=C201000C00030003700000EF0004000000FFFF8F7ED81F5B87
+                         }
+
+
++1328 ms
+Send Event               HCI!VENDOR_SPECIFIC_COMMAND{
+                           OCF=0x0000,
+                           DATA=0xC200000C000400037000002301040000000000000000000000
+                         }
+
+
++1328 ms
+Receive Event            HCI?HCI_VENDOR_SPECIFIC_EVENT{
+                           LENGTH=25,
+                           DATA=C201000C000400037000002301040000000F03000000000000
+                         }
+
+
++1328 ms
+Preliminary Verdict:     PASS
+
+
+
++1328 ms
+Send Event               HCI!HCI_LE_SET_EVENT_MASK{
+                           leEventMask=0x000000000000001F
+                         }
+
+
++1328 ms
+Receive Event            HCI?HCI_LE_SET_EVENT_MASK_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1328 ms
+Send Event               HCI!HCI_SET_EVENT_MASK{
+                           eventMask=0x3FFFFFFFFFFFFFFF
+                         }
+
+
++1328 ms
+Receive Event            HCI?HCI_SET_EVENT_MASK_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1328 ms
+Preliminary Verdict:     PASS
+
+
+
++1328 ms
+Send Event               HCI!HCI_READ_BUFFER_SIZE
+
+
++1328 ms
+Receive Event            HCI?HCI_READ_BUFFER_SIZE_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           HC_ACL_Data_Packet_Length=0x0136,
+                           HC_Synchronous_Data_Packet_Length=0x40,
+                           HC_Total_Num_ACL_Data_Packets=0x000A,
+                           HC_Total_Num_Synchronous_Data_Packets=0x0008
+                         }
+
+
++1328 ms
+Send Event               HCI!HCI_WRITE_SIMPLE_PAIRING_MODE{
+                           simplePairingMode=HCI_SIMPLE_PAIRING_ENABLED
+                         }
+
+
++1328 ms
+Receive Event            HCI?HCI_WRITE_SIMPLE_PAIRING_MODE_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1328 ms
+Send Event               HCI!HCI_WRITE_SECURE_CONNECTION_HOST_SUPPORT{
+                           host_support=1
+                         }
+
+
++1343 ms
+Receive Event            HCI?HCI_WRITE_SECURE_CONNECTION_SUPPORT_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1343 ms
+Send Event               HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
+                           page_number=0x01
+                         }
+
+
++1343 ms
+Receive Event            HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x000000000000000F
+                         }
+
+
++1343 ms
+Send Event               HCI!HCI_READ_LOCAL_EXTENDED_FEATURES{
+                           page_number=0x02
+                         }
+
+
++1343 ms
+Receive Event            HCI?HCI_READ_LOCAL_EXTENDED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           lmpFeatures=0x000000000000030F
+                         }
+
+
++1343 ms
+Send Event               HCI!HCI_WRITE_PAGE_TIMEOUT{
+                           page_timeout=0xFFFF
+                         }
+
+
++1343 ms
+Receive Event            HCI?HCI_WRITE_PAGE_TIMEOUT_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1343 ms
+Send Event               HCI!HCI_WRITE_SCAN_ENABLE{
+                           scanEnable=0x03
+                         }
+
+
++1343 ms
+Receive Event            HCI?HCI_WRITE_SCAN_ENABLE_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1343 ms
+Preliminary Verdict:     PASS
+
+
+
++1343 ms
+Send Event               HCI!HCI_WRITE_LOCAL_NAME{
+                           name=PTS-SDP-E44E
+                         }
+
+
++1343 ms
+Receive Event            HCI?HCI_WRITE_LOCAL_NAME_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1343 ms
+Preliminary Verdict:     PASS
+
+
+
++1343 ms
+Send Event               HCI!HCI_WRITE_EXTENDED_INQUIRY_RESPONSE
+
+
++1359 ms
+Receive Event            HCI?HCI_WRITE_EXTENDED_INQUIRY_RESPONSE_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1359 ms
+Preliminary Verdict:     PASS
+
+
+
++1359 ms
+Preliminary Verdict:     PASS
+
+
+
++1359 ms
+Send Event               HCI!HCI_WRITE_CLASS_OF_DEVICE{
+                           classOfDevice=0x200404
+                         }
+
+
++1359 ms
+Receive Event            HCI?HCI_WRITE_CLASS_OF_DEVICE_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++1359 ms
+Preliminary Verdict:     PASS
+
+
+
++1359 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0xFFFF
+                         }
+
+
++1359 ms
+Send Event               HCI!HCI_CREATE_CONNECTION{
+                           bdAddr=0xD01769EE7819,
+                           packetType=0x0008,
+                           pageScanRepetitionMode=HCI_PSRM_R2,
+                           pageScanMode=0x00,
+                           clockOffset=0x0000,
+                           allowRoleSwitch=TRUE
+                         }
+
+
++2375 ms
+Receive Event            HCI?HCI_CONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x0061,
+                           bdAddr=0xD01769EE7819,
+                           linkType=HCI_LINK_TYPE_ACL_CONNECTION,
+                           encryptionMode=HCI_ENCRYPTION_DISABLED
+                         }
+
+
++2375 ms
+Send Event               HCI!HCI_ROLE_DISCOVERY{
+                           connHandle=0x0061
+                         }
+
+
++2375 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x0061
+                         }
+
+
++2375 ms
+Send Event               HCI!GET_DEVICE_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           device_handle=0x12
+                         }
+
+
++2375 ms
+Pass:                    Central successfully initiated connection.
+
+
+
++2375 ms
+Verdict Description:     Central successfully initiated connection.
+
+
+
++2375 ms
+Send Event               HCI!GET_DEVICE_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           device_handle=0x12
+                         }
+
+
++2375 ms
+Send Event               HCI!GET_CONNECTION_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           conn_handle=0x0061
+                         }
+
+
++2375 ms
+Send Event               HCI!HCI_READ_REMOTE_SUPPORTED_FEATURES
+
+
++2375 ms
+Verdict Description:     Connection completed.
+
+
+
++2375 ms
+Send Event               L2CAP!L2CAP_BR_EDR_UNREGISTER_PSM_REQ{
+                           psm=0001
+                         }
+
+
++2375 ms
+Send Event               L2CAP!L2CAP_BR_EDR_REGISTER_PSM_REQ{
+                           psm=0001,
+                           extFeatureMask=0xFFFFFFFF
+                         }
+
+
++2375 ms
+Send Event               HCI!GET_DEVICE_HANDLE{
+                           addr=0xD01769EE7819,
+                           addr_type=0x00,
+                           device_handle=0x12
+                         }
+
+
++2375 ms
+Send Event               L2CAP!L2CAP_CONNECT_REQ{
+                           local_psm=0001,
+                           remote_psm=0001,
+                           handle=0x12,
+                           config_mode=0x00
+                         }
+
+
++2375 ms
+Receive Event            HCI?HCI_ROLE_DISCOVERY_COMPLETE_EVENT{
+                           connectionHandle=0x0061,
+                           status=0x00,
+                           current_role=0x00
+                         }
+
+
++2390 ms
+Receive Event            HCI?HCI_READ_REMOTE_SUPPORTED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           conn_handle=0x0061,
+                           lmpFeatures=0x877BFFDBFE8FFEBF
+                         }
+
+
++2390 ms
+Send Event               HCI!HCI_READ_REMOTE_EXTENDED_FEATURES
+
+
++2406 ms
+Receive Event            HCI?HCI_READ_REMOTE_EXTENDED_FEATURES_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           conn_handle=0x0061,
+                           lmpFeatures=0x000000000000000B
+                         }
+
+
++2406 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_CONNECT_CNF{
+                           handle=0x12,
+                           lcid=0x0040,
+                           result=0x0000,
+                           status=0x0000
+                         }
+
+
++2406 ms
+Send Event               L2CAP!L2CAP_CONFIG_REQ{
+                           local_ch=0040
+                         }
+
+
++2422 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_CONFIG_IND{
+                           lcid=0x0040
+                         }
+
+
++2422 ms
+Send Event               L2CAP!L2CAP_CONFIG_RSP{
+                           local_ch=0040
+                         }
+
+
++2422 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_CONFIG_CNF{
+                           lcid=0x0040
+                         }
+
+
++2531 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0014,
+                           actual_length=0x0014,
+                           data=0x060000000F3503190100003235050A0000FFFF00
+                         }
+
+
++2531 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++2531 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x0039,
+                           data=0x0700000034002B360BFE3601300900000A000100000900020A00000000090006350909656E09006A0901000900053503191006000300000004
+                         }
+
+
++2734 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000100153503190100010035050A0000FFFF06000300000004
+                         }
+
+
++2734 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++2750 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000100C800BF020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A6570687972090200350306000D00000002
+                         }
+
+
++2937 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000200153503190100010035050A0000FFFF06000D00000002
+                         }
+
+
++2937 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++2953 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000200C800BF0901000902010A00000000090001350919111E191203191000090004350C350319010035051900030801090009350619111E09010909000D350C3503190100350519000308010903110900003601300900000A000100010900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A452468747406010800000005
+                         }
+
+
++3125 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000300153503190100010035050A0000FFFF06010800000005
+                         }
+
+
++3125 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++3156 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000300C800BF703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030802090009350619111E09010909000D350C350319010035051900030802090311090006011300000002
+                         }
+
+
++3328 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000400153503190100010035050A0000FFFF06011300000002
+                         }
+
+
++3328 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++3359 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CC,
+                           data=0x07000400C700BE003601300900000A000100020900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C06020A00000000
+                         }
+
+
++3531 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000500153503190100010035050A0000FFFF06020A00000000
+                         }
+
+
++3531 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++3562 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000500C800BF0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030803090009350619111E09010909000D350C3503190100350519000308030903110900003601300900000A000100030900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F700603070000000A
+                         }
+
+
++3734 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000600153503190100010035050A0000FFFF0603070000000A
+                         }
+
+
++3734 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++3765 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000600C800BF74732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C35031906031000000005
+                         }
+
+
++3937 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000700153503190100010035050A0000FFFF06031000000005
+                         }
+
+
++3937 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++3968 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000700C800BF010035051900030804090009350619111E09010909000D350C3503190100350519000308040903110900003601300900000A000100040900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C06040900000000
+                         }
+
+
++4140 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000800153503190100010035050A0000FFFF06040900000000
+                         }
+
+
++4140 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++4172 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000800C800BF09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030805090009350619111E09010909000D350C3503190100350519000308050903110900003601300900000A000100050900020A00000000090006350909656E09006A09010605020000000A
+                         }
+
+
++4343 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000900153503190100010035050A0000FFFF0605020000000A
+                         }
+
+
++4343 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++4359 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000900C800BF0009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657006050C00000005
+                         }
+
+
++4547 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000A00153503190100010035050A0000FFFF06050C00000005
+                         }
+
+
++4547 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++4578 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000A00C800BF68797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030806090009350619111E09010909000D350C3503190100350519000308060903110900003601300900000A000100060900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6706060800000000
+                         }
+
+
++4750 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000B00153503190100010035050A0000FFFF06060800000000
+                         }
+
+
++4750 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++4765 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000B00C800BF09000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030807090009350619111E09010909000D350C3503190100350519000606120000000B
+                         }
+
+
++4953 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000C00153503190100010035050A0000FFFF0606120000000B
+                         }
+
+
++4953 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++5000 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000C00C800BF0308070903110900003601300900000A000100070900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561640607090000001F
+                         }
+
+
++5156 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000D00153503190100010035050A0000FFFF0607090000001F
+                         }
+
+
++5156 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++5203 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000D00C800BF6D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030808090009350619111E09010909000D350C3503190100350519000308080903110900003601300900000A000100080900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A6806080700000003
+                         }
+
+
++5343 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000E00153503190100010035050A0000FFFF06080700000003
+                         }
+
+
++5343 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++5375 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CC,
+                           data=0x07000E00C700BE7474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E19120319100006081000000000
+                         }
+
+
++5547 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06000F00153503190100010035050A0000FFFF06081000000000
+                         }
+
+
++5547 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++5578 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07000F00C800BF090004350C350319010035051900030809090009350619111E09010909000D350C3503190100350519000308090903110900003601300900000A000100090900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F7265610609080000001E
+                         }
+
+
++5750 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001A,
+                           actual_length=0x001A,
+                           data=0x06001000153503190100010035050A0000FFFF0609080000001E
+                         }
+
+
++5750 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++5781 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00AF,
+                           data=0x07001000AA00A7646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C35031901003505190003080A090009350619111E09010909000D350C35031901003505190003080A09031109000000
+                         }
+
+
++5953 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0016,
+                           actual_length=0x0016,
+                           data=0x060011001135051A00000100003235050A0000FFFF00
+                         }
+
+
++5953 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++5984 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x0039,
+                           data=0x0700110034002B360BFE3601300900000A000100000900020A00000000090006350909656E09006A0901000900053503191006000300000004
+                         }
+
+
++6156 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x060012001735051A00000100010035050A0000FFFF06000300000004
+                         }
+
+
++6156 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++6187 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07001200C800BF020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A6570687972090200350306000D00000002
+                         }
+
+
++6359 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x060013001735051A00000100010035050A0000FFFF06000D00000002
+                         }
+
+
++6359 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++6390 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07001300C800BF0901000902010A00000000090001350919111E191203191000090004350C350319010035051900030801090009350619111E09010909000D350C3503190100350519000308010903110900003601300900000A000100010900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A452468747406010800000005
+                         }
+
+
++6562 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x060014001735051A00000100010035050A0000FFFF06010800000005
+                         }
+
+
++6562 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++6609 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07001400C800BF703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030802090009350619111E09010909000D350C350319010035051900030802090311090006011300000002
+                         }
+
+
++6765 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x060015001735051A00000100010035050A0000FFFF06011300000002
+                         }
+
+
++6765 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++6797 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CC,
+                           data=0x07001500C700BE003601300900000A000100020900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C06020A00000000
+                         }
+
+
++6968 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x060016001735051A00000100010035050A0000FFFF06020A00000000
+                         }
+
+
++6968 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++6984 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07001600C800BF0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030803090009350619111E09010909000D350C3503190100350519000308030903110900003601300900000A000100030900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F700603070000000A
+                         }
+
+
++7172 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x060017001735051A00000100010035050A0000FFFF0603070000000A
+                         }
+
+
++7172 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++7218 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07001700C800BF74732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C35031906031000000005
+                         }
+
+
++7359 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x060018001735051A00000100010035050A0000FFFF06031000000005
+                         }
+
+
++7359 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++7390 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07001800C800BF010035051900030804090009350619111E09010909000D350C3503190100350519000308040903110900003601300900000A000100040900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C06040900000000
+                         }
+
+
++7562 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x060019001735051A00000100010035050A0000FFFF06040900000000
+                         }
+
+
++7562 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++7593 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07001900C800BF09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030805090009350619111E09010909000D350C3503190100350519000308050903110900003601300900000A000100050900020A00000000090006350909656E09006A09010605020000000A
+                         }
+
+
++7765 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x06001A001735051A00000100010035050A0000FFFF0605020000000A
+                         }
+
+
++7765 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++7797 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07001A00C800BF0009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657006050C00000005
+                         }
+
+
++7968 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x06001B001735051A00000100010035050A0000FFFF06050C00000005
+                         }
+
+
++7968 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++8000 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07001B00C800BF68797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030806090009350619111E09010909000D350C3503190100350519000308060903110900003601300900000A000100060900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6706060800000000
+                         }
+
+
++8172 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x06001C001735051A00000100010035050A0000FFFF06060800000000
+                         }
+
+
++8172 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++8203 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07001C00C800BF09000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030807090009350619111E09010909000D350C3503190100350519000606120000000B
+                         }
+
+
++8375 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x06001D001735051A00000100010035050A0000FFFF0606120000000B
+                         }
+
+
++8375 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++8406 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07001D00C800BF0308070903110900003601300900000A000100070900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561640607090000001F
+                         }
+
+
++8578 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x06001E001735051A00000100010035050A0000FFFF0607090000001F
+                         }
+
+
++8578 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++8609 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07001E00C800BF6D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030808090009350619111E09010909000D350C3503190100350519000308080903110900003601300900000A000100080900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A6806080700000003
+                         }
+
+
++8781 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x06001F001735051A00000100010035050A0000FFFF06080700000003
+                         }
+
+
++8781 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++8797 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CC,
+                           data=0x07001F00C700BE7474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E19120319100006081000000000
+                         }
+
+
++8984 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x060020001735051A00000100010035050A0000FFFF06081000000000
+                         }
+
+
++8984 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++9000 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002000C800BF090004350C350319010035051900030809090009350619111E09010909000D350C3503190100350519000308090903110900003601300900000A000100090900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F7265610609080000001E
+                         }
+
+
++9187 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x001C,
+                           actual_length=0x001C,
+                           data=0x060021001735051A00000100010035050A0000FFFF0609080000001E
+                         }
+
+
++9187 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++9203 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00AF,
+                           data=0x07002100AA00A7646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C35031901003505190003080A090009350619111E09010909000D350C35031901003505190003080A09031109000000
+                         }
+
+
++9390 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0022,
+                           actual_length=0x0022,
+                           data=0x060022001D35111C0000010000001000800000805F9B34FB003235050A0000FFFF00
+                         }
+
+
++9390 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++9390 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x0039,
+                           data=0x0700220034002B360BFE3601300900000A000100000900020A00000000090006350909656E09006A0901000900053503191006000300000004
+                         }
+
+
++9593 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x060023002335111C0000010000001000800000805F9B34FB010035050A0000FFFF06000300000004
+                         }
+
+
++9593 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++9609 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002300C800BF020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A6570687972090200350306000D00000002
+                         }
+
+
++9781 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x060024002335111C0000010000001000800000805F9B34FB010035050A0000FFFF06000D00000002
+                         }
+
+
++9781 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++9812 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002400C800BF0901000902010A00000000090001350919111E191203191000090004350C350319010035051900030801090009350619111E09010909000D350C3503190100350519000308010903110900003601300900000A000100010900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A452468747406010800000005
+                         }
+
+
++9984 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x060025002335111C0000010000001000800000805F9B34FB010035050A0000FFFF06010800000005
+                         }
+
+
++9984 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++10015 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002500C800BF703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030802090009350619111E09010909000D350C350319010035051900030802090311090006011300000002
+                         }
+
+
++10187 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x060026002335111C0000010000001000800000805F9B34FB010035050A0000FFFF06011300000002
+                         }
+
+
++10187 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++10218 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CC,
+                           data=0x07002600C700BE003601300900000A000100020900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C06020A00000000
+                         }
+
+
++10390 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x060027002335111C0000010000001000800000805F9B34FB010035050A0000FFFF06020A00000000
+                         }
+
+
++10390 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++10422 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002700C800BF0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030803090009350619111E09010909000D350C3503190100350519000308030903110900003601300900000A000100030900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F700603070000000A
+                         }
+
+
++10593 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x060028002335111C0000010000001000800000805F9B34FB010035050A0000FFFF0603070000000A
+                         }
+
+
++10593 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++10625 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002800C800BF74732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C35031906031000000005
+                         }
+
+
++10797 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x060029002335111C0000010000001000800000805F9B34FB010035050A0000FFFF06031000000005
+                         }
+
+
++10797 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++10828 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002900C800BF010035051900030804090009350619111E09010909000D350C3503190100350519000308040903110900003601300900000A000100040900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C06040900000000
+                         }
+
+
++11000 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x06002A002335111C0000010000001000800000805F9B34FB010035050A0000FFFF06040900000000
+                         }
+
+
++11000 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++11015 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002A00C800BF09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030805090009350619111E09010909000D350C3503190100350519000308050903110900003601300900000A000100050900020A00000000090006350909656E09006A09010605020000000A
+                         }
+
+
++11203 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x06002B002335111C0000010000001000800000805F9B34FB010035050A0000FFFF0605020000000A
+                         }
+
+
++11203 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++11234 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002B00C800BF0009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657006050C00000005
+                         }
+
+
++11406 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x06002C002335111C0000010000001000800000805F9B34FB010035050A0000FFFF06050C00000005
+                         }
+
+
++11406 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++11422 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002C00C800BF68797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030806090009350619111E09010909000D350C3503190100350519000308060903110900003601300900000A000100060900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6706060800000000
+                         }
+
+
++11609 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x06002D002335111C0000010000001000800000805F9B34FB010035050A0000FFFF06060800000000
+                         }
+
+
++11609 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++11640 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002D00C800BF09000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030807090009350619111E09010909000D350C3503190100350519000606120000000B
+                         }
+
+
++11812 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x06002E002335111C0000010000001000800000805F9B34FB010035050A0000FFFF0606120000000B
+                         }
+
+
++11812 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++11828 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002E00C800BF0308070903110900003601300900000A000100070900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561640607090000001F
+                         }
+
+
++12000 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x06002F002335111C0000010000001000800000805F9B34FB010035050A0000FFFF0607090000001F
+                         }
+
+
++12000 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++12031 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07002F00C800BF6D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C350319010035051900030808090009350619111E09010909000D350C3503190100350519000308080903110900003601300900000A000100080900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A6806080700000003
+                         }
+
+
++12203 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x060030002335111C0000010000001000800000805F9B34FB010035050A0000FFFF06080700000003
+                         }
+
+
++12203 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++12234 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CC,
+                           data=0x07003000C700BE7474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E19120319100006081000000000
+                         }
+
+
++12406 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x060031002335111C0000010000001000800000805F9B34FB010035050A0000FFFF06081000000000
+                         }
+
+
++12406 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++12437 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00CD,
+                           data=0x07003100C800BF090004350C350319010035051900030809090009350619111E09010909000D350C3503190100350519000308090903110900003601300900000A000100090900020A00000000090006350909656E09006A09010009000535031910020900031901000900070AFFFFFFFF09000808FF09000C452A687474703A2F2F7074732E7465737465722F7075626C69632F69636F6E732F323478323478382E706E6709000A4524687474703A2F2F7074732E7465737465722F7075626C69632F7265610609080000001E
+                         }
+
+
++12609 ms
+Send Event               L2CAP!L2CAP_DATA_WRITE{
+                           local_ch=0040,
+                           req_length=0x0028,
+                           actual_length=0x0028,
+                           data=0x060032002335111C0000010000001000800000805F9B34FB010035050A0000FFFF0609080000001E
+                         }
+
+
++12609 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_WRITE_COMPLETE_CB{
+                           lcid=0x0040
+                         }
+
+
++12640 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_READ_IND{
+                           lcid=0x0040,
+                           length=0x00AF,
+                           data=0x07003200AA00A7646D652E68746D6C09000B4524687474703A2F2F7074732E7465737465722F7075626C69632F726561646D652E68746D6C0901002506746573746572090101250A7074732074657374657209010225067A657068797209020035030901000902010A00000000090001350919111E191203191000090004350C35031901003505190003080A090009350619111E09010909000D350C35031901003505190003080A09031109000000
+                         }
+
+
++13718 ms
+Send Event               HCI!HCI_DISCONNECT{
+                           connectionHandle=0x0061,
+                           reason=HCI_REMOTE_USER_TERMINATED_CONNECTION
+                         }
+
+
++13718 ms
+Receive Event            HCI?HCI_DISCONNECT_STATUS_EVENT{
+                           status=HCI_OK
+                         }
+
+
++13797 ms
+Receive Event            L2CAP?L2CAP_MODULE_BR_EDR_DISCONNECT_IND{
+                           lcid=0x0040
+                         }
+
+
++13797 ms
+Receive Event            HCI?HCI_DISCONNECTION_COMPLETE_EVENT{
+                           status=HCI_OK,
+                           connectionHandle=0x0061,
+                           reason=HCI_CONNECTION_TERMINATED_BY_LOCAL_HOST
+                         }
+
+
++13797 ms
+Verdict Description:     Received HCI disconnection event. Handle = 0x0061
+
+
+
++13797 ms
+Preliminary Verdict:     PASS
+
+
+
++13797 ms
+Send Event               HCI!HCI_RESET
+
+
++13922 ms
+Receive Event            HCI?HCI_RESET_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++15031 ms
+Receive Event            HCI?HCI_RESET_COMPLETE_EVENT{
+                           status=HCI_OK
+                         }
+
+
++16422 ms
+Final Verdict:           PASS
+
+
+
++16422 ms
+Encrypted Verdict:       A1#ZWY4MzQ5MDg3MmQwNTIxOGQzMzQ5YjY2ODA5M2MzNjQ5ZDY4NmY0Yjc2MzIzM2VkNTUyNTFhNGU4Mjg1MjI0NA==#ZZs3SSJ0XDkNARkH+6ALSy1ullQiKSjiPGuEftG8RIn+sbMzDZPOD4JZSlhAGrew
+
+
+
++16422 ms
+Test Case Ended:         SDP/SR/SSA/BV-06-C
+
+</LOG>
+  <SUMMARY>Test case : SDP/SR/SSA/BV-06-C started
+Final Verdict:PASS
+SDP/SR/SSA/BV-06-C finished
+</SUMMARY>
+</ARCHIVE>

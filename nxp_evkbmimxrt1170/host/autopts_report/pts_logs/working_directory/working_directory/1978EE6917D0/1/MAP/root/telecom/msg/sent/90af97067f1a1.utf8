@@ -1,0 +1,46 @@
+BEGIN:BMSG
+VERSION:1.1
+STATUS:UNREAD
+TYPE:SMS_CDMA
+FOLDER:TELECOM/MSG/OUTBOX
+BEGIN:VCARD
+VERSION:2.1
+N:PTS
+TEL:+1234567890
+END:VCARD
+BEGIN:BENV
+BEGIN:VCARD
+VERSION:2.1
+N:IUT
+TEL:+9876543210
+END:VCARD
+BEGIN:BBODY
+CHARSET:UTF-8
+LANGUAGE:UNKNOWN
+LENGTH:845
+BEGIN:MSG
+This is a message for Bluetooth MAP test.
+
+Features being tested:
+- UTF-8 character encoding
+- Multi-line message content
+- Special characters: @#$%&*()_+-=[]{{}}|;:',.<>?/
+- Numbers: 0123456789
+
+This test message has been designed to thoroughly test the MAP
+implementation's ability to handle large messages that require
+fragmentation across multiple OBEX packets. The message includes
+various character types, formatting, and structured content to
+ensure comprehensive testing coverage.
+
+The Message Access Profile (MAP) enables remote devices to access
+messages stored on a Message Server Equipment (MSE). This includes
+SMS, MMS, EMAIL, and IM message types. The profile supports various
+operations such as listing messages, retrieving message content,
+sending new messages, and managing message status.
+
+End of message.
+END:MSG
+END:BBODY
+END:BENV
+END:BMSG

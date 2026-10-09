@@ -1,0 +1,148 @@
+12:49:22:001    > BTP_CORE_CMD_READ_SUPPORTED_SERVICES (0x00|0x02|0xff)
+                  raw data (0): 00 02 ff 00 00|
+12:49:22:051    < BTP_CORE_CMD_READ_SUPPORTED_SERVICES (0x00|0x02|0xff)
+                  raw data (6): 00 02 ff 06 00|0f 00 00 a0 ff 03
+12:49:22:052    > BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (1): 00 03 ff 01 00|01
+12:49:26:198    < BTP_CORE_CMD_REGISTER_SERVICE (0x00|0x03|0xff)
+                  raw data (0): 00 03 ff 00 00|
+12:49:26:226    > BTP_GAP_CMD_READ_SUPPORTED_COMMANDS (0x01|0x01|0xff)
+                  raw data (0): 01 01 ff 00 00|
+12:49:26:343    < BTP_GAP_CMD_READ_SUPPORTED_COMMANDS (0x01|0x01|0xff)
+                  raw data (7): 01 01 ff 07 00|6e ff 7f 1f fe ff 2e
+12:49:26:362    > BTP_GAP_CMD_READ_CONTROLLER_INFO (0x01|0x03|0x00)
+                  raw data (0): 01 03 00 00 00|
+12:49:26:442    < BTP_GAP_CMD_READ_CONTROLLER_INFO (0x01|0x03|0x00)
+                  raw data (277): 
+                  01 03 00 15 01|19 78 ee 69 17 d0 d3 06 02 00 13 
+                  02 00 00 00 00 00 62 74 70 5f 74 65 73 74 65 72 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+                  00 00 00 00 00 00 00 00 00 00
+12:49:26:464    > BTP_GAP_CMD_SET_IO_CAP (0x01|0x10|0x00)
+                  raw data (1): 01 10 00 01 00|00
+12:49:26:497    < BTP_GAP_CMD_SET_IO_CAP (0x01|0x10|0x00)
+                  raw data (0): 01 10 00 00 00|
+12:49:29:537    > BTP_GAP_CMD_OOB_SC_GET_LOCAL_DATA (0x01|0x19|0x00)
+                  raw data (0): 01 19 00 00 00|
+12:49:29:627    < BTP_GAP_CMD_OOB_SC_GET_LOCAL_DATA (0x01|0x19|0x00)
+                  raw data (32): 
+                  01 19 00 20 00|3f 40 60 0c db 0f 66 b7 39 29 44 
+                  75 ea 80 59 47 5b fe 9e 19 7a c3 0f 49 12 8c c0 
+                  98 01 8c b8 ca
+12:49:30:642    > BTP_GAP_CMD_OOB_SC_GET_LOCAL_DATA (0x01|0x19|0x00)
+                  raw data (0): 01 19 00 00 00|
+12:49:30:720    < BTP_GAP_CMD_OOB_SC_GET_LOCAL_DATA (0x01|0x19|0x00)
+                  raw data (32): 
+                  01 19 00 20 00|3f 40 60 0c db 0f 66 b7 39 29 44 
+                  75 ea 80 59 47 5b fe 9e 19 7a c3 0f 49 12 8c c0 
+                  98 01 8c b8 ca
+12:49:31:734    > BTP_GAP_CMD_CONNECT (0x01|0x0e|0x00)
+                  raw data (8): 01 0e 00 08 00|00 4e e4 08 dc 1b 00 00
+12:49:31:836    < BTP_GAP_CMD_CONNECT (0x01|0x0e|0x00)
+                  raw data (0): 01 0e 00 00 00|
+12:49:32:123    < BTP_GAP_EV_DEVICE_CONNECTED (0x01|0x82|0x00)
+                  raw data (13): 
+                  01 82 00 0d 00|00 4e e4 08 dc 1b 00 24 00 00 00 
+                  90 01
+12:49:33:141    > BTP_GAP_CMD_PAIR (0x01|0x11|0x00)
+                  raw data (7): 01 11 00 07 00|00 4e e4 08 dc 1b 00
+12:49:33:185    < BTP_GAP_CMD_PAIR (0x01|0x11|0x00)
+                  raw data (0): 01 11 00 00 00|
+12:49:33:813    < BTP_GAP_EV_ENCRYPTION_CHANGE (0x01|0x91|0x00)
+                  raw data (9): 01 91 00 09 00|00 4e e4 08 dc 1b 00 01 10
+12:49:33:813    < BTP_GAP_EV_SEC_LEVEL_CHANGED (0x01|0x89|0x00)
+                  raw data (8): 01 89 00 08 00|00 4e e4 08 dc 1b 00 04
+12:49:34:193    > BTP_GAP_CMD_DISCONNECT (0x01|0x0f|0x00)
+                  raw data (7): 01 0f 00 07 00|00 4e e4 08 dc 1b 00
+12:49:34:301    < BTP_GAP_CMD_DISCONNECT (0x01|0x0f|0x00)
+                  raw data (0): 01 0f 00 00 00|
+12:49:34:307    < BTP_GAP_EV_DEVICE_DISCONNECTED (0x01|0x83|0x00)
+                  raw data (7): 01 83 00 07 00|00 4e e4 08 dc 1b 00
+12:49:36:415    > BTP_GAP_CMD_OOB_SC_SET_REMOTE_DATA (0x01|0x1a|0x00)
+                  raw data (32): 
+                  01 1a 00 20 00|ff 25 14 90 c7 09 28 71 6e 58 dc 
+                  ea aa f4 24 10 18 d8 56 92 e8 d9 97 9b 4e 1b 05 
+                  22 4f 25 17 54
+12:49:36:473    < BTP_GAP_CMD_OOB_SC_SET_REMOTE_DATA (0x01|0x1a|0x00)
+                  raw data (0): 01 1a 00 00 00|
+12:49:37:477    > BTP_GAP_CMD_CONNECT (0x01|0x0e|0x00)
+                  raw data (8): 01 0e 00 08 00|00 4e e4 08 dc 1b 00 00
+12:49:37:524    < BTP_GAP_CMD_CONNECT (0x01|0x0e|0x00)
+                  raw data (0): 01 0e 00 00 00|
+12:49:37:921    < BTP_GAP_EV_DEVICE_CONNECTED (0x01|0x82|0x00)
+                  raw data (13): 
+                  01 82 00 0d 00|00 4e e4 08 dc 1b 00 24 00 00 00 
+                  90 01
+12:49:38:930    > BTP_GAP_CMD_PAIR (0x01|0x11|0x00)
+                  raw data (7): 01 11 00 07 00|00 4e e4 08 dc 1b 00
+12:49:38:983    < BTP_GAP_CMD_PAIR (0x01|0x11|0x00)
+                  raw data (0): 01 11 00 00 00|
+12:49:39:567    < BTP_GAP_EV_ENCRYPTION_CHANGE (0x01|0x91|0x00)
+                  raw data (9): 01 91 00 09 00|00 4e e4 08 dc 1b 00 01 10
+12:49:39:578    < BTP_GAP_EV_SEC_LEVEL_CHANGED (0x01|0x89|0x00)
+                  raw data (8): 01 89 00 08 00|00 4e e4 08 dc 1b 00 04
+12:49:39:996    > BTP_GAP_CMD_DISCONNECT (0x01|0x0f|0x00)
+                  raw data (7): 01 0f 00 07 00|00 4e e4 08 dc 1b 00
+12:49:40:044    < BTP_GAP_CMD_DISCONNECT (0x01|0x0f|0x00)
+                  raw data (0): 01 0f 00 00 00|
+12:49:40:062    < BTP_GAP_EV_DEVICE_DISCONNECTED (0x01|0x83|0x00)
+                  raw data (7): 01 83 00 07 00|00 4e e4 08 dc 1b 00
+12:49:42:159    > BTP_GAP_CMD_OOB_SC_GET_LOCAL_DATA (0x01|0x19|0x00)
+                  raw data (0): 01 19 00 00 00|
+12:49:42:283    < BTP_GAP_CMD_OOB_SC_GET_LOCAL_DATA (0x01|0x19|0x00)
+                  raw data (32): 
+                  01 19 00 20 00|3f 40 60 0c db 0f 66 b7 39 29 44 
+                  75 ea 80 59 47 5b fe 9e 19 7a c3 0f 49 12 8c c0 
+                  98 01 8c b8 ca
+12:49:43:312    > BTP_GAP_CMD_OOB_SC_GET_LOCAL_DATA (0x01|0x19|0x00)
+                  raw data (0): 01 19 00 00 00|
+12:49:43:434    < BTP_GAP_CMD_OOB_SC_GET_LOCAL_DATA (0x01|0x19|0x00)
+                  raw data (32): 
+                  01 19 00 20 00|3f 40 60 0c db 0f 66 b7 39 29 44 
+                  75 ea 80 59 47 5b fe 9e 19 7a c3 0f 49 12 8c c0 
+                  98 01 8c b8 ca
+12:49:44:464    > BTP_GAP_CMD_OOB_SC_SET_REMOTE_DATA (0x01|0x1a|0x00)
+                  raw data (32): 
+                  01 1a 00 20 00|da ce c6 31 04 ed 63 76 35 15 9b 
+                  f4 73 8a 46 9d 09 71 04 27 ad 60 8c b5 72 b7 09 
+                  03 d1 7b 2d 7d
+12:49:44:523    < BTP_GAP_CMD_OOB_SC_SET_REMOTE_DATA (0x01|0x1a|0x00)
+                  raw data (0): 01 1a 00 00 00|
+12:49:45:532    > BTP_GAP_CMD_CONNECT (0x01|0x0e|0x00)
+                  raw data (8): 01 0e 00 08 00|00 4e e4 08 dc 1b 00 00
+12:49:45:583    < BTP_GAP_CMD_CONNECT (0x01|0x0e|0x00)
+                  raw data (0): 01 0e 00 00 00|
+12:49:45:763    < BTP_GAP_EV_DEVICE_CONNECTED (0x01|0x82|0x00)
+                  raw data (13): 
+                  01 82 00 0d 00|00 4e e4 08 dc 1b 00 24 00 00 00 
+                  90 01
+12:49:46:788    > BTP_GAP_CMD_PAIR (0x01|0x11|0x00)
+                  raw data (7): 01 11 00 07 00|00 4e e4 08 dc 1b 00
+12:49:46:860    < BTP_GAP_CMD_PAIR (0x01|0x11|0x00)
+                  raw data (0): 01 11 00 00 00|
+12:49:47:491    < BTP_GAP_EV_ENCRYPTION_CHANGE (0x01|0x91|0x00)
+                  raw data (9): 01 91 00 09 00|00 4e e4 08 dc 1b 00 01 10
+12:49:47:492    < BTP_GAP_EV_SEC_LEVEL_CHANGED (0x01|0x89|0x00)
+                  raw data (8): 01 89 00 08 00|00 4e e4 08 dc 1b 00 04
+12:49:47:869    > BTP_GAP_CMD_DISCONNECT (0x01|0x0f|0x00)
+                  raw data (7): 01 0f 00 07 00|00 4e e4 08 dc 1b 00
+12:49:47:923    < BTP_GAP_CMD_DISCONNECT (0x01|0x0f|0x00)
+                  raw data (0): 01 0f 00 00 00|
+12:49:47:935    < BTP_GAP_EV_DEVICE_DISCONNECTED (0x01|0x83|0x00)
+                  raw data (7): 01 83 00 07 00|00 4e e4 08 dc 1b 00
+12:49:52:585    < BTP_CORE_EV_IUT_READY (0x00|0x80|0xff)
+                  raw data (0): 00 80 ff 00 00|
